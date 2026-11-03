@@ -34,7 +34,7 @@ Danışmanlık ihalesinin ilk yarısı: ön yeterlik ilanı ve şartnamesi, baş
 | İş deneyimi | tek sözleşme; YM'nin %25-50'si aralığında idarece belirlenen tutardan az olmamak üzere | 12911 m.38/4 |
 | İş deneyiminin süresi | danışmanlıkta son 5 yıl, **yapımla ilgili danışmanlıkta son 15 yıl** içinde kabulü tamamlanan; devam eden işte ilk sözleşme bedeli tamam + %80 gerçekleşme | 12911 m.38/1-2, m.48/5 |
 | İş ortaklığı | pilot ≥ %70, diğer her ortak ≥ %10, diğerlerinin toplamı ≥ %30; aynı ortaklık yapısıyla önceki iş ortaklığının belgesinde oran şartı aranmaz | 12911 m.38/5 |
-| Anahtar teknik personel | eşik altı en fazla 2, eşik ve üstü en fazla 4 kişi; toplam deneyim en fazla 10, benzer deneyim en fazla 5 yıl istenebilir | 12911 m.39/2-3 |
+| Kilit teknik personel (yönetmelik m.39) | eşik altı en fazla 2, eşik ve üstü en fazla 4 kişi; toplam deneyim en fazla 10, benzer deneyim en fazla 5 yıl istenebilir | 12911 m.39/2-3 |
 
 - [ ] **İdare:** asgari tutarlar YM'ye göre aralıkta mı? YM gizli olduğundan aday denetleyemez; idare işlem dosyasında hesabı tutmalı `[incele]`. Örnekte iş hacminde idare "toplam ciro **veya** danışmanlık cirosu" kuralını doğru yazmış (Ö.Y.Ş. 8.1.3).
 - [ ] **Belge tutarları:** iş bitirme/iş durum tam; denetim ve yönetim belgeleri beşte bir; yapım işi kontrollüğü ve yapı denetimi ihalelerinde gerçek kişilerin yapım işlerinden aldığı denetim/yönetim belgeleri **1/50**. Kontrollük ihalesinde bu oran çoğu zaman gözden kaçar 🟠.
@@ -83,4 +83,4 @@ Danışmanlık ihalesinin ilk yarısı: ön yeterlik ilanı ve şartnamesi, baş
 - `legal_get_statute_article` — `law_no: "12911"`, `law_type: "Yönetmelik"`; maddeler: 14, 21, 34, 35, 38, 39, 48, 54, 55 (her biri ayrı çağrı)
 - `legal_get_statute_article` — `law_no: "4734"`, `law_type: "Kanun"`; maddeler: 13, 49, 50
 - `legal_search_cases` — `mahkeme: "kik"`, `sorgu: "ön yeterlik değerlendirmesi kısa listeye alınmama teknik personel puanlama"`, `tarih_baslangic: "<son 3 yıl>"`
-Görülen güncel örnekler (konu taraması için; okumadan emsal gösterme, MK etkisini kontrol et): KİK 2025/UD.II-2327 (30.10.2025), 2025/UD.II-1227 (29.05.2025), 2024/UD.II-160 (25.01.2024, birden çok ihalede aynı anahtar personel).
+Görülen güncel örnekler (konu taraması için; okumadan emsal gösterme, MK etkisini kontrol et): KİK 2025/UD.II-2327 (30.10.2025), 2025/UD.II-1227 (29.05.2025), 2024/UD.II-160 (25.01.2024, birden çok ihalede aynı kilit personel).
