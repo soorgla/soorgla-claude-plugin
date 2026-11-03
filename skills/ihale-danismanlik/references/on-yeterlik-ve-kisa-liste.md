@@ -80,9 +80,7 @@ Danışmanlık ihalesinin ilk yarısı: ön yeterlik ilanı ve şartnamesi, baş
 
 ## MCP adımları
 
-```
-legal_get_statute_article law_no: "12911" law_type: "Yönetmelik" article_no: "14" | "21" | "34" | "35" | "38" | "39" | "48" | "54" | "55"
-legal_get_statute_article law_no: "4734" law_type: "Kanun" article_no: "13" | "49" | "50"
-legal_search_cases mahkeme: "kik" sorgu: "ön yeterlik değerlendirmesi kısa listeye alınmama anahtar teknik personel puanlama" tarih_baslangic: "<son 3 yıl>"
-```
+- `legal_get_statute_article` — `law_no: "12911"`, `law_type: "Yönetmelik"`; maddeler: 14, 21, 34, 35, 38, 39, 48, 54, 55 (her biri ayrı çağrı)
+- `legal_get_statute_article` — `law_no: "4734"`, `law_type: "Kanun"`; maddeler: 13, 49, 50
+- `legal_search_cases` — `mahkeme: "kik"`, `sorgu: "ön yeterlik değerlendirmesi kısa listeye alınmama teknik personel puanlama"`, `tarih_baslangic: "<son 3 yıl>"`
 Görülen güncel örnekler (konu taraması için; okumadan emsal gösterme, MK etkisini kontrol et): KİK 2025/UD.II-2327 (30.10.2025), 2025/UD.II-1227 (29.05.2025), 2024/UD.II-160 (25.01.2024, birden çok ihalede aynı anahtar personel).
