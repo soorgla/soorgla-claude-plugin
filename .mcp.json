@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "soorgla": {
+      "type": "http",
+      "url": "https://mcp.soorgla.com/mcp?onizleme=1",
+      "title": "soorgla — Türk Hukuku",
+      "description": "Mevzuat ve madde tarihçesi, Yargıtay/Danıştay/AYM/AİHM/KİK/Sayıştay kararları, kurul kararları ve idari görüşler, Resmî Gazete, süre, harç, faiz, kur, TÜFE ve sosyal parametreler. İlk kullanımda soorgla hesabınızla giriş istenir."
+    }
+  }
+}
