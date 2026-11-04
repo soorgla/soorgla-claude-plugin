@@ -107,7 +107,7 @@ Eski `search_profile` tanımlarının karşılığı aşağıdaki çağrılardı
 - Kur (yabancı para zarar, yabancı plakalı araç) → `legal_get_exchange_rate`.
 - ZMSS teminat limitleri: önce `legal_get_social_parameters` (`tur: "zmss_maddi_arac_basi"`, `"zmss_sakatlik_olum_kisi_basi"`, `"zmss_saglik_kisi_basi"`); satır dönmüyorsa `legal_search_official_gazette` (`query: "Zorunlu Mali Sorumluluk Sigortası tarife ve talimat"` ya da "azami teminat tutarları") ile kaza tarihindeki limiti bul; bulunamazsa `[doğrula]`.
 
-- **Hesap araçları:** `legal_calculate_actuarial_loss` (aktüerya, maluliyet birleştirme), `legal_calculate_vehicle_damage` (değer kaybı, pert farkı, mahrumiyet), `legal_calculate_stopping_distance` (kaçınılabilirlik), `legal_calculate_employment_claims` (brütten nete), `legal_calculate_attorney_fee` (vekâlet ücreti). Araç yanıt vermezse ya da hata dönerse tutarı **elle hesaplama**; yöntemi ve girdileri göster, "araç yok" yaz. Kullanım kuralları ilgili referans dosyasının "Hesap aracı durumu" bölümünde.
+- **Hesap araçları:** `legal_calculate_actuarial_present_value` (aktüerya, maluliyet birleştirme), `legal_calculate_vehicle_damage` (değer kaybı, pert farkı, mahrumiyet), `legal_calculate_stopping_distance` (kaçınılabilirlik), `legal_calculate_employment_claims` (brütten nete), `legal_calculate_attorney_fee` (vekâlet ücreti). Araç yanıt vermezse ya da hata dönerse tutarı **elle hesaplama**; yöntemi ve girdileri göster, "araç yok" yaz. Kullanım kuralları ilgili referans dosyasının "Hesap aracı durumu" bölümünde.
 
 Eski `calculation/*` görevlerindeki (6 dosya, aynı faiz şablonunun kopyası) sabit oran tabloları **kullanılmaz**; faiz hesabı yalnız yukarıdaki araçla yapılır.
 

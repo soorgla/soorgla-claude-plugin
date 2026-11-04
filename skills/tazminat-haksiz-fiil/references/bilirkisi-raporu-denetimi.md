@@ -28,8 +28,8 @@ Yeniden hesap aşağıdaki MCP araçlarına dayanır. Araç yanıt vermezse ya d
 
 | Rapor türü | MCP aracı | Alt seçim |
 |---|---|---|
-| Maluliyet | `legal_calculate_actuarial_loss` | `islem: maluliyet_birlestir` |
-| Aktüerya | `legal_calculate_actuarial_loss` | `islem: tazminat` |
+| Maluliyet | `legal_calculate_actuarial_present_value` | `islem: maluliyet_birlestir` |
+| Aktüerya | `legal_calculate_actuarial_present_value` | `islem: tazminat` |
 | Aktüerya / işçilik (brüt-net girdi) | `legal_calculate_employment_claims` | `islem: brutten_nete` |
 | İşçilik alacağı | `legal_calculate_employment_claims` | `islem: alacaklar` |
 | Araç hasarı, değer kaybı, pert, mahrumiyet | `legal_calculate_vehicle_damage` | `tur: deger_kaybi \| pert_farki \| mahrumiyet` |
@@ -110,7 +110,7 @@ Her madde bir bulgu üretir: durum (uygun / hatalı / eksik / belirsiz / denetle
 - [ ] Kaza dışı (önceden var olan) arıza ayrılmış mı?
 - [ ] Düzenleyen kurul yetkili mi, arızalara uygun uzman var mı, illiyet yazılmış mı (§3.5)?
 - [ ] Geçici iş göremezlik (iyileşme) süresi ayrı yazılmış mı? Aktüerya hesabının girdisidir; yoksa aktüer raporu da eksik kalır.
-- **Yeniden hesap:** `legal_calculate_actuarial_loss` `islem: maluliyet_birlestir` → raporun **kendi** arıza oranlarıyla birleştirme ve yönetmelik seçimi. Arıza oranının tabloya uygunluğu yalnız **gösterilir**; uygun oran beceri tarafından seçilmez `[incele]`.
+- **Yeniden hesap:** `legal_calculate_actuarial_present_value` `islem: maluliyet_birlestir` → raporun **kendi** arıza oranlarıyla birleştirme ve yönetmelik seçimi. Arıza oranının tabloya uygunluğu yalnız **gösterilir**; uygun oran beceri tarafından seçilmez `[incele]`.
 
 ### 4.2 Aktüerya
 Ana liste `bedensel-zarar-ve-destek-hesabi.md` → "Hesap denetim listesi (aktüer raporu geldiğinde)"; o liste uygulanır, burada tekrar yazılmaz. Denetime özgü ekler:
@@ -122,7 +122,7 @@ Ana liste `bedensel-zarar-ve-destek-hesabi.md` → "Hesap denetim listesi (aktü
 - [ ] **Faiz:** başlangıç tarihi ve türü (yasal / avans) `legal_get_legal_interest_rates` ile dönem dönem kontrol edilir; 31.07.2026 sonrası dönem için SKILL.md Adım 3 uyarısı.
 - [ ] **Güncel hesap:** bozma sonrası rapor yeni hesap yapmadan eski rapora atıfla mı yetinmiş (3. HD E.2024/2394 K.2025/2754)?
 - [ ] Seçenekli hesap varsa hangi seçeneğin Daire uygulamasına uyduğu ve hükmün hangisine dayandığı.
-- **Yeniden hesap:** `legal_calculate_actuarial_loss` `islem: tazminat` raporun girdileriyle (doğum tarihi, cinsiyet, olay ve rapor tarihi, oran, kusur, gelir, PSD, ödemeler). Fark kalem kalem: geçici iş göremezlik, bilinen, işleyecek aktif ve pasif dönem, mahsuplar. Gelir brütse önce `legal_calculate_employment_claims` `islem: brutten_nete`. Ara tutarlar raporda yoksa yalnız sonuç karşılaştırılır ve 🟠 "ara tutarlar yok — denetime elverişli değil".
+- **Yeniden hesap:** `legal_calculate_actuarial_present_value` `islem: tazminat` raporun girdileriyle (doğum tarihi, cinsiyet, olay ve rapor tarihi, oran, kusur, gelir, PSD, ödemeler). Fark kalem kalem: geçici iş göremezlik, bilinen, işleyecek aktif ve pasif dönem, mahsuplar. Gelir brütse önce `legal_calculate_employment_claims` `islem: brutten_nete`. Ara tutarlar raporda yoksa yalnız sonuç karşılaştırılır ve 🟠 "ara tutarlar yok — denetime elverişli değil".
 
 ### 4.3 Kusur — trafik
 Olay sırası ve KTK eşlemesi `kaza-tutanagi-ve-kusur.md`'de; burada **mevcut raporun** denetimi.

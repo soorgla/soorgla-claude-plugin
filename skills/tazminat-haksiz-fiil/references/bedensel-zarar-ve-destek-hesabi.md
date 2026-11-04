@@ -48,7 +48,7 @@ Liste "özellikle" ifadesiyle sayılmıştır; bakıcı gideri gibi kalemler de 
 
 ### Hesap denetim listesi (aktüer raporu geldiğinde)
 Usul denetimi, maluliyet raporunun düzenleyeni, fark tablosu ve itiraz talebi türü → `bilirkisi-raporu-denetimi.md` (§3, §4.1-4.2); liste burada kalır.
-Yeniden hesap `legal_calculate_actuarial_loss` (`islem: tazminat | maluliyet_birlestir`) ile yapılır. Araç yanıt vermezse ya da hata dönerse tutar elle hesaplanmaz; araç varsa raporun kendi girdileriyle çalıştırılır, Yargıtay varsayılanlarından sapan parametre (65 yaş, teknik faiz) verilirse aracın sapma uyarısı aktarılır.
+Yeniden hesap `legal_calculate_actuarial_present_value` (`islem: tazminat | maluliyet_birlestir`) ile yapılır. Araç yanıt vermezse ya da hata dönerse tutar elle hesaplanmaz; araç varsa raporun kendi girdileriyle çalıştırılır, Yargıtay varsayılanlarından sapan parametre (65 yaş, teknik faiz) verilirse aracın sapma uyarısı aktarılır.
 - [ ] Tablo TRH-2010 mı; teknik faiz mi progresif rant mı?
 - [ ] Bilinen dönem / işleyecek dönem ayrımı ve tarihleri doğru mu (rapor tarihi)?
 - [ ] Gelir: belgeli gelir mi asgari ücret mi; brüt/net tutarlı mı; dönem değerleri doğru mu?

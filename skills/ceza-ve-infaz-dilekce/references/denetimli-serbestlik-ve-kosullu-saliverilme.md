@@ -36,7 +36,7 @@ COVID izinleri (geçici m.9) sona erdi; eski YAML'daki "COVID-19 izinlerinin leh
 
 ## C. Tahmini tarih hesabı (araç)
 
-`legal_calculate_sentence_execution` ile hesaplanır. Araç yanıt vermezse ya da hata dönerse tarih **elle hesaplanmaz**; müddetnamedeki tarihler esas alınır ve kullanıcıdan müddetname istenir. Araç müddetname yöntemiyle hesaplar: ceza güne çevrilir (ay 30, yıl 365 gün), oran uygulanır ve günün arta kalanı atılır; kalan sürenin tam yılları giriş tarihine **takvim yılı** olarak eklenir (TCK m.61/6; Yargıtay 1. CD E.2023/8221 K.2024/4058). Kullanıcının müddetnamesiyle tarih farkı çıkarsa önce bu yöntemle karşılaştır; artık yılın bir yıl sayılmaması itiraz konusudur. 
+`legal_estimate_parole_dates` ile hesaplanır. Araç yanıt vermezse ya da hata dönerse tarih **elle hesaplanmaz**; müddetnamedeki tarihler esas alınır ve kullanıcıdan müddetname istenir. Araç müddetname yöntemiyle hesaplar: ceza güne çevrilir (ay 30, yıl 365 gün), oran uygulanır ve günün arta kalanı atılır; kalan sürenin tam yılları giriş tarihine **takvim yılı** olarak eklenir (TCK m.61/6; Yargıtay 1. CD E.2023/8221 K.2024/4058). Kullanıcının müddetnamesiyle tarih farkı çıkarsa önce bu yöntemle karşılaştır; artık yılın bir yıl sayılmaması itiraz konusudur. 
 
 Araç varsa:
 - Girdi: her hüküm ayrı `cezalar[]` satırı (`tur`, `yil`/`ay`/`gun`, `suc_tarihi`, `tck_madde` fıkra ve bendiyle: `"102/2"`, `"87/2-d"`; `orgut`, `tmk`, `tekerrur` 0/1/2), `infaz_baslangic`, `mahsup_gun`, gerekiyorsa `dogum_tarihi`, `cinsiyet`, `cocuk_0_6`, `agir_hastalik_raporu`, `adli_paradan_cevrilme`. Bilinmeyen girdi uydurulmaz; eksikse aracın uyarısını aktar.
