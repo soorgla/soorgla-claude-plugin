@@ -15,20 +15,20 @@ Esas değerlendirme → `yuk-hasari-ve-tasiyan-sorumlulugu.md`, `catma-kurtarma-
 
 | Ne | Ne zaman | Dayanak | Kaçarsa |
 |---|---|---|---|
-| Açık hasarı teslim belgesine yaz, yazılı bildir | **Teslim sırasında** (deniz ve kara) | 6102 m.1185/1; m.889/1 | Düzgün teslim karinesi |
+| Açık hasarı teslim belgesine yaz, yazılı bildir | **Teslim sırasında** (deniz ve kara) | 6102 m.1185/1; m.889/1  | Düzgün teslim karinesi |
 | Gizli hasar bildirimi — deniz | Teslimden **aralıksız 3 gün** | 6102 m.1185/1 | Karine |
-| Gizli hasar bildirimi — kara (TTK) | Teslimden **7 gün** | 6102 m.889/2 | Karine |
+| Gizli hasar bildirimi — kara (TTK) | Teslimden **7 gün** | 6102 m.889/2  | Karine |
 | Gecikme bildirimi — deniz / kara | **60 gün** / **21 gün** | 6102 m.1185/5; m.889/3 | **Hak düşer** |
-| Hava bagaj / yük hasarı, gecikme | 7 gün / 14 gün / 21 gün | 2920 m.128 | `[doğrula]` |
-| Deniz yolcusu bagajı (gizli) | 15 gün | 6102 m.1269 | Karine |
-| Resmî ortak inceleme | Taraflar katılarak mahkeme, yetkili makam ya da resmen atanmış uzmanca yapılırsa bildirime gerek yok | 6102 m.1185/2 | — |
-| Bildirimin muhatabı | Fiilî taşıyana yapılan bildirim taşıyana da yapılmış sayılır; kaptana/sorumlu zabite yapılan da | 6102 m.1185/6 | — |
-| Kara taşımasında bildirim şekli | Teslimden sonra yazılı; telekomünikasyonla olur; imza şart değil; **zamanında gönderilmesi yeterli** | 6102 m.889/4 | — |
+| Hava bagaj / yük hasarı, gecikme | 7 gün / 14 gün / 21 gün | 2920 m.128  | `[doğrula]` |
+| Deniz yolcusu bagajı (gizli) | 15 gün | 6102 m.1269  | Karine |
+| Resmî ortak inceleme | Taraflar katılarak mahkeme, yetkili makam ya da resmen atanmış uzmanca yapılırsa bildirime gerek yok | 6102 m.1185/2  | — |
+| Bildirimin muhatabı | Fiilî taşıyana yapılan bildirim taşıyana da yapılmış sayılır; kaptana/sorumlu zabite yapılan da | 6102 m.1185/6  | — |
+| Kara taşımasında bildirim şekli | Teslimden sonra yazılı; telekomünikasyonla olur; imza şart değil; **zamanında gönderilmesi yeterli** | 6102 m.889/4  | — |
 | Hak düşürücü süre | Teslimden **bir yıl** (deniz) — takvime hemen işle | 6102 m.1188 | Dava hakkı düşer |
 
 `legal_calculate_deadline` bunları tanımıyor; elle hesapla, `legal_check_holiday`, `[doğrula]`. Bildirim süresi 3 günse ve bugün ikinci günse çıktının en üstüne 🔴.
 
-**Bildirim içeriği (asgari):** taşıma belgesi no, gemi/araç, konteyner ve mühür no, teslim tarihi-saati, zıya/hasarın **genel olarak neden ibaret olduğu** (m.1185/1 son cümle), ortak sörvey daveti, hakların saklı tutulduğu. Gönderim: KEP/e-posta + teslim belgesine şerh; acente üzerinden ise acentenin yetkisi (TTK m.105/1: acente ihbar ve protestoyu müvekkili adına kabule yetkili).
+**Bildirim içeriği (asgari):** taşıma belgesi no, gemi/araç, konteyner ve mühür no, teslim tarihi-saati, zıya/hasarın **genel olarak neden ibaret olduğu** (m.1185/1 son cümle), ortak sörvey daveti, hakların saklı tutulduğu. Gönderim: KEP/e-posta + teslim belgesine şerh; acente üzerinden ise acentenin yetkisi (TTK m.105/1: acente ihbar ve protestoyu müvekkili adına kabule yetkili). 
 
 ---
 
@@ -44,11 +44,11 @@ Esas değerlendirme → `yuk-hasari-ve-tasiyan-sorumlulugu.md`, `catma-kurtarma-
 | Forwarder | Booking, talimat, alt taşıyıcı sözleşmeleri, yazışmalar | Sıfat tartışması için kritik |
 
 **Resmî tespit araçları:**
-1. **Deniz raporu** — kaptan ya da ilgisini ispat eden herkes, varma/barınma limanında ya da ilk elverişli yerde, vakit kaybetmeden; Türkiye'de mahkemece.
-2. **Çatma delil tespiti** — çatma yerindeki deniz ticareti mahkemesi; tespit raporu kusur oranı içermez.
+1. **Deniz raporu** — kaptan ya da ilgisini ispat eden herkes, varma/barınma limanında ya da ilk elverişli yerde, vakit kaybetmeden; Türkiye'de mahkemece. 
+2. **Çatma delil tespiti** — çatma yerindeki deniz ticareti mahkemesi; tespit raporu kusur oranı içermez. 
 3. **HMK delil tespiti** (genel) → `../../hukuk-yargilamasi-dilekce/references/delil-tespiti.md`.
 4. **Resmî ortak inceleme** (m.1185/2) — bildirimin yerine geçer.
-5. Taşıyanın inceleme yükümlülüğü ve karşılıklı kolaylık: m.1184, m.1185/3.
+5. Taşıyanın inceleme yükümlülüğü ve karşılıklı kolaylık: m.1184, m.1185/3. 
 
 **Dört aşama (upstream'den):** (1) **başlat** — kapsam, saklayıcılar, tarih aralığı, sistemler; (2) **yenile** — yeni olgu ya da taraf çıktıkça kapsamı genişlet; (3) **sonlandır** — dava/sulh/hak düşürücü süre dolunca; (4) **izle** — kimin neyi ne zaman teslim ettiği. Avukat olmayan kullanıcı için saklama talimatını göndermeden önce ORTAK-KURALLAR.md §1 kapısı.
 
@@ -93,11 +93,11 @@ Esas değerlendirme → `yuk-hasari-ve-tasiyan-sorumlulugu.md`, `catma-kurtarma-
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "6102" law_type: "Kanun" article_no: "1184" | "1185" | "1188" | "889" | "855" | "1098" | "1292" | "105"
-legal_search_statute_semantic sorgu: "hasar ihbarı süre" mevzuat_no: "2920"
-legal_list_statute_articles statute_id: 69230 article_no: "33" include_content: true # 6325 gizlilik (doğrulanacak)
-legal_search_cases mahkeme: "yargitay" sorgu: "hasar ihbarı süresinde yapılmadı karine taşıyan sorumluluk konişmento" tarih_baslangic: "<son 3 yıl>"
-legal_check_holiday tarih: "<son gün>"
+legal_get_statute_article  law_no: "6102"  law_type: "Kanun"  article_no: "1184" | "1185" | "1188" | "889" | "855" | "1098" | "1292" | "105"
+legal_search_statute_semantic  sorgu: "hasar ihbarı süre"  mevzuat_no: "2920"
+legal_list_statute_articles  statute_id: 69230  article_no: "33"  include_content: true      # 6325 gizlilik (doğrulanacak)
+legal_search_cases  mahkeme: "yargitay"  sorgu: "hasar ihbarı süresinde yapılmadı karine taşıyan sorumluluk konişmento"  tarih_baslangic: "<son 3 yıl>"
+legal_check_holiday  tarih: "<son gün>"
 ```
 
 ---
@@ -130,8 +130,3 @@ legal_check_holiday tarih: "<son gün>"
 
 ---
 
-## Kaynak ve uyarlama
-
-- `lawyer/maritime_transport/cargo_claims.yaml` ("Usul Tuzakları (Blocking)" bölümü: ihbar süresi ve zamanaşımı; "CMR 7 gün, Deniz 3 gün" ifadesi madde metinleriyle düzeltildi)
-- `lawyer/maritime_transport/admiralty_accidents.yaml` (yalnız "Deniz Raporu (Sea Protest)" notu)
-- Upstream: `litigation-legal/legal-hold`, `litigation-legal/demand-received`, `litigation-legal/chronology` (iş akışı fikirleri; ABD'ye özgü kurallar alınmadı)

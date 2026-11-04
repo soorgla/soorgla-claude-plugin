@@ -28,24 +28,24 @@ Araç: `legal_calculate_tax`, `hesap: "ucret"` (eş adlar `bordro`, `maas`, `maa
 ## Araç çağrıları
 
 ```json
-{ "hesap": "ucret", "girdi": { "mod": "brutten_nete", "ay": "2026-03", "brut": 0 }, "tarih": "2026-03-31" }
+{ "hesap": "ucret", "ucret": { "mod": "brutten_nete", "ay": "2026-03", "brut": 0 }, "tarih": "2026-03-31" }
 ```
 ```json
-{ "hesap": "ucret", "girdi": { "mod": "brutten_nete", "yil": 2026, "brut": 0, "hazine_indirimi": true, "imalat": false }, "tarih": "2026-12-31" }
+{ "hesap": "ucret", "ucret": { "mod": "brutten_nete", "yil": 2026, "brut": 0, "hazine_indirimi": true, "imalat": false }, "tarih": "2026-12-31" }
 ```
 ```json
-{ "hesap": "ucret", "girdi": { "aylar": [{"ay": "2026-07", "brut": 0}, {"ay": "2026-08", "brut": 0}], "onceki_kumulatif_matrah": 0 }, "tarih": "2026-08-31" }
+{ "hesap": "ucret", "ucret": { "aylar": [{"ay": "2026-07", "brut": 0}, {"ay": "2026-08", "brut": 0}], "onceki_kumulatif_matrah": 0 }, "tarih": "2026-08-31" }
 ```
 ```json
-{ "hesap": "ucret", "girdi": { "ay": "2026-03", "brut": 0, "prim_gun": 0, "sgk_istisna": 0, "gelir_vergisi_istisna": 0 }, "tarih": "2026-03-31" }
+{ "hesap": "ucret", "ucret": { "ay": "2026-03", "brut": 0, "prim_gun": 0, "sgk_istisna": 0, "gelir_vergisi_istisna": 0 }, "tarih": "2026-03-31" }
 ```
 ```json
-{ "hesap": "ucret", "girdi": { "mod": "netten_brute", "ay": "2026-03", "net": 0, "onceki_kumulatif_matrah": 0 }, "tarih": "2026-03-31" }
+{ "hesap": "ucret", "ucret": { "mod": "netten_brute", "ay": "2026-03", "net": 0, "onceki_kumulatif_matrah": 0 }, "tarih": "2026-03-31" }
 ```
 ```json
-{ "hesap": "ucret", "girdi": { "mod": "netten_brute", "yil": 2026, "net": 0 }, "tarih": "2026-12-31" }
+{ "hesap": "ucret", "ucret": { "mod": "netten_brute", "yil": 2026, "net": 0 }, "tarih": "2026-12-31" }
 ```
-(`0` yer tutucudur; kullanıcının tutarını yaz.) `prim_gun`, `sgk_istisna`, `gelir_vergisi_istisna` üst düzeyde verilirse her aya, `aylar[]` içinde verilirse o aya uygulanır. Netten brüte `yil` ya da `aylar` (her ay `net` ile) ile ay ay çözülür; kümülatif matrah sıradaki aya taşınır. İkinci işverende ya da istisnanın başka işverende kullanıldığı durumda `"asgari_ucret_istisnasi": false`. Parametreyi tek başına göstermek için: `{ "hesap": "had", "girdi": { "ara": "sgk" } }`.
+(`0` yer tutucudur; kullanıcının tutarını yaz.) `prim_gun`, `sgk_istisna`, `gelir_vergisi_istisna` üst düzeyde verilirse her aya, `aylar[]` içinde verilirse o aya uygulanır. Netten brüte `yil` ya da `aylar` (her ay `net` ile) ile ay ay çözülür; kümülatif matrah sıradaki aya taşınır. İkinci işverende ya da istisnanın başka işverende kullanıldığı durumda `"asgari_ucret_istisnasi": false`. Parametreyi tek başına göstermek için: `{ "hesap": "had", "had": { "ara": "sgk" } }`.
 
 Yanıtta `ara_degerler.aylar[]` her ay için `prim_gun`, `sgk_istisna`, `gelir_vergisi_istisna`, `pek_alt_siniri`, `pek_ust_siniri`, `prime_esas_kazanc`, `sgk_isci`, `issizlik_isci`, (alt sınırın altındaysa) `alt_sinir_farki_isci_payi`, `gelir_vergisi_matrahi`, `kumulatif_matrah`, `hesaplanan_gelir_vergisi`, `asgari_ucret_vergi_istisnasi`, `odenecek_gelir_vergisi`, `damga`, `agi`, `net`, işveren tarafında `sgk_isveren`, `hazine_indirimi_puan`, `issizlik_isveren`, `isveren_maliyeti` döndürür; hepsini hesap tablosuna taşı.
 

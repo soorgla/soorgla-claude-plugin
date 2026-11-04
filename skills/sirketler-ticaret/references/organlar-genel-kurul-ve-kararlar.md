@@ -18,9 +18,9 @@
 | Müdür ve aynı işleve sahip kişilerin atanması (şube müdürleri hariç) | Yönetim kurulu — devredilemez | — |
 | Ltd. pay devrinin onayı | — | Genel kurul — devredilemez (m.616/1-g) |
 
- Ltd. organ ayrıntısı ve m.616/1-g için `../../idari-ve-kurum-basvurulari/references/sirket-kararlari-ve-pay-devri.md` §1 (orada çekildi).
+  Ltd. organ ayrıntısı ve m.616/1-g için `../../idari-ve-kurum-basvurulari/references/sirket-kararlari-ve-pay-devri.md` §1 (orada çekildi).
 
-Başka organın devredilemez yetkisine giren yönetim kurulu kararı **batıldır** (m.391/1-d).
+Başka organın devredilemez yetkisine giren yönetim kurulu kararı **batıldır** (m.391/1-d). 
 
 ---
 
@@ -28,20 +28,20 @@ Başka organın devredilemez yetkisine giren yönetim kurulu kararı **batıldı
 
 | Kontrol | Kural | Dayanak |
 |---|---|---|
-| Olağan toplantı zamanı | Her faaliyet dönemi sonundan itibaren **3 ay içinde**; gündem: organ seçimi, finansal tablolar, faaliyet raporu, kârın kullanımı, ibra | TTK m.409/1 |
-| Toplantı yeri | Esas sözleşmede aksi yoksa şirket merkezinin bulunduğu yer | TTK m.409/3 |
-| Çağrı | Esas sözleşmedeki şekilde + şirket internet sitesi + TTSG ilanı; ilan ve toplantı günleri hariç **en az 2 hafta önce**; pay defterinde kayıtlı ve adres bildirmiş pay sahiplerine iadeli taahhütlü mektup | TTK m.414/1 |
-| Çağrısız genel kurul | Bütün payların sahipleri/temsilcileri hazır ve itiraz eden yoksa çağrı usulüne uyulmadan toplanılır; gündeme madde ancak **oybirliğiyle** eklenir | TTK m.416 |
-| Belgelerin hazır tutulması | Finansal tablolar, faaliyet raporu, denetim raporları, kâr dağıtım önerisi toplantıdan **en az 15 gün önce** merkez ve şubelerde | TTK m.437/1 |
-| Genel nisap | Toplantı: sermayenin en az **1/4**'ü (toplantı süresince korunur); ilk toplantıda sağlanamazsa ikinci toplantıda nisap aranmaz. Karar: hazır bulunan oyların çoğunluğu | TTK m.418 |
-| Esas sözleşme değişikliği | Sermayenin en az **yarısı** temsil edilmeli, mevcut oyların çoğunluğu; ilk toplantıda olmazsa **1 ay içinde** ikinci toplantı, nisap en az **1/3**; nisabı düşüren esas sözleşme hükmü geçersiz | TTK m.421/1 |
-| Oybirliği gerektirenler | Bilanço zararlarını kapatmak için yükümlülük getiren kararlar; merkezin yurt dışına taşınması | TTK m.421/2 |
-| %75 olumlu oy | İşletme konusunun tamamen değiştirilmesi; imtiyazlı pay oluşturulması; nama yazılı payların devrinin sınırlandırılması — izleyen toplantılarda da aynı nisap | TTK m.421/3-4 |
-| Asgari sermayeye yükseltme kararı | Toplantı nisabı **aranmaz**, mevcut oyların çoğunluğu, aleyhine imtiyaz kullanılamaz | TTK geçici m.15/2 |
-| Bakanlık temsilcisi | Zorunlu: (a) Bakanlık iznine tabi şirketlerin bütün genel kurulları; diğerlerinde sermaye artırımı/azaltımı, kayıtlı sermayeye geçiş/çıkış, tavan artırımı, faaliyet konusu değişikliği, birleşme, bölünme, tür değiştirme gündemli toplantılar; (b) elektronik genel kurul; (c) yurt dışında yapılan toplantılar. Zorunlu toplantıda temsilci yoksa **kararlar geçerli değildir**. Tek pay sahipli şirketlerde (izne tabi olanlar hariç) zorunlu değil. Sermayenin en az 1/10'u gerekçeli talepte bulunabilir. | Yönetmelik (16800) m.32 |
-| İbra | YK üyeleri ve yönetimde görevli imza yetkilileri, YK üyelerinin ibrasına ilişkin kararlarda kendi paylarından doğan oyu kullanamaz | TTK m.436/2 | |
+| Olağan toplantı zamanı | Her faaliyet dönemi sonundan itibaren **3 ay içinde**; gündem: organ seçimi, finansal tablolar, faaliyet raporu, kârın kullanımı, ibra | TTK m.409/1  |
+| Toplantı yeri | Esas sözleşmede aksi yoksa şirket merkezinin bulunduğu yer | TTK m.409/3  |
+| Çağrı | Esas sözleşmedeki şekilde + şirket internet sitesi + TTSG ilanı; ilan ve toplantı günleri hariç **en az 2 hafta önce**; pay defterinde kayıtlı ve adres bildirmiş pay sahiplerine iadeli taahhütlü mektup | TTK m.414/1  |
+| Çağrısız genel kurul | Bütün payların sahipleri/temsilcileri hazır ve itiraz eden yoksa çağrı usulüne uyulmadan toplanılır; gündeme madde ancak **oybirliğiyle** eklenir | TTK m.416  |
+| Belgelerin hazır tutulması | Finansal tablolar, faaliyet raporu, denetim raporları, kâr dağıtım önerisi toplantıdan **en az 15 gün önce** merkez ve şubelerde | TTK m.437/1  |
+| Genel nisap | Toplantı: sermayenin en az **1/4**'ü (toplantı süresince korunur); ilk toplantıda sağlanamazsa ikinci toplantıda nisap aranmaz. Karar: hazır bulunan oyların çoğunluğu | TTK m.418  |
+| Esas sözleşme değişikliği | Sermayenin en az **yarısı** temsil edilmeli, mevcut oyların çoğunluğu; ilk toplantıda olmazsa **1 ay içinde** ikinci toplantı, nisap en az **1/3**; nisabı düşüren esas sözleşme hükmü geçersiz | TTK m.421/1  |
+| Oybirliği gerektirenler | Bilanço zararlarını kapatmak için yükümlülük getiren kararlar; merkezin yurt dışına taşınması | TTK m.421/2  |
+| %75 olumlu oy | İşletme konusunun tamamen değiştirilmesi; imtiyazlı pay oluşturulması; nama yazılı payların devrinin sınırlandırılması — izleyen toplantılarda da aynı nisap | TTK m.421/3-4  |
+| Asgari sermayeye yükseltme kararı | Toplantı nisabı **aranmaz**, mevcut oyların çoğunluğu, aleyhine imtiyaz kullanılamaz | TTK geçici m.15/2  |
+| Bakanlık temsilcisi | Zorunlu: (a) Bakanlık iznine tabi şirketlerin bütün genel kurulları; diğerlerinde sermaye artırımı/azaltımı, kayıtlı sermayeye geçiş/çıkış, tavan artırımı, faaliyet konusu değişikliği, birleşme, bölünme, tür değiştirme gündemli toplantılar; (b) elektronik genel kurul; (c) yurt dışında yapılan toplantılar. Zorunlu toplantıda temsilci yoksa **kararlar geçerli değildir**. Tek pay sahipli şirketlerde (izne tabi olanlar hariç) zorunlu değil. Sermayenin en az 1/10'u gerekçeli talepte bulunabilir. | Yönetmelik (16800) m.32  |
+| İbra | YK üyeleri ve yönetimde görevli imza yetkilileri, YK üyelerinin ibrasına ilişkin kararlarda kendi paylarından doğan oyu kullanamaz | TTK m.436/2 |  |
 
-**Ltd. genel kurulu:** olağan nisap m.620, önemli kararlar m.621, tek ortak m.616/3 → `../../idari-ve-kurum-basvurulari/references/sirket-kararlari-ve-pay-devri.md` §2 (orada çekildi). Ltd. genel kurullarına A.Ş. hükümleri kıyasen uygulanırken **Bakanlık temsilcisine ilişkin olanlar hariç** tutulmuştur (TTK m.617/3); Ltd. genel kurulunda Bakanlık temsilcisi aranmaz.
+**Ltd. genel kurulu:** olağan nisap m.620, önemli kararlar m.621, tek ortak m.616/3 → `../../idari-ve-kurum-basvurulari/references/sirket-kararlari-ve-pay-devri.md` §2 (orada çekildi). Ltd. genel kurullarına A.Ş. hükümleri kıyasen uygulanırken **Bakanlık temsilcisine ilişkin olanlar hariç** tutulmuştur (TTK m.617/3); Ltd. genel kurulunda Bakanlık temsilcisi aranmaz. 
 
 ---
 
@@ -52,11 +52,11 @@ Başka organın devredilemez yetkisine giren yönetim kurulu kararı **batıldı
 | Toplantı ve karar nisabı | Üye tam sayısının çoğunluğuyla toplanır, hazır bulunanların çoğunluğuyla karar; vekâletle oy yok | TTK m.390/1-3 (`../../idari-ve-kurum-basvurulari/references/sirket-kararlari-ve-pay-devri.md`'de çekildi) |
 | Elden dolaştırma (toplantısız karar) | Hiçbir üye toplantı istemezse, karar şeklinde yazılmış öneriye **üye tam sayısının çoğunluğunun yazılı onayı**; öneri **tüm üyelere** yapılmalı | TTK m.390/4 (aynı yerde çekildi) |
 | Geçerlilik | Karar yazılıp imzalanmalı | TTK m.390/5 |
-| Toplantıya çağırma | Her üye başkandan yazılı isteyebilir; **üyelerin çoğunluğunun yazılı istemi** üzerine başkan **30 gün içinde** toplantı yapılacak şekilde çağırmak zorunda; çağırmazsa ya da başkan/başkan vekiline ulaşılamazsa istem sahipleri doğrudan çağırır; esas sözleşme farklı usul öngörebilir | TTK m.392/7 (7511 ile) |
-| Başkan seçimi | Yönetim kurulu üyeleri arasından başkan ve başkan vekili seçer; 7511 ile "her yıl" ibaresi kalktı | TTK m.366/1 |
-| Üyenin bilgi alma hakkı | Toplantıda her bilgi istenebilir; toplantı dışında başkanın izniyle; red halinde 2 gün içinde kurula, sonra asliye ticaret (kesin karar) | TTK m.392/1-4 |
-| Batıl kararlar | Eşit işlem ilkesine aykırı, temel yapıya/sermayenin korunmasına aykırı, pay sahiplerinin vazgeçilmez haklarını ihlal eden, başka organın devredilemez yetkisine giren kararlar batıl; tespiti mahkemeden istenir (süreye bağlı değil) | TTK m.391 |
-| Ltd.'ye uygulanma | m.391 (butlan) ve m.392 (bilgi alma) Ltd. müdürlerine kıyasen | TTK m.644/1-c |
+| Toplantıya çağırma | Her üye başkandan yazılı isteyebilir; **üyelerin çoğunluğunun yazılı istemi** üzerine başkan **30 gün içinde** toplantı yapılacak şekilde çağırmak zorunda; çağırmazsa ya da başkan/başkan vekiline ulaşılamazsa istem sahipleri doğrudan çağırır; esas sözleşme farklı usul öngörebilir | TTK m.392/7 (7511 ile)  |
+| Başkan seçimi | Yönetim kurulu üyeleri arasından başkan ve başkan vekili seçer; 7511 ile "her yıl" ibaresi kalktı | TTK m.366/1  |
+| Üyenin bilgi alma hakkı | Toplantıda her bilgi istenebilir; toplantı dışında başkanın izniyle; red halinde 2 gün içinde kurula, sonra asliye ticaret (kesin karar) | TTK m.392/1-4  |
+| Batıl kararlar | Eşit işlem ilkesine aykırı, temel yapıya/sermayenin korunmasına aykırı, pay sahiplerinin vazgeçilmez haklarını ihlal eden, başka organın devredilemez yetkisine giren kararlar batıl; tespiti mahkemeden istenir (süreye bağlı değil) | TTK m.391  |
+| Ltd.'ye uygulanma | m.391 (butlan) ve m.392 (bilgi alma) Ltd. müdürlerine kıyasen | TTK m.644/1-c  |
 
 ---
 
@@ -64,7 +64,7 @@ Başka organın devredilemez yetkisine giren yönetim kurulu kararı **batıldı
 
 1. **Eylemi sınıfla:** olağan (imza yetkisi, banka hesabı, şube, olağan sözleşme onayı) / **büyük işlem** (birleşme, satın alma, yeni yatırımcıya pay, kontrol değişikliği, tasfiye, önemli taşınmaz işlemi, ileride bir satın alma veri odasında görünecek her karar). Büyük işlemde "dış avukat incelemesi önerilir" uyarısı; aynı gün imza istenirse SKILL.md Adım 6 kapısı.
 2. **Organ ve yetki:** kararı bu organ verebilir mi (§1)? Elden dolaştırma yalnız A.Ş. yönetim kurulunda kanunda düzenli; genel kurulda toplantısız karar yok — çağrısız genel kurul (m.416) ayrı şeydir.
-3. **Çıkar çatışması:** üyenin kendisi ya da yakını ile işlem, şirketle işlem yapma ve rekabet yasağı → TTK m.393 (müzakereye katılma yasağı; üçüncü dereceye kadar kan ve kayın hısımları dahil), m.395 (genel kurul izni olmadan şirketle işlem yapma yasağı; aksi hâlde şirket batıl olduğunu ileri sürebilir; pay sahibi olmayan üyenin şirkete nakit borçlanma yasağı), m.396 (rekabet yasağı; diğer üyelerin öğrenmesinden itibaren 3 ay, her hâlde 1 yıl zamanaşımı). `[incele]`
+3. **Çıkar çatışması:** üyenin kendisi ya da yakını ile işlem, şirketle işlem yapma ve rekabet yasağı → TTK m.393 (müzakereye katılma yasağı; üçüncü dereceye kadar kan ve kayın hısımları dahil), m.395 (genel kurul izni olmadan şirketle işlem yapma yasağı; aksi hâlde şirket batıl olduğunu ileri sürebilir; pay sahibi olmayan üyenin şirkete nakit borçlanma yasağı), m.396 (rekabet yasağı; diğer üyelerin öğrenmesinden itibaren 3 ay, her hâlde 1 yıl zamanaşımı). `[incele]` 
 4. **İmza takibi:** üye tam sayısı, kimlere gönderildi, kimden yazılı onay geldi (tarihleriyle), çoğunluk sağlandı mı; imzalı kâğıtlar karar defterine yapıştırılır ya da karara dönüştürülür.
 5. **Tescil ve ilan gerekiyor mu?** (temsil yetkisi, şube, müdür ataması gibi) → sicile başvuru.
 
@@ -106,10 +106,10 @@ Başka organın devredilemez yetkisine giren yönetim kurulu kararı **batıldı
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "6102" article_no: "366" | "375" | "390" | "391" | "392" | "393" | "409" | "414" | "416" | "418" | "421" | "436" | "437"
-legal_get_statute_article law_no: "16800" article_no: "32" | "<diğer>" # Genel Kurul Yönetmeliği
-legal_search_statute_semantic sorgu: "genel kurul toplantı tutanağı hazır bulunanlar listesi içerik" mevzuat_no: "16800"
-legal_search_cases mahkeme: "yargitay" daire: "11. Hukuk Dairesi" sorgu: "<ör. elden dolaştırma yoluyla alınan yönetim kurulu kararında önerinin tüm üyelere yapılmaması>" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "6102"  article_no: "366" | "375" | "390" | "391" | "392" | "393" | "409" | "414" | "416" | "418" | "421" | "436" | "437"
+legal_get_statute_article  law_no: "16800"  article_no: "32" | "<diğer>"      # Genel Kurul Yönetmeliği
+legal_search_statute_semantic  sorgu: "genel kurul toplantı tutanağı hazır bulunanlar listesi içerik"  mevzuat_no: "16800"
+legal_search_cases  mahkeme: "yargitay"  daire: "11. Hukuk Dairesi"  sorgu: "<ör. elden dolaştırma yoluyla alınan yönetim kurulu kararında önerinin tüm üyelere yapılmaması>"  tarih_baslangic: "<son 3 yıl>"
 ```
 
 ## Çıktı iskeleti
@@ -139,3 +139,4 @@ legal_search_cases mahkeme: "yargitay" daire: "11. Hukuk Dairesi" sorgu: "<ör. 
 - 🟠 Elden dolaştırmada öneriyi tüm üyelere göndermemek.
 - 🟠 Muhalefet şerhini tutanağa geçirmemek (pay sahibinin dava hakkını etkiler).
 - 🟡 Olağan genel kurulu 3 ayı aşan tarihte yapmak (kararlar kendiliğinden geçersiz olmaz ama sorumluluk ve sicil sorunu doğar) `[incele]`.
+

@@ -12,14 +12,14 @@
 
 ## 1. Kontrol listesi
 
-1. **Amaç ve muhatap:** Bakanlık (teşvik/Stratejik Hamle), kalkınma ve yatırım bankası, ticari banka, iç karar? Stratejik Hamle'de fizibiliteyi Bakanlıkla protokollü kalkınma ve yatırım bankası hazırlar; büyük yatırımlarda müracaatta proje bazlı formatta fizibilite istenebilir.
-2. **Yatırım tutarı ayrımı:** arazi-arsa, bina-inşaat, yerli makine, ithal makine (döviz cinsiyle), diğer harcamalar (etüt-proje, nakliye-montaj, aktifleştirilen kur farkı/faiz, maddi olmayan varlık), işletme sermayesi ayrı. Sabit yatırım tutarı faiz/makine desteği düşülmeden, **vergi indirimine esas** tutar ise bu destekler düşülerek hesaplanır.
+1. **Amaç ve muhatap:** Bakanlık (teşvik/Stratejik Hamle), kalkınma ve yatırım bankası, ticari banka, iç karar? Stratejik Hamle'de fizibiliteyi Bakanlıkla protokollü kalkınma ve yatırım bankası hazırlar; büyük yatırımlarda müracaatta proje bazlı formatta fizibilite istenebilir. 
+2. **Yatırım tutarı ayrımı:** arazi-arsa, bina-inşaat, yerli makine, ithal makine (döviz cinsiyle), diğer harcamalar (etüt-proje, nakliye-montaj, aktifleştirilen kur farkı/faiz, maddi olmayan varlık), işletme sermayesi ayrı. Sabit yatırım tutarı faiz/makine desteği düşülmeden, **vergi indirimine esas** tutar ise bu destekler düşülerek hesaplanır. 
 3. **Teşvik kalemleri nakit akışına nasıl girer:**
    - Gümrük muafiyeti ve KDV istisnası → yatırım anındaki çıkışı azaltır (KDV istisnası ayrıca KDV iadesi/devri finansman yükünü ortadan kaldırır).
-   - Vergi indirimi → işletme yıllarında vergi çıkışını azaltır; **7555 sonrası belgelerde en fazla on hesap dönemi** ve kazanç varken kullanılmayan katkı devretmez — modelde dönem sınırı ve kazanç profilini birlikte uygula.
-   - Faiz/kâr payı ya da makine desteği → Hamle'de ilerleme raporuna bağlı, harcama yılını izleyen yıl ödenir (zamanlama gecikmesi); ikisi birlikte olmaz.
-   - SGK işveren hissesi desteği → vize sonrası başlar; süresi bölge/programa göre (Karar m.18 tablosu).
-   - Toplam destekler gerçekleşen sabit yatırımı geçemez (yeniden değerlenmiş).
+   - Vergi indirimi → işletme yıllarında vergi çıkışını azaltır; **7555 sonrası belgelerde en fazla on hesap dönemi** ve kazanç varken kullanılmayan katkı devretmez — modelde dönem sınırı ve kazanç profilini birlikte uygula. 
+   - Faiz/kâr payı ya da makine desteği → Hamle'de ilerleme raporuna bağlı, harcama yılını izleyen yıl ödenir (zamanlama gecikmesi); ikisi birlikte olmaz. 
+   - SGK işveren hissesi desteği → vize sonrası başlar; süresi bölge/programa göre (Karar m.18 tablosu). 
+   - Toplam destekler gerçekleşen sabit yatırımı geçemez (yeniden değerlenmiş). 
 4. **Göstergeler:** NPV (kullanıcının iskonto oranıyla), IRR, basit ve iskontolu geri ödeme süresi; teşvikli ve teşviksiz iki senaryo; kullanıcı veri verirse hassasiyet (girdi maliyeti ↑, satış fiyatı ↓, kur, faiz) ve başabaş.
 5. **Enflasyon ve kur:** nominal/reel tutarlılık; TL nakit akışını nominal iskonto oranıyla, reel akışı reel oranla iskontola. Kur için `legal_get_exchange_rate`, TÜFE değişimi için `legal_calculate_cpi_change` (yalnız TÜFE; yeniden değerleme oranı ÜFE bazlıdır) `[doğrula]`.
 6. **Tutarlılık testleri:** yıllar toplamı, kapasite × fiyat = gelir, amortisman ile sabit yatırımın uyumu, işletme sermayesi geri dönüşü, kredi geri ödeme planı ile faiz desteği süresi.
@@ -30,8 +30,8 @@
 ## 2. Formüller (açık yaz, kullanıcının kontrol etmesi için)
 
 ```
-NPV = Σ_{t=0..n} NA_t / (1 + r)^t
-IRR : Σ_{t=0..n} NA_t / (1 + IRR)^t = 0 (sayısal çözüm; birden fazla işaret değişiminde birden çok IRR olabilir — uyar)
+NPV  = Σ_{t=0..n} NA_t / (1 + r)^t
+IRR  : Σ_{t=0..n} NA_t / (1 + IRR)^t = 0     (sayısal çözüm; birden fazla işaret değişiminde birden çok IRR olabilir — uyar)
 Geri ödeme : kümülatif NA'nın sıfırı geçtiği yıl (+ kesir); iskontolu sürümde NA_t/(1+r)^t
 NA_t (teşvikli) = NA_t (teşviksiz) + gümrük/KDV etkisi_t + vergi indirimi etkisi_t + faiz/makine desteği_t + SGK desteği_t
 ```
@@ -58,11 +58,11 @@ Hesap gerekiyorsa bir hesap tablosu ya da kod ile yap, sonucu tabloya koy; ara a
 ## 4. soorgla çağrıları
 
 ```
-legal_get_official_gazette_document url: "https://www.resmigazete.gov.tr/eskiler/2025/05/20250530-2.pdf" offset: 25000 max_chars: 30000 # m.15-20 oran ve tavanlar
-legal_search_statute_semantic sorgu: "yatırıma katkı tutarı indirimli kurumlar vergisi" mevzuat_no: "5520"
-legal_get_exchange_rate para_birimi: "<USD|EUR>" tarih: "<tarih>"
-legal_calculate_cpi_change baslangic: "<ay>" bitis: "<ay>"
-legal_get_legal_interest_rates # politika faizi; faiz desteği puanı TCMB bir hafta vadeli repo oranına bağlı — politika_faizi satırının baslangic_tarihi ile dönemi kontrol et
+legal_get_official_gazette_document  url: "https://www.resmigazete.gov.tr/eskiler/2025/05/20250530-2.pdf"  offset: 25000  max_chars: 30000   # m.15-20 oran ve tavanlar
+legal_search_statute_semantic  sorgu: "yatırıma katkı tutarı indirimli kurumlar vergisi"  mevzuat_no: "5520"
+legal_get_exchange_rate  para_birimi: "<USD|EUR>"  tarih: "<tarih>"
+legal_calculate_cpi_change  baslangic: "<ay>"  bitis: "<ay>"
+legal_get_legal_interest_rates      # politika faizi; faiz desteği puanı TCMB bir hafta vadeli repo oranına bağlı — politika_faizi satırının baslangic_tarihi ile dönemi kontrol et
 ```
 
 ---
@@ -98,3 +98,4 @@ legal_get_legal_interest_rates # politika faizi; faiz desteği puanı TCMB bir h
 - 🟡 Nominal akışı reel oranla iskontolamak.
 
 ---
+

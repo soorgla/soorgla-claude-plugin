@@ -13,7 +13,7 @@ Araçlar: `legal_calculate_court_fee` (`harc_turu`, nispi harçta `deger`), makt
 
 ## Aracın tanıdığı türler
 
-Araç tanımadığı türde `count: 0` ve `hata: "Bilinmeyen harç türü …"` ile geçerli türlerin listesini döndürür; idari yargı harçları, icra başvurma ve icra peşin harcı tanımlı değildir. Eski sürümler bu durumda `harc_tutari: "0"` veriyordu: sonuçta 0 görürsen bunu "harç yok" diye okuma.
+Araç tanımadığı türde `count: 0` ve `hata: "Bilinmeyen harç türü …"` ile geçerli türlerin listesini döndürür; idari yargı harçları, icra başvurma ve icra peşin harcı tanımlı değildir. Eski sürümler bu durumda `harc_tutari: "0"` veriyordu: sonuçta 0 görürsen bunu "harç yok" diye okuma. 
 
 | `harc_turu` | Ne hesaplar | Sınama (31.10.2026) |
 |---|---|---|
@@ -28,14 +28,14 @@ Araç tanımadığı türde `count: 0` ve `hata: "Bilinmeyen harç türü …"` 
 
 ### Tuzaklar
 
-1. **`deger` verilmezse nispi harç sessizce alt sınırı döndürür** (`(0 / 1000) × 68.31 = 732.00`). Nispi harçta değer yoksa hesabı durdur ve değeri sor.
+1. **`deger` verilmezse nispi harç sessizce alt sınırı döndürür** (`(0 / 1000) × 68.31 = 732.00`). Nispi harçta değer yoksa hesabı durdur ve değeri sor. 
 2. **Peşin harç alt sınırı:** 5.000 TL değerde araç 183,00 (alt sınırın dörtte biri) verdi. Peşin harcın da maktu alt sınıra tabi olup olmadığı `[model bilgisi — doğrulayın]`; küçük değerli davalarda sonucu `[doğrula]` ile işaretle.
 3. **`pesin_harc` dava peşin harcıdır**, icra peşin harcı değildir.
 4. Araç **tarih almaz**; her zaman güncel tarifeyle hesaplar. Geçmiş tarihli dava için tutar uyuşmaz → `[doğrula — dava tarihindeki tarife]`.
 
 ## Araçta olmayan harçlar → `legal_get_social_parameters`
 
-Maktu harçlar sosyal parametre kalemlerinde dönemiyle durur (`tur` boş bırakılınca hepsi gelir). 31.10.2026'da görülen `harc_*` kalemleri: `harc_arabuluculuk_karar`, `harc_basvurma_asliye`, `harc_basvurma_aym`, `harc_basvurma_sulh`, `harc_basvurma_ust_mahkeme`, `harc_celse_min_asliye`, `harc_celse_min_sulh`, `harc_haciz_teslim_satis`, `harc_icra_basvurma`, `harc_icra_degersiz`, `harc_icra_idare`, `harc_icranin_tehiri`, `harc_iflas_konkordato`, `harc_ihtiyati_tedbir_haciz`, `harc_ilam_suret`, `harc_istinaf_bam`, `harc_karar_ilam_maktu`, `harc_karar_ilam_min_nispi`, `harc_kesif`, `harc_temyiz_danistay`, `harc_temyiz_red_maktu`, `harc_temyiz_yargitay`, `harc_tic_sicil_gercek_tescil`, `harc_tic_sicil_sahis_tescil`, `harc_tic_sicil_sermaye_tescil`, `harc_vekaletname_suret`. Her kalemin `dayanak` alanı Harçlar Kanunu tarife satırını verir.
+Maktu harçlar sosyal parametre kalemlerinde dönemiyle durur (`tur` boş bırakılınca hepsi gelir). 31.10.2026'da görülen `harc_*` kalemleri: `harc_arabuluculuk_karar`, `harc_basvurma_asliye`, `harc_basvurma_aym`, `harc_basvurma_sulh`, `harc_basvurma_ust_mahkeme`, `harc_celse_min_asliye`, `harc_celse_min_sulh`, `harc_haciz_teslim_satis`, `harc_icra_basvurma`, `harc_icra_degersiz`, `harc_icra_idare`, `harc_icranin_tehiri`, `harc_iflas_konkordato`, `harc_ihtiyati_tedbir_haciz`, `harc_ilam_suret`, `harc_istinaf_bam`, `harc_karar_ilam_maktu`, `harc_karar_ilam_min_nispi`, `harc_kesif`, `harc_temyiz_danistay`, `harc_temyiz_red_maktu`, `harc_temyiz_yargitay`, `harc_tic_sicil_gercek_tescil`, `harc_tic_sicil_sahis_tescil`, `harc_tic_sicil_sermaye_tescil`, `harc_vekaletname_suret`. Her kalemin `dayanak` alanı Harçlar Kanunu tarife satırını verir. 
 
 Kanun yolu harcı (istinaf/temyiz başvurma) maktu kalemle **birlikte** karar harcının da gerekebileceğini unutma; hangi kalemlerin toplanacağı `[model bilgisi — doğrulayın]`.
 
@@ -66,7 +66,7 @@ Dava değeri belirsiz ya da ıslahla artacaksa, döviz alacağıysa, muafiyet id
 ## Örnek çağrılar
 
 ```
-legal_calculate_court_fee harc_turu: "dava_masrafi_asliye" deger: 100000
-legal_calculate_court_fee harc_turu: "icra_tahsil_haciz_once" deger: 100000
-legal_get_social_parameters tur: "harc_istinaf_bam"
+legal_calculate_court_fee  harc_turu: "dava_masrafi_asliye"  deger: 100000
+legal_calculate_court_fee  harc_turu: "icra_tahsil_haciz_once"  deger: 100000
+legal_get_social_parameters  tur: "harc_istinaf_bam"
 ```

@@ -9,13 +9,13 @@ Mahkemenin verdiği kesin süre içinde (genelde ön inceleme ara kararıyla) ta
 
 | Kural | Dayanak | Not |
 |---|---|---|
-| Liste süresi | Mahkemenin ara kararı (kesin süre) | Süreyi ara kararın tebliğinden/tefhiminden say; kesin süre kaçarsa delile dayanma hakkı düşebilir. `[incele]` |
-| **İkinci tanık listesi verilemez**; listede olmayan dinlenmez | HMK m.240/2 | Kullanıcıyı **bütün** tanıkları şimdi yazması için uyar. |
+| Liste süresi | Mahkemenin ara kararı (kesin süre) | Süreyi ara kararın tebliğinden/tefhiminden say; kesin süre kaçarsa delile dayanma hakkı düşebilir. `[incele]`  |
+| **İkinci tanık listesi verilemez**; listede olmayan dinlenmez | HMK m.240/2 | Kullanıcıyı **bütün** tanıkları şimdi yazması için uyar.  |
 | Listede tanık dinletilecek **vakıa**, tanığın **adı, soyadı ve tebliğe elverişli adresi** | HMK m.240/2 | T.C. kimlik no kanunda sayılmaz ama tebligat için yararlıdır. |
-| Adres yoksa ya da tanık bulunamazsa: işin niteliğine uygun **kesin süre**; yine gösterilmezse tanıktan vazgeçilmiş sayılır | HMK m.240/3 | |
-| Somutlaştırma; hangi delil hangi vakıa için | HMK m.194/1-2 | |
-| Başka yerden getirtilecek belge için bulunmasını sağlayacak açıklama | HMK m.121 (dava dilekçesi); m.195 (getirtilecek belge) | |
-| **Senetle ispat zorunluluğu** | HMK m.200 + ek m.1 | Hukuki işlemin **yapıldığı tarihteki** sınırı aşan işlemler senetle ispat edilir; sınır her yıl yeniden değerleme oranıyla artar — tutarı beceriye yazma, işlem tarihine göre çek. Karşı tarafın açık muvafakatiyle tanık dinlenebilir (m.200/2). Delil başlangıcı ve senede karşı tanık için m.201-202. |
+| Adres yoksa ya da tanık bulunamazsa: işin niteliğine uygun **kesin süre**; yine gösterilmezse tanıktan vazgeçilmiş sayılır | HMK m.240/3 |  |
+| Somutlaştırma; hangi delil hangi vakıa için | HMK m.194/1-2 |  |
+| Başka yerden getirtilecek belge için bulunmasını sağlayacak açıklama | HMK m.121 (dava dilekçesi); m.195 (getirtilecek belge) |  |
+| **Senetle ispat zorunluluğu** | HMK m.200 + ek m.1 | Hukuki işlemin **yapıldığı tarihteki** sınırı aşan işlemler senetle ispat edilir; sınır her yıl yeniden değerleme oranıyla artar — tutarı beceriye yazma, işlem tarihine göre çek. Karşı tarafın açık muvafakatiyle tanık dinlenebilir (m.200/2). Delil başlangıcı ve senede karşı tanık için m.201-202.   |
 
 ---
 
@@ -30,10 +30,10 @@ Mahkemenin verdiği kesin süre içinde (genelde ön inceleme ara kararıyla) ta
 
 ## soorgla çağrıları
 ```
-legal_get_statute_article law_no: "6100" article_no: "240" | "194" | "195" | "200" | "201" | "202"
-legal_get_statute_article law_no: "6100" article_no: "ek 1"
-legal_search_cases sorgu: "ikinci tanık listesi verilemez, listede gösterilmeyen tanığın dinlenmesi bozma sebebi" mahkeme: "yargitay" tarih_baslangic: <son 3 yıl>
-legal_get_case_document belge_id: <seçilen karar>
+legal_get_statute_article  law_no: "6100"  article_no: "240" | "194" | "195" | "200" | "201" | "202"
+legal_get_statute_article  law_no: "6100"  article_no: "ek 1"
+legal_search_cases  sorgu: "ikinci tanık listesi verilemez, listede gösterilmeyen tanığın dinlenmesi bozma sebebi"  mahkeme: "yargitay"  tarih_baslangic: <son 3 yıl>
+legal_get_case_document  belge_id: <seçilen karar>
 ```
 
 ## Dilekçe iskeleti (eski `ui_config`: başlık → esas no → taraf → konu → uyarı → A. tanıklar → B. celbedilecek belgeler → C. ekte sunulanlar → sonuç)
@@ -41,8 +41,8 @@ legal_get_case_document belge_id: <seçilen karar>
 [YER] [__]. [MAHKEME] MAHKEMESİ'NE
                                                     DOSYA NO: [___] E.
 [DAVACI / DAVALI] : [___]
-VEKİLİ : Av. [___]
-KONU : Sayın Mahkemenin [tarih] tarihli ara kararı uyarınca tanık ve delil listemizin sunulmasıdır.
+VEKİLİ            : Av. [___]
+KONU              : Sayın Mahkemenin [tarih] tarihli ara kararı uyarınca tanık ve delil listemizin sunulmasıdır.
 
 A. TANIK LİSTEMİZ (HMK m.240)
 | # | Ad Soyad | Tebliğe elverişli adres | Dinletilecek vakıa |
@@ -64,3 +64,4 @@ SONUÇ VE İSTEM : Tanıkların davetiye ile çağrılarak dinlenmesine, (B) bö
 - 🔴 Senetle ispat gereken işlem için yalnız tanık gösterilmiş; muvafakat ya da delil başlangıcı aranmamış.
 - 🟠 Tanığın hangi vakıa için dinleneceği yazılmamış.
 - 🟠 Getirtilecek kayıt için kurum/sayı/tarih yok — müzekkere yazılamıyor.
+

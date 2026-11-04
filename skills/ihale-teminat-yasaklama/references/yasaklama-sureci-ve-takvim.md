@@ -16,7 +16,7 @@ dosyanın §4'ündedir.
 | Bakanlığın bağlı / ilgili kuruluşu | **İlgili veya bağlı bulunulan bakanlık** | aynı |
 | Hiçbir bakanlığın ilgili/bağlı kuruluşu sayılmayan idare | O idarenin **ihale yetkilisi** | aynı |
 | İl özel idaresi ve bağlı birlik, müessese, işletmeleri | **İçişleri Bakanlığı** | aynı |
-| Belediye ve bağlı birlik, müessese, işletmeleri | **Çevre ve Şehircilik Bakanlığı** (metindeki ad) | aynı |
+| Belediye ve bağlı birlik, müessese, işletmeleri | **Çevre ve Şehircilik Bakanlığı** (metindeki ad) | aynı  |
 
 - 4734'te ölçüt **ihaleyi yapan**, 4735'te **sözleşmeyi uygulayan** idaredir.
 - Belediye şirketi: Bakanlığın yetkili olduğuna ilişkin KİK düzenleyici kararı ve ona karşı açılan davanın reddi →
@@ -77,6 +77,8 @@ Varsayım: açık ihale, mal alımı; sözleşmeye davet EKAP'ta **02.11.2026** 
 | 7 | RG'ye gönderme | Karar tarihi (güvenli: 28.12.2026) | en geç 15 gün | **12.01.2027** (iş günü); karar 04.01.2027'de verildiyse 19.01.2027 | Elle; `legal_check_holiday` 2027-01-12, 2027-01-19 iş günü `[soorgla]` |
 | 8 | İptal davası (genel usul) | Yazılı bildirim varsayımı 08.01.2027 | 60 gün | Ham 09.03.2027 Ramazan Bayramı → **12.03.2027** | `iyuk_lawsuit` `[soorgla]` |
 
+ 
+
 **Hesap kuralları:**
 - **45 günün esası (bu dosya tek yerdir; diğer dosyalar buraya atıf yapar).**
   - **Kanun lafzı:** "yasaklamayı gerektiren fiil veya davranışın **tespit edildiği** tarihi izleyen en geç kırkbeş
@@ -88,7 +90,7 @@ Varsayım: açık ihale, mal alımı; sözleşmeye davet EKAP'ta **02.11.2026** 
     kararının gereğinin yapılmasını **bildirdiği** tarih" alınır (olayda bildirimle "Bakanlığın bilgisine girmiş"
     sayıldı); ortak hakkında sonradan yapılan **ayrı bildirim** ortak için yeni başlangıçtır `[soorgla]`. "45 günlük
     **hak düşürücü** süre" ibaresi Danıştay'ın değil, **bozulan ilk derece kararının** gerekçesindedir; Daire'ye
-    atfetme.
+    atfetme. 
 - Aynı Dairenin, sürenin **fesih olur'u** tarihinden işletildiği kararı da var (E.2021/3810 K.2021/3242 — arama
   özeti, olayda kararı veren makamın kim olduğu okunmadı) `[çekildi ama desteği doğrulayın]`. **Güvenli yön: erken
   tarih.** İdare ve bakanlık 45 günü idarenin kendi **tespit** tarihinden sayar, bakanlığa ulaşmayı beklemeden yazar;
@@ -126,7 +128,7 @@ Yasaklama davası için ayrı kod gerekmez: `iyuk_lawsuit` (60 gün, İYUK m.7) 
   doğrudan, dolaylı, alt yüklenici olarak ya da başkası adına katılamaz (4734 m.11/1-a, m.58/1) `[soorgla]`.
 - Yasaklıyken teklif vermek m.17/e yasak fiilidir: ihale dışı + geçici teminat gelir + **yeni yasaklama**; RG'de
   yayımla yürürlüğe giren yasaklamada isteklinin kararı "bilmediği" savunması Danıştay'ca kabul edilmedi (13. D.
-  E.2022/3012 K.2022/4750) `[soorgla]`.
+  E.2022/3012 K.2022/4750) `[soorgla]`. 
 - Yasaklılığın aşamaya göre teminat sonucu (ihale tarihinde yasaklı / süreç içinde yasaklandı) →
   `gecici-teminat-gelir-kaydi.md` tablo satır 8-9 (KİGT 28.1.8).
 - Yasaklı üreticinin ürününü yasaklı olmayan bayi teklif edebilir (KİGT 28.1.6) `[soorgla]`.

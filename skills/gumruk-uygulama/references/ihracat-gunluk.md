@@ -10,7 +10,7 @@
 ## Akış
 
 1. **GTİP ve ihracat rejimi:** ihracatı yasak, kayda ya da izne bağlı mı (İhracat Rejimi Kararı ve ilgili tebliğler → `legal_search_official_gazette` `query: "İhracat"` `search_in: "title"`); ürün bazlı ihracat talimatları (Tarım ve Orman, ör. su ürünleri, canlı hayvan) form bankasında.
-2. **Beyan yolu:** standart ihracat beyannamesi, e-ihracat (ETGB / mikro ihracat — değer ve ağırlık sınırları, muafiyet kodları 2020/25 sayılı Posta ve Hızlı Kargo Taşımacılığı Genelgesinde, 2020/28 ile değişik; güncel hâlini `legal_search_admin_guidance` `kurum: "Ticaret Bakanlığı"` `sorgu: "posta ve hızlı kargo ETGB"` ile çek), yerinde gümrükleme ya da izinli gönderici (`yys-ve-kolaylastirmalar.md`).
+2. **Beyan yolu:** standart ihracat beyannamesi, e-ihracat (ETGB / mikro ihracat — değer ve ağırlık sınırları, muafiyet kodları 2020/25 sayılı Posta ve Hızlı Kargo Taşımacılığı Genelgesinde, 2020/28 ile değişik; güncel hâlini `legal_search_admin_guidance` `kurum: "Ticaret Bakanlığı"` `sorgu: "posta ve hızlı kargo ETGB"` ile çek) , yerinde gümrükleme ya da izinli gönderici (`yys-ve-kolaylastirmalar.md`).
 3. **Teslim şekli ve kıymet:** Incoterms → beyanname teslim şekli kodu (`beyanname-kodlari-ve-formlar.md`); FOB kıymet istatistik ve ihracat bedeli için.
 4. **Menşe belgesi:** alıcı ülkenin tercihli rejimine göre A.TR, EUR.1/EUR-MED, fatura beyanı ya da menşe şahadetnamesi (`mense-belgeleri.md` tablosunu alıcı ülke tarafından oku); düzenleyen merci (oda, gümrük) ve onaylanmış ihracatçı statüsü `[doğrula]`.
 5. **DİR/HİR bağlantısı:** ihracat DİİB taahhüdünü kapatıyorsa beyannamede belge bağlantısı (`rejimler-gunluk.md`).
@@ -19,8 +19,8 @@
 
 Genelge ve rehber araması:
 ```
-legal_search_admin_guidance sorgu: "<konu> ihracat" kurum: "Ticaret Bakanlığı" belge_tur: "genelge"
-legal_search_forms sorgu: "ihracatta yerinde gümrükleme kılavuzu" (araç yoksa FORM-KAYNAKLARI)
+legal_search_admin_guidance  sorgu: "<konu> ihracat"  kurum: "Ticaret Bakanlığı"  belge_tur: "genelge"
+legal_search_forms           sorgu: "ihracatta yerinde gümrükleme kılavuzu"   (araç yoksa FORM-KAYNAKLARI)
 ```
 
 ---

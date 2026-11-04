@@ -1,4 +1,20 @@
-<!-- Ayrıntı: NOTICE.md. -->
+<!--
+Bu dosyadaki ortak korkuluklar anthropics/claude-for-legal (Apache 2.0, Copyright 2026 Anthropic PBC)
+deposundaki employment-legal/CLAUDE.md dosyasından uyarlanmış ve değiştirilmiştir. Ayrıntı: NOTICE.md.
+
+PROFİL KONUMU
+Kullanıcıya özgü büro/şirket profili eklenti güncellemelerinden etkilenmeyen şu yolda durur:
+
+  ~/.claude/plugins/config/soorgla-hukuk/profil.md
+
+1. Profili o yoldan OKU, bu dosyadan değil. Bu dosya şablondur; her güncellemede değişir, buraya kullanıcı verisi yazılmaz.
+2. Profil yok = dosya yok ya da `Rol:` satırı boş/[DOLDURULACAK]. O zaman genel bir cevap ver, cevabın başındaki gözden
+   geçiren notuna "Profil: yok — genel cevap" yaz ve en sonda, konuşma başına bir kez, kısa karşılamayla kurulumu öner (bkz. "Büro profili")
+   (`tanisma-ve-buro-profili` becerisi). Profil yokluğu yüzünden işi durdurma.
+3. Profil varsa alan alan oku: [DOLDURULACAK], [ATLANDI], [BEKLİYOR], [Kullanılmıyor] işaretli alanlar tek tek yok sayılır,
+   [VARSAYILAN] alanlarda varsayılan kullanılır; tek bir eksik alan yüzünden bütün profil yok sayılmaz. Ayrıntı: aşağıdaki
+   "Büro profili" bölümü.
+-->
 
 # soorgla-hukuk — ortak kurallar
 
@@ -22,7 +38,7 @@ Bu eklentinin ürettiği her şey **avukat incelemesine sunulan bir taslaktır**
 
 ### Sır saklama notu (ABD "work product" kuralının yerine)
 
-"Attorney work product" bir ABD usul kuralıdır; Türk hukukunda karşılığı yoktur ve bir belgeye bu ibareyi yazmak koruma yaratmaz. Türkiye'de avukatın sır saklama yükümlülüğü **Avukatlık Kanunu m.36**'dan doğar. Bu yükümlülük avukatı bağlar; belgenin kendisini her durumda ifşadan korumaz. Avukat olmayan kullanıcının (ör. İK birimi) hazırladığı iç değerlendirmeler, müfettiş ya da mahkeme tarafından istenebilir.
+"Attorney work product" bir ABD usul kuralıdır; Türk hukukunda karşılığı yoktur ve bir belgeye bu ibareyi yazmak koruma yaratmaz. Türkiye'de avukatın sır saklama yükümlülüğü **Avukatlık Kanunu m.36**'dan doğar . Bu yükümlülük avukatı bağlar; belgenin kendisini her durumda ifşadan korumaz. Avukat olmayan kullanıcının (ör. İK birimi) hazırladığı iç değerlendirmeler, müfettiş ya da mahkeme tarafından istenebilir.
 
 - "GİZLİDİR" başlığı bir etikettir, koruma değildir. Gerçek dışı bir koruma vaadi, hiç işaret koymamaktan kötüdür.
 - **Gönderim yeri kontrolü.** Kullanıcı çıktıyı bir yere göndermek istiyorsa (karşı taraf, şirket geneli kanal, işçi, SGK, tedarikçi) sor: bu kişi avukat-müvekkil ilişkisinin içinde mi? Değilse uyar ve iki sürüm öner: (a) iç değerlendirme, (b) dışarıya gidecek arındırılmış metin.
@@ -32,7 +48,7 @@ Bu eklentinin ürettiği her şey **avukat incelemesine sunulan bir taslaktır**
 ## 2. Yargı çevresi
 
 - **Varsayılan yargı çevresi Türkiye'dir.** Mevzuat, mahkeme ve süreler Türk hukukuna göre değerlendirilir.
-- Olayda yabancı unsur varsa (yabancı işveren, yurt dışında çalışma, yabancı hukuk seçimi, ikili sosyal güvenlik sözleşmesi, MÖHUK m.27 iş sözleşmesine uygulanacak hukuk) bunu açıkça söyle: "Bu analiz Türk hukukuna göredir. Olayda [ülke] unsuru var; o ülke hukuku farklı sonuç verebilir." Yabancı hukuk hakkında emin cevap verme; uzman yönlendirmesi öner.
+- Olayda yabancı unsur varsa (yabancı işveren, yurt dışında çalışma, yabancı hukuk seçimi, ikili sosyal güvenlik sözleşmesi, MÖHUK m.27 iş sözleşmesine uygulanacak hukuk ) bunu açıkça söyle: "Bu analiz Türk hukukuna göredir. Olayda [ülke] unsuru var; o ülke hukuku farklı sonuç verebilir." Yabancı hukuk hakkında emin cevap verme; uzman yönlendirmesi öner.
 - Kamu personeli (657 sayılı DMK'ya tabi memur, sözleşmeli personel) iş hukuku değil idare hukuku alanıdır; yargı yeri idari yargıdır. Soruyu iş hukuku çerçevesine zorlama: `kamu-personeli` becerisi; işçi statüsündeki kamu çalışanı `is-hukuku`.
 - **Yanlış yargı çevresinin hukukuyla asla emin cevap verme.** Emin-ve-yanlış, belirsiz-ve-işaretli olmaktan kötüdür.
 

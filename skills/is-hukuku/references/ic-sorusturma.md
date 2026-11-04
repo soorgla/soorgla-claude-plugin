@@ -2,6 +2,8 @@
 
 Bir şikâyet ya da usulsüzlük iddiası (taciz, mobbing, hırsızlık, sır ifşası, çıkar çatışması, İSG ihlali) üzerine işverenin yürüttüğü inceleme: başlatma, delil toplama, savunma, karar ve rapor.
 
+**Kapsam dışı:** kamu personeli disiplin soruşturması (657 DMK) → `../../kamu-personeli/references/disiplin-sorusturmasi-ve-cezalar.md`. Eski backend'deki `bureaucrat/personnel_hr/disciplinary_investigation.yaml` orada kullanıldı.
+
 Upstream karşılığı: `employment-legal/skills/internal-investigation` ve `investigation-open/add/query/memo/summary` alt becerileri. Upstream'deki ABD'ye özgü "privilege" bölümü atıldı; yerine avukatlık sır saklama yükümlülüğü (Av.K. m.36, bkz. ORTAK-KURALLAR.md) ve 4857 m.26 süresi kondu.
 
 ---
@@ -11,7 +13,7 @@ Upstream karşılığı: `employment-legal/skills/internal-investigation` ve `in
 İç soruşturmanın en kritik riski **haklı fesih süresinin** kaçmasıdır. Ahlak ve iyiniyet kurallarına aykırılığa dayanan fesih yetkisi, olayı fesih yetkisi olan kişinin öğrenmesinden itibaren belirli iş günü ve her hâlde fiilden itibaren belirli süre içinde kullanılır. Süreleri `legal_get_statute_article 4857/26` ile çek ve dosyanın en üstüne yaz.
 
 - "Öğrenme" anı kimin öğrenmesidir? Fesih yetkisi olan organ ya da kişi (yönetim kurulu, genel müdür, İK direktörü). Bunu profil ya da kullanıcı yanıtıyla belirle `[incele]`.
-- Soruşturmanın uzaması sürenin başlangıcını nasıl etkiler? 9. HD yaklaşımı: tüzel kişi işverende altı iş günü **feshe yetkili merciin öğrendiği** günden başlar; müfettiş soruşturması yapılması ya da olayın disiplin kurulunda görüşülmesi süreyi başlatmaz, olayın feshe yetkili kişi ya da kurula **intikal ettirildiği gün** başlangıçtır; bir yıllık süre her hâlde olay gününden işler. Soruşturmanın olayı tüm unsurlarıyla öğrenmeye yetecek makul sürede yürütülmesi gerekir; soruşturmanın gereksiz uzatılması riski `[incele]`. Dosyanın HGK'ya gönderildiği bu uyuşmazlıkta HGK sonucunu da `legal_search_cases` ile ara.
+- Soruşturmanın uzaması sürenin başlangıcını nasıl etkiler? 9. HD yaklaşımı: tüzel kişi işverende altı iş günü **feshe yetkili merciin öğrendiği** günden başlar; müfettiş soruşturması yapılması ya da olayın disiplin kurulunda görüşülmesi süreyi başlatmaz, olayın feshe yetkili kişi ya da kurula **intikal ettirildiği gün** başlangıçtır; bir yıllık süre her hâlde olay gününden işler. Soruşturmanın olayı tüm unsurlarıyla öğrenmeye yetecek makul sürede yürütülmesi gerekir; soruşturmanın gereksiz uzatılması riski `[incele]`. Dosyanın HGK'ya gönderildiği bu uyuşmazlıkta HGK sonucunu da `legal_search_cases` ile ara. 
 - Süre kaçarsa haklı fesih düşer, haksız fesih sonuçları doğar (bkz. `fesih-ve-ise-iade.md` süre tablosu).
 
 `legal_calculate_deadline` bu süreyi hesaplamaz; iş günlerini elle say, `legal_check_holiday` ile kontrol et, `[doğrula]`.
@@ -64,16 +66,16 @@ Upstream'deki "investigation log" yapısı korunur. Kullanıcı isterse günlü�
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "4857" article_no: "5" | "19" | "22" | "24" | "25" | "26" | "38" | "109"
-legal_get_statute_article law_no: "6098" article_no: "417"
-legal_search_cases mahkeme: "yargitay" daire: "9. Hukuk Dairesi"
+legal_get_statute_article  law_no: "4857"  article_no: "5" | "19" | "22" | "24" | "25" | "26" | "38" | "109"
+legal_get_statute_article  law_no: "6098"  article_no: "417"
+legal_search_cases  mahkeme: "yargitay"  daire: "9. Hukuk Dairesi"
     sorgu: "<ör. iç soruşturma tamamlandıktan sonra altı iş günlük sürenin başlaması>"
     tarih_baslangic: <son 3 yıl>
-legal_search_cases mahkeme: "yargitay" daire: "9. Hukuk Dairesi"
+legal_search_cases  mahkeme: "yargitay"  daire: "9. Hukuk Dairesi"
     sorgu: "<ör. işyerinde psikolojik taciz mobbing ispatı ve haklı fesih>"
-legal_search_cases mahkeme: "anayasa" sorgu: "işveren tarafından kurumsal e-postanın incelenmesi özel hayat"
-legal_search_admin_guidance sorgu: "çalışanın kurumsal e-postasının incelenmesi kişisel veri"
-legal_check_holiday tarih: <saatin son günü>
+legal_search_cases  mahkeme: "anayasa"  sorgu: "işveren tarafından kurumsal e-postanın incelenmesi özel hayat"
+legal_search_admin_guidance  sorgu: "çalışanın kurumsal e-postasının incelenmesi kişisel veri"
+legal_check_holiday  tarih: <saatin son günü>
 ```
 
 ## Çıktı iskeleti

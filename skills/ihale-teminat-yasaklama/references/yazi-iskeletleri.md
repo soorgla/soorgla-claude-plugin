@@ -15,7 +15,7 @@ yazılır, etiketler dipnotta. İmza zinciri `[Ad SOYADI — unvan]`. Hiçbiri "
 ## 1. Muhasebe birimine gelir kaydı talimatı (idare → muhasebe müdürlüğü / mal müdürlüğü)
 
 ```
-Sayı : [___] [gg.aa.yyyy]
+Sayı : [___]                                                     [gg.aa.yyyy]
 Konu : [İKN ___] Geçici (Kesin) Teminatın Gelir Kaydı
 
                          [MUHASEBE BİRİMİ ADI]NA
@@ -48,7 +48,7 @@ hiyerarşik konumuna göre ("rica ederim" / "arz ederim") — biçim dosyasında
 ## 2. Bankaya tazmin (paraya çevirme) talebi (muhasebe birimi ya da idare → banka şubesi)
 
 ```
-Sayı : [___] [gg.aa.yyyy]
+Sayı : [___]                                                     [gg.aa.yyyy]
 Konu : [No ___] Sayılı Teminat Mektubunun Tazmini
 
                       [BANKA ADI] [ŞUBE ADI] ŞUBE MÜDÜRLÜĞÜNE
@@ -73,7 +73,7 @@ harcama yetkilisi) kurum uygulamasına göre `[incele]`.
 ## 3. Yasaklama teklif (bildirim) yazısı (idare → ilgili veya bağlı bulunulan bakanlık / yetkili makam)
 
 ```
-Sayı : [___] [gg.aa.yyyy]
+Sayı : [___]                                                     [gg.aa.yyyy]
 Konu : [Unvan] Hakkında İhalelere Katılmaktan Yasaklama Talebi (İKN [___])
 
                          [YETKİLİ BAKANLIK / MAKAM]NA
@@ -116,7 +116,7 @@ kanalla gönder (EBYS kayıt, KEP). Teklif yazısı istekli açısından kesin i
 ## 4. İstekliye bildirim (idare → istekli / yüklenici; EKAP veya tebligat)
 
 ```
-Sayı : [___] [gg.aa.yyyy]
+Sayı : [___]                                                     [gg.aa.yyyy]
 Konu : [İKN ___] Geçici (Kesin) Teminatın Gelir Kaydı
 
                          [İSTEKLİ UNVANI]NA
@@ -146,7 +146,7 @@ uyuşmazlık uzatır `[incele]`.
 ```
                          [BAKANLIK ADI]
                          [Birim]
-Sayı : [___] [gg.aa.yyyy]
+Sayı : [___]                                                     [gg.aa.yyyy]
 Konu : İhalelere Katılmaktan Yasaklama
 
                          BAKANLIK MAKAMINA

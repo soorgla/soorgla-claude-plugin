@@ -1,6 +1,6 @@
 # İhale: idareye şikâyet ve KİK'e itirazen şikâyet dilekçesi
 
-İstekli, aday ya da istekli olabilecek kişinin kamu ihalesindeki hukuka aykırılığa karşı iki aşamalı idari başvurusu. Şikâyet ve itirazen şikâyet **dava açılmadan önce tüketilmesi zorunlu idari başvuru yollarıdır**.
+İstekli, aday ya da istekli olabilecek kişinin kamu ihalesindeki hukuka aykırılığa karşı iki aşamalı idari başvurusu. Şikâyet ve itirazen şikâyet **dava açılmadan önce tüketilmesi zorunlu idari başvuru yollarıdır**. 
 
 İdarenin şikâyete vereceği cevap (gerekçeli karar) bu dosyada değil: `ihale-idare-kararlari.md`.
 
@@ -15,7 +15,7 @@
 | İdare şikâyeti reddetti, uygun olmayan karar aldı ya da süresinde karar vermedi | İtirazen şikâyet | Kamu İhale Kurumu |
 | Şikâyet veya itirazen şikâyet üzerine idarenin aldığı **ihalenin iptali** kararı | Doğrudan Kuruma itirazen şikâyet | Kamu İhale Kurumu |
 
-**Doğrudan KİK'e gidilemez** (iptal istisnası hariç): önce idareye şikâyet şarttır. Şikâyette ileri sürülmeyen iddia itirazen şikâyette ileri sürülemez; ileri sürülürse Kurul o iddiayı şekil yönünden reddeder. Bu yüzden **şikâyet dilekçesi yazılırken bütün iddialar eksiksiz yazılmalıdır**; sonradan eklenemez.
+**Doğrudan KİK'e gidilemez** (iptal istisnası hariç): önce idareye şikâyet şarttır. Şikâyette ileri sürülmeyen iddia itirazen şikâyette ileri sürülemez; ileri sürülürse Kurul o iddiayı şekil yönünden reddeder.  Bu yüzden **şikâyet dilekçesi yazılırken bütün iddialar eksiksiz yazılmalıdır**; sonradan eklenemez.
 
 ---
 
@@ -23,25 +23,25 @@
 
 | İşlem | Süre ve başlangıç | Dayanak | Not |
 |---|---|---|---|
-| İdareye şikâyet (genel) | İşlem/eylemin **farkına varıldığı veya varılmış olması gereken tarihi izleyen günden** itibaren **10 gün**; sözleşme imzalanmadan önce | 4734 m.55/1 | Eski YAML "kesinleşen ihale kararının tebliğinden itibaren 10 gün" diyordu; ölçüt tebliğ değil **farkına varma**dır. Kesinleşen ihale kararı bildirimi çoğu olayda farkına varma tarihidir ama her zaman değil `[incele]`. |
-| İdareye şikâyet — 4734 m.21/(b) ve (c) pazarlık usulü | **5 gün** | 4734 m.55/1 | |
-| İlana yönelik şikâyet | Süre **ilk ilan tarihinden** başlar | 4734 m.55/1 | |
-| Ön yeterlik / ihale dokümanına yönelik şikâyet | Süre **dokümanın satın alındığı (EKAP'tan indirildiği) tarihte** başlar; her durumda **ihale veya son başvuru tarihinden üç iş günü öncesine kadar** | 4734 m.55/1-2 | 10 günlük süre ile 3 iş günü sınırından **hangisi önce dolarsa** o. Tebliğ'e göre ilana yansımayan doküman hükümleri için süre, dokümanın **EKAP hesabına giriş yapılarak indirildiği** tarihi izleyen gün başlar; dokümana karşı başvuru için istekli olabilecek sıfatı da bu indirmeyle kazanılır (İhalelere Yönelik Başvurular Hakkında Tebliğ m.3/2, m.4/2-b; değişik ibare RG 18.05.2024). |
-| İdarenin karar süresi | Şikâyet üzerine **10 gün** içinde gerekçeli karar; karar tarihini izleyen **3 gün** içinde bildirim | 4734 m.55/3 | |
-| KİK'e itirazen şikâyet | İdare kararının **bildirimini izleyen 10 gün**; idare süresinde karar vermezse **karar süresinin bitimini izleyen 10 gün**; sözleşme imzalanmadan önce | 4734 m.55/4, m.56/1 | Eski YAML "zımni ret" diyordu; kanun "karar alınmaması" der. Pazarlık usulünde de itirazen şikâyet süresi 10 gündür (5 gün kuralı yalnız ilk şikâyet için). |
-| İdarenin şikâyet/itirazen şikâyet üzerine aldığı **iptal kararına** karşı | **5 gün** içinde **doğrudan Kuruma** | 4734 m.56/1 | Bu durumda inceleme idarenin iptal gerekçeleriyle sınırlıdır (m.56/2). |
-| Kurul kararı süresi | Bilgi/belgenin kayda alındığı tarihi izleyen **20 gün**; pazarlık (21/b-c) ve iptal kararına karşı başvurularda **10 iş günü** | 4734 m.56/5 | |
-| Kurul kararına karşı dava | İhale işlemleri (ihaleden yasaklama hariç) **ivedi yargılama usulüne** tabidir: dava açma süresi **30 gün** (genel 60 gün değil); 2577 m.11 (üst makama başvuru) uygulanmaz | 4734 m.57; 2577 m.20/A | Dava dilekçesi bu becerinin kapsamında değil; süreyi yalnızca hatırlat. |
+| İdareye şikâyet (genel) | İşlem/eylemin **farkına varıldığı veya varılmış olması gereken tarihi izleyen günden** itibaren **10 gün**; sözleşme imzalanmadan önce | 4734 m.55/1  | Eski YAML "kesinleşen ihale kararının tebliğinden itibaren 10 gün" diyordu; ölçüt tebliğ değil **farkına varma**dır. Kesinleşen ihale kararı bildirimi çoğu olayda farkına varma tarihidir ama her zaman değil `[incele]`. |
+| İdareye şikâyet — 4734 m.21/(b) ve (c) pazarlık usulü | **5 gün** | 4734 m.55/1  | |
+| İlana yönelik şikâyet | Süre **ilk ilan tarihinden** başlar | 4734 m.55/1  | |
+| Ön yeterlik / ihale dokümanına yönelik şikâyet | Süre **dokümanın satın alındığı (EKAP'tan indirildiği) tarihte** başlar; her durumda **ihale veya son başvuru tarihinden üç iş günü öncesine kadar** | 4734 m.55/1-2  | 10 günlük süre ile 3 iş günü sınırından **hangisi önce dolarsa** o. Tebliğ'e göre ilana yansımayan doküman hükümleri için süre, dokümanın **EKAP hesabına giriş yapılarak indirildiği** tarihi izleyen gün başlar; dokümana karşı başvuru için istekli olabilecek sıfatı da bu indirmeyle kazanılır (İhalelere Yönelik Başvurular Hakkında Tebliğ m.3/2, m.4/2-b; değişik ibare RG 18.05.2024).  |
+| İdarenin karar süresi | Şikâyet üzerine **10 gün** içinde gerekçeli karar; karar tarihini izleyen **3 gün** içinde bildirim | 4734 m.55/3  | |
+| KİK'e itirazen şikâyet | İdare kararının **bildirimini izleyen 10 gün**; idare süresinde karar vermezse **karar süresinin bitimini izleyen 10 gün**; sözleşme imzalanmadan önce | 4734 m.55/4, m.56/1  | Eski YAML "zımni ret" diyordu; kanun "karar alınmaması" der. Pazarlık usulünde de itirazen şikâyet süresi 10 gündür (5 gün kuralı yalnız ilk şikâyet için). |
+| İdarenin şikâyet/itirazen şikâyet üzerine aldığı **iptal kararına** karşı | **5 gün** içinde **doğrudan Kuruma** | 4734 m.56/1  | Bu durumda inceleme idarenin iptal gerekçeleriyle sınırlıdır (m.56/2). |
+| Kurul kararı süresi | Bilgi/belgenin kayda alındığı tarihi izleyen **20 gün**; pazarlık (21/b-c) ve iptal kararına karşı başvurularda **10 iş günü** | 4734 m.56/5  | |
+| Kurul kararına karşı dava | İhale işlemleri (ihaleden yasaklama hariç) **ivedi yargılama usulüne** tabidir: dava açma süresi **30 gün** (genel 60 gün değil); 2577 m.11 (üst makama başvuru) uygulanmaz | 4734 m.57; 2577 m.20/A  | Dava dilekçesi bu becerinin kapsamında değil; süreyi yalnızca hatırlat. |
 
 `legal_calculate_deadline` bu süreleri tanımaz; elle hesapla, son gün için `legal_check_holiday`. "Gün" takvim günüdür; yalnızca doküman sınırı "iş günü"dür.
 
-**Başvuru tarihi:** dilekçe idare veya Kurum dışındaki bir mercie verilip oradan gönderilirse **kayda girdiği tarih** başvuru tarihidir; postaya vermek süreyi korumaz. Süre son günlerindeyse elden ya da EKAP üzerinden başvuru öner `[doğrula — EKAP başvuru imkânı Tebliğ'de]`.
+**Başvuru tarihi:** dilekçe idare veya Kurum dışındaki bir mercie verilip oradan gönderilirse **kayda girdiği tarih** başvuru tarihidir; postaya vermek süreyi korumaz.  Süre son günlerindeyse elden ya da EKAP üzerinden başvuru öner `[doğrula — EKAP başvuru imkânı Tebliğ'de]`.
 
 ---
 
 ## Zorunlu unsurlar (4734 m.54)
 
-Şikâyet idareye, itirazen şikâyet Kuruma **hitaben yazılmış imzalı dilekçe** ile yapılır ve şunları içerir:
+Şikâyet idareye, itirazen şikâyet Kuruma **hitaben yazılmış imzalı dilekçe** ile yapılır ve şunları içerir: 
 
 a) Başvuru sahibinin, varsa vekil/temsilcinin adı, soyadı veya unvanı ve adresi
 b) İhaleyi yapan idarenin ve ihalenin adı veya **İhale Kayıt Numarası (İKN)**
@@ -50,18 +50,18 @@ d) Başvurunun konusu, sebepleri ve dayandığı deliller
 e) (Yalnız itirazen şikâyette) idareye yapılan **şikâyetin tarihi** ve varsa idare kararının **bildirim tarihi**
 
 Ek kurallar:
-- Dilekçeye eklenecek belgeler (vekâletname, imza sirküleri, başvuru bedeli dekontu vb.) ve elektronik başvuru usulü **Kurumun düzenlemesindedir** (Yönetmelik ve Tebliğ). Listeyi oradan çek.
-- **Tek dilekçe kuralı:** aynı kişi birden fazla ihaleye, birden fazla kişi aynı ihaleye tek dilekçe ile başvuramaz.
-- Süresi dolmamış başvurudaki eksiklik, idare/Kurum bildirmese de **süre sonuna kadar** giderilebilir.
-- **İddiaları ayrı ayrı numaralandır (itirazen şikâyet).** 09.04.2026 Tebliğ değişikliğiyle hangi hususun ayrı iddia, hangisinin tek iddia sayılacağı örneklerle düzenlendi: dokümanda her kriter/madde ayrı iddia; aynı sonuca (ör. tek markayı işaret etme) yönelen birden fazla madde tek iddia; her istekliye yönelik her husus ayrı iddia; bir belgenin birden fazla sebeple aykırılığı tek iddia; aşırı düşük açıklamanın birden fazla sebeple reddi tek iddia. Bu ayrım **başvuru bedelinin iadesini** doğrudan etkiler (aşağıda).
+- Dilekçeye eklenecek belgeler (vekâletname, imza sirküleri, başvuru bedeli dekontu vb.) ve elektronik başvuru usulü **Kurumun düzenlemesindedir** (Yönetmelik ve Tebliğ). Listeyi oradan çek. 
+- **Tek dilekçe kuralı:** aynı kişi birden fazla ihaleye, birden fazla kişi aynı ihaleye tek dilekçe ile başvuramaz. 
+- Süresi dolmamış başvurudaki eksiklik, idare/Kurum bildirmese de **süre sonuna kadar** giderilebilir. 
+- **İddiaları ayrı ayrı numaralandır (itirazen şikâyet).** 09.04.2026 Tebliğ değişikliğiyle hangi hususun ayrı iddia, hangisinin tek iddia sayılacağı örneklerle düzenlendi: dokümanda her kriter/madde ayrı iddia; aynı sonuca (ör. tek markayı işaret etme) yönelen birden fazla madde tek iddia; her istekliye yönelik her husus ayrı iddia; bir belgenin birden fazla sebeple aykırılığı tek iddia; aşırı düşük açıklamanın birden fazla sebeple reddi tek iddia.  Bu ayrım **başvuru bedelinin iadesini** doğrudan etkiler (aşağıda).
 
 ## İtirazen şikâyet başvuru bedeli
 
-- Bedel **yaklaşık maliyete göre kademelidir** ve Kurum hesaplarına yatırılır; dekont dilekçeye eklenir. Kanun metnindeki (4734 m.53/j-2) tutarlar **taban tutarlardır**; her yıl 4734 m.67 uyarınca Kamu İhale Tebliği ile güncellenir. **Tutarı bu dosyadan ya da kanun metninden alma.**
+- Bedel **yaklaşık maliyete göre kademelidir** ve Kurum hesaplarına yatırılır; dekont dilekçeye eklenir. Kanun metnindeki (4734 m.53/j-2) tutarlar **taban tutarlardır**; her yıl 4734 m.67 uyarınca Kamu İhale Tebliği ile güncellenir. **Tutarı bu dosyadan ya da kanun metninden alma.** 
   - Çağrı: `legal_search_official_gazette` `query: "Kamu İhale Tebliği"` `search_in: "title"` `sort_by: "date_desc"` → başvuru tarihinde yürürlükte olan yılın tebliğini aç (`legal_get_official_gazette_document`) ve m.53/(j)-(2) satırını oku.
   - Yaklaşık maliyet bilinmiyorsa kullanıcıya sor (ihale ilanında/EKAP'ta yazar); bilinmiyorsa en üst kademeyi yatırma önerisi `[incele]`.
-- **İade:** 7571 sayılı Kanunla (24.12.2025) bedelin, dilekçedeki iddialara göre belirlenecek **haklılık oranına** karşılık gelen kısmı iade edilir; ret ya da eşit muamele incelemesiyle verilen iptal/düzeltici işlem kararlarında iade yoktur. İade, Kurul kararının bildirimini izleyen **30 gün** içinde yazılı talep üzerine yapılır. Dilekçeyi yazarken iddiaları Tebliğ'e uygun ayırmak bu yüzden para kaybını önler.
-- Başvuru teminatı: itirazen şikâyette m.53/j-2'deki bedelin dört katına kadar teminat alınmasına Cumhurbaşkanınca karar verilebilir; ret hâlinde teminat gelir kaydedilir (4734 m.54). Yürürlükte böyle bir karar olup olmadığı doğrulanamadı; Tebliğ m.11/2 de teminatı yalnız "karar verilmesi durumunda" arar. Başvurudan önce `legal_search_official_gazette` ile ("başvuru teminatı" + "Kamu İhale", `category: "YÜRÜTME"`) ve KİK'in güncel başvuru bedeli duyurusundan kontrol et; karar bulunamazsa teminat yatırma, dilekçeye "yürürlükte teminat kararı tespit edilemedi" notunu düş.
+- **İade:** 7571 sayılı Kanunla (24.12.2025) bedelin, dilekçedeki iddialara göre belirlenecek **haklılık oranına** karşılık gelen kısmı iade edilir; ret ya da eşit muamele incelemesiyle verilen iptal/düzeltici işlem kararlarında iade yoktur. İade, Kurul kararının bildirimini izleyen **30 gün** içinde yazılı talep üzerine yapılır.  Dilekçeyi yazarken iddiaları Tebliğ'e uygun ayırmak bu yüzden para kaybını önler.
+- Başvuru teminatı: itirazen şikâyette m.53/j-2'deki bedelin dört katına kadar teminat alınmasına Cumhurbaşkanınca karar verilebilir; ret hâlinde teminat gelir kaydedilir (4734 m.54). Yürürlükte böyle bir karar olup olmadığı doğrulanamadı; Tebliğ m.11/2 de teminatı yalnız "karar verilmesi durumunda" arar. Başvurudan önce `legal_search_official_gazette` ile ("başvuru teminatı" + "Kamu İhale", `category: "YÜRÜTME"`) ve KİK'in güncel başvuru bedeli duyurusundan kontrol et; karar bulunamazsa teminat yatırma, dilekçeye "yürürlükte teminat kararı tespit edilemedi" notunu düş.  
 
 ---
 
@@ -102,18 +102,18 @@ Ek kurallar:
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "4734" article_no: "54" | "55" | "56" | "57" | "53"
-legal_get_statute_article law_no: "4734" article_no: "<şikâyet konusu madde: 5 temel ilkeler, 10 yeterlik, 12 teknik şartname, 38 aşırı düşük, 40 karar>"
-legal_get_statute_article law_no: "12766" article_no: "8" # İhalelere Yönelik Başvurular Hakkında Yönetmelik, başvuru şekil unsurları
-legal_search_official_gazette query: "İhalelere Yönelik Başvurular Hakkında Tebliğ" search_in: "title" sort_by: "date_desc"
-legal_search_official_gazette query: "Kamu İhale Tebliği" search_in: "title" sort_by: "date_desc" # yıllık bedel güncellemesi
-legal_search_cases mahkeme: "kik" sorgu: "<ör. benzer iş tanımına uymayan iş deneyim belgesi kabul edilemez>"
-legal_search_cases mahkeme: "danistay" sorgu: "<…>" tarih_baslangic: "<son 3 yıl>" # ihale davaları bu turda 13. Daire kararlarında görüldü
-legal_get_case_document belge_id: "<seçilen karar>"
-legal_search_admin_guidance sorgu: "<konu>" belge_tur: "kurul_karar" # KİK düzenleyici/ilke kararları; kapsam dar olabilir
-legal_check_holiday tarih: "<son gün>"
+legal_get_statute_article  law_no: "4734"  article_no: "54" | "55" | "56" | "57" | "53"
+legal_get_statute_article  law_no: "4734"  article_no: "<şikâyet konusu madde: 5 temel ilkeler, 10 yeterlik, 12 teknik şartname, 38 aşırı düşük, 40 karar>"
+legal_get_statute_article  law_no: "12766"  article_no: "8"            # İhalelere Yönelik Başvurular Hakkında Yönetmelik, başvuru şekil unsurları
+legal_search_official_gazette  query: "İhalelere Yönelik Başvurular Hakkında Tebliğ"  search_in: "title"  sort_by: "date_desc"
+legal_search_official_gazette  query: "Kamu İhale Tebliği"  search_in: "title"  sort_by: "date_desc"     # yıllık bedel güncellemesi
+legal_search_cases  mahkeme: "kik"  sorgu: "<ör. benzer iş tanımına uymayan iş deneyim belgesi kabul edilemez>"
+legal_search_cases  mahkeme: "danistay"  sorgu: "<…>"  tarih_baslangic: "<son 3 yıl>"   # ihale davaları bu turda 13. Daire kararlarında görüldü
+legal_get_case_document  belge_id: "<seçilen karar>"
+legal_search_admin_guidance  sorgu: "<konu>"  belge_tur: "kurul_karar"          # KİK düzenleyici/ilke kararları; kapsam dar olabilir
+legal_check_holiday  tarih: "<son gün>"
 ```
-Ek kaynak: ES adları ve `bureaucrat/consultant.procurement_tender.legal_remedies_master` araştırma ajanı yoktur; karşılığı yukarıdaki çağrılardır. Danıştay'da 4734, 4735 ve 2886 sayılı Kanunlardan (ecrimisil ve tahliye hariç) ve bu Kanunlara tabi olmayan diğer kamu ihalelerinden doğan davalar ile temyiz başvuruları 2026'da da **Onüçüncü Daire**dedir (Danıştay Başkanlık Kurulu 2026/6, RG 25.02.2026, 33179).
+Eski profildeki ES adları ve `bureaucrat/consultant.procurement_tender.legal_remedies_master` araştırma ajanı yoktur; karşılığı yukarıdaki çağrılardır. Danıştay'da 4734, 4735 ve 2886 sayılı Kanunlardan (ecrimisil ve tahliye hariç) ve bu Kanunlara tabi olmayan diğer kamu ihalelerinden doğan davalar ile temyiz başvuruları 2026'da da **Onüçüncü Daire**dedir (Danıştay Başkanlık Kurulu 2026/6, RG 25.02.2026, 33179). 
 
 ---
 
@@ -123,12 +123,12 @@ Ek kaynak: ES adları ve `bureaucrat/consultant.procurement_tender.legal_remedie
 [İHALEYİ YAPAN İDARENİN ADI — büyük harf, ortalı]
 [İHALE YETKİLİSİNE / ŞİKÂYET İNCELEME BİRİMİNE] [___]
 
-BAŞVURU SAHİBİ : [unvan] — VKN/TCKN: [___] — MERSİS: [___]
-ADRES / KEP : [___]
-VEKİLİ : [varsa ad-soyad, baro sicil, adres]
+BAŞVURU SAHİBİ     : [unvan] — VKN/TCKN: [___] — MERSİS: [___]
+ADRES / KEP        : [___]
+VEKİLİ             : [varsa ad-soyad, baro sicil, adres]
 
-İHALENİN ADI : [___]
-İKN : [___]
+İHALENİN ADI       : [___]
+İKN                : [___]
 İHALE USULÜ / TARİHİ: [___]
 
 FARKINA VARMA / BİLDİRİM TARİHİ: [___] ([kaynak: kesinleşen ihale kararı bildirimi / EKAP indirme / ilan])
@@ -148,7 +148,7 @@ DELİLLER: [ihale dokümanı, EKAP çıktıları, teklif belgeleri, kesinleşen 
 SONUÇ VE İSTEM: Yukarıda açıklanan nedenlerle [düzeltici işlem belirlenmesine / ihalenin iptaline]
 karar verilmesini saygılarımla arz ve talep ederim.
 
-[Tarih] BAŞVURU SAHİBİ / VEKİLİ
+[Tarih]                                                    BAŞVURU SAHİBİ / VEKİLİ
                                                            [ad-soyad / unvan, imza]
 EKLER: [vekâletname, imza sirküleri, belgeler]
 ```
@@ -159,19 +159,19 @@ EKLER: [vekâletname, imza sirküleri, belgeler]
 KAMU İHALE KURUMUNA
 ANKARA
 
-BAŞVURU SAHİBİ : [unvan] — VKN/TCKN: [___] — MERSİS: [___]
-ADRES / KEP : [___]
-VEKİLİ : [___]
+BAŞVURU SAHİBİ     : [unvan] — VKN/TCKN: [___] — MERSİS: [___]
+ADRES / KEP        : [___]
+VEKİLİ             : [___]
 
 İHALEYİ YAPAN İDARE: [___]
-İHALENİN ADI : [___]
-İKN : [___]
+İHALENİN ADI       : [___]
+İKN                : [___]
 
 SÜREÇ BİLGİLERİ:
 - Dokümanın EKAP'tan indirilme tarihi : [___]
-- Farkına varma tarihi : [___]
-- İdareye şikâyet tarihi / sayısı : [___]
-- İdare kararının bildirim tarihi : [___] (karar alınmadıysa: "10 günlük karar süresi [___] tarihinde dolmuştur")
+- Farkına varma tarihi                : [___]
+- İdareye şikâyet tarihi / sayısı     : [___]
+- İdare kararının bildirim tarihi     : [___]  (karar alınmadıysa: "10 günlük karar süresi [___] tarihinde dolmuştur")
 
 KONU: İdarenin [tarih/sayı] şikâyet kararının uygun bulunmaması üzerine 4734 sayılı Kanun'un 56. maddesi
       uyarınca itirazen şikâyet başvurusudur.
@@ -189,11 +189,11 @@ BAŞVURU BEDELİ: [tarih] tarihli [tutar — yıllık tebliğden] TL tutarındak
 SONUÇ VE İSTEM: İdarenin şikâyet kararının iptali ile [düzeltici işlem belirlenmesine / ihalenin iptaline]
 karar verilmesini saygılarımla arz ve talep ederim.
 
-[Tarih] BAŞVURU SAHİBİ / VEKİLİ
+[Tarih]                                                    BAŞVURU SAHİBİ / VEKİLİ
                                                            [ad-soyad / unvan, imza]
 EKLER: [şikâyet dilekçesi sureti, idare kararı, bedel dekontu, vekâletname, imza sirküleri, belgeler]
 ```
-Eski `ui_config` blok sırası (başlık → başvuru sahibi → ihale bilgileri → süreç tarihleri → iddialar → gerekçe → bedel → sonuç → imza) bu iskelete taşındı; eski "Tebliğ Ek-1 / Ek-2 formatı" atfı **kullanılmaz**: Tebliğ dilekçenin şekil unsurlarını Kanun m.54 ve Yönetmelik m.8'e gönderir (şikâyet: m.5; itirazen şikâyet: m.11 — asgari bilgiler, zorunlu ekler, içerik kuralları), madde metinlerinde ek dilekçe formuna atıf yok. Tebliğ ek m.1 (RG 1.4.2023 ile eklendi; yürürlük tarihini madde metninden kontrol et) başvuruların **EKAP üzerinden e-imzayla** yapılmasını zorunlu kılıyor; EKAP'taki e-başvuru ekranının alanlarını esas al.
+Eski `ui_config` blok sırası (başlık → başvuru sahibi → ihale bilgileri → süreç tarihleri → iddialar → gerekçe → bedel → sonuç → imza) bu iskelete taşındı; eski "Tebliğ Ek-1 / Ek-2 formatı" atfı **kullanılmaz**: Tebliğ dilekçenin şekil unsurlarını Kanun m.54 ve Yönetmelik m.8'e gönderir (şikâyet: m.5; itirazen şikâyet: m.11 — asgari bilgiler, zorunlu ekler, içerik kuralları), madde metinlerinde ek dilekçe formuna atıf yok. Tebliğ ek m.1 (RG 1.4.2023 ile eklendi; yürürlük tarihini madde metninden kontrol et) başvuruların **EKAP üzerinden e-imzayla** yapılmasını zorunlu kılıyor; EKAP'taki e-başvuru ekranının alanlarını esas al. 
 
 ---
 
@@ -208,3 +208,4 @@ Eski `ui_config` blok sırası (başlık → başvuru sahibi → ihale bilgileri
 - 🟡 Vekâletname ve imza sirkülerinin eklenmemesi; dilekçenin imzasız (e-imzasız) olması.
 
 ---
+

@@ -22,7 +22,7 @@ günden itibaren … on gün içinde **ve sözleşmenin imzalanmasından önce**
 `[incele]`. Süresinde şikâyet yapılırsa idarenin kararının son bildiriminden (karar verilmezse karar süresinin
 bitiminden) itibaren 10 gün geçmeden ve itirazen şikâyet sorgulaması yapılmadan, itirazen şikâyette ise Kurul nihai
 karar vermeden sözleşme imzalanamaz (m.55 son fıkra) `[soorgla]` — 10 günün son gününü beklemeden, gelir kaydı
-bildirimini alır almaz şikâyet et.
+bildirimini alır almaz şikâyet et. 
 
 **Uygulama sonucu (istekli):**
 - Gelir kaydı + yasaklama birlikte geldiyse **iki ayrı süre, iki ayrı dilekçe**: gelir kaydı için şikâyet (10 gün)
@@ -36,14 +36,14 @@ bildirimini alır almaz şikâyet et.
 ## 2. Yasaklama davasının süresi
 
 - 60 gün; özel kanunda ayrı süre yok (2577 m.7/1) `[soorgla]`; kod `iyuk_lawsuit`. İvedi usulün 30 günü ve istinafsız
-  temyizi **uygulanmaz** (m.20/A-1-a; m.45/8 yalnız ivedi davalar için) `[soorgla]`.
+  temyizi **uygulanmaz** (m.20/A-1-a; m.45/8 yalnız ivedi davalar için) `[soorgla]`. 
 - **Başlangıç:** yasaklama RG yayımında yürürlüğe girer (13. D. E.2022/3012 K.2022/4750 — Daire gerekçesi)
   `[soorgla]`. Dava süresinin "yazılı bildirim veya öğrenme üzerine" işlediği önermesi ise o kararda **BİM'in**
   gerekçesinde, künyesi verilmeyen "Danıştay kararları"na dayanılarak geçer; Daire bunu benimseyip uygulamamış,
   yalnız "Danıştay kararında vurgulanan gerekçe yalnızca yasaklama kararlarına karşı dava açma süresinin hangi
   tarihten itibaren başlayacağına ilişkin" diyerek yürürlükten ayırmıştır. Dava süresinin başlangıcı için bu karar
   doğrudan dayanak değildir `[çekildi ama desteği doğrulayın]`; dayanak 2577 m.7 (yazılı bildirim) `[soorgla]`.
- **Güvenli yön:** RG yayımı,
+   **Güvenli yön:** RG yayımı,
   tebliğ ve öğrenme tarihlerinden **en erkenini** başlangıç say; üç tarihi de çizelgeye yaz `[incele]`.
 - Bildirimde başvuru yolu ve süre gösterilmemişse sürenin işlemeyeceği iddiası (Anayasa m.40) davacılarca ileri sürülüyor;
   bu tura okunan kararda sonuç alınmadı `[model bilgisi — doğrulayın]`.
@@ -54,7 +54,7 @@ bildirimini alır almaz şikâyet et.
 
 - Şartlar birlikte: **telafisi güç veya imkânsız zarar** + **açık hukuka aykırılık**; kural olarak savunma alındıktan
   ya da süresi geçtikten sonra, gerekçeli karar; **teminat karşılığı** (durumun gereğine göre aranmayabilir);
-  YD kararına **7 gün** içinde bir kez itiraz (genel usulde açık) (2577 m.27) `[soorgla]`.
+  YD kararına **7 gün** içinde bir kez itiraz (genel usulde açık) (2577 m.27) `[soorgla]`. 
 - "Uygulanmakla etkisi tükenecek" işlemlerde savunma beklenmeden YD verilebilir (m.27/2) — yasaklama süresi kısa
   (6 ay) ve devam eden ihale varsa bu ibareyi kullan `[incele]`.
 - YD veya iptal kararının aslı / onaylı örneği **KİK'e sunulunca** yasaklılar listesinden çıkarılır (KİGT 28.1.1.3/d)
@@ -75,7 +75,7 @@ bildirimini alır almaz şikâyet et.
 | 7 | **Sirayet hatası** | Şahıs şirketi / sermaye şirketi ayrımı, yarıdan fazla pay şartı, karar tarihindeki ortaklık yapısı | 4734 m.58/2; KİGT 28.1.9.4 `[soorgla]` |
 | 8 | **Kamu davası** | Hakkında kamu davası açılmışsa idari yasaklama ve gelir kaydı yapılmaz (katıldığı ihalede) | KİGT 28.1.9.3 `[soorgla]` |
 
-"Kusuru bulunmayan" ifadesi 4734 m.58'de geçmiyor; briefteki varsayım metinle doğrulanmadı.
+"Kusuru bulunmayan" ifadesi 4734 m.58'de geçmiyor; briefteki varsayım metinle doğrulanmadı. 
 
 ## 5. Yasaklama sürerken
 

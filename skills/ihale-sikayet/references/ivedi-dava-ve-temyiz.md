@@ -43,16 +43,16 @@ Kaynak: 4734 m.57; 2577 m.8, 20/A, 45/8, 61, 62 — 2026-11-01'de `legal_get_sta
   İdare Mahkemelerinde dava yolu açık olmak üzere" ibaresini taşıyor (ör. KİK 2026/MK-240, 16.07.2026) `[soorgla]`.
   Yetki kuralının kanun dayanağı: özel kanunda yetkili mahkeme gösterilmemişse yetkili mahkeme işlemi yapan idari
   merciin bulunduğu yer idare mahkemesidir (İYUK m.32/1) `[soorgla]`; Kurumun merkezi Ankara'dadır (4734 m.53/a)
-  `[soorgla]`.
+  `[soorgla]`. 
 - **Davalı:** Kamu İhale Kurumu. İhaleyi yapan idare ve ihale üzerinde kalan istekli davaya katılabilir: İYUK'ta
   hüküm bulunmayan "üçüncü şahısların davaya katılması" ve davanın ihbarında HMK uygulanır, ihbar re'sen yapılır
   (İYUK m.31/1) `[soorgla]`; katılanın menfaat ilişkisi `[incele]`.
- Kurul'da dava açma ve kanun yolundan vazgeçme yetkisi Kurul'a aittir (4734 m.53/c) `[soorgla]`.
+   Kurul'da dava açma ve kanun yolundan vazgeçme yetkisi Kurul'a aittir (4734 m.53/c) `[soorgla]`.
 - **Kim dava açar:** itirazen şikâyeti reddedilen istekli; düzeltici işlem/iptal kararından zarar gören diğer istekli
   (ör. ihale üzerinde kalan) `[incele — menfaat ilişkisi]`; idare `[incele]`.
 - **Daire:** görülen güncel Kurul kararı temyizleri Danıştay **13. Daire**'de (2023-2024 kararları, `legal_search_cases`
   danistay) `[soorgla]`; iş bölümünü güncel Danıştay Başkanlar Kurulu kararından teyit et `[doğrula]`.
-
+  
 - Harç: `legal_calculate_court_fee` ya da `legal_get_social_parameters` (`harc_basvurma_asliye`,
   `harc_temyiz_danistay`); tutar metne yazılmaz.
 
@@ -62,10 +62,10 @@ Kaynak: 4734 m.57; 2577 m.8, 20/A, 45/8, 61, 62 — 2026-11-01'de `legal_get_sta
 - `legal_calculate_deadline` `kural_kodu: "kik_lawsuit"` (canlı; 30 gün). Adli tatile rastlarsa araç 7 gün uzatır ama
   **"GÜVENLİ SON GÜN (uzatmasız)"** satırını da verir; ivedi davalarda m.8/3 uzamasının uygulanıp uygulanmadığı
   doğrulanmadı `[doğrula]` → **güvenli günü esas al** (`sure-zinciri.md` §2).
-
+  
 - Temyiz (15 gün), temyize cevap ve savunma (15 gün) kodları (`kik_lawsuit_cassation`, `kik_lawsuit_cassation_response`,
   `kik_lawsuit_defense`) canlı (adli tatil bayrağı açık); güvenli günü esas al, araç yanıt vermezse elle say,
-  `legal_check_holiday`, `[incele]`. Genel `iyuk_cassation` (30 gün) kodunu **kullanma** 🔴.
+  `legal_check_holiday`, `[incele]`.  Genel `iyuk_cassation` (30 gün) kodunu **kullanma** 🔴.
 
 ## 5. Yürütmenin durdurulması (YD) stratejisi
 

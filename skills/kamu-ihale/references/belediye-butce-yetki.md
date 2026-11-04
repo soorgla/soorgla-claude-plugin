@@ -14,9 +14,9 @@ kiracı olarak kiralama) 4734 uygulanır ve KİK yolu açıktır. Belediye **gel
 kiraya veriyor, trampa ediyor) 2886 uygulanır, KİK yolu yoktur. 2886 ayrıntısı → [devlet-ihale-2886.md](devlet-ihale-2886.md).
 
 - Hizmet tanımı "taşınır ve taşınmaz mal ve hakların kiralanmasını" kapsar; mal tanımı "taşınır ve taşınmaz mal ve
-  hakları" kapsar `[soorgla]`. Yani belediyenin **kiracı** olduğu kiralama ve **taşınmaz satın alması** 4734 işidir.
+  hakları" kapsar `[soorgla]`. Yani belediyenin **kiracı** olduğu kiralama ve **taşınmaz satın alması** 4734 işidir. 
 - 4734'te taşınmaz alımı ya da kiralanması doğrudan temin hâlidir: "İdarelerin ihtiyacına uygun taşınmaz mal alımı
-  veya kiralanması" (m.22/1-e) `[soorgla]`.
+  veya kiralanması" (m.22/1-e) `[soorgla]`. 
 
 ---
 
@@ -26,15 +26,15 @@ kiraya veriyor, trampa ediyor) 2886 uygulanır, KİK yolu yoktur. 2886 ayrıntı
 
 | Kural | Metin (özet) | Dayanak |
 |---|---|---|
-| Ödenek şartı | "Ödeneği bulunmayan hiçbir iş için ihaleye çıkılamaz." Kanun metninde bu cümleye açık bir istisna yok. | 4734 m.5 `[soorgla]` |
-| Bütçe dışı harcama | Belediye bütçesi mali yıl ve izleyen iki yılın gelir-gider tahminini gösterir; "Bütçe dışı harcama yapılamaz." | 5393 m.61 `[soorgla]` |
-| Ödenek sınırı | Harcama yetkilileri bütçede öngörülen ödenek kadar harcama yapabilir. | 5018 m.31 son fıkra `[soorgla]` |
-| Harcama talimatı | Harcama talimatında hizmet gerekçesi, işin konusu ve tutarı, süresi, **kullanılabilir ödenek**, gerçekleştirme usulü ve görevliler yazılır. | 5018 m.32 `[soorgla]` |
-| Bütçe kabulü | Meclis bütçeyi yılbaşından önce kabul eder; bütçe kesinleşmemişse geçen yıl bütçesi uygulanır. | 5393 m.62, m.66 `[soorgla]` |
+| Ödenek şartı | "Ödeneği bulunmayan hiçbir iş için ihaleye çıkılamaz." Kanun metninde bu cümleye açık bir istisna yok. | 4734 m.5 `[soorgla]`  |
+| Bütçe dışı harcama | Belediye bütçesi mali yıl ve izleyen iki yılın gelir-gider tahminini gösterir; "Bütçe dışı harcama yapılamaz." | 5393 m.61 `[soorgla]`  |
+| Ödenek sınırı | Harcama yetkilileri bütçede öngörülen ödenek kadar harcama yapabilir. | 5018 m.31 son fıkra `[soorgla]`  |
+| Harcama talimatı | Harcama talimatında hizmet gerekçesi, işin konusu ve tutarı, süresi, **kullanılabilir ödenek**, gerçekleştirme usulü ve görevliler yazılır. | 5018 m.32 `[soorgla]`  |
+| Bütçe kabulü | Meclis bütçeyi yılbaşından önce kabul eder; bütçe kesinleşmemişse geçen yıl bütçesi uygulanır. | 5393 m.62, m.66 `[soorgla]`  |
 
 ### 1.2 Yılı aşan işler: 4734 m.62
 
-4734 m.62'deki kurallar "ihaleye çıkılmadan önce" uyulması zorunlu kurallardır `[soorgla]`:
+4734 m.62'deki kurallar "ihaleye çıkılmadan önce" uyulması zorunlu kurallardır `[soorgla]`: 
 
 - **(a) Birden fazla yılı kapsayan işler:**
   - Yıllar itibarıyla ödeneğin bütçede bulunmasını sağlayacak **programlama** yapılmış olmalıdır.
@@ -73,11 +73,12 @@ kiraya veriyor, trampa ediyor) 2886 uygulanır, KİK yolu yoktur. 2886 ayrıntı
     uygulanmaz kılar `[soorgla]`. Hizmeti belediye şirketinin **kendi işçisiyle** yürütmesi (375 sayılı KHK geçici
     maddeleriyle şirkete geçen işçiler) yolu `[model bilgisi — doğrulayın]`; şirketin de m.62/e-1 kapsamında olduğunu
     unutma — şirketin bu işi kendi bütçesinden **hizmet alımıyla** gördürmesi de yasaktır `[incele]`.
+  
 
 ### 1.3 Yılı aşan yüklenme: 5018 m.28 belediyeye uygulanır mı?
 
 - **5018 m.28'in birinci ve beşinci fıkraları merkezi yönetim idareleri içindir.** Beşinci fıkradaki üç yıl / üst
-  yönetici onayı rejimi bunlardan biridir `[soorgla]`.
+  yönetici onayı rejimi bunlardan biridir `[soorgla]`. 
 - **Altıncı fıkra (6552 ek) "genel yönetim kapsamındaki" idareleri sayar,** ama yalnız **4734 m.62/1-e kapsamındaki**
   (personel çalıştırılmasına dayalı) sürekli hizmet alımları için üç yıllık yüklenme süresi koyar `[soorgla]`.
   - Belediye bu işleri m.62/e-1 uyarınca **zaten alamaz** (§1.2). Bu yüzden fıkranın belediyede pratik uygulama alanı
@@ -92,11 +93,11 @@ kiraya veriyor, trampa ediyor) 2886 uygulanır, KİK yolu yoktur. 2886 ayrıntı
     seçimlerini izleyen altıncı ayın sonunu geçmemesidir.
   - **Sonuç:** Kurul kararı iptal edildi.
   - **Önerme–alıntı kontrolü:** "5018 sayılı Kanun'un 28. maddesinin 5. fıkrası kapsamında değerlendirilmesi mümkün
-    olmadığından" — tam metin okundu.
+    olmadığından" — tam metin okundu. 
 
 ### 1.4 Belediyede yılı aşan hizmet: 5393 m.67 = meclis kararı
 
-Kural ve metin `[soorgla]`:
+Kural ve metin `[soorgla]`: 
 
 - **Kural:** belediyede **belediye meclisinin**, bağlı kuruluşta **yetkili organın** kararı ile sayılan işler
   ihale yoluyla üçüncü kişilere gördürülebilir. Süre, **ilk mahalli idareler genel seçimlerini izleyen altıncı ayın
@@ -127,9 +128,9 @@ Değerlendirme:
   kararı bulunamadı `[incele]`.
 - **İl özel idaresi:** il genel meclisinin kararı gerekir; liste daha dardır (park, bahçe, havuz bakımı; araç
   kiralama, kontrollük, temizlik, yemek; teknolojik ürün bakım-onarımı). Süre sınırı seçimleri izleyen **üçüncü ayın**
-  sonudur (5302 m.50) `[soorgla]`.
+  sonudur (5302 m.50) `[soorgla]`. 
 - **Büyükşehir:** 5216'da ayrı bir yüklenme maddesi yok. 5216 m.28'e göre Belediye Kanunu, 5216'ya aykırı olmayan
-  ölçüde büyükşehir ve ilçe belediyelerine de uygulanır; m.67 buradan gelir `[soorgla]`.
+  ölçüde büyükşehir ve ilçe belediyelerine de uygulanır; m.67 buradan gelir `[soorgla]`. 
 
 ### 1.5 Ödenek yetmiyorsa: aktarma, ek ödenek, yedek ödenek
 
@@ -147,7 +148,7 @@ Değerlendirme:
 - **Kanun "fonksiyonel", yönetmelik (2024'ten beri) "program" sınıflandırması diyor.** Hangi düzeyin meclise
   gideceğini ilgili yılın bütçe kararnamesi ve sınıflandırmasıyla birlikte kontrol et `[incele]`.
 - **5018 m.21 (%20 aktarma kuralı) merkezi yönetim idareleri içindir;** belediye için dayanak 5393 ve yönetmeliktir
-  `[soorgla]`.
+  `[soorgla]`. 
 - **Aktarma ya da ek ödenek kararı ihale onayından önce kesinleşmiş olmalı.** Büyükşehir ilçe belediyesinde aktarmaya
   ilişkin meclis kararı bütçe kararları gibi kesinleşir (Yön. m.36/3). Kesinleşme beklenmeden onay belgesi
   düzenlenmesi 🟠 `[incele]`.
@@ -165,11 +166,11 @@ Değerlendirme:
   - Belediyede 4734 ihalesinin olağan ihale yetkilisi **birim müdürüdür**, başkan değil.
   - Mahalli idarelerde harcama yetkisi, belirleme güçlüğü olan idarelerde İçişleri ya da Çevre ve Şehircilik
     Bakanlığının uygun görüşüyle üst yöneticiye veya onun belirleyeceği kişilere verilebilir (5018 m.31/2).
-  - Somut belediyedeki harcama yetkilisi listesini iste `[incele]`.
+  - Somut belediyedeki harcama yetkilisi listesini iste `[incele]`. 
 - **İhale komisyonunu ihale yetkilisi görevlendirir:** en az beş ve tek sayıda üye; ikisi işin uzmanı; biri muhasebe
-  veya mali işler personeli (4734 m.6). Meclis ya da encümen kararı gerekmez `[soorgla]`.
+  veya mali işler personeli (4734 m.6). Meclis ya da encümen kararı gerekmez `[soorgla]`. 
 - **Komisyon kararı:** ihale yetkilisi karar tarihini izleyen en geç **beş iş günü** içinde onaylar ya da gerekçeyle
-  iptal eder. Onaylanmayan ihale hükümsüzdür (4734 m.40) `[soorgla]`.
+  iptal eder. Onaylanmayan ihale hükümsüzdür (4734 m.40) `[soorgla]`. 
 - **Doğrudan temin (m.22):** ihale komisyonu ve yeterlik kuralı aranmaz. İhale yetkilisinin görevlendirdiği kişi
   piyasa fiyat araştırması yapar `[soorgla]`.
 - **Başkanın yetkisi:** başkan "yetkili organların kararını almak şartıyla sözleşme yapar" (5393 m.38/g). Meclis ya
@@ -177,7 +178,7 @@ Değerlendirme:
   - Meclis ya da encümen kararı gerektiren bir unsur yoksa (bkz. matris) tek yıllık mal, hizmet ve yapım alımında
     ihale yetkilisinin **onay belgesi yeter**.
   - Bu sonuç 5393 m.38/p'nin artık (kalan) yetki kuralından çıkarılmıştır. Doğrudan bunu söyleyen bir karar
-    çekilmedi `[incele]`.
+    çekilmedi `[incele]`. 
 - **Kurul kararıyla yapılan harcama:** kanun ya da CBK yetkisine dayanan kurul kararıyla yapılan harcamada harcama
   yetkisinden doğan sorumluluk **kurula** aittir (5018 m.31/3). Encümen kararıyla yapılan harcamalarda bu hüküm
   Sayıştay sorumluluk haritasını değiştirir `[incele]` → `../../kamu-mali-denetim-sayistay/SKILL.md`.
@@ -196,7 +197,7 @@ Değerlendirme:
 
 - **5393 m.67:** yılı aşan hizmet yüklenmesi için meclis kararı (§1.4).
 - **İmtiyaz:** su, toplu taşıma ve katı atık hizmetlerinin imtiyaz yoluyla devri için **Danıştay görüşü** ve Çevre ve
-  Şehircilik Bakanlığının kararı gerekir; süre en çok 49 yıldır (5393 m.15, sondan önceki fıkralar) `[soorgla]`.
+  Şehircilik Bakanlığının kararı gerekir; süre en çok 49 yıldır (5393 m.15, sondan önceki fıkralar) `[soorgla]`. 
 
 ### 2.3 Encümenin ihaleyle ilgili yetkileri (5393 m.34, 35) `[soorgla]`
 
@@ -208,7 +209,7 @@ Değerlendirme:
 - **2886 ihalelerinde ihale komisyonu encümendir.** "İl özel idarelerine ait ihaleler, il daimi encümenince,
   belediyelere ait ihaleler belediye encümenince bu Kanun hükümlerine göre yürütülür." (2886 m.13). Encümen bu
   toplantılarda üye tam sayısının salt çoğunluğuyla toplanır, katılanların salt çoğunluğuyla karar verir; çekimser oy
-  yoktur (5393 m.35) `[soorgla]`.
+  yoktur (5393 m.35) `[soorgla]`. 
 - **2886'da ihale yetkilisi ita amiridir** (2886 m.3) `[soorgla]`. Onay süresi ve ayrıntı →
   [devlet-ihale-2886.md](devlet-ihale-2886.md) §4.
 
@@ -222,13 +223,13 @@ Değerlendirme:
   - Bütçe büyükşehir meclisinde ilçe bütçeleriyle birlikte görüşülür (m.25).
   - **2886 dışı devir:** büyükşehir belediyesi sosyal tesis, büfe, otopark, çay bahçesi, hafriyat sahası ve toplu
     ulaşım hizmetlerinin işletilmesini, %50'sinden fazlasına ortak olduğu şirketlere **2886'ya tabi olmadan meclisçe
-    belirlenecek süre ve bedelle** devredebilir. Şirketin üçüncü kişilere devri 2886'ya tabidir (m.26) `[soorgla]`.
+    belirlenecek süre ve bedelle** devredebilir. Şirketin üçüncü kişilere devri 2886'ya tabidir (m.26) `[soorgla]`. 
 - **İl özel idaresi (5302):**
   - **İl genel meclisi** karar verir (m.10): borçlanma (d), taşınmaz alımı-satımı-trampası-tahsisi, **üç yıldan fazla
     kiralama**, en çok 25 yıl sınırlı ayni hak (f), imtiyaz ve YİD (i).
   - **Encümen** karar verir (m.26): kamulaştırma (b), ikinci düzey aktarma (d), satış-trampa-tahsis kararlarını
     uygulama ve **üç yılı geçmeyen kiralama** (g).
-  - Yılı aşan hizmet: m.50 (§1.4) `[soorgla]`.
+  - Yılı aşan hizmet: m.50 (§1.4) `[soorgla]`. 
 - **Belediyeye bağlı kuruluş** (su ve kanalizasyon idaresi, ulaşım genel müdürlüğü vb.):
   - 5393 m.67'deki karar "yetkili organ"ındır (kuruluş kanununa göre genel kurul ya da yönetim kurulu) `[soorgla]`.
   - Organın hangisi olduğunu kuruluşun kendi kanunundan çek `[incele]`.
@@ -269,7 +270,7 @@ MİBMY = Mahalli İdareler Bütçe ve Muhasebe Yönetmeliği. Borçlanma ayrınt
 programındaki projeler için yapılır. İç borçlanmada en son kesinleşmiş bütçe gelirlerinin yeniden değerleme oranıyla
 artırılmış tutarının yılda **%10'una kadarı meclis kararıyla** alınır. **Üstü için meclis üye tam sayısının salt
 çoğunluğu ve Bakanlık onayı** gerekir `[soorgla]`. Usule aykırı borçlanmada görevi kötüye kullanma hükümleri
-uygulanır. Sayısal tavanları her seferinde
+uygulanır.  Sayısal tavanları her seferinde
 madde metninden ve bütçe verisinden çek `[doğrula]`.
 
 ---
@@ -279,9 +280,9 @@ madde metninden ve bütçe verisinden çek `[doğrula]`.
 ```
 1. İşlem belediyeye gelir mi getiriyor (satış, kiraya verme, trampa)?
    ├─ Evet → 2886. Encümen ihale komisyonudur (2886 m.13).
-   │ ├─ Satış / trampa / >3 yıl kira → önce MECLİS kararı (5393 m.18/e) → encümen uygular.
-   │ └─ ≤3 yıl kira → ENCÜMEN kararı yeter (5393 m.34/g).
-   │ → KİK yolu yok; ayrıntı devlet-ihale-2886.md
+   │    ├─ Satış / trampa / >3 yıl kira → önce MECLİS kararı (5393 m.18/e) → encümen uygular.
+   │    └─ ≤3 yıl kira → ENCÜMEN kararı yeter (5393 m.34/g).
+   │    → KİK yolu yok; ayrıntı devlet-ihale-2886.md
    └─ Hayır (para harcanıyor) → 4734. Devam:
 1a. Hizmet personel çalıştırılmasına dayalı mı? (4734 m.62/e-2: personel sayısı dokümanda, tüm mesai idareye,
     ≥%70 işçilik, süreklilik; yıl boyu park-bahçe / çöp / cadde-sokak temizliği kanunen evet)
@@ -319,7 +320,7 @@ madde metninden ve bütçe verisinden çek `[doğrula]`.
 - [ ] **Harcama talimatı** 5018 m.32 unsurlarını taşıyor mu (gerekçe, konu, tutar, süre, kullanılabilir ödenek,
   usul, görevliler)?
 - [ ] **İhale onay belgesi** ihale yetkilisince imzalandı mı? Yaklaşık maliyet hesap cetveli ekinde mi (ör. hizmette
-  HAİUY m.7, m.9/3)? Belge unsurları → `../../ihale-belgeleri/SKILL.md` `[soorgla]`.
+  HAİUY m.7, m.9/3)? Belge unsurları → `../../ihale-belgeleri/SKILL.md` `[soorgla]`. 
 - [ ] **Ödenek** doğru tertipte ve yeterli mi; yılı aşıyorsa yıllara dağılım tablosu ve ilk yıl ≥%10 (4734 m.62/a)?
 - [ ] **Aktarma ya da ek ödenek kararı** gerekiyorsa organı doğru mu (§1.5) ve **kesinleşti mi**?
 - [ ] **Meclis ya da encümen kararı** gerekiyorsa (matris):
@@ -346,9 +347,9 @@ madde metninden ve bütçe verisinden çek `[doğrula]`.
       verilmesi ihalesi. Meclis kararı alınmadan, meclisçe encümene yetki verilmeden encümen kararıyla ihaleye
       çıkılması hukuka aykırı bulundu; iptal onandı. Tam metin okundu. Önerme–alıntı: "belediye meclisince S plaka
       kullanım hakkının kiralanması için ihaleye çıkılmasına yönelik karar alınmadığı ya da belediye encümenine …
-      yetki verilmediği" `[soorgla]`.
+      yetki verilmediği" `[soorgla]`. 
     - **Danıştay 13. D., E.2016/4991, K.2020/1387 (16.06.2020):** 5 yıllık kiralama ihalesini encümenin yapması
-      yetki yönünden hukuka aykırı bulundu; yetki meclisindir `[soorgla]`.
+      yetki yönünden hukuka aykırı bulundu; yetki meclisindir `[soorgla]`. 
     - **Danıştay 13. D., E.2019/4000, K.2020/656:** meclisin 5 yıllık kiralamaya karar verip encümeni yetkili
       kılması örneği. Yalnız arama özeti okundu `[soorgla]` `[incele]`.
   - **Ayrım:** 3 yılı geçmeyen taşınmaz kirasında encümen yetkilidir. K.2025/222'deki iptal, konunun "taşınmaz
@@ -372,7 +373,7 @@ madde metninden ve bütçe verisinden çek `[doğrula]`.
 
 | Bulgu | Karar | Okuma durumu |
 |---|---|---|
-| Sürekli nitelikteki avukatlık/danışmanlık hizmetinin 22/b doğrudan teminle, fiyat araştırması yapılmadan 11 yıl alınması; süreklilik arz eden alım doğrudan teminle yapılamaz (4734 m.62/b), tazmin tasdik | Sayıştay 7. Daire, K.48785, 14.06.2023 (Temyiz) `[soorgla]` | Tam metin okundu (kesik); 5393 m.67'ye değinen pasaj yalnız arama özetinde |
+| Sürekli nitelikteki avukatlık/danışmanlık hizmetinin 22/b doğrudan teminle, fiyat araştırması yapılmadan 11 yıl alınması; süreklilik arz eden alım doğrudan teminle yapılamaz (4734 m.62/b), tazmin tasdik | Sayıştay 7. Daire, K.48785, 14.06.2023 (Temyiz) `[soorgla]` | Tam metin okundu (kesik); 5393 m.67'ye değinen pasaj yalnız arama özetinde  |
 | Belediye meclisinin taşınmaz kiralayıp başka kamu idaresine tahsisinin mevzuata uygun olmaması | Sayıştay 5. Daire, K.45455, 25.01.2023 `[soorgla]` | Yalnız arama özeti `[incele]` |
 | Taşınmaz tahsisinden doğan kamu zararında meclis ve encümen kararlarını imzalayanların sorumluluğu (5393 m.18/e) | Sayıştay 6. Daire, K.46023, 15.09.2021 `[soorgla]` | Yalnız arama özeti `[incele]` |
 
@@ -416,24 +417,24 @@ madde metninden ve bütçe verisinden çek `[doğrula]`.
 ## MCP adımları
 
 ```
-legal_get_statute_article law_no: "4734" law_type: "Kanun" article_no: "4" | "5" | "6" | "22" | "40" | "62"
-legal_get_statute_article law_no: "5018" law_type: "Kanun" article_no: "21" | "28" | "31" | "32"
-legal_get_statute_article law_no: "5393" law_type: "Kanun" article_no: "15" | "18" | "34" | "35" | "38" | "63"
-legal_list_statute_articles law_no: "5393" law_type: "Kanun" offset: 60 limit: 10 include_content: true # m.61-70 (bütçe, m.67, m.68)
-legal_get_statute_article law_no: "5216" law_type: "Kanun" article_no: "18" | "26" # m.16, 25, 28: legal_list_statute_articles
-legal_get_statute_article law_no: "5302" law_type: "Kanun" article_no: "10" | "26" # m.50: article_query "gelecek yıllara yaygın"
-legal_get_statute_article law_no: "2886" law_type: "Kanun" article_no: "3" | "13"
-legal_list_statute_articles statute_id: 42152 section: "BEŞİNCİ BÖLÜM: Ödenek Kullanımı ve Bütçede Yapılacak Değişiklikler" include_content: true
-legal_search_cases mahkeme: "danistay" sorgu: "<belediye encümen yetkisi kiralama meclis kararı | 5393 67 gelecek yıllara yaygın>" tarih_baslangic: "<son 3 yıl>"
-legal_search_cases mahkeme: "sayistay" sorgu: "<meclis kararı olmadan … kamu zararı>"
-legal_search_cases mahkeme: "kik" sorgu: "<işin süresi 5393 67 5018 28 ödenek>"
-legal_get_case_document belge_id: "<seçilen karar>"
+legal_get_statute_article  law_no: "4734"  law_type: "Kanun"  article_no: "4" | "5" | "6" | "22" | "40" | "62"
+legal_get_statute_article  law_no: "5018"  law_type: "Kanun"  article_no: "21" | "28" | "31" | "32"
+legal_get_statute_article  law_no: "5393"  law_type: "Kanun"  article_no: "15" | "18" | "34" | "35" | "38" | "63"
+legal_list_statute_articles  law_no: "5393"  law_type: "Kanun"  offset: 60  limit: 10  include_content: true   # m.61-70 (bütçe, m.67, m.68)
+legal_get_statute_article  law_no: "5216"  law_type: "Kanun"  article_no: "18" | "26"        # m.16, 25, 28: legal_list_statute_articles
+legal_get_statute_article  law_no: "5302"  law_type: "Kanun"  article_no: "10" | "26"        # m.50: article_query "gelecek yıllara yaygın"
+legal_get_statute_article  law_no: "2886"  law_type: "Kanun"  article_no: "3" | "13"
+legal_list_statute_articles  statute_id: 42152  section: "BEŞİNCİ BÖLÜM: Ödenek Kullanımı ve Bütçede Yapılacak Değişiklikler"  include_content: true
+legal_search_cases  mahkeme: "danistay"  sorgu: "<belediye encümen yetkisi kiralama meclis kararı | 5393 67 gelecek yıllara yaygın>"  tarih_baslangic: "<son 3 yıl>"
+legal_search_cases  mahkeme: "sayistay"  sorgu: "<meclis kararı olmadan … kamu zararı>"
+legal_search_cases  mahkeme: "kik"  sorgu: "<işin süresi 5393 67 5018 28 ödenek>"
+legal_get_case_document  belge_id: "<seçilen karar>"
 ```
 
 Bilinen tuzaklar:
 
 - **Mahalli İdareler Bütçe ve Muhasebe Yönetmeliği** `law_no: "21552"`, `statute_id: 42152` ile çözülür (526 madde).
-  `article_no: "36"` önek eşleşmesiyle 15 sonuç döndürür; bölüm filtresi daha temizdir.
+  `article_no: "36"` önek eşleşmesiyle 15 sonuç döndürür; bölüm filtresi daha temizdir. 
 - **5216'nın kendi meclis ve encümen görev maddesi yoktur;** 5393'ten çek.
 
 ---

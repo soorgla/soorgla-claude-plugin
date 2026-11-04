@@ -20,7 +20,7 @@ Fatura ya da makbuz KDV'si (dahil/hariç), oran seçimi, kısmi veya tam tevkifa
 
 ```json
 { "hesap": "fatura_kirilim",
-  "girdi": { "tutar": "<tutar>", "tutar_turu": "kdv_haric", "kdv_orani": "<ondalık oran; had sonucundan>", "tevkifat": "2.1.3.2.10" },
+  "fatura_kirilim": { "tutar": "<tutar>", "tutar_turu": "kdv_haric", "kdv_orani": "<ondalık oran; had sonucundan>", "tevkifat": "2.1.3.2.10" },
   "tarih": "<işlem tarihi YYYY-AA-GG>" }
 ```
 (Sayısal alanlara sayı ver; oranı ondalık yaz, ör. yüzde değil `0,xx` biçiminde. Oranı kullanıcıdan ya da `had` hesabından al.)
@@ -29,7 +29,7 @@ Fatura ya da makbuz KDV'si (dahil/hariç), oran seçimi, kısmi veya tam tevkifa
 - `kdv_orani` verilmezse araç **tarihteki genel oranı** kullanır. İndirimli orana tabi işlemde mutlaka ver; oranı `had` hesabıyla ya da CB kararından çek.
 - `tevkifat`: KDV GUT bölüm numarası (`2.1.3.2.1` … `2.1.3.2.15`, `2.1.3.3.1` … `2.1.3.3.8`; yük ve servis taşımacılığında `2.1.3.2.11.yuk` / `2.1.3.2.11.servis`). Hangi bölümün var olduğunu bilmiyorsan yanlış bir bölümle çağır; araç örnek listeyle hata döndürür.
 - Yanıt: `kdv_haric`, `kdv`, `kdv_dahil`, `tevkif_edilen_kdv`, `saticiya_odenecek_kdv`, `net_odenecek`; `ara_degerler.tevkifat` içinde oran (pay/10), sınır ve `sinir_altinda`.
-- Oran sorusu tek başınaysa: `{"hesap":"had","girdi":{"ara":"kdv"},"tarih":"…"}`.
+- Oran sorusu tek başınaysa: `{"hesap":"had","had":{"ara":"kdv"},"tarih":"…"}`.
 
 **Araç sınırları (koddan):**
 - Tevkifat yalnız **KDV dahil bedel VUK 232 fatura sınırını aşarsa** uygulanır; altında kalırsa tevkif sıfır döner ve uyarı yazar. 1.1–29.2.2024 arasında sınır sabit tutardı; araç orada da VUK 232 tutarını kullanır ve uyarır.

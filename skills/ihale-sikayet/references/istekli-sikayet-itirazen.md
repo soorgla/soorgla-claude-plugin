@@ -98,13 +98,14 @@ Sıra:
    `ihale_itirazen_sikayet_bedeli_1` … `_4`. Bu kalemler yalnız **güncel dönemi** verir (2026-11-01'de `donem_basi`
    2026-02-01, dayanak KİK Tebliği 2026/1) `[soorgla]`.
 3. **Dönem:** brifing ve Kurum uygulaması gereği **ilan tarihinin dönemine** göre al `[doğrula — Kamu İhale Tebliği
-   geçiş hükmü bu turda okunmadı]`. İlan 1 Şubat'tan önceyse o yılın tebliğini `legal_search_official_gazette`
+   geçiş hükmü bu turda okunmadı]` . İlan 1 Şubat'tan önceyse o yılın tebliğini `legal_search_official_gazette`
    (`query: "Kamu İhale Tebliği"`, `search_in: "title"`, `sort_by: "date_desc"`) ile çek.
 4. **Yaklaşık maliyet bilinmiyor ve sorgulama yapılamıyorsa:** işin niteliğine göre **en yüksek tutar** yatırılır,
    fazlası Kurumca iade edilir (12766 m.8/7) `[soorgla]`.
 5. Kısmi teklife açık ihalede bedel ve iade başvuruya konu kısmın yaklaşık maliyetine göre (12766 m.18/A-3) `[soorgla]`.
 6. Başvuru teminatı: Cumhurbaşkanı kararıyla bedelin dört katına kadar istenebilir (m.54) `[soorgla]`; yürürlükte bir
    karar olup olmadığı doğrulanamadı `[doğrula]`.
+   
 
 ## 6. Bedel iadesi — haklılık oranı (4734 m.53/j 4. paragraf, 7571/11; 12766 m.18/A, m.22/1-f)
 
@@ -116,7 +117,7 @@ Sıra:
 - Kurul kararı iade edilip edilmeyeceğini, haklılık oranını ve tutarı gösterir (12766 m.22/1-f) `[soorgla]`.
 - **Talep:** Kurul kararının bildiriminden **30 gün** içinde Kuruma **yazılı talep**; Kurum 15 gün içinde öder, gecikirse
   kanuni faiz (m.53/j) `[soorgla]`. Süre Kanundadır; 12766 m.18/A iade talebine ayrıca süre koymaz.
- Yönetmelik "başvuru sahibinin talebi halinde" der (m.18/A-1); talebi dilekçede de
+   Yönetmelik "başvuru sahibinin talebi halinde" der (m.18/A-1); talebi dilekçede de
   yazmak ve kararı bekleyip 30 gün içinde ayrıca yazılı istemek güvenli yoldur `[incele]`.
 
 Örnek senaryo (tutarsız, yalnız oran): 4 iddia, 1'inde haklı → %25 iade; 4 hususu tek iddiada toplamak sonucu

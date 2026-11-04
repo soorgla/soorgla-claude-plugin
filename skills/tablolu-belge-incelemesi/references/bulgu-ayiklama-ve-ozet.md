@@ -31,7 +31,7 @@ Veri odası (sanal veri odası, paylaşılan klasör, e-posta ekleri) dizinini �
 - **Fikri mülkiyet:** sahiplik zinciri (çalışan ve yazılımcı devirleri), açık kaynak, lisanslı mı sahipli mi, bekleyen uyuşmazlık.
 - **İş:** kontrol değişikliğine bağlı ödemeler, kilit çalışan, bekleyen davalar, işçi statüsü riski (serbest çalışan görünümlü işçi).
 - **Uyuşmazlıklar:** bekleyen dava ve icra takipleri, karşılıklar, ihtarlar, idari soruşturmalar (Rekabet, KVKK, vergi incelemesi).
-- **Halef sorumluluğu:** malvarlığı/işletme devrinde devralanın borçlardan sorumluluğu ve önceki borçlunun iki yıllık müteselsil sorumluluğu — TBK m.202 `[soorgla]`; devralınan/devralınmayan borçlar ekinin bilinen riskleri kapsayıp kapsamadığı `[incele]`.
+- **Halef sorumluluğu:** malvarlığı/işletme devrinde devralanın borçlardan sorumluluğu ve önceki borçlunun iki yıllık müteselsil sorumluluğu — TBK m.202 `[soorgla]` ; devralınan/devralınmayan borçlar ekinin bilinen riskleri kapsayıp kapsamadığı `[incele]`.
 
 ## 3. Bulgu biçimi
 

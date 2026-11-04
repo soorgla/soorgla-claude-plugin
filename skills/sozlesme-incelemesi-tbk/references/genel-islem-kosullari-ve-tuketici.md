@@ -18,7 +18,7 @@ Matbu, standart ya da "kabul et" türü sözleşmelerde içerik denetimi; karş�
 | Yaptırım | Bilgilendirme ve kabul yoksa ya da sözleşmenin niteliğine yabancıysa **yazılmamış sayılır**; içerik denetiminde dürüstlüğe aykırı ağırlaştırıcı hüküm konamaz | **Kesin hükümsüz**; sözleşmenin geri kalanı ayakta kalır |
 | İspat | "Her madde tartışılarak kabul edildi" kaydı tek başına GİK olmaktan çıkarmaz | Standart şartın münferiden müzakere edildiğini düzenleyen ispat eder |
 
-Tüketici sözleşmesinde iki rejim birlikte işletilir; önce 6502'yi uygula, sonra TBK GİK süzgecini ekle. Tüketici tanımını (ticari veya mesleki olmayan amaçla hareket eden gerçek ya da tüzel kişi) madde metninden çek.
+Tüketici sözleşmesinde iki rejim birlikte işletilir; önce 6502'yi uygula, sonra TBK GİK süzgecini ekle. Tüketici tanımını (ticari veya mesleki olmayan amaçla hareket eden gerçek ya da tüzel kişi) madde metninden çek. 
 
 ## 2. Kontrol listesi
 
@@ -34,7 +34,7 @@ Tüketici sözleşmesinde iki rejim birlikte işletilir; önce 6502'yi uygula, s
 | GİK-SONUÇ | Yazılmamış sayılan hükmün dışındaki hükümler ayakta; düzenleyen "bu hüküm olmasa sözleşmeyi yapmazdım" diyemez | TBK m.22 | |
 | İZİNLİ-KURULUŞ | Kanun veya yetkili makam izniyle hizmet veren kuruluşların (banka, sigorta, operatör) sözleşmelerinde GİK hükümleri niteliğine bakılmaksızın uygulanır | TBK m.20/4; 6502 m.5/5 | Tacir de olsa banka sözleşmesinde GİK savunması açıktır |
 | TÜK-HAKSIZ-ŞART | Tüketiciyle müzakere edilmemiş, dengesizlik yaratan şart | 6502 m.5/1-3 | Asli edim–fiyat dengesi açık yazılmışsa haksızlık denetimine girmez (m.5/7) |
-| TÜK-YÖNETMELİK | Yönetmelikteki örnek haksız şart listesi | 6502 m.5/9; Tüketici Sözleşmelerindeki Haksız Şartlar Hakkında Yönetmelik | |
+| TÜK-YÖNETMELİK | Yönetmelikteki örnek haksız şart listesi | 6502 m.5/9; Tüketici Sözleşmelerindeki Haksız Şartlar Hakkında Yönetmelik |  |
 | TÜK-BİÇİM | Kanunda yazılı olması öngörülen sözleşme ve bilgilendirmeler en az 12 punto, anlaşılır dilde; bir nüsha kâğıtta ya da kalıcı veri saklayıcısında verilmiş mi? Eksik şart sözleşmeyi geçersiz kılmaz, düzenleyen derhâl giderir. | 6502 m.4/1 | Eski YAML "12 punto değilse geçersiz" imasındaydı; kanun eksikliğin geçerliliği etkilemediğini söyler |
 | TÜK-DEĞİŞİKLİK | Sözleşme koşulları süre içinde tüketici aleyhine değiştirilemez | 6502 m.4/2 | |
 | TÜK-EK-BEDEL | Yasal yükümlülük ya da düzenleyenin kendi menfaatine yaptığı masraflar için ek bedel istenemez | 6502 m.4/3 | Banka ücretlerinde TCMB düzenlemesi |
@@ -64,16 +64,16 @@ Tüketici sözleşmesinde iki rejim birlikte işletilir; önce 6502'yi uygula, s
 
 ## 5. MCP adımları
 ```
-legal_get_statute_article law_no: "6098" article_no: "20" | "21" | "22" | "23" | "24" | "25"
-legal_get_statute_article law_no: "6502" article_no: "3" | "4" | "5"
-legal_list_statute_articles law_no: "6502" article_no: "73" include_content: true
-legal_search_statute_semantic sorgu: "tüketici sözleşmelerinde haksız şart sayılan hükümler listesi" mevzuat_tur: "kurum_yonetmeligi"
-legal_get_social_parameters tur: "thh_parasal_sinir"
-legal_search_cases mahkeme: "yargitay" sorgu: "<ör. bankanın tek taraflı faiz artırma yetkisi veren genel işlem koşulu yazılmamış sayılır>"
+legal_get_statute_article  law_no: "6098"  article_no: "20" | "21" | "22" | "23" | "24" | "25"
+legal_get_statute_article  law_no: "6502"  article_no: "3" | "4" | "5"
+legal_list_statute_articles  law_no: "6502"  article_no: "73"  include_content: true
+legal_search_statute_semantic  sorgu: "tüketici sözleşmelerinde haksız şart sayılan hükümler listesi"  mevzuat_tur: "kurum_yonetmeligi"
+legal_get_social_parameters  tur: "thh_parasal_sinir"
+legal_search_cases  mahkeme: "yargitay"  sorgu: "<ör. bankanın tek taraflı faiz artırma yetkisi veren genel işlem koşulu yazılmamış sayılır>"
 ```
-Daire: tüketici sözleşmeleri (eser, taşıma, sigorta, bankacılık dışı) ve genel sözleşmeler güncel iş bölümünde 3. HD'dedir; eser niteliğindekiler 6. HD; bankacılık ve sigorta ayrı dairelerde. Her seferinde güncel BGK kararından teyit et.
+Daire: tüketici sözleşmeleri (eser, taşıma, sigorta, bankacılık dışı) ve genel sözleşmeler güncel iş bölümünde 3. HD'dedir; eser niteliğindekiler 6. HD; bankacılık ve sigorta ayrı dairelerde. Her seferinde güncel BGK kararından teyit et. 
 
-Emsal: matbu şartnamedeki aleyhe hükmün TBK m.21 gereği uygulanmayacağına ilişkin güncel 6. HD kararları var (ör. [Yargıtay 6. HD E.2024/321 K.2025/1867, 07.05.2025]). `[çekildi ama desteği doğrulayın]` — yalnız arama özeti okundu.
+Emsal: matbu şartnamedeki aleyhe hükmün TBK m.21 gereği uygulanmayacağına ilişkin güncel 6. HD kararları var (ör. [Yargıtay 6. HD E.2024/321 K.2025/1867, 07.05.2025]). `[çekildi ama desteği doğrulayın]` — yalnız arama özeti okundu. 
 
 ## 6. Çıktı iskeleti
 ```markdown
@@ -94,3 +94,4 @@ Emsal: matbu şartnamedeki aleyhe hükmün TBK m.21 gereği uygulanmayacağına 
 - Fiyatın yüksekliğini haksız şart denetimine sokmak (6502 m.5/7).
 
 ---
+

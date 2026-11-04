@@ -13,7 +13,7 @@ neden geçerli sayıldı? Sonuca şikâyet → `ihale-sikayet`; açıklama yazı
   yasaklılık ve kesinleşmiş vergi/SGK borcu kontrolü; uygun olmayan değerlendirme dışı (m.29.2-3).
 - [ ] **Belge eksikliği tamamlatılmaz; bilgi eksikliği tamamlatılır:** teklifin esasını değiştirmeyecek bilgi eksikliği
   idarenin belirlediği sürede yazılı istenir; tamamlamayan değerlendirme dışı, geçici teminatı **gelir kaydedilir**
-  (4734 m.37/2; Yapım Yön. m.57/5). 🔴
+  (4734 m.37/2; Yapım Yön. m.57/5). 🔴 
 - [ ] **Açıklama isteme** (m.37/1, şartname m.30): net olmayan husus için; teklif fiyatı değiştirilemez, uygun olmayan
   teklif uygun hale getirilemez.
 - [ ] Ayrıntılı değerlendirme: yeterlik kriterleri, dokümana uygunluk, birim fiyat cetvelinde **aritmetik hata** —
@@ -42,7 +42,7 @@ Hesap `sinir_deger_yapim`; yoksa elle:
 ## 3. Aşırı düşük sorgusu (idare)
 
 - [ ] Seçenek ilanda/dokümanda yazılı olan: (a) açıklama iste ya da (b) aşırı düşük teklif sınır değerinin altını
-  sorgusuz reddet; YM ≥ eşik/2'de (a) zorunlu (Yapım Yön. m.60).
+  sorgusuz reddet; YM ≥ eşik/2'de (a) zorunlu (Yapım Yön. m.60). 
 - [ ] Sorgulanacak kalemler: idarenin **sıralı iş kalemleri listesinde** YM'nin kümülatif %80'ine kadar olanlar + %80'i
   aşmaya yol açan kalem (45.1.2.1).
 - [ ] Açıklama istenmeyecek analiz girdileri: kâr ve genel gider hariç analiz toplamının **%3'üne eşit/altında** olanlar;
@@ -76,6 +76,7 @@ Hesap `sinir_deger_yapim`; yoksa elle:
   (45.1.10–45.1.12; 4734 m.38).
 - [ ] Ret gerekçesi kesinleşen kararda **hangi düzenlemeye aykırı** olduğu yazılarak bildirilir; yalnız madde atfı
   yetmez (45.1.16) — eksikse şikâyet konusu.
+  
 
 ## 5. Fiyat dışı unsur puanı ve EAAT
 
@@ -90,13 +91,13 @@ Hesap `sinir_deger_yapim`; yoksa elle:
 
 - [ ] Komisyon gerekçeli kararı (adlar, bedeller, gerekçe); ihale yetkilisi karar tarihini izleyen **5 iş günü** içinde
   onaylar ya da gerekçeyle iptal eder; onay öncesi birinci ve ikinci için **yasaklılık teyidi** (4734 m.40). Bütün
-  tekliflerin reddi ve iptal: m.39, gerekçe bildirimi (şartname m.32).
+  tekliflerin reddi ve iptal: m.39, gerekçe bildirimi (şartname m.32). 
 
 ---
 
 > **Çalışılmış örnek — İKN 2026/1776751**
 > - Şartname m.31: sınır değerin altındakilerden **açıklama istenecek** (seçenek a); N = 1,2 (m.45). Sorgu yazısı
-> geldiğinde: hangi kalemler %80'e giriyor, hangi girdiler muaf, süre en az 5 iş günü mü?
+>   geldiğinde: hangi kalemler %80'e giriyor, hangi girdiler muaf, süre en az 5 iş günü mü?
 > - FDU (m.33): RD = en düşük geçerli teklif, Ptam 60. Örnek: RD 1.000, TF 1.100 → Pfark = 100 × 60 / 1.000 = 6,
-> TP = 54; FDU puanı (≤ 40) eklenir. Gerçek tutarlarla `fiyat_disi_unsur` ile tekrarla.
+>   TP = 54; FDU puanı (≤ 40) eklenir. Gerçek tutarlarla `fiyat_disi_unsur` ile tekrarla.
 > - Tadilat kalemlerinde (boya, sıva, seramik) işçilik girdisi her zaman açıklanır; saatlik asgari ücret altı ret sebebi.

@@ -22,25 +22,25 @@ Kişisel bakım ve gözetim borcu varsa sözleşme **ölünceye kadar bakma**dı
 
 | Kod | Kontrol | Dayanak | Not |
 |---|---|---|---|
-| ŞEKİL-MİRAS | Miras sözleşmesi şekli (resmî vasiyetname usulü: resmî memur + iki tanık) | TBK m.612/1; TMK m.545, m.532 vd. | |
+| ŞEKİL-MİRAS | Miras sözleşmesi şekli (resmî vasiyetname usulü: resmî memur + iki tanık) | TBK m.612/1; TMK m.545, m.532 vd. |  |
 | ŞEKİL-KURUM | Bakım kurumunda yetkili makam koşullarına uygunsa yazılı şekil yeterli | TBK m.612/2 | |
 | TAPU | Taşınmaz devri tapu sicil müdürlüğünde resmî senetle mi? Noterdeki satış vaadi şerh edilmedikçe üçüncü kişilere karşı ayni etki doğurmaz | TMK m.706; 2644 m.26 | `[incele]` |
 | EDİM-KAPSAMI | Gıda, konut, hastalıkta bakım ve tedavi; malların değeri ve alacaklının önceki sosyal durumuna göre hakkaniyet | TBK m.614 | Sözleşmede kapsam daraltılmışsa SARI |
-| GÜVENCE | Taşınmazını devreden bakım alacaklısının kanuni ipotek hakkı | TBK m.613 | Eski YAML "TBK 613 / TMK 893" diyordu; TMK m.893 satıcı, paylaşma ve yüklenici-zanaatkâr ipoteklerini sayar, bakım alacaklısının hakkı TBK 613'ten doğar ("satıcı gibi") |
+| GÜVENCE | Taşınmazını devreden bakım alacaklısının kanuni ipotek hakkı | TBK m.613 | Eski YAML "TBK 613 / TMK 893" diyordu; TMK m.893 satıcı, paylaşma ve yüklenici-zanaatkâr ipoteklerini sayar, bakım alacaklısının hakkı TBK 613'ten doğar ("satıcı gibi")   |
 | ORANSIZLIK-FESİH | Edimler arasında önemli oransızlık ve bağış amacı ispat edilemiyorsa diğer taraf **altı ay önceden bildirerek** her zaman feshedebilir; oransızlıkta sosyal güvenlik kurumunca hesaplanan anapara değeri–irat farkı esas | TBK m.616 | |
-| BORCA-AYKIRILIK | Borca aykırılık, katlanılamaz ilişki ya da önemli sebeple derhâl fesih | TBK m.617 | |
-| İFLAS-HACİZ | Bakım borçlusunun iflası ya da haczinde alacaklının hakları | TBK m.619 | |
-| MİRASÇI-İTİRAZI | Mirasçıların tenkis ve alacaklıların itiraz hakkı; muris muvazaası iddiası | TBK m.615; 1974/1-2 İBK | → `../../aile-miras/SKILL.md` |
+| BORCA-AYKIRILIK | Borca aykırılık, katlanılamaz ilişki ya da önemli sebeple derhâl fesih | TBK m.617 |  |
+| İFLAS-HACİZ | Bakım borçlusunun iflası ya da haczinde alacaklının hakları | TBK m.619 |  |
+| MİRASÇI-İTİRAZI | Mirasçıların tenkis ve alacaklıların itiraz hakkı; muris muvazaası iddiası | TBK m.615; 1974/1-2 İBK | → `../../aile-miras/SKILL.md`  |
 
 ## 3. Kontrol listesi — ömür boyu gelir
 
 | Kod | Kontrol | Dayanak | Not |
 |---|---|---|---|
 | ŞEKİL | Yazılı değilse geçersiz | TBK m.608 | |
-| ÖMÜR | Gelir kimin ömrüne bağlı? Belirtilmemişse kural olarak alacaklının ömrü | TBK m.607 | |
-| ÖDEME-DÖNEMİ | Aksi kararlaştırılmadıkça altı ayda bir peşin; dönem sonundan önce ölümde dönemin tamamı | TBK m.609 | |
-| DEVİR | Aksi kararlaştırılmadıkça gelir alacaklısı hakkını devredebilir; devri yasaklayan kayıt var mı? | TBK m.610 | |
-| İFLAS | Gelir borçlusunun iflasında alacaklının anapara değerini masaya yazdırma hakkı | TBK m.609/3 | |
+| ÖMÜR | Gelir kimin ömrüne bağlı? Belirtilmemişse kural olarak alacaklının ömrü | TBK m.607 |  |
+| ÖDEME-DÖNEMİ | Aksi kararlaştırılmadıkça altı ayda bir peşin; dönem sonundan önce ölümde dönemin tamamı | TBK m.609 |  |
+| DEVİR | Aksi kararlaştırılmadıkça gelir alacaklısı hakkını devredebilir; devri yasaklayan kayıt var mı? | TBK m.610 |  |
+| İFLAS | Gelir borçlusunun iflasında alacaklının anapara değerini masaya yazdırma hakkı | TBK m.609/3 |  |
 | TAPU | Gelir karşılığı taşınmaz devri: resmî senet | TMK m.706 | |
 
 ## 4. Kimin adına?
@@ -63,9 +63,9 @@ Kişisel bakım ve gözetim borcu varsa sözleşme **ölünceye kadar bakma**dı
 
 ## 7. MCP adımları
 ```
-legal_get_statute_article law_no: "6098" article_no: "607" | "608" | "609" | "610" | "611" | "612" | "613" | "614" | "615" | "616" | "617" | "619"
-legal_get_statute_article law_no: "4721" article_no: "545" | "706"
-legal_search_cases mahkeme: "yargitay" daire: "<güncel iş bölümü: ölünceye kadar bakmaya dayalı tapu iptali 2026/1'de 7. HD>"
+legal_get_statute_article  law_no: "6098"  article_no: "607" | "608" | "609" | "610" | "611" | "612" | "613" | "614" | "615" | "616" | "617" | "619"
+legal_get_statute_article  law_no: "4721"  article_no: "545" | "706"
+legal_search_cases  mahkeme: "yargitay"  daire: "<güncel iş bölümü: ölünceye kadar bakmaya dayalı tapu iptali 2026/1'de 7. HD>"
     sorgu: "ölünceye kadar bakma sözleşmesi miras sözleşmesi şeklinde yapılmadığı için geçersiz tapu iptali"
 ```
 
@@ -86,3 +86,4 @@ legal_search_cases mahkeme: "yargitay" daire: "<güncel iş bölümü: ölüncey
 - Miras boyutunu bu dosyada çözmeye çalışmak.
 
 ---
+

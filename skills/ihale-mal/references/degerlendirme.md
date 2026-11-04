@@ -15,6 +15,7 @@ nasıl cevap veririm?" Şikâyet kararı verilirse numaralı iddia listesiyle `.
   göstermeli (m.55/6).
 - [ ] Birim fiyat teklif cetvelinde **aritmetik hata** → teklif değerlendirme dışı (m.55/7). Düzeltme yapılamaz.
 - [ ] Açıklama istemi (idari Ş. 30) fiyat değişikliği ya da uygunsuz teklifi uygun hale getirme için kullanılamaz.
+  
 
 **İstekli bakışı:** "eksik belge" ile "bilgi eksikliği" ayrımı en sık uyuşmazlıktır. Belge sunulmuş ama içindeki bir
 bilgi (tarih, imza, tutar dökümü) eksikse tamamlatılmalıydı → şikâyet iddiası. KİK emsali: `legal_search_cases`
@@ -37,13 +38,14 @@ bilgi (tarih, imza, tutar dökümü) eksikse tamamlatılmalıydı → şikâyet 
   uygulanır. Buna göre sorgu **e-formla**, önemli bileşenler tek tek ve açık sayılarak ("ve diğer giderler", "vb."
   yasak), 79.2.2 yöntemlerini daraltmadan; açıklama süresi KİGT 79.2.1-c'de "en az 3 iş günü". 79.1 (sınır değer)
   başlıkta hizmete özgü; malda sınır değer formülü ve 3 iş günü alt sınırı uygulanır mı `[incele]` — ilan
-  9/4/2026'dan önceyse o tarihteki metin.
+  9/4/2026'dan önceyse o tarihteki metin. 
 - [ ] **Reddetmeden önce yazılı açıklama istenir**; komisyon "teklifte önemli olduğunu tespit ettiği bileşenleri"
   sorgu yazısında belirtir ve süre verir (m.58/1). Sorgusuz ret mal alımında yok (4734 m.38/3 sorgusuz ret yetkisi
   yalnız hizmet ve yapım için).
 - [ ] Değerlendirme ölçütleri: (a) imalat sürecinin ekonomik olması, (b) seçilen teknik çözümler ve mal teminindeki
   avantajlı koşullar, (c) malın özgünlüğü (m.58/2). Açıklama yetersiz ya da hiç yoksa teklif reddedilir.
 - [ ] Açıklama EKAP'tan e-imzayla; yüklenen belgeler esas alınır (idari Ş. 29.8).
+  
 
 **İdare:** sorgu yazısında bileşenleri ve beklenen belgeyi açık yaz (ör. "1, 2, 7. kalemler için tedarik fiyatı");
 belirsiz sorgu, açıklamayı reddetmeyi zorlaştırır. Açıklamayı kabul/ret gerekçesini kalem bazında karara geçir.
@@ -81,7 +83,7 @@ iddiası; muhafaza edilen numunenin yeniden incelenmesini iste.
   bedeli × oran** eklenir; FDU'lu ihalede önce değerlendirilmiş teklif bedeli (m.61/4-5) → `yerli_mali` ya da (araç
   yanıt vermezse) elle.
 - [ ] **Eşit teklifte** sıralama ölçütü idari şartnamede yazılı; iş deneyim belgesi tutarı her ihalede zorunlu ölçüt;
-  öncelik: fiyat dışı unsur → yerli malı → iş deneyim tutarı (m.62/1-a, b).
+  öncelik: fiyat dışı unsur → yerli malı → iş deneyim tutarı (m.62/1-a, b). 
 
 ## F. Karar, kesinleşme, bekleme, davet, imza
 | Adım | Süre | Kod (canlı) | Dayanak |
@@ -97,7 +99,7 @@ iddiası; muhafaza edilen numunenin yeniden incelenmesini iste.
 | İdare imzalamazsa | sürelerin bitiminden 5 gün içinde 10 gün süreli noter ihbarıyla taahhütten vazgeçme | `kik_contract_withdrawal_notice` (5), `kik_contract_withdrawal_period` (10) | 4734 m.45; idari Ş. 40 |
 
 Bu kodlar canlı: `legal_calculate_deadline` ile hesapla, yanıttaki `kural_adi`'yi satırla karşılaştır; araç yanıt
-vermez ya da uyuşmazsa elle hesapla, `legal_check_holiday`, `[incele]`. Yasaklama sonuçları
+vermez ya da uyuşmazsa elle hesapla, `legal_check_holiday`, `[incele]`.  Yasaklama sonuçları
 `../../kamu-ihale/references/yasak-fiil-ve-yasaklama.md`.
 
 **Örnek (İKN 2026/1824919):** ihale 12.01.2027 → onay en geç 19.01.2027 civarı (5 iş günü, tatil kontrolü) →

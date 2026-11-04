@@ -10,10 +10,10 @@
 
 | Amaç | Yol | Dayanak |
 |---|---|---|
-| Yabancı **boşanma** (ya da butlan/iptal) kararını nüfusa işletmek | Önce **idari tanıma**: nüfus müdürlüğü ya da dış temsilcilik. Koşullar: tarafların birlikte başvurması (biri ölmüş ya da yabancıysa Türk vatandaşı tek başına); yetkili makamca verilmiş ve kesinleşmiş olması; Türk kamu düzenine açıkça aykırı olmaması | 5490 m.27/A |
-| İdari tanıma reddedildi ya da koşullar yok (ör. birlikte başvuru yok) | **Tanıma davası** — aile mahkemesi | 5490 m.27/A-3; 5718 m.58; 4787 m.4/2 |
-| Nafaka, tazminat, velayet, yargılama gideri gibi **icra** gerektiren hükümler | **Tenfiz davası** | 5718 m.50 vd., m.54 |
-| Türkiye'de boşanma davası açmak | TMK 168 ve MÖHUK yetki kuralları; uygulanacak hukuk m.14 | 5718 m.14 |
+| Yabancı **boşanma** (ya da butlan/iptal) kararını nüfusa işletmek | Önce **idari tanıma**: nüfus müdürlüğü ya da dış temsilcilik. Koşullar: tarafların birlikte başvurması (biri ölmüş ya da yabancıysa Türk vatandaşı tek başına); yetkili makamca verilmiş ve kesinleşmiş olması; Türk kamu düzenine açıkça aykırı olmaması | 5490 m.27/A  |
+| İdari tanıma reddedildi ya da koşullar yok (ör. birlikte başvuru yok) | **Tanıma davası** — aile mahkemesi | 5490 m.27/A-3; 5718 m.58; 4787 m.4/2  |
+| Nafaka, tazminat, velayet, yargılama gideri gibi **icra** gerektiren hükümler | **Tenfiz davası** | 5718 m.50 vd., m.54  |
+| Türkiye'de boşanma davası açmak | TMK 168 ve MÖHUK yetki kuralları; uygulanacak hukuk m.14 | 5718 m.14  |
 
 Eski YAML yalnız tanıma ve tenfiz davasını sayıyordu; 2017'den beri var olan **idari tanıma** yolu eksikti. Bu yol çoğu basit dosyada davadan hızlıdır.
 
@@ -22,23 +22,23 @@ Eski YAML yalnız tanıma ve tenfiz davasını sayıyordu; 2017'den beri var ola
 ## Kontrol listesi
 
 ### 1. Tanıma mı, tenfiz mi?
-- Tanımada m.54/1-a'daki **karşılıklılık** şartı aranmaz; diğer tenfiz şartları aranır.
-- Tenfiz şartları (m.54): (a) karşılıklılık; (b) Türk mahkemelerinin münhasır yetkisine girmeyen konu, ya da davalının itirazı hâlinde dava veya taraflarla gerçek ilişkisi olmayan aşırı yetki bulunmaması; (c) kamu düzenine açık aykırılık olmaması; (ç) usulüne uygun çağrı ve temsil, savunma hakkı.
+- Tanımada m.54/1-a'daki **karşılıklılık** şartı aranmaz; diğer tenfiz şartları aranır. 
+- Tenfiz şartları (m.54): (a) karşılıklılık; (b) Türk mahkemelerinin münhasır yetkisine girmeyen konu, ya da davalının itirazı hâlinde dava veya taraflarla gerçek ilişkisi olmayan aşırı yetki bulunmaması; (c) kamu düzenine açık aykırılık olmaması; (ç) usulüne uygun çağrı ve temsil, savunma hakkı. 
 - Eski YAML'daki "boşanma kararları çok eşlilik vb. değilse genelde kamu düzenine aykırı değildir" ifadesi bir eğilimdir, kural değildir `[incele]`.
 
 ### 2. Belgeler
-- Kararın aslı ya da onaylı örneği, **kesinleşme şerhi** ya da kesinleştiğini gösteren yazı, onaylı Türkçe çeviri. Kanun "o ülke makamlarınca usulen onanmış" der; bu onay pratikte apostil (Lahey 1961 Sözleşmesine taraf ülke) ya da konsolosluk onayıdır `[doğrula]`. Eksik belge davanın reddine yol açabilir 🟠.
+- Kararın aslı ya da onaylı örneği, **kesinleşme şerhi** ya da kesinleştiğini gösteren yazı, onaylı Türkçe çeviri. Kanun "o ülke makamlarınca usulen onanmış" der; bu onay pratikte apostil (Lahey 1961 Sözleşmesine taraf ülke) ya da konsolosluk onayıdır `[doğrula]`.  Eksik belge davanın reddine yol açabilir 🟠.
 
 ### 3. Uygulanacak hukuk (Türkiye'de açılan dava)
 - Boşanma ve ayrılık sebepleri ile hükümleri: eşlerin **ortak millî hukuku**; ayrı vatandaşlıkta **ortak mutad mesken hukuku**; o da yoksa **Türk hukuku** (m.14/1).
 - Boşanmış eşler arası nafaka ve boşanmada velayet de m.14/1'e tabidir (m.14/2-3).
-- **Geçici tedbirlere** her durumda Türk hukuku uygulanır (m.14/4).
-- Mal rejimi için ayrı bağlama kuralı vardır (m.15): eşler evlenme anındaki mutad mesken ya da millî hukuklarından birini açıkça seçebilir; seçim yoksa sırasıyla ortak millî hukuk, ortak mutad mesken hukuku, Türk hukuku; tasfiyede taşınmazlara bulundukları ülke hukuku uygulanır.
-- Mirasa uygulanacak hukuk: ölenin millî hukuku (m.20/1); Türkiye'deki taşınmazlara Türk hukuku → `mirascilik-sakli-pay-ve-tenkis.md`.
+- **Geçici tedbirlere** her durumda Türk hukuku uygulanır (m.14/4). 
+- Mal rejimi için ayrı bağlama kuralı vardır (m.15): eşler evlenme anındaki mutad mesken ya da millî hukuklarından birini açıkça seçebilir; seçim yoksa sırasıyla ortak millî hukuk, ortak mutad mesken hukuku, Türk hukuku; tasfiyede taşınmazlara bulundukları ülke hukuku uygulanır. 
+- Mirasa uygulanacak hukuk: ölenin millî hukuku (m.20/1); Türkiye'deki taşınmazlara Türk hukuku → `mirascilik-sakli-pay-ve-tenkis.md`. 
 
 ### 4. Görev ve iş bölümü
-- Aile hukukuna ilişkin yabancı kararların tanınması ve tenfizi: aile mahkemesi (4787 m.4/2). 4787 metni hâlâ eski MÖHUK'a (2675) atıf yapıyor; uygulamada 5718 anlaşılır `[doğrula]`.
-- Temyizde: esas davaya ait hükmü incelemekle görevli daire. Aile kararlarında 2. HD.
+- Aile hukukuna ilişkin yabancı kararların tanınması ve tenfizi: aile mahkemesi (4787 m.4/2). 4787 metni hâlâ eski MÖHUK'a (2675) atıf yapıyor; uygulamada 5718 anlaşılır `[doğrula]`. 
+- Temyizde: esas davaya ait hükmü incelemekle görevli daire. Aile kararlarında 2. HD. 
 
 ### 5. Yabancı para nafaka
 - Döviz cinsinden nafakanın TL karşılığı → `legal_get_exchange_rate` (karar tarihi ve ödeme tarihi ayrı) `[incele]`.
@@ -48,14 +48,14 @@ Eski YAML yalnız tanıma ve tenfiz davasını sayıyordu; 2017'den beri var ola
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "5718" article_no: "14" | "15" | "20" | "50" | "51" | "53" | "54" | "58"
-legal_search_statute law_no: "5490" query: "yabancı ülke boşanma kararları nüfus kütüğüne tescil" # m.27/A harfli madde
-legal_get_statute_article law_no: "4787" article_no: "4"
-legal_search_cases mahkeme: "yargitay" daire: "2. Hukuk Dairesi" sorgu: "<yabancı boşanma kararının tanınması kesinleşme şerhi savunma hakkı>"
-legal_search_statute_semantic sorgu: "yabancı boşanma kararlarının nüfusa tescili yönetmelik"
+legal_get_statute_article  law_no: "5718"  article_no: "14" | "15" | "20" | "50" | "51" | "53" | "54" | "58"
+legal_search_statute  law_no: "5490"  query: "yabancı ülke boşanma kararları nüfus kütüğüne tescil"   # m.27/A harfli madde
+legal_get_statute_article  law_no: "4787"  article_no: "4"
+legal_search_cases  mahkeme: "yargitay"  daire: "2. Hukuk Dairesi"  sorgu: "<yabancı boşanma kararının tanınması kesinleşme şerhi savunma hakkı>"
+legal_search_statute_semantic  sorgu: "yabancı boşanma kararlarının nüfusa tescili yönetmelik"
 legal_get_exchange_rate
 ```
-Ek kaynak: "uluslararası antlaşma (Lahey 1980)" → antlaşma metni katalogda olmayabilir; `legal_search_statute_semantic` ile dene, yoksa `[model bilgisi — doğrulayın]`.
+Eski profildeki "uluslararası antlaşma (Lahey 1980)" → antlaşma metni katalogda olmayabilir; `legal_search_statute_semantic` ile dene, yoksa `[model bilgisi — doğrulayın]`.
 
 ---
 
@@ -89,3 +89,4 @@ Ek kaynak: "uluslararası antlaşma (Lahey 1980)" → antlaşma metni katalogda 
 - Yabancı hukukun içeriği hakkında emin cevap vermek.
 
 ---
+

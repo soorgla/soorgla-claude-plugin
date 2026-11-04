@@ -4,7 +4,7 @@
 - Müşteri kendi veri işleme sözleşmesini (DPA, "veri işleyen taahhütnamesi", "KVKK eki") gönderdi; ya da siz tedarikçinize (bulut, bordro, çağrı merkezi, kargo, yazılım) DPA gönderiyorsunuz.
 - Hizmet sözleşmesinin içindeki kişisel veri maddeleri inceleniyor. Sözleşmenin geri kalanı (ücret, sorumluluk sınırı, fesih, yetki) → `../../sozlesme-incelemesi-tbk/SKILL.md`.
 
-KVKK'da GDPR m.28 gibi ayrıntılı bir "veri işleyen sözleşmesi" maddesi **yoktur**. Dayanak, veri sorumlusunun veri işleyenle birlikte güvenlik tedbirlerinden **müştereken sorumlu** olması ve veri işleyenin sır saklama/amaç dışı kullanmama yükümlülüğüdür. Sözleşme bu sorumluluğu iç ilişkide düzenler; ilgili kişiye ve Kurula karşı sorumluluğu ortadan kaldırmaz.
+KVKK'da GDPR m.28 gibi ayrıntılı bir "veri işleyen sözleşmesi" maddesi **yoktur**. Dayanak, veri sorumlusunun veri işleyenle birlikte güvenlik tedbirlerinden **müştereken sorumlu** olması ve veri işleyenin sır saklama/amaç dışı kullanmama yükümlülüğüdür. Sözleşme bu sorumluluğu iç ilişkide düzenler; ilgili kişiye ve Kurula karşı sorumluluğu ortadan kaldırmaz. 
 
 ---
 
@@ -12,7 +12,7 @@ KVKK'da GDPR m.28 gibi ayrıntılı bir "veri işleyen sözleşmesi" maddesi **y
 
 - **Siz veri işleyensiniz** (müşterinin DPA'sı): operasyonel esnekliğinizi korursunuz — savunma incelemesi.
 - **Siz veri sorumlususunuz** (tedarikçinin DPA'sı ya da sizin şablonunuz): veriyi ve ilgili kişiyi korursunuz — koruma incelemesi.
-- Belirsizse sor; rol yanlışsa her öneri tersine döner. Rol tanımları için m.3/1-(ğ) "veri işleyen" ve (ı) "veri sorumlusu" metnini çek; taraf amaç ve vasıtaları kendisi belirliyorsa sözleşmede "veri işleyen" yazsa da veri sorumlusudur `[incele]`.
+- Belirsizse sor; rol yanlışsa her öneri tersine döner. Rol tanımları için m.3/1-(ğ) "veri işleyen" ve (ı) "veri sorumlusu" metnini çek; taraf amaç ve vasıtaları kendisi belirliyorsa sözleşmede "veri işleyen" yazsa da veri sorumlusudur `[incele]`. 
 
 **Önceki işler:** aynı karşı taraf ya da faaliyet için daha önce ön inceleme (`on-inceleme-ve-etki-degerlendirmesi.md`) ya da DPA incelemesi yapıldıysa önce onu oku; önem derecesi taban olarak taşınır, gerekçesiz düşürülmez (ORTAK-KURALLAR.md §8). Yoksa "önceki inceleme yok" yaz.
 
@@ -22,9 +22,9 @@ KVKK'da GDPR m.28 gibi ayrıntılı bir "veri işleyen sözleşmesi" maddesi **y
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| İhlalin Kurula ve ilgilisine bildirimi | "En kısa sürede" — sözleşmede veri işleyenin veri sorumlusuna bildirim süresi bundan **kısa** olmalı | 6698 m.12/5; Kurul 24.01.2019 t. 2019/10 s. kararı: Kurula öğrenmeden itibaren **72 saat** |
-| İlgili kişi başvurusu | Veri sorumlusu 30 günde cevaplar; veri işleyenin iletme ve destek süresi bunun içinde kalmalı | 6698 m.13/2 |
-| Kurulun bilgi-belge talebi | 15 gün — veri işleyenin destek yükümlülüğü sözleşmede olmalı | 6698 m.15/3 |
+| İhlalin Kurula ve ilgilisine bildirimi | "En kısa sürede" — sözleşmede veri işleyenin veri sorumlusuna bildirim süresi bundan **kısa** olmalı | 6698 m.12/5; Kurul 24.01.2019 t. 2019/10 s. kararı: Kurula öğrenmeden itibaren **72 saat**   |
+| İlgili kişi başvurusu | Veri sorumlusu 30 günde cevaplar; veri işleyenin iletme ve destek süresi bunun içinde kalmalı | 6698 m.13/2  |
+| Kurulun bilgi-belge talebi | 15 gün — veri işleyenin destek yükümlülüğü sözleşmede olmalı | 6698 m.15/3  |
 | Yurt dışı standart sözleşme bildirimi | İmzaların tamamlanmasından itibaren 5 iş günü | 6698 m.9/5; Yönetmelik m.14/5 → `yurt-disi-aktarim.md` |
 
 ---
@@ -35,8 +35,8 @@ KVKK'da GDPR m.28 gibi ayrıntılı bir "veri işleyen sözleşmesi" maddesi **y
 |---|---|---|
 | **Roller** | Veri sorumlusu/işleyen açıkça ve gerçeğe uygun belirlenmiş | Karşı tarafın kendini "bağımsız veri sorumlusu" yazıp veriyi kendi amaçlarına kullanması |
 | **Kapsam ve talimat** | Veri kategorileri, ilgili kişi grupları, amaç, süre; yalnız yazılı talimatla işleme | "ve ilgili diğer amaçlar" gibi genişletici ifadeler |
-| **Amaç dışı kullanım yasağı** | Ürün geliştirme, yapay zekâ eğitimi, istatistik için kullanım yasak ya da açıkça sınırlı | "Hizmetin iyileştirilmesi" adı altında eğitim verisi |
-| **Gizlilik** | Personelin gizlilik yükümlülüğü; görev sona erince de sürer | — |
+| **Amaç dışı kullanım yasağı** | Ürün geliştirme, yapay zekâ eğitimi, istatistik için kullanım yasak ya da açıkça sınırlı | "Hizmetin iyileştirilmesi" adı altında eğitim verisi  |
+| **Gizlilik** | Personelin gizlilik yükümlülüğü; görev sona erince de sürer | —  |
 | **Güvenlik tedbirleri** | Somut teknik ve idari tedbirler eki (erişim yetkisi, loglama, şifreleme, yedek) | "Uygun tedbirler alınır" deyip ek koymamak = boş taahhüt |
 | **Alt işleyen** | Güncel liste, değişiklikte önceden bildirim ve itiraz/fesih; aynı yükümlülüklerin alt işleyene aktarılması | Toptan onay / her değişiklikte veto |
 | **İhlal bildirimi** | Tetikleyici ("öğrenme" mi "teyit" mi), süre, içerik, iş birliği | "Gecikmeksizin" gibi ölçüsüz ifade |
@@ -77,10 +77,10 @@ DPA'daki amaçlar ve alıcılar aydınlatma metninde ve VERBİS kaydında var m�
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "6698" article_no: "3" | "8" | "9" | "12" | "13" | "15"
-legal_get_statute_article law_no: "40863" article_no: "<veri işleyenin yurt dışına aktarımı — 6. madde ve devamı>"
-legal_search_admin_guidance sorgu: "Kişisel Verileri Koruma Kurulunun kararı veri işleyen veri sorumlusu müşterek sorumluluk teknik idari tedbir" kurum: "Kişisel Verileri Koruma Kurulu" tarih_baslangic: "<son 3 yıl>"
-legal_search_statute_semantic sorgu: "veri işleyen alt işleyen sözleşme kişisel veri güvenliği"
+legal_get_statute_article  law_no: "6698"  article_no: "3" | "8" | "9" | "12" | "13" | "15"
+legal_get_statute_article  law_no: "40863"  article_no: "<veri işleyenin yurt dışına aktarımı — 6. madde ve devamı>"
+legal_search_admin_guidance  sorgu: "Kişisel Verileri Koruma Kurulunun kararı veri işleyen veri sorumlusu müşterek sorumluluk teknik idari tedbir"  kurum: "Kişisel Verileri Koruma Kurulu"  tarih_baslangic: "<son 3 yıl>"
+legal_search_statute_semantic  sorgu: "veri işleyen alt işleyen sözleşme kişisel veri güvenliği"
 ```
 
 ---
@@ -92,10 +92,10 @@ legal_search_statute_semantic sorgu: "veri işleyen alt işleyen sözleşme kiş
 > ⚠️ Gözden geçiren notu …
 
 # Veri İşleme Sözleşmesi İncelemesi: [Karşı taraf]
-**Yön:** [veri işleyeniz / veri sorumlusuyuz] **Ana sözleşme:** [ek / bağımsız] **Önceki inceleme:** [var — tarih / yok]
+**Yön:** [veri işleyeniz / veri sorumlusuyuz]  **Ana sözleşme:** [ek / bağımsız]  **Önceki inceleme:** [var — tarih / yok]
 
 ## Sonuç
-[İki cümle: imzalanabilir mi, ne değişmeli?] Bulgular: [N]🟢 [N]🟡 [N]🟠 [N]🔴
+[İki cümle: imzalanabilir mi, ne değişmeli?]  Bulgular: [N]🟢 [N]🟡 [N]🟠 [N]🔴
 
 ## Madde madde
 ### [Madde adı]
@@ -127,3 +127,4 @@ Bölümler: taraflar ve roller · tanımlar (6698 m.3'e atıf) · konu, kapsam, 
 - Alt işleyen ve yedekleme konumunu sormamak (gizli yurt dışı aktarım).
 - Silme taahhüdünde yedekleri ve kanuni saklama sürelerini düzenlememek.
 - DPA'yı aydınlatma metniyle ve VERBİS kaydıyla karşılaştırmamak.
+

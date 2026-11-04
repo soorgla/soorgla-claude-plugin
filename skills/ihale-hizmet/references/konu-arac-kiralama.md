@@ -102,7 +102,7 @@ Genelgenin bütünü, hukuki niteliği ve süreleri → `../../kamu-ihale/refere
   2. **2024/7 Genelge:** (T) cetveli cinslerinde en az iki markanın yerli üretimi olmayan taşıtlarda Bakanlığın yayımladığı yerli katkı oranı **%40'ın üzerinde** olanlar `[soorgla]`.
   - İki eşik farklı taşıt kümesine bakıyor görünüyor: binek otomobilde birden çok markanın yerli üretimi olduğu için %40 istisnasının bineğe uygulanmayıp %50 kuralının kalacağı yorumu güçlüdür `[model bilgisi — doğrulayın]`; Genelge cümlesinin yorumu `[incele]`.
   - **Destek (tek karar):** KİK 2024/UH.I-1165 (18.09.2024; Konya Büyükşehir Belediyesi, araç ve iş makinesi kiralama), 2. iddia: Kurul Genelgenin %40 cümlesini ve Esas ve Usullerin "%50'nin altında kalan taşıtları ifade eder" tanımını birlikte aktardı, binekleri şartnamedeki %50 eşiğine göre inceledi (2020 model Egea ve Corolla, 2020 listesinde %50'nin üzerinde → ret) `[soorgla]`. Kurul %40'ın bineğe uygulanıp uygulanmadığını **ayrıca tartışmadı**; şartname %50 dediği için %50'yi uyguladı. Destek dolaylıdır.
-
+  
   - KİK dosyalarında idareler şartnameye "%50 ve üzeri yerli muhteva; altında olan binek varsa teklif değerlendirme dışı" yazıyor (KİK 2025/UH.II-887, 2025/UH.II-1147, 2025/UH.II-1163, 2025/UH.II-1794, 2026/UH.I-350 alıntıları) `[soorgla — şartname metni, Kurul gerekçesi değil]`.
 
 ### 3.2 Hangi yılın listesi esas alınır?
@@ -189,7 +189,7 @@ Sanayi ve Teknoloji Bakanlığı listeleri yıllık yayımlanır; aynı model y�
 
 ## 5. İstekli tarama listesi (şikâyete dayanak olabilecekler)
 
-Süre: ilana yansıyan hususta **ilk ilandan**, diğerlerinde doküman indirmeden 10 gün ve ihaleden en az 3 iş günü önce → `../SKILL.md` Adım 3; zincir `../../ihale-sikayet/SKILL.md`. **3 iş günü örneği** (ihale günü sayılmaz, hafta sonu/resmî tatil atlanır — `legal_check_holiday`): ihale **10.11.2026 Salı** → 9 Pazartesi (1), 7-8 Kasım hafta sonu, 6 Cuma (2), 5 Perşembe (3) → son gün **05.11.2026**; 10 günlük süre daha önce doluyorsa o gün son gündür. Sayım geleneğini teyit et `[doğrula]`.
+Süre: ilana yansıyan hususta **ilk ilandan**, diğerlerinde doküman indirmeden 10 gün ve ihaleden en az 3 iş günü önce → `../SKILL.md` Adım 3; zincir `../../ihale-sikayet/SKILL.md`. **3 iş günü örneği** (ihale günü sayılmaz, hafta sonu/resmî tatil atlanır — `legal_check_holiday`): ihale **10.11.2026 Salı** → 9 Pazartesi (1), 7-8 Kasım hafta sonu, 6 Cuma (2), 5 Perşembe (3) → son gün **05.11.2026**; 10 günlük süre daha önce doluyorsa o gün son gündür. Sayım geleneğini teyit et `[doğrula]`. 
 
 | # | Bak | Dayanak | Önem |
 |---|---|---|---|

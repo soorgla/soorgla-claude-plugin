@@ -49,7 +49,7 @@ Kronolojinin sonunda, hukuki etkisi `süre başlatır`, `hak düşürücü süre
 
 ```markdown
 ### Süre aktarım bloğu → sure-takibi
-Dosya: [dosya-kisa-adi | belge kipi] Taraf: [davacı/davalı] Hazırlayan: dava-kronolojisi v[N], [YYYY-AA-GG]
+Dosya: [dosya-kisa-adi | belge kipi]   Taraf: [davacı/davalı]   Hazırlayan: dava-kronolojisi v[N], [YYYY-AA-GG]
 
 | # | Olay (kronoloji satırı) | Başlangıç tarihi | Tarih kesinliği | Süre türü | Dayanak (çekildi mi) | Araç kodu | Ön hesap son gün | Not |
 |---|---|---|---|---|---|---|---|---|

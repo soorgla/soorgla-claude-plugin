@@ -46,9 +46,9 @@ Kararın hangi mahkemeden geldiği, ağırlığını belirler. Kesin bir sırala
 
 | Karar türü | Etki |
 |---|---|
-| AYM kararları | Yasama, yürütme, yargı organlarını, idareyi, gerçek ve tüzel kişileri bağlar; iptal kararları RG'de yayımlandığı tarihte (ya da kararda belirtilen ertelenmiş tarihte) hükmü yürürlükten kaldırır ve geriye yürümez [soorgla: Anayasa m.153]. |
-| Yargıtay içtihadı birleştirme kararı | Benzer hukuki konularda Yargıtay genel kurullarını, dairelerini ve adliye mahkemelerini bağlar [soorgla: 2797 s. Yargıtay Kanunu m.45]. |
-| Danıştay içtihadı birleştirme kararı | Danıştay daire ve kurulları, idari mahkemeler ve idare uymak zorundadır [soorgla: 2575 s. Danıştay Kanunu m.40] |
+| AYM kararları | Yasama, yürütme, yargı organlarını, idareyi, gerçek ve tüzel kişileri bağlar; iptal kararları RG'de yayımlandığı tarihte (ya da kararda belirtilen ertelenmiş tarihte) hükmü yürürlükten kaldırır ve geriye yürümez [soorgla: Anayasa m.153].  |
+| Yargıtay içtihadı birleştirme kararı | Benzer hukuki konularda Yargıtay genel kurullarını, dairelerini ve adliye mahkemelerini bağlar [soorgla: 2797 s. Yargıtay Kanunu m.45].  |
+| Danıştay içtihadı birleştirme kararı | Danıştay daire ve kurulları, idari mahkemeler ve idare uymak zorundadır [soorgla: 2575 s. Danıştay Kanunu m.40]  |
 | AİHM kararı | Türkiye taraf olduğu davada kesin kararlara uyma yükümlülüğü (AİHS m.46); Türkiye dışındaki devletler aleyhine kararlar Sözleşme'nin yorumunu gösterir `[model bilgisi — doğrulayın]` |
 | AYM bireysel başvuru ihlal kararı | İlgili davada yeniden yargılama ya da giderim; benzer olaylarda yol gösterici `[model bilgisi — doğrulayın: 6216 m.50]` |
 | Yargıtay HGK / CGK, Danıştay İDDK / VDDK | Bağlayıcı değil ama güçlü yol gösterici. HGK direnme kararı üzerine verildiyse o dosyada ilk derece mahkemesi bu karara uymak zorundadır `[model bilgisi — doğrulayın]` |

@@ -8,7 +8,7 @@ Resmî yazının genel biçimi (sayı, konu, ilgi, dağıtım, olur): `../../ida
 
 ## 1. İhale onay belgesi
 
-**Dayanak:** Mal Yön. m.16 (ön ilan varsa ilandan önce onay belgesi + yaklaşık maliyet hesap cetveli; ihale/ön yeterlik ilanından önce yeniden onay); m.18 (ihale işlem dosyasının ilk belgesi). Karşılık maddeler: Hizmet Yön. m.18, Yapım Yön. m.19, Danışmanlık Yön. m.18 ("İhale onayının alınması"; danışmanlıkta ön yeterlik ilanından önce yeniden onay) `[soorgla]`. Fiyat dışı unsurda gerekçeli açıklama belgesi onay belgesine eklenir (Hizmet Yön. m.61/4).
+**Dayanak:** Mal Yön. m.16 (ön ilan varsa ilandan önce onay belgesi + yaklaşık maliyet hesap cetveli; ihale/ön yeterlik ilanından önce yeniden onay); m.18 (ihale işlem dosyasının ilk belgesi). Karşılık maddeler: Hizmet Yön. m.18, Yapım Yön. m.19, Danışmanlık Yön. m.18 ("İhale onayının alınması"; danışmanlıkta ön yeterlik ilanından önce yeniden onay) `[soorgla]`.  Fiyat dışı unsurda gerekçeli açıklama belgesi onay belgesine eklenir (Hizmet Yön. m.61/4). 
 
 **E-form:** KİK001 İhale Onay Belgesi (iki bölüm: ön ilan aşaması / ihale aşaması). Eki: yaklaşık maliyet hesap cetveli; yapımda KİK002 Yaklaşık Maliyet İcmal Tablosu; birim fiyat teklifinde KİK003 Teklif Türünün Belirlenmesi.
 
@@ -17,7 +17,7 @@ Resmî yazının genel biçimi (sayı, konu, ilgi, dağıtım, olur): `../../ida
 | 1 | İhaleyi yapan idare; "[ihale yetkilisinin unvanı] MAKAMINA" | yetkili makam doğru mu (4734 m.4 ihale yetkilisi) | — |
 | 2 | İşin adı; türü ve miktarı/kapsamı | ilan ve dokümanla aynı ad | adla doküman çelişkisi şikâyet konusu olabilir |
 | 3 | Yaklaşık maliyet | **gizli** — dışa giden metne konmaz | açıklanmaz (ihale saatinde açıklanır) |
-| 4 | Kullanılabilir ödenek; yatırım proje no; bütçe tertibi | **ödeneksiz ihale yapılmaz** (4734 m.5: "Ödeneği bulunmayan hiçbir iş için ihaleye çıkılamaz" `[soorgla]`) | — |
+| 4 | Kullanılabilir ödenek; yatırım proje no; bütçe tertibi | **ödeneksiz ihale yapılmaz** (4734 m.5: "Ödeneği bulunmayan hiçbir iş için ihaleye çıkılamaz" `[soorgla]`)  | — |
 | 5 | İhale usulü; ilanın şekli ve adedi | usul ve ilan süresi `legal_calculate_tender` `usul_kontrol` | yanlış usul / kısa ilan → şikâyet (`ihale-sikayet`) |
 | 6 | Avans şartları; fiyat farkı dayanağı (CB kararı) | 4735 m.8 esaslarıyla tutarlı | — |
 | 7 | Teklif ve sözleşme türü | KİK003 eki (birim fiyat) | — |
@@ -26,7 +26,7 @@ Resmî yazının genel biçimi (sayı, konu, ilgi, dağıtım, olur): `../../ida
 
 ## 2. İlan metni kontrolü
 
-**Dayanak:** 4734 m.24 — ilanda dokümanda olmayan hususa yer verilemez; zorunlu hususlar (a)-(n): idarenin adı-adres-telefon; işin adı, niteliği, türü, miktarı; teslim/iş yeri; işe başlama ve bitiş; usul, katılım şartları ve istenen belgeler; yeterlik kriterleri; yerli istekliye açıklık / fiyat avantajı; dokümanın görülebileceği yer; ihalenin yeri, tarihi, saati; tekliflerin nereye verileceği; teklif ve sözleşme türü; en az %3 geçici teminat; teklif geçerlilik süresi; konsorsiyum. Hatalı ilan → m.26: m.13, 24, 25'e aykırı ilan geçersizdir; ilan yapılmaması ya da ilan süresine uyulmaması dışındaki m.24-25 hatalarında, 25 ve 40 günlük ilan süreli ihalelerde ilanı izleyen 15, diğerlerinde 10 gün içinde düzeltme ilanı yapılarak ihale yapılabilir.
+**Dayanak:** 4734 m.24 — ilanda dokümanda olmayan hususa yer verilemez; zorunlu hususlar (a)-(n): idarenin adı-adres-telefon; işin adı, niteliği, türü, miktarı; teslim/iş yeri; işe başlama ve bitiş; usul, katılım şartları ve istenen belgeler; yeterlik kriterleri; yerli istekliye açıklık / fiyat avantajı; dokümanın görülebileceği yer; ihalenin yeri, tarihi, saati; tekliflerin nereye verileceği; teklif ve sözleşme türü; en az %3 geçici teminat; teklif geçerlilik süresi; konsorsiyum. Hatalı ilan → m.26: m.13, 24, 25'e aykırı ilan geçersizdir; ilan yapılmaması ya da ilan süresine uyulmaması dışındaki m.24-25 hatalarında, 25 ve 40 günlük ilan süreli ihalelerde ilanı izleyen 15, diğerlerinde 10 gün içinde düzeltme ilanı yapılarak ihale yapılabilir. 
 
 **E-form:** KİK004 İhale İlanı (V4, 02.09.2026 2026/DK.D-278 — en yeni sürümlerden; eski ilan şablonunu kullanma); fiziki teklifte KİK201; ön yeterlik KİK200 / KİK224; ön ilan KİK005.
 
@@ -34,15 +34,15 @@ Kontrol: m.24 harflerini tek tek tablo yap (✅/🔴); her satırı idari şartn
 
 ## 3. Zeyilname ve düzeltme ilanı
 
-**Dayanak:** 4734 m.29 — ilandan sonra doküman değiştirilmemesi esas; maddi/teknik hata veya eksiklikte değişiklik yapılabilir; **zeyilname** dokümanın bağlayıcı parçasıdır ve **son teklif gününden en az 10 gün önce** bilgi sahibi olunacak şekilde dokümanı alanların tamamına gönderilir; ek süre gerekiyorsa ihale tarihi **bir defaya mahsus en fazla 20 gün** zeyilnameyle ertelenir; zeyilnameden önce teklif verenlere geri çekip yeniden verme imkânı. Esaslı değişiklik zorunluysa tutanakla ilan iptal, yeniden ilan.
+**Dayanak:** 4734 m.29 — ilandan sonra doküman değiştirilmemesi esas; maddi/teknik hata veya eksiklikte değişiklik yapılabilir; **zeyilname** dokümanın bağlayıcı parçasıdır ve **son teklif gününden en az 10 gün önce** bilgi sahibi olunacak şekilde dokümanı alanların tamamına gönderilir; ek süre gerekiyorsa ihale tarihi **bir defaya mahsus en fazla 20 gün** zeyilnameyle ertelenir; zeyilnameden önce teklif verenlere geri çekip yeniden verme imkânı. Esaslı değişiklik zorunluysa tutanakla ilan iptal, yeniden ilan. 
 
-Zeyilname için KİK e-form listesinde ayrı form yok `[doğrula]`; düzeltme ilanı KİK006 (4734 m.26), iptal ilanı KİK007.
+Zeyilname için KİK e-form listesinde ayrı form yok `[doğrula]` ; düzeltme ilanı KİK006 (4734 m.26), iptal ilanı KİK007.
 
 ```markdown
                                   ZEYİLNAME NO: [__]
-İKN : [___]
-İşin adı : [___]
-İhale tarihi : [mevcut] → [ertelendiyse yeni tarih/saat — en fazla 20 gün, bir defa]
+İKN            : [___]
+İşin adı       : [___]
+İhale tarihi   : [mevcut] → [ertelendiyse yeni tarih/saat — en fazla 20 gün, bir defa]
 
 [İhale dokümanının] aşağıda belirtilen maddeleri 4734 sayılı Kanunun 29 uncu maddesi uyarınca
 değiştirilmiştir. Bu zeyilname ihale dokümanının bağlayıcı bir parçasıdır.
@@ -70,14 +70,14 @@ Dağıtım: dokümanı EKAP'tan indiren bütün istekliler
 | Teklife açıklık getirme (net olmayan husus) | 4734 m.37/1 — fiyat değiştirilemez, uygunsuz teklif uygun hâle getirilemez | yok | soru, süre, "fiyat değişikliği kabul edilmez" cümlesi |
 | Numune / demonstrasyon | idari şartname m.29.9 | KİK021 | — |
 
-- **İdare:** aşırı düşük sorgusunda bileşenleri KİGT'deki ölçüte göre seç ve yaz; sorgu süresi asgari süreden kısa olamaz: yapımda en az **5 iş günü** (KİGT 45.1.2), hizmette en az **3 iş günü** (KİGT m.79); malda ve danışmanlıkta süreyi komisyon belirler `[soorgla]`. Kodlar `kik_low_bid_explanation_works_min` / `_services_min` canlı; araç yanıt vermezse elle say. Belge eksikliğini "bilgi eksikliği" diye tamamlatma.
+- **İdare:** aşırı düşük sorgusunda bileşenleri KİGT'deki ölçüte göre seç ve yaz; sorgu süresi asgari süreden kısa olamaz: yapımda en az **5 iş günü** (KİGT 45.1.2), hizmette en az **3 iş günü** (KİGT m.79); malda ve danışmanlıkta süreyi komisyon belirler `[soorgla]`. Kodlar `kik_low_bid_explanation_works_min` / `_services_min` canlı; araç yanıt vermezse elle say.   Belge eksikliğini "bilgi eksikliği" diye tamamlatma.
 - **İstekli:** yazıda bileşen belirtilmemişse ya da süre asgari süreden kısaysa bunu şikâyette kullan → `ihale-sikayet`.
 
 ## 5. İhale komisyonu kararı — gerekçe bölümü
 
 Tam iskelet: `../../idari-ve-kurum-basvurulari/references/ihale-idare-kararlari.md` §1. Burada yalnız e-form eşlemesi ve gerekçe denetimi.
 
-**E-form:** KİK024 İhale Komisyonu Kararı (e-ihale); fiziki/danışmanlıkta KİK239; danışmanlıkta ayrıca KİK240 Teklif Nihai Değerlendirme Tutanağı. **Dayanak:** 4734 m.40 (gerekçeli karar, 5 iş günü onay, onaydan önce ilk iki teklif sahibinin yasaklılık teyidi); Hizmet Yön. m.65, Mal Yön. m.64.
+**E-form:** KİK024 İhale Komisyonu Kararı (e-ihale); fiziki/danışmanlıkta KİK239; danışmanlıkta ayrıca KİK240 Teklif Nihai Değerlendirme Tutanağı. **Dayanak:** 4734 m.40 (gerekçeli karar, 5 iş günü onay, onaydan önce ilk iki teklif sahibinin yasaklılık teyidi); Hizmet Yön. m.65, Mal Yön. m.64. 
 
 KİK024 başlık alanları: İKN, karar no, idare, işin adı, ihale tarih-saati, usul, YM, **sınır değer**, doküman indiren sayısı, toplam teklif, aşırı düşük teklif sayısı, geçerli teklif sayısı, EAAT ve ikinci EAAT (sahip + tutar), tutanak tarih-saati, istekli tablosu (teklif, FDU puanı, yerli avantajı sonrası bedel).
 
@@ -90,7 +90,7 @@ KİK024 başlık alanları: İKN, karar no, idare, işin adı, ihale tarih-saati
 
 ## 6. Kesinleşen ihale kararı bildirimi
 
-**Dayanak:** 4734 m.41 (onayı izleyen en geç 3 gün içinde teklif veren bütün isteklilere komisyon kararıyla birlikte; iptalde gerekçeli bildirim; bildirimden 21/b-c'de 5, diğerlerinde 10 gün geçmeden sözleşme imzalanamaz); Hizmet Yön. m.66.
+**Dayanak:** 4734 m.41 (onayı izleyen en geç 3 gün içinde teklif veren bütün isteklilere komisyon kararıyla birlikte; iptalde gerekçeli bildirim; bildirimden 21/b-c'de 5, diğerlerinde 10 gün geçmeden sözleşme imzalanamaz); Hizmet Yön. m.66. 
 
 **E-form:** KİK025 Kesinleşen İhale Kararının Tebliği; bütün tekliflerin reddiyle iptal KİK026; iptal kararının tebliği KİK027.
 
@@ -98,13 +98,13 @@ Zorunlu: İKN, ihalenin adı, EKAP tebliğ tarihi ve sayısı, muhatap istekli, 
 
 ## 7. Sözleşmeye davet
 
-**Dayanak:** 4734 m.42 (m.41 sürelerinin bitimini, ön mali kontrolde kontrolün tamamlandığı tarihi izleyen günden itibaren **3 gün** içinde; tebliği izleyen **10 gün** içinde kesin teminat vererek imza; yabancıya +12 gün; imza günü yasaklılık teyidi); m.43 kesin teminat; Hizmet Yön. m.67.
+**Dayanak:** 4734 m.42 (m.41 sürelerinin bitimini, ön mali kontrolde kontrolün tamamlandığı tarihi izleyen günden itibaren **3 gün** içinde; tebliği izleyen **10 gün** içinde kesin teminat vererek imza; yabancıya +12 gün; imza günü yasaklılık teyidi); m.43 kesin teminat; Hizmet Yön. m.67. 
 
 **E-form:** KİK028 (V4, 17.12.2025 2025/DK.D-465); fiziki teklifte KİK221 (V6, aynı karar). Zorunlu: İKN, işin adı, EKAP tebliğ tarihi/sayısı, istekli, işin uhdesinde kaldığı, **10 günlük** süre ve EKAP'taki "Sözleşme Belgelerinin EKAP Üzerinden Gönderilmesi" sayfası (KİK029), m.10/1-b oda kaydı ve m.10/4 (a), (b), (e), (g) belgeleri, ihale kararı ve sözleşme damga vergisi, sözleşme bedeli eşiği aşıyorsa **onbinde beş KİK payı**, kesin teminat oranı (**teklif fiyatının %6'sı / sınır değer altında yaklaşık maliyetin %9'u**), teminat mektubunun asgari süresi, dokümanda istenen diğer belgeler. Eşik tutarı yazılmaz → `legal_get_social_parameters`.
 
 - **İdare:** davet tarihini bekleme süresinin bitiminden say (`kik_standstill`, `kik_contract_invitation` — canlı; `kural_adi`'yi kontrol et, `[incele]`). Şikâyet ya da itirazen şikâyet varsa nihai karar beklenir (4734 m.55 son fıkra).
 - **İstekli:** 10 günü tebliği izleyen günden say; belgeyi ve teminatı son güne bırakma. İmzalamamanın sonucu: geçici teminat gelir kaydı ve yasaklama (Hizmet Yön. m.67/3, m.68) → `kamu-ihale`.
-- **İdare imzalamazsa (istekli):** m.42 ve 44'teki sürede idare görevini yapmazsa istekli, sürenin bitmesini izleyen günden itibaren en geç **5 gün** içinde **10 gün süreli noter ihbarnamesiyle** bildirerek taahhüdünden vazgeçebilir; geçici teminat geri verilir, belgelendirilmiş teminat giderleri istenebilir (4734 **m.45**) `[soorgla]`. Kodlar `kik_contract_withdrawal_notice` / `kik_contract_withdrawal_period` canlı.
+- **İdare imzalamazsa (istekli):** m.42 ve 44'teki sürede idare görevini yapmazsa istekli, sürenin bitmesini izleyen günden itibaren en geç **5 gün** içinde **10 gün süreli noter ihbarnamesiyle** bildirerek taahhüdünden vazgeçebilir; geçici teminat geri verilir, belgelendirilmiş teminat giderleri istenebilir (4734 **m.45**) `[soorgla]`. Kodlar `kik_contract_withdrawal_notice` / `kik_contract_withdrawal_period` canlı. 
 
 ## 8. Şikâyete karar (KİK113)
 
@@ -112,12 +112,12 @@ Tam iskelet ve karar türleri: `../../idari-ve-kurum-basvurulari/references/ihal
 
 ## 9. KİK'e görüş / bilgi-belge yazısı
 
-İtirazen şikâyet üzerine Kurum ihale işlem dosyasını ve idarenin görüşünü ister; istenen bilgi ve belgelerin belirtilen süre içinde verilmesi zorunludur (Başvurular Yön. m.19/1, 4; 4734 m.53/b) `[soorgla]`. Ayrı e-form yok `[doğrula]`; resmî yazı biçimi.
+İtirazen şikâyet üzerine Kurum ihale işlem dosyasını ve idarenin görüşünü ister; istenen bilgi ve belgelerin belirtilen süre içinde verilmesi zorunludur (Başvurular Yön. m.19/1, 4; 4734 m.53/b) `[soorgla]`.  Ayrı e-form yok `[doğrula]` ; resmî yazı biçimi.
 
 ```markdown
                                      T.C.
                                 [İDARENİN ADI]
-Sayı : E-[___] [gg.aa.yyyy]
+Sayı : E-[___]                                                       [gg.aa.yyyy]
 Konu : [İKN] İKN'li ihaleye ilişkin itirazen şikâyet başvurusu hk.
 İlgi : Kamu İhale Kurumunun [tarih] tarihli ve [sayı] sayılı yazısı.
 
@@ -129,8 +129,8 @@ KAMU İHALE KURUMU BAŞKANLIĞINA
 2) [___]
 Başvurunun süre/ehliyet yönünden değerlendirmesi: [şikâyet tarihi, farkına varma tarihi, bedel — varsa] [incele]
 
-Bilgilerinize arz ederim. [Ad SOYADI — İhale Yetkilisi / unvan]
-EKLER: 1- İhale işlem dosyası ([___] klasör / EKAP) 2- Şikâyet dilekçesi ve idare kararı 3- [___]
+Bilgilerinize arz ederim.                                   [Ad SOYADI — İhale Yetkilisi / unvan]
+EKLER: 1- İhale işlem dosyası ([___] klasör / EKAP)  2- Şikâyet dilekçesi ve idare kararı  3- [___]
 ```
 
 - **İdare:** görüşü **yalnız dilekçedeki iddialar** üzerinden, numarasıyla ver; şikâyet kararında olmayan yeni gerekçe eklemek Kurul incelemesinde tartışma yaratır `[incele]`. Süresinde gönderilmeyen belge idare aleyhine sonuç doğurabilir 🔴.

@@ -11,7 +11,7 @@ Belge alındıktan sonraki süreç → `tesvik-belgesi-sureci-ve-yukumlulukler.m
 
 ## 1. Sistemin iskeleti (9903 sayılı Karar)
 
-9903 sayılı Cumhurbaşkanı Kararı (RG 30.05.2025) 2012/3305 sayılı BKK'yı ve Cazibe Merkezleri Programını kaldırdı. Sistem üç katmandır:
+9903 sayılı Cumhurbaşkanı Kararı (RG 30.05.2025) 2012/3305 sayılı BKK'yı ve Cazibe Merkezleri Programını kaldırdı. Sistem üç katmandır: 
 
 | Katman | Bileşen | Kim değerlendirir | Dayanak |
 |---|---|---|---|
@@ -22,32 +22,32 @@ Belge alındıktan sonraki süreç → `tesvik-belgesi-sureci-ve-yukumlulukler.m
 | | Hedef Yatırımlar Teşvik Sistemi (EK-3'teki konular ve şartlar) | Genel Müdürlük | 9903 m.10 |
 | Bölgesel teşvikler | Yatırım bölgesine göre sigorta primi işveren hissesi desteği; 6. bölgede ayrıca sigorta primi (işçi hissesi) desteği | — | 9903 m.4/4, m.18, m.19 |
 
-**Önemli fark (eski sisteme göre):** 9903'te bölge, KDV istisnası, gümrük muafiyeti ve vergi indirimi gibi unsurları değil, esas olarak **SGK primi desteğinin** süresini ve kapsamını belirler. Vergi indirimi ve faiz desteğinin oranı/tavanı **sisteme ve programa** göre değişir (m.15, m.20). Eski YAML'daki "öncelikli konulara 5. Bölge destekleri uygulanır" kuralı 2012/3305'e aittir ve 9903'te yoktur; öncelikli yatırımlar artık ayrı bir sistemdir.
+**Önemli fark (eski sisteme göre):** 9903'te bölge, KDV istisnası, gümrük muafiyeti ve vergi indirimi gibi unsurları değil, esas olarak **SGK primi desteğinin** süresini ve kapsamını belirler. Vergi indirimi ve faiz desteğinin oranı/tavanı **sisteme ve programa** göre değişir (m.15, m.20). Eski YAML'daki "öncelikli konulara 5. Bölge destekleri uygulanır" kuralı 2012/3305'e aittir ve 9903'te yoktur; öncelikli yatırımlar artık ayrı bir sistemdir. 
 
-Ayrıca Dijital Dönüşüm Programı (m.11) ve Yeşil Dönüşüm Programı (m.12) yatırımları Stratejik Hamle ya da Öncelikli Yatırımlar kapsamında değerlendirilebilir; uygulama usul ve esasları ayrı tebliğlerdedir (ör. Yeşil Dönüşüm Programı Uygulama Usul ve Esasları Tebliği, son değişiklik RG 08.05.2026).
+Ayrıca Dijital Dönüşüm Programı (m.11) ve Yeşil Dönüşüm Programı (m.12) yatırımları Stratejik Hamle ya da Öncelikli Yatırımlar kapsamında değerlendirilebilir; uygulama usul ve esasları ayrı tebliğlerdedir (ör. Yeşil Dönüşüm Programı Uygulama Usul ve Esasları Tebliği, son değişiklik RG 08.05.2026). 
 
-**Bölgeler:** iller sosyo-ekonomik gelişmişliğe göre altı bölgeye ayrılır (EK-2). İlin hangi bölgede olduğunu **Karar EK-2'den oku**, beceri metninden ya da eski listeden yazma. OSB/endüstri bölgesi ya da EK-5'teki ilçeler bir alt bölge desteğinden yararlanır (yalnız SGK işveren hissesi desteği bakımından).
+**Bölgeler:** iller sosyo-ekonomik gelişmişliğe göre altı bölgeye ayrılır (EK-2). İlin hangi bölgede olduğunu **Karar EK-2'den oku**, beceri metninden ya da eski listeden yazma. OSB/endüstri bölgesi ya da EK-5'teki ilçeler bir alt bölge desteğinden yararlanır (yalnız SGK işveren hissesi desteği bakımından). 
 
-**Geçiş:** 6 Şubat 2023 depremlerinden etkilenen ve 2018/11201 sayılı Kararın EK-2'sindeki ilçelerde ve Cazibe Merkezleri illerindeki OSB'lerde (imalat sanayii), belirli bir tarihe kadar yapılacak müracaatlarda 6. bölge destekleri uygulanır; son müracaat tarihini Karar geçici m.3-4'ten oku ve uzatılıp uzatılmadığını RG'de ara.
+**Geçiş:** 6 Şubat 2023 depremlerinden etkilenen ve 2018/11201 sayılı Kararın EK-2'sindeki ilçelerde ve Cazibe Merkezleri illerindeki OSB'lerde (imalat sanayii), belirli bir tarihe kadar yapılacak müracaatlarda 6. bölge destekleri uygulanır; son müracaat tarihini Karar geçici m.3-4'ten oku ve uzatılıp uzatılmadığını RG'de ara.  
 
-**Son müracaat tarihi:** 9903 kapsamında müracaatlar Karar'da belirtilen tarihe kadar değerlendirilir (m.5/5'te 31.12.2030).
+**Son müracaat tarihi:** 9903 kapsamında müracaatlar Karar'da belirtilen tarihe kadar değerlendirilir (m.5/5'te 31.12.2030). 
 
 ---
 
 ## 2. Uygunluk kontrol listesi
 
-1. **Belgeden önce harcama yapıldı mı?** Müracaat tarihinden önceki harcama kapsama alınmaz; makine siparişi verilmiş, avans ödenmiş, inşaat başlamışsa 🔴 ve ayrıştır.
-2. **Yatırım konusu desteklenebilir mi?** NACE Rev.2.1 kodu EK-3'te mi, kodun karşısında şart ya da hariç tutma var mı (ör. kapasite, alan, entegrasyon şartı; İstanbul'da desteklenmeyen konular)? Türkiye Yüzyılı Kalkınma Hamlesi, Dijital/Yeşil Dönüşüm ve m.9/1-v (deprem/yangın riski) yatırımlarında EK-3 şartı aranmaz.
-3. **Asgari sabit yatırım tutarı** sağlanıyor mu? Genel tutar bölge grubuna göre, programlarda ayrı tutarlar var; **tutarı Karardan ve güncel ilandan çek**, yazma `[doğrula]`.
-4. **Hangi sistem?** Önce Türkiye Yüzyılı Kalkınma Hamlesi (ürün öncelikli ürün listesinde mi; ilin yerel yatırım konularından biri mi; stratejik hamle listesinde mi ve ön değerlendirme kriterlerinden yeterli sayıda sağlanıyor mu), sonra Öncelikli Yatırımlar (m.9 bentleri), sonra Hedef Yatırımlar (EK-3). Hamle programına başvuru sürerken Sektörel Sistemden belge alınıp sonra revize edilebilir.
-5. **Konu bazlı kısıtlar:** elektrik üretimi, dağıtım, depolama, ana şebeke gaz dağıtımı ve İstanbul'daki hedef yatırımlar vergi indirimi alamaz; hedef yatırımlarda faiz desteği yalnız belirli bölgelerde; bazı öncelikli konularda faiz desteği yok. Konuya göre m.9/2-3 ve m.10/2-3'ü oku.
-6. **Yatırım cinsi:** komple yeni, tevsi, modernizasyon, ürün çeşitlendirme, entegrasyon, nakil. Komple yeni/tevsi/modernizasyon/ürün çeşitlendirme aynı il sınırında olmalı; bazı konular yalnız modernizasyon cinsinde belgelendirilir ve aktiften düşülecek makinenin firmada bulunma süresi ile alıcı-satıcı ortaklık şartı aranır.
-7. **Kim başvurabilir:** gerçek kişiler, adi ortaklıklar, sermaye şirketleri, kooperatifler, birlikler, iş ortaklıkları, kamu kurumları, dernek ve vakıflar, yabancı şirketlerin Türkiye şubeleri; kuruluşu tamamlanmamış tüzel kişi adına müracaat değerlendirilmez.
-8. **Ön şart belgeler:** SGK borcu yok yazısı (ya da yapılandırma), ÇED kararı/yazısı, gerekirse işyeri ruhsatı, sektörel izinler, büyük yatırımda proje bazlı formatta fizibilite. Teşvik belgesi izin ve ruhsatın yerine geçmez.
-9. **Kapsam dışı harcamalar:** hammadde, yedek parça, kullanılmış **yerli** makine, karayolu taşıtları (istisnalar hariç), tamir-bakım; turizm, sağlık, eğitim yatırımlarında makine listesine girebilecek ekipman sınırlı; inşaat malzemesi listeye girmez.
-10. **Maddi olmayan duran varlık** (marka, lisans, know-how) sabit yatırımın Karar'daki oranını aşamaz (Dijital Dönüşüm hariç) — oranı Karardan oku.
-11. **Ekosistem geliştirme planı:** KOBİ olmayan yatırımcı ya da Yerel Kalkınma Hamlesi yatırımcısı (vergi indirimi öngörülen yatırımlarda), Bakanlıkça onaylı bir ekosistem geliştirme planını tamamlama vizesine kadar gerçekleştirmekle yükümlüdür; asgari harcama sabit yatırıma oranla belirlenir. Plan tamamlanmazsa belge iptal sebebidir.
-12. **Diğer kamu desteği:** başka kurumdan destek alındı mı / alınacak mı? Birleşme yasağı → `destek-unsurlari-vergi-sgk-gumruk.md` §4.
+1. **Belgeden önce harcama yapıldı mı?** Müracaat tarihinden önceki harcama kapsama alınmaz; makine siparişi verilmiş, avans ödenmiş, inşaat başlamışsa 🔴 ve ayrıştır. 
+2. **Yatırım konusu desteklenebilir mi?** NACE Rev.2.1 kodu EK-3'te mi, kodun karşısında şart ya da hariç tutma var mı (ör. kapasite, alan, entegrasyon şartı; İstanbul'da desteklenmeyen konular)? Türkiye Yüzyılı Kalkınma Hamlesi, Dijital/Yeşil Dönüşüm ve m.9/1-v (deprem/yangın riski) yatırımlarında EK-3 şartı aranmaz. 
+3. **Asgari sabit yatırım tutarı** sağlanıyor mu? Genel tutar bölge grubuna göre, programlarda ayrı tutarlar var; **tutarı Karardan ve güncel ilandan çek**, yazma `[doğrula]`. 
+4. **Hangi sistem?** Önce Türkiye Yüzyılı Kalkınma Hamlesi (ürün öncelikli ürün listesinde mi; ilin yerel yatırım konularından biri mi; stratejik hamle listesinde mi ve ön değerlendirme kriterlerinden yeterli sayıda sağlanıyor mu), sonra Öncelikli Yatırımlar (m.9 bentleri), sonra Hedef Yatırımlar (EK-3). Hamle programına başvuru sürerken Sektörel Sistemden belge alınıp sonra revize edilebilir. 
+5. **Konu bazlı kısıtlar:** elektrik üretimi, dağıtım, depolama, ana şebeke gaz dağıtımı ve İstanbul'daki hedef yatırımlar vergi indirimi alamaz; hedef yatırımlarda faiz desteği yalnız belirli bölgelerde; bazı öncelikli konularda faiz desteği yok. Konuya göre m.9/2-3 ve m.10/2-3'ü oku. 
+6. **Yatırım cinsi:** komple yeni, tevsi, modernizasyon, ürün çeşitlendirme, entegrasyon, nakil. Komple yeni/tevsi/modernizasyon/ürün çeşitlendirme aynı il sınırında olmalı; bazı konular yalnız modernizasyon cinsinde belgelendirilir ve aktiften düşülecek makinenin firmada bulunma süresi ile alıcı-satıcı ortaklık şartı aranır. 
+7. **Kim başvurabilir:** gerçek kişiler, adi ortaklıklar, sermaye şirketleri, kooperatifler, birlikler, iş ortaklıkları, kamu kurumları, dernek ve vakıflar, yabancı şirketlerin Türkiye şubeleri; kuruluşu tamamlanmamış tüzel kişi adına müracaat değerlendirilmez. 
+8. **Ön şart belgeler:** SGK borcu yok yazısı (ya da yapılandırma), ÇED kararı/yazısı, gerekirse işyeri ruhsatı, sektörel izinler, büyük yatırımda proje bazlı formatta fizibilite. Teşvik belgesi izin ve ruhsatın yerine geçmez. 
+9. **Kapsam dışı harcamalar:** hammadde, yedek parça, kullanılmış **yerli** makine, karayolu taşıtları (istisnalar hariç), tamir-bakım; turizm, sağlık, eğitim yatırımlarında makine listesine girebilecek ekipman sınırlı; inşaat malzemesi listeye girmez. 
+10. **Maddi olmayan duran varlık** (marka, lisans, know-how) sabit yatırımın Karar'daki oranını aşamaz (Dijital Dönüşüm hariç) — oranı Karardan oku. 
+11. **Ekosistem geliştirme planı:** KOBİ olmayan yatırımcı ya da Yerel Kalkınma Hamlesi yatırımcısı (vergi indirimi öngörülen yatırımlarda), Bakanlıkça onaylı bir ekosistem geliştirme planını tamamlama vizesine kadar gerçekleştirmekle yükümlüdür; asgari harcama sabit yatırıma oranla belirlenir. Plan tamamlanmazsa belge iptal sebebidir. 
+12. **Diğer kamu desteği:** başka kurumdan destek alındı mı / alınacak mı? Birleşme yasağı → `destek-unsurlari-vergi-sgk-gumruk.md` §4. 
 
 ---
 
@@ -55,12 +55,12 @@ Ayrıca Dijital Dönüşüm Programı (m.11) ve Yeşil Dönüşüm Programı (m.
 
 | İşlem | Süre / tarih | Dayanak |
 |---|---|---|
-| Harcamaya başlamadan önce müracaat | Müracaat tarihi = yatırımın başlangıcı | 9903 m.5/6, m.29/1 |
-| Eksik belge tamamlama | Bildirimde süre yazmıyorsa 30 gün; süresinde tamamlanırsa ilk müracaat tarihindeki mevzuat uygulanır | Tebliğ 2025/1 m.8/3 |
-| Eksik/çelişkili müracaatın yeniden yapılması | Yeni müracaat tarihindeki mevzuat uygulanır | Tebliğ 2025/1 m.8/2 |
+| Harcamaya başlamadan önce müracaat | Müracaat tarihi = yatırımın başlangıcı | 9903 m.5/6, m.29/1  |
+| Eksik belge tamamlama | Bildirimde süre yazmıyorsa 30 gün; süresinde tamamlanırsa ilk müracaat tarihindeki mevzuat uygulanır | Tebliğ 2025/1 m.8/3  |
+| Eksik/çelişkili müracaatın yeniden yapılması | Yeni müracaat tarihindeki mevzuat uygulanır | Tebliğ 2025/1 m.8/2  |
 | 9903 kapsamında son müracaat | Karar'daki tarih | 9903 m.5/5 |
 | Deprem/Cazibe Merkezi geçiş desteği | Karar'daki tarihe kadar müracaat | 9903 geçici m.3-4 |
-| Öncelikli ürün, yerel yatırım konuları, stratejik hamle listeleri | Her yıl ocak ayında güncellenebilir | 9903 m.6/4, m.7/5, m.8/9 |
+| Öncelikli ürün, yerel yatırım konuları, stratejik hamle listeleri | Her yıl ocak ayında güncellenebilir | 9903 m.6/4, m.7/5, m.8/9  |
 
 ---
 
@@ -84,23 +84,23 @@ Ayrıca Dijital Dönüşüm Programı (m.11) ve Yeşil Dönüşüm Programı (m.
 ## 5. soorgla çağrıları
 
 ```
-legal_search_official_gazette query: "Yatırımlarda Devlet Yardımları Hakkında Karar" search_in: "title" sort_by: "date_desc"
-legal_get_official_gazette_document url: "https://www.resmigazete.gov.tr/eskiler/2025/05/20250530-2.pdf" offset: 0 max_chars: 30000 # m.1-15
-legal_get_official_gazette_document url: "…20250530-2.pdf" offset: 25000 max_chars: 30000 # m.15-29
-legal_get_official_gazette_document url: "…20250530-2.pdf" offset: 50000 max_chars: 30000 # m.29-36, geçici, EK-1, EK-2, EK-3 başı
-legal_get_official_gazette_document url: "…20250530-2.pdf" offset: 80000 max_chars: 25000 # EK-3 devamı, EK-4, EK-5
-legal_search_official_gazette query: "Öncelikli Ürün Listesi Tebliği" search_in: "title" sort_by: "date_desc"
-legal_search_official_gazette query: "9903 sayılı Cumhurbaşkanı Kararı" date_from: "<son 12 ay>" sort_by: "date_desc" # yerel yatırım konuları, stratejik hamle listesi, program usul esasları
-legal_search_admin_guidance sorgu: "<konu> yatırım teşvik belgesi" tarih_baslangic: "2024-01-01" belge_tur: "ozelge" # GİB'in teşvik özelgeleri
+legal_search_official_gazette  query: "Yatırımlarda Devlet Yardımları Hakkında Karar"  search_in: "title"  sort_by: "date_desc"
+legal_get_official_gazette_document  url: "https://www.resmigazete.gov.tr/eskiler/2025/05/20250530-2.pdf"  offset: 0  max_chars: 30000      # m.1-15
+legal_get_official_gazette_document  url: "…20250530-2.pdf"  offset: 25000  max_chars: 30000                                              # m.15-29
+legal_get_official_gazette_document  url: "…20250530-2.pdf"  offset: 50000  max_chars: 30000                                              # m.29-36, geçici, EK-1, EK-2, EK-3 başı
+legal_get_official_gazette_document  url: "…20250530-2.pdf"  offset: 80000  max_chars: 25000                                              # EK-3 devamı, EK-4, EK-5
+legal_search_official_gazette  query: "Öncelikli Ürün Listesi Tebliği"  search_in: "title"  sort_by: "date_desc"
+legal_search_official_gazette  query: "9903 sayılı Cumhurbaşkanı Kararı"  date_from: "<son 12 ay>"  sort_by: "date_desc"    # yerel yatırım konuları, stratejik hamle listesi, program usul esasları
+legal_search_admin_guidance  sorgu: "<konu> yatırım teşvik belgesi"  tarih_baslangic: "2024-01-01"  belge_tur: "ozelge"   # GİB'in teşvik özelgeleri
 ```
 
-9903 PDF'i OCR'lıdır (ı/ş/ğ bozuk, tablolar dağınık): **EK-2 il listesini ve EK-3 tablosunu satır satır okuyup kullanıcıya göstererek teyit ettir**; OCR karışıklığında `[doğrula — Bakanlık sitesindeki Karar metniyle]`. "Yerel Yatırım Konuları Listesi Tebliği" RG 09.07.2025'te yayımlandı, değişikliği RG 31.01.2026 (`query: "Yatırım Konuları"`, `search_in: "title"`). Stratejik hamle yatırım konuları listesi için ayrı başlıklı tebliğ bulunamadı: tanım 9903 m.2'de (Bakanlıkça belirlenen liste), program usulü Uygulama Tebliği 2025/1 m.12'de (RG 21.06.2025) — güncel listeyi Bakanlıktan/kullanıcıdan teyit et `[ARAŞTIRMA GEREKLİ: stratejik hamle yatırım konuları listesi]`.
+9903 PDF'i OCR'lıdır (ı/ş/ğ bozuk, tablolar dağınık): **EK-2 il listesini ve EK-3 tablosunu satır satır okuyup kullanıcıya göstererek teyit ettir**; OCR karışıklığında `[doğrula — Bakanlık sitesindeki Karar metniyle]`. "Yerel Yatırım Konuları Listesi Tebliği" RG 09.07.2025'te yayımlandı, değişikliği RG 31.01.2026 (`query: "Yatırım Konuları"`, `search_in: "title"`). Stratejik hamle yatırım konuları listesi için ayrı başlıklı tebliğ bulunamadı: tanım 9903 m.2'de (Bakanlıkça belirlenen liste), program usulü Uygulama Tebliği 2025/1 m.12'de (RG 21.06.2025) — güncel listeyi Bakanlıktan/kullanıcıdan teyit et `[ARAŞTIRMA GEREKLİ: stratejik hamle yatırım konuları listesi]`.  
 
 ---
 
 ## 6. İdare tarafı (Genel Müdürlük uzmanı, ajans/il müdürlüğü görevlisi)
 
-- Müracaatı Karar şartlarına ve "makroekonomik program, arz-talep dengesi, sektörel, mali ve teknik" değerlendirmeye göre ret/kabul ederken gerekçeyi yaz; ret işlemi idari dava konusudur (2577 m.7: 60 gün).
+- Müracaatı Karar şartlarına ve "makroekonomik program, arz-talep dengesi, sektörel, mali ve teknik" değerlendirmeye göre ret/kabul ederken gerekçeyi yaz; ret işlemi idari dava konusudur (2577 m.7: 60 gün). 
 - Eksiklik bildiriminde süreyi açıkça yaz; yazmazsan 30 gün işler.
 - Müracaat tarihindeki mevzuatı esas al; eksik tamamlama süresinde tamamlanan müracaatta ilk tarih korunur.
 
@@ -135,3 +135,4 @@ legal_search_admin_guidance sorgu: "<konu> yatırım teşvik belgesi" tarih_basl
 - 🟡 Hamle programına başvuru sürerken Sektörel Sistemden belge alma seçeneğini atlamak.
 
 ---
+

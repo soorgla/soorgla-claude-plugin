@@ -11,17 +11,17 @@
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| Paylaşma istemi | Hukuki işlem ya da malın sürekli bir amaca özgülenmesi nedeniyle devam yükümlülüğü yoksa her paydaş paylaşmayı isteyebilir | TMK m.698/1 |
-| Sınırlama | Paylaşmayı isteme hakkı hukuki işlemle en çok on yıl sınırlandırılabilir; taşınmazda paylı mülkiyetin devamı sözleşmesi resmî şekle bağlı, şerh verilebilir; uygun olmayan zamanda paylaşma istenemez | TMK m.698/2-3 |
-| Paylaşma biçimi | Aynen bölüşme ya da pazarlık/artırmayla satış; uyuşma yoksa hâkim aynen bölüşmeye (gerekirse para ekleyerek denkleştirme) karar verir; bölme uygun değilse ve özellikle önemli değer kaybı olacaksa **açık artırmayla satış**; satışın yalnız paydaşlar arasında yapılması bütün paydaşların rızasına bağlı | TMK m.699 |
-| Elbirliği | Mirasçılar paylaşıma kadar elbirliği maliki; elbirliğinin paylıya dönüştürülmesi ayrı istem | TMK m.640-642, 701-703 (elbirliği paylı mülkiyete geçilmesiyle de sona erer, m.703) |
-| Görev | Taşınır ve taşınmaz mal ya da hakkın paylaştırılması ve ortaklığın giderilmesi davaları değerine bakılmaksızın **sulh hukuk** | HMK m.4/1-b |
-| Kesin yetki | Taşınmazın bulunduğu yer | HMK m.12 |
-| Dava şartı | Dava açılmadan önce arabulucuya başvuru (2023'ten beri); taşınmazla ilgili anlaşma belgesine icra edilebilirlik şerhi zorunlu, taşınmazın bulunduğu yer sulh hukuk mahkemesinden; şerhli belgeyle tapuda doğrudan tescil | 6325 m.18/B-1-b, 3, 5 |
-| 6306 ilişkisi | Riskli yapı yıkıldıktan sonra arsada ortaklığın giderilmesi davası açılabilir; ama dava, hisseleri oranında salt çoğunluk kararına ve uygulamasına engel değildir | 6306 m.6/16 (7471) |
-| Kat mülkiyeti kurularak giderme | Kat mülkiyetine elverişli taşınmazda mirasçı ya da ortaklardan biri paylaşmanın kat mülkiyeti kurulup bağımsız bölümlerin tahsisiyle yapılmasını isteyebilir; hâkim m.12'deki belgelere (onaylı mimari proje, yapı kullanma izni, yönetim planı) dayanarak kat mülkiyetine çevirip payları denkleştirerek tahsis edebilir | 634 m.10/son, m.12 |
+| Paylaşma istemi | Hukuki işlem ya da malın sürekli bir amaca özgülenmesi nedeniyle devam yükümlülüğü yoksa her paydaş paylaşmayı isteyebilir | TMK m.698/1  |
+| Sınırlama | Paylaşmayı isteme hakkı hukuki işlemle en çok on yıl sınırlandırılabilir; taşınmazda paylı mülkiyetin devamı sözleşmesi resmî şekle bağlı, şerh verilebilir; uygun olmayan zamanda paylaşma istenemez | TMK m.698/2-3  |
+| Paylaşma biçimi | Aynen bölüşme ya da pazarlık/artırmayla satış; uyuşma yoksa hâkim aynen bölüşmeye (gerekirse para ekleyerek denkleştirme) karar verir; bölme uygun değilse ve özellikle önemli değer kaybı olacaksa **açık artırmayla satış**; satışın yalnız paydaşlar arasında yapılması bütün paydaşların rızasına bağlı | TMK m.699  |
+| Elbirliği | Mirasçılar paylaşıma kadar elbirliği maliki; elbirliğinin paylıya dönüştürülmesi ayrı istem | TMK m.640-642, 701-703 (elbirliği paylı mülkiyete geçilmesiyle de sona erer, m.703)  |
+| Görev | Taşınır ve taşınmaz mal ya da hakkın paylaştırılması ve ortaklığın giderilmesi davaları değerine bakılmaksızın **sulh hukuk** | HMK m.4/1-b  |
+| Kesin yetki | Taşınmazın bulunduğu yer | HMK m.12  |
+| Dava şartı | Dava açılmadan önce arabulucuya başvuru (2023'ten beri); taşınmazla ilgili anlaşma belgesine icra edilebilirlik şerhi zorunlu, taşınmazın bulunduğu yer sulh hukuk mahkemesinden; şerhli belgeyle tapuda doğrudan tescil | 6325 m.18/B-1-b, 3, 5  |
+| 6306 ilişkisi | Riskli yapı yıkıldıktan sonra arsada ortaklığın giderilmesi davası açılabilir; ama dava, hisseleri oranında salt çoğunluk kararına ve uygulamasına engel değildir | 6306 m.6/16 (7471)  |
+| Kat mülkiyeti kurularak giderme | Kat mülkiyetine elverişli taşınmazda mirasçı ya da ortaklardan biri paylaşmanın kat mülkiyeti kurulup bağımsız bölümlerin tahsisiyle yapılmasını isteyebilir; hâkim m.12'deki belgelere (onaylı mimari proje, yapı kullanma izni, yönetim planı) dayanarak kat mülkiyetine çevirip payları denkleştirerek tahsis edebilir | 634 m.10/son, m.12  |
 
-**Temyiz dairesi (2026/1 BGK, arama filtresi):** kat mülkiyeti kurulmadan ortaklığın giderilmesi (paydaşlıktan çıkarma dahil) ve elbirliğinin paylıya dönüştürülmesi 7. HD; kat mülkiyeti kurularak giderme ve KMK m.12 talepli davalar 5. HD `[doğrula]`.
+**Temyiz dairesi (2026/1 BGK, arama filtresi):** kat mülkiyeti kurulmadan ortaklığın giderilmesi (paydaşlıktan çıkarma dahil) ve elbirliğinin paylıya dönüştürülmesi 7. HD; kat mülkiyeti kurularak giderme ve KMK m.12 talepli davalar 5. HD `[doğrula]`. 
 
 ---
 
@@ -74,14 +74,14 @@
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "4721" law_type: "Kanun" article_no: "688" | "692" | "698" | "699" | "701" | "702" | "703"
-legal_get_statute_article law_no: "6100" law_type: "Kanun" article_no: "4" | "12"
-legal_list_statute_articles statute_id: 69230 article_query: "ortaklığın giderilmesi" include_content: true
-legal_get_statute_article law_no: "634" law_type: "Kanun" article_no: "12"
-legal_search_cases mahkeme: "yargitay" daire: "7. Hukuk Dairesi" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "4721"  law_type: "Kanun"  article_no: "688" | "692" | "698" | "699" | "701" | "702" | "703"
+legal_get_statute_article  law_no: "6100"  law_type: "Kanun"  article_no: "4" | "12"
+legal_list_statute_articles  statute_id: 69230  article_query: "ortaklığın giderilmesi"  include_content: true
+legal_get_statute_article  law_no: "634"  law_type: "Kanun"  article_no: "12"
+legal_search_cases  mahkeme: "yargitay"  daire: "7. Hukuk Dairesi"  tarih_baslangic: "<son 3 yıl>"
     sorgu: "<ör. imar mevzuatı nedeniyle aynen taksim mümkün değilse satış yoluyla ortaklığın giderilmesi, muhdesatın aidiyeti>"
-legal_get_case_document belge_id: "<seçilen>"
-legal_calculate_court_fee harc_turu: "basvurma_sulh"
+legal_get_case_document  belge_id: "<seçilen>"
+legal_calculate_court_fee  harc_turu: "basvurma_sulh"
 ```
 
 ---
@@ -110,3 +110,4 @@ legal_calculate_court_fee harc_turu: "basvurma_sulh"
 - 🟡 Paydaşlar arası artırmayı oybirliği olmadan istemek.
 
 ---
+

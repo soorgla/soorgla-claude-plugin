@@ -17,7 +17,7 @@ Amaç: avukata bir dosyanın güncel resmini duruşma salonuna yürüyene kadar 
 - `son_guncelleme` 30 günden eskiyse en üstte ⚠️ BAYAT ve brifingden sonra `guncelle` öner.
 - Açık süreleri yeniden kontrol et: son günü geçmiş ama `durum: acik` olan satır → 🔴 "kaçmış olabilir ya da kayıt güncellenmemiş". Kanun yolu süresi ise `legal_calculate_deadline` ile yeniden hesapla ve kartla karşılaştır; fark varsa ikisini de yaz (ORTAK-KURALLAR.md §7 araç-model çelişkisi).
 - Çıkar çatışması `bekliyor`/`yapilmadi` ya da `atlama` doluysa ⚠️ ile ilk satırlarda.
-- İsteğe bağlı: dosya kanun yolundaysa ve esas + karar no biliniyorsa `legal_get_case_by_number` ile kararın soorgla'da yayımlanmış metnini bağla; yalnız esas no varsa `legal_list_cases_by_number` + `daire` (esas no tek başına tekil değildir; aynı numara farklı dairelerde başka kararlara denk gelir). İlk derece kararlarının çoğu soorgla'da yoktur; bulunamaması kararın olmadığı anlamına gelmez.
+- İsteğe bağlı: dosya kanun yolundaysa ve esas + karar no biliniyorsa `legal_get_case_by_number` ile kararın soorgla'da yayımlanmış metnini bağla; yalnız esas no varsa `legal_list_cases_by_number` + `daire` (esas no tek başına tekil değildir; aynı numara farklı dairelerde başka kararlara denk gelir).  İlk derece kararlarının çoğu soorgla'da yoktur; bulunamaması kararın olmadığı anlamına gelmez.
 
 ## 2. Çıktı iskeleti
 

@@ -35,20 +35,20 @@ Upstream karşılığı: `employment-legal/skills/worker-classification`. Upstre
 
 `legal_get_statute_article 4857/2` (altıncı ve yedinci fıkralar) ile çek ve sırayla kontrol et:
 
-1. **Verilen iş:** yardımcı iş mi, asıl işin bir bölümü mü? Asıl işin bölümü ise işletmenin ve işin gereği **ve** teknolojik nedenlerle uzmanlık gerektiriyor mu? Bu şartlar yoksa asıl iş bölünerek alt işverene verilemez.
+1. **Verilen iş:** yardımcı iş mi, asıl işin bir bölümü mü? Asıl işin bölümü ise işletmenin ve işin gereği **ve** teknolojik nedenlerle uzmanlık gerektiriyor mu? Bu şartlar yoksa asıl iş bölünerek alt işverene verilemez. 
 2. **Yalnız o işyerinde çalıştırma:** alt işverenin bu iş için görevlendirdiği işçiler yalnız o işyerinde mi çalışıyor?
-3. **Muvazaa karinesi:** asıl işverenin işçileri alt işverence işe alınarak çalıştırılmaya devam ediliyor ve hakları kısıtlanıyor mu? Daha önce o işyerinde çalışan kişiyle alt işveren ilişkisi kuruluyor mu? Bu hâllerde ilişki muvazaalı kabul edilir ve alt işverenin işçileri başlangıçtan itibaren asıl işverenin işçisi sayılır.
+3. **Muvazaa karinesi:** asıl işverenin işçileri alt işverence işe alınarak çalıştırılmaya devam ediliyor ve hakları kısıtlanıyor mu? Daha önce o işyerinde çalışan kişiyle alt işveren ilişkisi kuruluyor mu? Bu hâllerde ilişki muvazaalı kabul edilir ve alt işverenin işçileri başlangıçtan itibaren asıl işverenin işçisi sayılır. 
 4. **Birlikte sorumluluk:** geçerli ilişkide asıl işveren, alt işverenin işçilerine karşı o işyeriyle ilgili yükümlülüklerden alt işverenle birlikte sorumludur.
 5. **Bildirim ve tescil:** alt işverenliğin bölge müdürlüğüne bildirimi, belgeler ve inceleme → Alt İşverenlik Yönetmeliği (`legal_search_statute_semantic` "Alt İşverenlik Yönetmeliği").
 6. **İşaretler:** alt işverenin kendi organizasyonu, ekipmanı, uzmanlığı var mı? Talimatı kim veriyor? Ücreti kim belirliyor? Aynı işi asıl işverenin kadrolu işçileri de yapıyor mu? 🟠
 
-**Kamu kesimi:** 4734 kapsamındaki hizmet alımlarında yüklenici işçilerinin kadro ve mali hak talepleri sınırlanmıştır (`4857/2` sekizinci ve dokuzuncu fıkralar). 2026'da eklenen geçici m.12 (7573/6), 11.09.2014-15.10.2019 arasında 4734 m.62/1-e uyarınca imzalanan ihale sözleşmelerinde kamu idaresinin ödediği kıdem tazminatının alt işverene **rücuya konu kısmının tahsilinden vazgeçilmesini** düzenliyor: derdest rücu davalarında karar verilmesine yer olmadığına hükmedilir, icra takipleri düşer; önceden tahsil edilmiş tutarlar iade edilmez → `legal_get_statute_article 4857 "geçici 12"` ile çek.
+**Kamu kesimi:** 4734 kapsamındaki hizmet alımlarında yüklenici işçilerinin kadro ve mali hak talepleri sınırlanmıştır (`4857/2` sekizinci ve dokuzuncu fıkralar). 2026'da eklenen geçici m.12 (7573/6), 11.09.2014-15.10.2019 arasında 4734 m.62/1-e uyarınca imzalanan ihale sözleşmelerinde kamu idaresinin ödediği kıdem tazminatının alt işverene **rücuya konu kısmının tahsilinden vazgeçilmesini** düzenliyor: derdest rücu davalarında karar verilmesine yer olmadığına hükmedilir, icra takipleri düşer; önceden tahsil edilmiş tutarlar iade edilmez → `legal_get_statute_article 4857 "geçici 12"` ile çek. 
 
 ## Bölüm C — Geçici (ödünç) iş ilişkisi
 
 - Holding/şirketler topluluğu içinde ya da özel istihdam bürosu aracılığıyla devir mi? Hangi hâllerde ve ne kadar süreyle kurulabileceğini `4857/7` ile çek.
 - İşçinin yazılı rızası alındı mı?
-- Geçici işverenin ve özel istihdam bürosunun sorumlulukları; SGK bildiriminde müteselsil sorumluluk (`5510/86` üçüncü fıkra).
+- Geçici işverenin ve özel istihdam bürosunun sorumlulukları; SGK bildiriminde müteselsil sorumluluk (`5510/86` üçüncü fıkra). 
 
 ## Görüşme soruları
 
@@ -63,16 +63,16 @@ Upstream karşılığı: `employment-legal/skills/worker-classification`. Upstre
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "4857" article_no: "2" | "7"
-legal_get_statute_article law_no: "4857" article_no: "geçici 12"
-legal_get_statute_article law_no: "6098" article_no: "393"
-legal_get_statute_article law_no: "5510" article_no: "86"
-legal_search_statute_semantic sorgu: "Alt İşverenlik Yönetmeliği bildirim ve muvazaa incelemesi"
-legal_search_cases mahkeme: "yargitay" daire: "9. Hukuk Dairesi"
+legal_get_statute_article  law_no: "4857"  article_no: "2" | "7"
+legal_get_statute_article  law_no: "4857"  article_no: "geçici 12"
+legal_get_statute_article  law_no: "6098"  article_no: "393"
+legal_get_statute_article  law_no: "5510"  article_no: "86"
+legal_search_statute_semantic  sorgu: "Alt İşverenlik Yönetmeliği bildirim ve muvazaa incelemesi"
+legal_search_cases  mahkeme: "yargitay"  daire: "9. Hukuk Dairesi"
     sorgu: "<ör. asıl işin bölünerek alt işverene verilmesi uzmanlık gerektirmeyen iş muvazaa>"
     tarih_baslangic: <son 3 yıl>
-legal_search_cases mahkeme: "yargitay" daire: "Hukuk Genel Kurulu" sorgu: "<olay>"
-legal_search_admin_guidance sorgu: "alt işveren muvazaa" # kapsam dar olabilir; ORTAK-KURALLAR.md §5
+legal_search_cases  mahkeme: "yargitay"  daire: "Hukuk Genel Kurulu"  sorgu: "<olay>"
+legal_search_admin_guidance  sorgu: "alt işveren muvazaa"      # kapsam dar olabilir; ORTAK-KURALLAR.md §5
 ```
 
 ## Çıktı iskeleti

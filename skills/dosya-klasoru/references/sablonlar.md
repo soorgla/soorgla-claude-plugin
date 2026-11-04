@@ -156,18 +156,18 @@ Dosya başına bir satır. **Yalnız portföy ve süre özeti için gereken en a
   baslik: "Yılmaz — işe iade"
   alan: is-hukuku
   rolumuz: davaci
-  durum: dava # on-hazirlik | arabuluculuk | dava | istinaf | temyiz | icra | sulh-muzakeresi | beklemede | kapali
+  durum: dava                 # on-hazirlik | arabuluculuk | dava | istinaf | temyiz | icra | sulh-muzakeresi | beklemede | kapali
   merci: "İstanbul ___ İş Mahkemesi"
   esas_no: "2026/___"
-  gizlilik: standart # standart | yuksek | cok-yuksek
-  risk: orta # dusuk | orta | yuksek | engelleyici (🟢 🟡 🟠 🔴)
+  gizlilik: standart          # standart | yuksek | cok-yuksek
+  risk: orta                  # dusuk | orta | yuksek | engelleyici  (🟢 🟡 🟠 🔴)
   sorumlu: "Av. ___"
   cikar_catismasi:
-    durum: temiz # temiz | bekliyor | yapilmadi | uygulanmaz | sorunlu
+    durum: temiz              # temiz | bekliyor | yapilmadi | uygulanmaz | sorunlu
     yontem: buro-kaydi
     kontrol_eden: "___"
     tarih: 2026-10-31
-    atlama: # yalnız gerekçeli atlamada dolar; beceri silmez
+    atlama:                   # yalnız gerekçeli atlamada dolar; beceri silmez
       kim: null
       tarih: null
       gerekce: null
@@ -176,8 +176,8 @@ Dosya başına bir satır. **Yalnız portföy ve süre özeti için gereken en a
     - ne: "istinaf"
       son_gun: 2026-11-16
       dayanak: "HMK m.345 [soorgla]"
-      hesap: "legal_calculate_deadline" # ya da "elle [doğrula]"
-      durum: acik # acik | yapildi | kacti | durdu | kapatildi
+      hesap: "legal_calculate_deadline"   # ya da "elle [doğrula]"
+      durum: acik             # acik | yapildi | kacti | durdu | kapatildi
       # sure-takibi ek alanları (isteğe bağlı): id, tur, saat_sahibi, baslangic, gerekce,
       # ic_hedef, sorumlu, bagli_sureler, takvim_uid — şema: ../../sure-takibi/references/sure-defteri-ve-takvim.md
   sonraki_durusma: null
@@ -185,7 +185,7 @@ Dosya başına bir satır. **Yalnız portföy ve süre özeti için gereken en a
   son_guncelleme: 2026-10-31
   kapanis: null
   sonuc: null
-  saklama_bitis: null # kapanışta Av.K. m.39'dan hesaplanır
+  saklama_bitis: null         # kapanışta Av.K. m.39'dan hesaplanır
   yol: dosyalar/yilmaz-ise-iade-2026/
 ```
 

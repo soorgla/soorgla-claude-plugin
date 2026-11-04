@@ -6,7 +6,7 @@
 
 Eski YAML `analysis/ip_technology_docs/software_license_agreement.yaml` **boş**; bu dosya sıfırdan, upstream `oss-review` becerisi Türk hukukuna uyarlanarak yazıldı.
 
-**Hukuki çerçeve:** Açık kaynak lisansları FSEK m.48'deki kullanma yetkisi (ruhsat) niteliğinde sözleşmelerdir; koşula aykırı kullanım hem sözleşme ihlali hem lisans kapsamı dışında kalan kullanım olarak FSEK m.68 bedel ve m.66 ref/men taleplerine yol açabilir `[incele]`. Açık kaynak lisans koşullarının ihlaline özgü Türk yargı kararı soorgla'da bulunamadı; FSHHM kararları kaynak kod kopyalamayı genel FSEK ihlali (işleme, çoğaltma) olarak inceliyor. Emsal varmış gibi yazma; çalışma anında güncel karar ara, bulamazsan `[ARAŞTIRMA GEREKLİ: açık kaynak lisans ihlali içtihadı]`. Yabancı hukuk seçimi içeren lisanslarda (ör. bazı kaynak-erişilebilir lisanslar) ORTAK-KURALLAR.md §2 yabancı unsur uyarısı.
+**Hukuki çerçeve:** Açık kaynak lisansları FSEK m.48'deki kullanma yetkisi (ruhsat) niteliğinde sözleşmelerdir; koşula aykırı kullanım hem sözleşme ihlali hem lisans kapsamı dışında kalan kullanım olarak FSEK m.68 bedel ve m.66 ref/men taleplerine yol açabilir `[incele]`.  Açık kaynak lisans koşullarının ihlaline özgü Türk yargı kararı soorgla'da bulunamadı; FSHHM kararları kaynak kod kopyalamayı genel FSEK ihlali (işleme, çoğaltma) olarak inceliyor. Emsal varmış gibi yazma; çalışma anında güncel karar ara, bulamazsan `[ARAŞTIRMA GEREKLİ: açık kaynak lisans ihlali içtihadı]`.  Yabancı hukuk seçimi içeren lisanslarda (ör. bazı kaynak-erişilebilir lisanslar) ORTAK-KURALLAR.md §2 yabancı unsur uyarısı.
 
 ---
 
@@ -41,11 +41,11 @@ Bağımlılık listesi mi (gelen), tek kütüphane mi, yoksa kendi kodumuzu açm
 - [ ] Yapay zekâ kod asistanı çıktısında lisanslı kod parçası `[incele]`.
 
 ## Adım 5 — Giden kontrol (kodumuzu açarken)
-- [ ] Kodun **tamamının** mali hakları bizde mi? Çalışan kodu (FSEK m.18/2) ✅; freelance/yüklenici kodu yazılı devir (m.52) yoksa 🔴.
+- [ ] Kodun **tamamının** mali hakları bizde mi? Çalışan kodu (FSEK m.18/2) ✅; freelance/yüklenici kodu yazılı devir (m.52) yoksa 🔴. 
 - [ ] Üçüncü kişi kodu ve lisans uyumu; seçilecek lisans ile bağımlılıkların uyumu.
 - [ ] Ticari sırlar, kimlik bilgileri, kişisel veri (KVKK) depoda kalmış mı?
 - [ ] Marka: proje adı tescilli markayla çakışıyor mu (`marka-tescil-itiraz-ve-turkpatent.md`).
-- [ ] Patent: açık kaynak yapmak buluşun yeniliğini bozar; patent başvurusu düşünülüyorsa önce başvur (SMK m.84'teki 12 aylık hoşgörü yalnız belirli açıklamalar için).
+- [ ] Patent: açık kaynak yapmak buluşun yeniliğini bozar; patent başvurusu düşünülüyorsa önce başvur (SMK m.84'teki 12 aylık hoşgörü yalnız belirli açıklamalar için). 
 
 ## Adım 6 — Bilgi talebi ve satın alma
 Şirket satın almada açık kaynak riski → `../../sirketler-ticaret/references/sirket-satin-alma-ve-inceleme.md` (fikri mülkiyet bölümü); bu dosyanın tablosu ek olarak kullanılır.
@@ -89,7 +89,3 @@ Bağımlılık listesi mi (gelen), tek kütüphane mi, yoksa kendi kodumuzu açm
 
 ---
 
-## Kaynak ve uyarlama
-
-- `analysis/ip_technology_docs/software_license_agreement.yaml` — **boş** (0 bayt); dosya sıfırdan.
-- Upstream: `ip-legal/skills/oss-review` (kapsam, dağıtım modeli önce, sınıflandırma, hata modları, giden kontrol), `ip-clause-review` (hak devri boşluğu kontrolü — Türk karşılığı FSEK m.52)

@@ -11,9 +11,9 @@ Mevzuat çağrısı: `legal_get_statute_article` `law_no: "12917"` `law_type: "Y
 
 ## A. Ödenek, kısımlara bölme, usul
 - [ ] **Ödenek var mı?** "Ödeneği bulunmayan hiçbir iş için ihaleye çıkılamaz." Sözleşmede "ödenek olduğu takdirde
-  ödenir" ibaresi bu kuralı ve 4735 m.4 eşitliğini zayıflatır 🟠.
+  ödenir" ibaresi bu kuralı ve 4735 m.4 eşitliğini zayıflatır 🟠. 
 - [ ] Eşik değerin altında kalmak için kısımlara bölme yok mu? Aynı yıl içinde aynı kalemler parça parça mı alınıyor? 🔴
-
+  
 - [ ] Usul ve ilan süresi → `usul_kontrol`; genel kurallar `../../kamu-ihale/references/usul-esik-ve-ilan.md`.
 
 ## B. Yaklaşık maliyet (Mal Yön. m.7-8)
@@ -24,7 +24,7 @@ Mevzuat çağrısı: `legal_get_statute_article` `law_no: "12917"` `law_type: "Y
 - [ ] Piyasayı yansıtmayan fiyat bildirimi dışlanmış ve gerekçesi cetvele yazılmış mı? (m.8/1-2)
 - [ ] Kısmi teklif varsa her kısım için ayrı YM (m.7/3). İhale tarihine kadar değiştiyse komisyon gerekçeli günceller (m.7/7).
 - [ ] Önceki sözleşmeden güncelleme → `tutar_guncelle` (`belge: yaklasik_maliyet`); araç yoksa elle endeks oranı, `[incele]`.
-- [ ] YM tekliflerle birlikte açıklanana kadar gizli (m.7/5).
+- [ ] YM tekliflerle birlikte açıklanana kadar gizli (m.7/5). 
 
 ## C. Teknik şartname (Mal Yön. m.14; 4734 m.12)
 - [ ] Kriterler **verimlilik ve fonksiyonelliğe** yönelik, rekabeti engellemiyor, fırsat eşitliği sağlıyor mu? **Yerli
@@ -39,6 +39,7 @@ Mevzuat çağrısı: `legal_get_statute_article` `law_no: "12917"` `law_type: "Y
 - [ ] Düzenlemeler ihale ve muayene kabul komisyonunda **tereddüt yaratmayacak açıklıkta** mı (m.14/8)? "1. kalite",
   "piyasada kabul görmüş tescilli markalardan" gibi ölçütsüz ifadeler hem belirsiz hem dolaylı marka şartı riski taşır 🟠 `[incele]`.
 - [ ] Özel imalatta prototip (m.14/9), uygunluk değerlendirme yükümlülükleri (m.14/11).
+  
 
 ## D. Numune, katalog, demonstrasyon (Mal Yön. m.43)
 - [ ] Numune isteniyorsa **hangi kalem, kaç adet, hangi aşamada, kim sunacak, hangi yöntemle değerlendirilecek**
@@ -48,7 +49,7 @@ Mevzuat çağrısı: `legal_get_statute_article` `law_no: "12917"` `law_type: "Y
 - [ ] En az bir numune idarede **muhafaza** edilecek mi? (yeniden değerlendirme muhafaza edilen numune üzerinden, m.43/2-b)
 - [ ] Teknik şartnameye cevap dokümanı isteniyorsa katalog da istenmesi zorunlu (özel imalat hariç, m.43/1).
 - [ ] Sözleşme sonrası "ilk teslimden önce onay numunesi" ihale numunesi değildir; sözleşme/teknik şartname ile uyumunu
-  ve gecikme etkisini kontrol et (`teslim-muayene-kabul.md`).
+  ve gecikme etkisini kontrol et (`teslim-muayene-kabul.md`). 
 
 ## E. Yeterlik kriterleri (Mal Yön. m.26-27, 33-38, 42)
 - [ ] Kriterler rekabeti engellemeyecek şekilde ve ilan + idari şartnamede birlikte yazılı mı? (m.26/1-2)
@@ -71,7 +72,7 @@ Mevzuat çağrısı: `legal_get_statute_article` `law_no: "12917"` `law_type: "Y
   Birden fazla iş sayılıyorsa "birlikte mi ayrı ayrı mı" yazılmalı. Kural KİGT 72.3'te ve **hizmet** bölümünde
   (açıklık yoksa her biri ayrı ayrı benzer iş sayılır); mal bölümünde (KİGT 54-62/A) karşılığı aramada çıkmadı —
   malda kıyasen kullan, `[incele]` `[doğrula: mal için ayrı hüküm araçta bulunamadı]`.
-
+  
   Öz denetimde emsal ölçütü: "dar tanım" iptal emsalleri yalnız tanım ihale konusundan **dar** ise işler; aynı ya da
   daha geniş tanıma karşı bu emsallerle şikâyet riski düşüktür (`../../ihale-sikayet/references/kik-emsal-arama.md`).
   Benzer iş ilanda da yer aldığından buna yönelik şikâyet süresi **ilk ilan tarihinden** işler (4734 m.55/1).
@@ -81,6 +82,7 @@ Mevzuat çağrısı: `legal_get_statute_article` `law_no: "12917"` `law_type: "Y
 - [ ] Yetkili satıcılık/imalatçılık şartı konduysa imalatçı, yetkili satıcı ve serbest bölge belgelerinin **birlikte**
   sayılması zorunlu (m.38/1).
 - [ ] Kalite yönetim / çevre yönetim belgesi **yalnız özel imalatta** (m.42/1); standarda uygunluk belgesi m.42/2.
+  
 
 ## F. Kısmi teklif, iş ortaklığı, konsorsiyum
 - [ ] Çok kalemli alımda kısmi teklif idarenin takdiri; ama **yerli malı avantajı verilecekse kısmi teklif zorunlu ve her
@@ -101,6 +103,7 @@ Mevzuat çağrısı: `legal_get_statute_article` `law_no: "12917"` `law_type: "Y
   bedeline, kendi bedeli × oran eklenir (m.61/4), `[incele]`.
 - [ ] Yerli malı listeleri (fiyat avantajı zorunlu ürünler CPV listesi, sürümlü) için
   **arama aracı yok**; yedek yol Sanayi ve Teknoloji Bakanlığı yerli malı sayfası.
+  
 
 ## H. Sözleşme tasarısı tutarlılığı (idare öz denetimi)
 - [ ] İşe başlama ve teslim tarihi, ihale tarihi + bekleme + davet + imza sürelerinden **sonra** mı? 🟠

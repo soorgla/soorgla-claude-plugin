@@ -17,7 +17,7 @@
 | 8 | Kombine Nomanklatür | AB ile ortak (Gümrük Birliği) |
 | 10–12 | Ulusal kırılım | Türk Gümrük Tarife Cetveli (TGTC); beyannamede 12 hane yazılır |
 
-TGTC her yıl Cumhurbaşkanı kararıyla yeniden yayımlanır, yıl içinde değişiklik kararları da çıkar (ör. 2026 cetveli Karar 10781, RG 30.12.2025 Mükerrer; yıl içi değişiklik Karar 11507, RG 11.07.2026). Vergi ve önlem **12 haneli** kodla uygulanır; 6 haneli yabancı kodla oran bulunmaz. Son değişikliği bul: `legal_search_official_gazette` `query: "Türk Gümrük Tarife Cetvel"` `search_in: "title"` `sort_by: "date_desc"`.
+TGTC her yıl Cumhurbaşkanı kararıyla yeniden yayımlanır, yıl içinde değişiklik kararları da çıkar (ör. 2026 cetveli Karar 10781, RG 30.12.2025 Mükerrer; yıl içi değişiklik Karar 11507, RG 11.07.2026). Vergi ve önlem **12 haneli** kodla uygulanır; 6 haneli yabancı kodla oran bulunmaz. Son değişikliği bul: `legal_search_official_gazette` `query: "Türk Gümrük Tarife Cetvel"` `search_in: "title"` `sort_by: "date_desc"`. 
 
 ---
 
@@ -28,13 +28,13 @@ TGTC her yıl Cumhurbaşkanı kararıyla yeniden yayımlanır, yıl içinde değ
    - GTİP arama aracı varsa: önce kod önekiyle (`8471`, `8471.30`), sonra serbest metinle; `tarih` = planlanan tescil günü. Metin araması cetvelin resmî diliyle eşleşir; sık gündelik adlar ("dizüstü bilgisayar", "ekran kartı") küçük bir eşanlam tablosuyla cetvel önekine yönlendirilir ve sonuçta `eslesme` diye işaretlenir — bu yönlendirme sınıflandırma görüşü değildir. Tabloda olmayan gündelik adı cetvel terimine çevirerek ara ("taşınabilir otomatik bilgi işlem makinesi").
    - Araç yoksa: Ticaret Bakanlığının yayımladığı yılın TGTC dosyası `[web — doğrulayın]`; RG'deki karar eki.
    - TGTC'de satırların çoğu "- - Diğerleri"dir; tanımı **üst satırlarla birlikte** oku (fasıl → pozisyon → alt pozisyon).
-3. **Genel Yorum Kuralları sırasıyla ele:** 1 (pozisyon metni ve bölüm/fasıl notları) → 2 → 3 → 4 → 5 → 6 `[model bilgisi — doğrulayın]`. Kural metni TGTC'nin başındadır; soorgla'da tam metin yok. Gerekçede kural numarasını yaz, metni kullanıcının TGTC'sinden teyit ettir.
+3. **Genel Yorum Kuralları sırasıyla ele:** 1 (pozisyon metni ve bölüm/fasıl notları) → 2 → 3 → 4 → 5 → 6 `[model bilgisi — doğrulayın]`. Kural metni TGTC'nin başındadır; soorgla'da tam metin yok. Gerekçede kural numarasını yaz, metni kullanıcının TGTC'sinden teyit ettir. 
 4. **Fasıl ve bölüm notlarını oku:** hariç tutma notları en sık hata kaynağıdır ("bu fasıl … kapsamaz").
 5. **Destek ara:**
    - İzahname ve Dünya Gümrük Örgütü sınıflandırma görüşleri → kullanıcıdan ya da web `[web araması — doğrulayın]`.
    - Gümrük genelgesi → `legal_search_admin_guidance` `kurum: "Ticaret Bakanlığı"` `sorgu: "<eşya> tarife"`.
    - Danıştay emsali (aynı eşya için uyuşmazlık) → `legal_search_cases` `mahkeme: "danistay"`; yalnız tartışmalı eşyada.
-6. **Kod geçmişine bak** (eski beyanname, eski BTB, eski sözleşme varsa): aynı tanım bugün hangi kodda; kod bölündü mü, kapandı mı. Arama aracında yıl sürümü; yoksa önceki yılın TGTC'si. Kod değişikliği BTB'yi geçersiz kılar (4458 m.9/5).
+6. **Kod geçmişine bak** (eski beyanname, eski BTB, eski sözleşme varsa): aynı tanım bugün hangi kodda; kod bölündü mü, kapandı mı. Arama aracında yıl sürümü; yoksa önceki yılın TGTC'si. Kod değişikliği BTB'yi geçersiz kılar (4458 m.9/5). 
 7. **Sonucu ver:** öneri + güven düzeyi + alternatif aday + farkın vergi etkisi (iki aday arasında oran farkı varsa maliyet tablosu ikisi için de).
 
 ---

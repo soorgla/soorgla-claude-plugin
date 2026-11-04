@@ -20,11 +20,11 @@ Belgeleri **içerikten önce** kronolojik sıraya koy: imza tarihi, giriş böl�
 
 ### Adım 2 — Şekil süzgeci (Türk hukukuna özgü ek)
 Ek protokol, ana sözleşmenin tabi olduğu **şekle** uymak zorundaysa kontrol et:
-- Kefaletin sorumluluğu artıran değişikliği kefalet şekline tabi; değişikliğin türüne göre eşin yeniden rızası (TBK m.583/3, m.584/2).
+- Kefaletin sorumluluğu artıran değişikliği kefalet şekline tabi; değişikliğin türüne göre eşin yeniden rızası (TBK m.583/3, m.584/2). 
 - Taşınmaz satış vaadi, arsa payı karşılığı inşaat, ölünceye kadar bakma: değişiklik de resmî şekilde mi? `[incele]`
 - Yayım ve FSEK mali hak sözleşmeleri: yazılı mı, haklar ayrı ayrı mı?
-- Tüketici sözleşmesi: koşulların süre içinde tüketici aleyhine değiştirilmesi yasak (6502 m.4/2).
-- Genel işlem koşulu içeren sözleşmede düzenleyene **tek yanlı** değişiklik yetkisi veren kayıt yazılmamış sayılır (TBK m.24); karşı tarafın imzası olmayan "güncellenmiş şartlar" ek protokol değildir.
+- Tüketici sözleşmesi: koşulların süre içinde tüketici aleyhine değiştirilmesi yasak (6502 m.4/2). 
+- Genel işlem koşulu içeren sözleşmede düzenleyene **tek yanlı** değişiklik yetkisi veren kayıt yazılmamış sayılır (TBK m.24); karşı tarafın imzası olmayan "güncellenmiş şartlar" ek protokol değildir. 
 
 Şekle uymayan ek protokolü "geçerli son metin" diye gösterme; ikisini de yaz ve `[incele]` işaretle.
 
@@ -52,9 +52,9 @@ Yalnız maddeyi değiştiren belgeleri göster; dokunmayanları atla.
 ```markdown
 # Madde izi: [madde adı] — [karşı taraf]
 ### Asıl metin — [ana sözleşme tarihi], m.[X]
-> "[aynen alıntı]" *Sade dille:* …
+> "[aynen alıntı]"   *Sade dille:* …
 ### Ek Protokol [N] — [tarih], m.[X]
-**Önce:** > "…" **Sonra:** > "…" *Ne değişti:* …
+**Önce:** > "…"  **Sonra:** > "…"  *Ne değişti:* …
 ## Geçerli metin — m.[X], [kaynak belge, tarih]
 > "[aynen alıntı]"
 ## Dikkat
@@ -147,9 +147,9 @@ Madde numaraları, tırnak içinde tanımlı terimler, "tazmin", "işbu", "mezk�
 ## MCP adımları
 Bu akışlar çoğunlukla belge içi çalışır. Şekil süzgecinde gereken maddeleri çek:
 ```
-legal_get_statute_article law_no: "6098" article_no: "24" | "205" | "583" | "584"
-legal_get_statute_article law_no: "6502" article_no: "4"
-legal_check_holiday # yenileme/iptal son günü
+legal_get_statute_article  law_no: "6098"  article_no: "24" | "205" | "583" | "584"
+legal_get_statute_article  law_no: "6502"  article_no: "4"
+legal_check_holiday   # yenileme/iptal son günü
 ```
 
 ## Sık hatalar
@@ -162,7 +162,3 @@ legal_check_holiday # yenileme/iptal son günü
 
 ---
 
-## Kaynak ve uyarlama
-
-- Bu dosyanın karşılığı olan eski YAML yok; görev tanımındaki "değişiklik geçmişi, iş birimine sade özet" isteğinden ve upstream'den yazıldı.
-- Upstream: `claude-for-legal-upstream/commercial-legal/skills/amendment-history/SKILL.md` (kip seçimi, sıralama kuralları, Kip 1/Kip 2 iskeletleri, "ne yapmaz"); `stakeholder-summary/SKILL.md` (kitle tablosu, 200 kelime sınırı, alıntı disiplini, çeviri tablosu, takip iddiası kuralı, yükseltme mutabakatı). Türk hukukuna özgü ek: şekil süzgeci (TBK 583-584, 24; 6502 m.4/2).

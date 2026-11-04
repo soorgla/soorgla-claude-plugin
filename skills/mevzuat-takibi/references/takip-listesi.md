@@ -13,8 +13,8 @@ Upstream `regulatory-legal/CLAUDE.md` "Regulators we watch", "Policy library", "
 
 ```
 ~/.claude/plugins/config/soorgla-hukuk/mevzuat-takibi/
-├── takip-listesi.md # bu dosyanın §3 şablonu
-├── bosluk-takibi.yaml # açık boşluklar (etki-ve-bosluk.md §4)
+├── takip-listesi.md          # bu dosyanın §3 şablonu
+├── bosluk-takibi.yaml        # açık boşluklar (etki-ve-bosluk.md §4)
 └── ozetler/
     └── mevzuat-ozeti-AAAA-AA-GG.md
 ```
@@ -35,7 +35,7 @@ Upstream `regulatory-legal/CLAUDE.md` "Regulators we watch", "Policy library", "
 ```markdown
 # Mevzuat takip listesi
 *Oluşturma: AAAA-AA-GG · Son güncelleme: AAAA-AA-GG*
-*son_tarama: AAAA-AA-GG*
+*son_tarama: AAAA-AA-GG*   
 
 ## 1. İzlenen mevzuat
 | # | Mevzuat (no ve tür) | Maddeler | Neden izleniyor | Önem varsayılanı | İlgili alan becerisi |
@@ -85,9 +85,9 @@ Kurulumda ilk dört soruyu sor; 5-7 isteğe bağlıdır:
 5. (İsteğe bağlı) Karşılaştırılacak iç politika ya da sözleşme şablonlarınız var mı? Nerede duruyorlar, sahibi kim?
 6. (İsteğe bağlı) Değişikliği kim değerlendirir, politikayı kim onaylar?
 
-**Kanun numarasını çözümle:** kullanıcı adla verdiyse `legal_resolve_statute` (`query`, `law_type`) ile numara ve türü bul; numara çakışması olan kanunlarda (657, 4483, 213, 6306, 3201, 6325, 3095…) `statute_id`'yi tabloya not et, `law_type: "Kanun"` ile çağır; yanıttaki `other_candidates` aynı numaralı diğer kayıtlardır, gerekirse `legal_get_statute_article_by_id` kullan.
+**Kanun numarasını çözümle:** kullanıcı adla verdiyse `legal_resolve_statute` (`query`, `law_type`) ile numara ve türü bul; numara çakışması olan kanunlarda (657, 4483, 213, 6306, 3201, 6325, 3095…) `statute_id`'yi tabloya not et, `law_type: "Kanun"` ile çağır; yanıttaki `other_candidates` aynı numaralı diğer kayıtlardır, gerekirse `legal_get_statute_article_by_id` kullan. 
 
-**Kurum adını tam yaz:** `legal_search_admin_guidance` `kurum` filtresi tam adla çalışır ("Kişisel Verileri Koruma Kurulu", "Rekabet Kurulu", "Gelir İdaresi Başkanlığı", "Reklam Kurulu", "Bankacılık Düzenleme ve Denetleme Kurulu").
+**Kurum adını tam yaz:** `legal_search_admin_guidance` `kurum` filtresi tam adla çalışır ("Kişisel Verileri Koruma Kurulu", "Rekabet Kurulu", "Gelir İdaresi Başkanlığı", "Reklam Kurulu", "Bankacılık Düzenleme ve Denetleme Kurulu"). 
 
 ## 4. Takip listesini değiştirme
 

@@ -13,17 +13,17 @@
 
 | Fiil | Nitelik | Dayanak |
 |---|---|---|
-| Eşyayı gümrük işlemlerine tabi tutmaksızın ülkeye sokma (kapı dışından giriş ağırlaştırıcı) | Suç | 5607 m.3/1 |
-| Aldatıcı işlem ve davranışlarla vergiler kısmen/tamamen ödenmeksizin ülkeye sokma | Suç | 5607 m.3/2 |
-| Transit eşyayı rejime aykırı bırakma | Suç | 5607 m.3/3 |
-| DİR/geçici ithalat eşyasını hile ile yurt dışına çıkarmış gibi işlem | Suç | 5607 m.3/4 |
-| Muafen ithal edilen eşyayı amacı dışında kullanma/devretme | Suç | 5607 m.3/6 |
-| İthali/ihracı yasak eşya | Suç | 5607 m.3/7-8 |
-| Teşvik/iade amacıyla sahte ya da farklı gösterilen ihracat; fark %10'u aşmıyorsa yalnız 4458 | Suç / idari | 5607 m.3/9 |
-| Teşebbüs tamamlanmış gibi cezalandırılır; değer fahiş/hafif ise artırım/indirim | — | 5607 m.3/22-23 |
-| Beyanda tarife/kıymet/menşe farkı, rejim ihlali, usulsüzlük | İdari (ek tahakkuk + idari para cezası) | 4458 m.234-241 |
+| Eşyayı gümrük işlemlerine tabi tutmaksızın ülkeye sokma (kapı dışından giriş ağırlaştırıcı) | Suç | 5607 m.3/1  |
+| Aldatıcı işlem ve davranışlarla vergiler kısmen/tamamen ödenmeksizin ülkeye sokma | Suç | 5607 m.3/2  |
+| Transit eşyayı rejime aykırı bırakma | Suç | 5607 m.3/3  |
+| DİR/geçici ithalat eşyasını hile ile yurt dışına çıkarmış gibi işlem | Suç | 5607 m.3/4  |
+| Muafen ithal edilen eşyayı amacı dışında kullanma/devretme | Suç | 5607 m.3/6  |
+| İthali/ihracı yasak eşya | Suç | 5607 m.3/7-8  |
+| Teşvik/iade amacıyla sahte ya da farklı gösterilen ihracat; fark %10'u aşmıyorsa yalnız 4458 | Suç / idari | 5607 m.3/9  |
+| Teşebbüs tamamlanmış gibi cezalandırılır; değer fahiş/hafif ise artırım/indirim | — | 5607 m.3/22-23  |
+| Beyanda tarife/kıymet/menşe farkı, rejim ihlali, usulsüzlük | İdari (ek tahakkuk + idari para cezası) | 4458 m.234-241  |
 
-**Gümrük işlemine tabi tutulmuş** eşyada beyan farkı kural olarak idari alandadır; aldatıcı işlem ve davranış (sahte fatura, sahte menşe belgesi) varsa m.3/2'ye kayar. Yargıtay 7. Ceza Dairesi "eşyanın gümrük işlemlerine tabi tutulmaksızın yurda sokulması" şartını arıyor. Sınır olayda `[incele]`.
+**Gümrük işlemine tabi tutulmuş** eşyada beyan farkı kural olarak idari alandadır; aldatıcı işlem ve davranış (sahte fatura, sahte menşe belgesi) varsa m.3/2'ye kayar. Yargıtay 7. Ceza Dairesi "eşyanın gümrük işlemlerine tabi tutulmaksızın yurda sokulması" şartını arıyor.  Sınır olayda `[incele]`.
 
 ---
 
@@ -31,14 +31,14 @@
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| Uzlaşma | Fiil 5607 suçlarıyla ilişkiliyse gümrük uzlaşması yok | 4458 m.244/2 |
-| Vergi alacağının zamanaşımı | Ceza davası açılmışsa ve fiilin zamanaşımı daha uzunsa TCK süreleri | 4458 m.197/4 |
-| İdari yaptırımın zamanaşımı | Aynı koşulla TCK'daki dava ve ceza zamanaşımı süreleri | 4458 m.231/1 |
-| Uygulanacak kısım | Gümrük vergilerine ilişkin idari yaptırım kararları ve itirazlarında 4458'in ceza kısmı ve itiraz kısmı uygulanır; mülkiyetin kamuya geçirilmesine karar verilen eşya bulunamazsa gümrüklenmiş değer | 4458 m.231/3-4 (7190) |
-| Ceza ve idari yaptırımın birlikte uygulanması, lehe kanun | Danıştay 7. D. eski m.235/5 olayında lehe kanun değerlendirmesi; 4458 m.235 hükümlerinin 5607'ye aktarılması tartışması (karşı oylu kararlar) | Danıştay 7. D. E.2022/1370 K.2024/1751; E.2020/2280 K.2023/2350 |
-| Kambiyo kıymetleri | 1567 m.3: 5607'ye göre suç/kabahat oluşturmayan izinsiz çıkarma/sokma → idari para cezası | 7555 m.2 (RG 24.07.2025) |
+| Uzlaşma | Fiil 5607 suçlarıyla ilişkiliyse gümrük uzlaşması yok | 4458 m.244/2  |
+| Vergi alacağının zamanaşımı | Ceza davası açılmışsa ve fiilin zamanaşımı daha uzunsa TCK süreleri | 4458 m.197/4  |
+| İdari yaptırımın zamanaşımı | Aynı koşulla TCK'daki dava ve ceza zamanaşımı süreleri | 4458 m.231/1  |
+| Uygulanacak kısım | Gümrük vergilerine ilişkin idari yaptırım kararları ve itirazlarında 4458'in ceza kısmı ve itiraz kısmı uygulanır; mülkiyetin kamuya geçirilmesine karar verilen eşya bulunamazsa gümrüklenmiş değer | 4458 m.231/3-4 (7190)  |
+| Ceza ve idari yaptırımın birlikte uygulanması, lehe kanun | Danıştay 7. D. eski m.235/5 olayında lehe kanun değerlendirmesi; 4458 m.235 hükümlerinin 5607'ye aktarılması tartışması (karşı oylu kararlar) | Danıştay 7. D. E.2022/1370 K.2024/1751; E.2020/2280 K.2023/2350  |
+| Kambiyo kıymetleri | 1567 m.3: 5607'ye göre suç/kabahat oluşturmayan izinsiz çıkarma/sokma → idari para cezası | 7555 m.2 (RG 24.07.2025)  |
 
-Son 3 yılda 5607 m.3'ü değiştiren kanun bulunamadı; 7445 (RG 05.04.2023) yalnız m.19/4'e cümle ekledi. Yargı paketlerinin 5607'ye dolaylı etkileri (HAGB, uzlaştırma kapsamı) → ceza-hukuku-suclar.
+Son 3 yılda 5607 m.3'ü değiştiren kanun bulunamadı; 7445 (RG 05.04.2023) yalnız m.19/4'e cümle ekledi.  Yargı paketlerinin 5607'ye dolaylı etkileri (HAGB, uzlaştırma kapsamı) → ceza-hukuku-suclar.
 
 ---
 
@@ -68,10 +68,10 @@ Son 3 yılda 5607 m.3'ü değiştiren kanun bulunamadı; 7445 (RG 05.04.2023) ya
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "5607" law_type: "Kanun" article_no: "3"
-legal_get_statute_article law_no: "4458" law_type: "Kanun" article_no: "197" | "231" | "244"
-legal_search_cases mahkeme: "yargitay" sorgu: "<fiil> 5607 kaçakçılık" tarih_baslangic: "2024-01-01"
-legal_search_cases mahkeme: "danistay" sorgu: "5607 kaçakçılık ceza davası gümrük idari para cezası" tarih_baslangic: "2023-01-01"
+legal_get_statute_article  law_no: "5607"  law_type: "Kanun"  article_no: "3"
+legal_get_statute_article  law_no: "4458"  law_type: "Kanun"  article_no: "197" | "231" | "244"
+legal_search_cases  mahkeme: "yargitay"  sorgu: "<fiil> 5607 kaçakçılık"  tarih_baslangic: "2024-01-01"
+legal_search_cases  mahkeme: "danistay"  sorgu: "5607 kaçakçılık ceza davası gümrük idari para cezası"  tarih_baslangic: "2023-01-01"
 ```
 
 ---
@@ -89,3 +89,4 @@ legal_search_cases mahkeme: "danistay" sorgu: "5607 kaçakçılık ceza davası 
 - Suç şüphesinde savcılığa bildirim ile ek tahakkuk/ceza kararını birbirinden bağımsız ve süresinde yürüt; kararda 5607 bağlantısını ve uzlaşma yasağını belirt.
 
 ---
+

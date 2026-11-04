@@ -14,20 +14,20 @@
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| Kapsam | İki ya da daha çok geminin çarpışması; çarpışma olmadan manevra yapmak/yapmamak ya da seyir kurallarına uymamakla verilen zarar da | 6102 m.1286 |
-| Uygulama alanı istisnası | Gezinti/spor/eğitim gemileri ve kamu hizmetine tahsisli devlet gemileri, harp gemileri bakımından çatma ve kurtarma bölümlerinin uygulanması m.935'teki ayrıma bağlı | 6102 m.935 `[incele]` |
-| Kusursuz çatma | Umulmayan hâl, mücbir sebep ya da sebebi anlaşılamayan çatmada herkes kendi zararına katlanır (gemi demirdeyken de) | 6102 m.1287 |
-| Tek tarafın kusuru | O geminin donatanı tazmin eder | 6102 m.1288 |
-| Ortak kusur — eşya zararı | Donatanlar **kusurlarının ağırlığı oranında**; oran tespit edilemezse ya da eşitse eşit; üçüncü kişilere karşı **müteselsil değil**; teknik yönetim hatasında donatan kendi gemisindeki yüke karşı sorumsuz (m.1062/1, m.1180) ve özel rücu kuralı | 6102 m.1289 |
-| Ortak kusur — bedensel zarar | Ölüm/yaralanmada donatanlar **müteselsilen** sorumlu; iç ilişkide kusur oranında rücu | 6102 m.1290 |
+| Kapsam | İki ya da daha çok geminin çarpışması; çarpışma olmadan manevra yapmak/yapmamak ya da seyir kurallarına uymamakla verilen zarar da | 6102 m.1286  |
+| Uygulama alanı istisnası | Gezinti/spor/eğitim gemileri ve kamu hizmetine tahsisli devlet gemileri, harp gemileri bakımından çatma ve kurtarma bölümlerinin uygulanması m.935'teki ayrıma bağlı | 6102 m.935  `[incele]` |
+| Kusursuz çatma | Umulmayan hâl, mücbir sebep ya da sebebi anlaşılamayan çatmada herkes kendi zararına katlanır (gemi demirdeyken de) | 6102 m.1287  |
+| Tek tarafın kusuru | O geminin donatanı tazmin eder | 6102 m.1288  |
+| Ortak kusur — eşya zararı | Donatanlar **kusurlarının ağırlığı oranında**; oran tespit edilemezse ya da eşitse eşit; üçüncü kişilere karşı **müteselsil değil**; teknik yönetim hatasında donatan kendi gemisindeki yüke karşı sorumsuz (m.1062/1, m.1180) ve özel rücu kuralı | 6102 m.1289  |
+| Ortak kusur — bedensel zarar | Ölüm/yaralanmada donatanlar **müteselsilen** sorumlu; iç ilişkide kusur oranında rücu | 6102 m.1290  |
 | Kılavuzun kusuru, şekil şartı yokluğu, karine yokluğu | m.1291, m.1293, m.1294 — çek | `[doğrula]` |
-| Dava öncesi delil tespiti | Çatmanın olduğu yerde deniz ticareti işlerine bakan asliye ticaret, yoksa asliye ticaret, yoksa ticaret davalarına bakan asliye hukuk; her geminin kaptanına bildirim; **tespit raporunda kusur oranı yazılmaz** | 6102 m.1292 |
-| Kaptanın yardım görevi | m.1295; insan kurtarma yükümlülüğü m.1317 (malik yalnız bu ihlalden sorumlu olmaz) | 6102 m.1317 |
-| Zamanaşımı | Çatmaya dayanan her türlü tazminat istemi **çatma gününden iki yıl**; m.1289/2 ve m.1290/2 rücu hakları **ödemeden bir yıl** | 6102 m.1297 |
+| Dava öncesi delil tespiti | Çatmanın olduğu yerde deniz ticareti işlerine bakan asliye ticaret, yoksa asliye ticaret, yoksa ticaret davalarına bakan asliye hukuk; her geminin kaptanına bildirim; **tespit raporunda kusur oranı yazılmaz** | 6102 m.1292  |
+| Kaptanın yardım görevi | m.1295; insan kurtarma yükümlülüğü m.1317 (malik yalnız bu ihlalden sorumlu olmaz) | 6102 m.1317  |
+| Zamanaşımı | Çatmaya dayanan her türlü tazminat istemi **çatma gününden iki yıl**; m.1289/2 ve m.1290/2 rücu hakları **ödemeden bir yıl** | 6102 m.1297  |
 
-**Kusur oranı teknik bilirkişi işidir;** Denizde Çatışmayı Önleme Yönetmeliği (COLREG; 8258, RG 12.03.2024) kurallarıyla (yetişen gemi, sancak/iskele, hız) belirlenir ve Yargıtay bozma sonrası yeni rapor alınmasını arayabilir. Kusur oranını beceri belirlemez; raporu tutarlılık bakımından inceler `[incele]`.
+**Kusur oranı teknik bilirkişi işidir;** Denizde Çatışmayı Önleme Yönetmeliği (COLREG; 8258, RG 12.03.2024) kurallarıyla (yetişen gemi, sancak/iskele, hız) belirlenir ve Yargıtay bozma sonrası yeni rapor alınmasını arayabilir.  Kusur oranını beceri belirlemez; raporu tutarlılık bakımından inceler `[incele]`.
 
- Olay 12.03.2024'ten önceyse o tarihte yürürlükte olan çatışmayı önleme düzenlemesini ayrıca belirle; 8258'de önceki metni açıkça kaldıran bir madde görülmedi `[doğrula]`.
+ Olay 12.03.2024'ten önceyse o tarihte yürürlükte olan çatışmayı önleme düzenlemesini ayrıca belirle; 8258'de önceki metni açıkça kaldıran bir madde görülmedi `[doğrula]`. 
 
 ---
 
@@ -35,23 +35,23 @@
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| Tanım | Seyrüsefere elverişli sularda **tehlikeye uğramış** su aracı veya eşyanın kurtarılması için her fiil; hak kazanılmamış navlun da "eşya" | 6102 m.1298/1-2 |
-| Kurtarma sayılmayanlar | Malik/kaptanın açık ve makul itirazına rağmen yapılan; tehlikedeki araçta çalışanların yaptığı; **tehlike doğmadan önce kurulmuş sözleşmenin** (ör. önceden kararlaştırılmış römorkaj) ifası | 6102 m.1298/4 |
-| Kanuni yükümlülük / aynı malik | Kurtarma hükümleri yine uygulanır | 6102 m.1299 |
-| Sözleşme yetkisi | Kaptan malik adına; malik ve kaptan araçtaki eşya malikleri adına; **yetkili mahkeme veya tahkim** kararlaştırmak dahil | 6102 m.1300 |
-| Uyarlama/iptal | Yanlış yönlendirme ya da tehlikenin etkisiyle yapılmış, hak ve nasafete aykırı ya da ücret hizmetle aşırı oransız ise; bu hüküm ve çevre özeni emredici | 6102 m.1301-1302 |
-| "Başarı yoksa ücret yok" | **Faydalı sonuç** veren kurtarma ücrete hak kazandırır; aksi yazılı değilse faydalı sonuç yoksa ücret yok; ücret kurtarılan eşyanın kurtarma sonrası değerini geçemez | 6102 m.1304 |
-| Ücretin belirlenmesi | Kararlaştırılmamışsa ya da uyarlanıyorsa m.1305/1'deki on ölçüt (kurtarılan değer, çevre çabası, başarı, tehlike, zaman ve gider, risk, hız, teçhizat) — sıralama yok; resmî giderler ve gümrük resmi dahil değil; **para olarak** saptanır, aksi kararlaştırılmadıkça kurtarılan değerin **yüzdesi olarak belirlenemez** | 6102 m.1305 |
-| Borçlular | Kurtarmanın tamamlandığı andaki malikler, kurtarılan değerler oranında; **teselsül yok**; eşyayı bilerek teslim alan gönderilen şahsen sorumlu | 6102 m.1306-1307 |
-| Tek ücret ve birden çok kurtaran | Tek ücret; davalar birleştirilir; pay m.1305 ölçütleriyle | 6102 m.1308-1309 |
-| Gemi adamlarının payı | Pay cetveline, Türkiye'de ilk varılan yer mahkemesinde varıştan **15 gün** içinde itiraz; karar kesin; kurtarmaya tahsisli gemi/römorkör personeli pay isteyemez | 6102 m.1310 |
-| Ücretten mahrumiyet | Kurtarmayı kendi kusuruyla zorunlu kılan ya da güçleştiren, hileli/dürüstlüğe aykırı davranan | 6102 m.1311 |
-| Özel tazminat (çevre) | Çevre zararı tehdidi olan araçta, m.1305 ücreti yetersiz kalırsa giderler; çevre zararı önlendiyse artırım (oranlar madde metninden); müşterek avaryaya girmez | 6102 m.1312 |
-| Faiz, teminat, rehin, avans | Faiz teslim alınması gereken tarihten; teslimde ödeme ya da teminat; gemi üzerinde **gemi alacaklısı hakkı**, eşya üzerinde hapis hakkı; teminat gösterilmeden ilk limandan uzaklaştırılamaz; mahkeme/hakem avans verebilir | 6102 m.1313-1316 |
-| İnsan kurtarma | Kurtarılan kişi ücret borçlusu değil; yalnız insan kurtaran, eşya/çevre kurtaranın ücretinden uygun pay ister | 6102 m.1318 |
-| Zamanaşımı | Kurtarma ve enkaz kaldırma alacakları **iki yıl** (kurtarmanın sona ermesinden / enkaz kaldırmanın tamamlanmasından); borçlunun beyanıyla bir ya da birçok kez uzatılabilir | 6102 m.1319 |
+| Tanım | Seyrüsefere elverişli sularda **tehlikeye uğramış** su aracı veya eşyanın kurtarılması için her fiil; hak kazanılmamış navlun da "eşya" | 6102 m.1298/1-2  |
+| Kurtarma sayılmayanlar | Malik/kaptanın açık ve makul itirazına rağmen yapılan; tehlikedeki araçta çalışanların yaptığı; **tehlike doğmadan önce kurulmuş sözleşmenin** (ör. önceden kararlaştırılmış römorkaj) ifası | 6102 m.1298/4  |
+| Kanuni yükümlülük / aynı malik | Kurtarma hükümleri yine uygulanır | 6102 m.1299  |
+| Sözleşme yetkisi | Kaptan malik adına; malik ve kaptan araçtaki eşya malikleri adına; **yetkili mahkeme veya tahkim** kararlaştırmak dahil | 6102 m.1300  |
+| Uyarlama/iptal | Yanlış yönlendirme ya da tehlikenin etkisiyle yapılmış, hak ve nasafete aykırı ya da ücret hizmetle aşırı oransız ise; bu hüküm ve çevre özeni emredici | 6102 m.1301-1302  |
+| "Başarı yoksa ücret yok" | **Faydalı sonuç** veren kurtarma ücrete hak kazandırır; aksi yazılı değilse faydalı sonuç yoksa ücret yok; ücret kurtarılan eşyanın kurtarma sonrası değerini geçemez | 6102 m.1304  |
+| Ücretin belirlenmesi | Kararlaştırılmamışsa ya da uyarlanıyorsa m.1305/1'deki on ölçüt (kurtarılan değer, çevre çabası, başarı, tehlike, zaman ve gider, risk, hız, teçhizat) — sıralama yok; resmî giderler ve gümrük resmi dahil değil; **para olarak** saptanır, aksi kararlaştırılmadıkça kurtarılan değerin **yüzdesi olarak belirlenemez** | 6102 m.1305  |
+| Borçlular | Kurtarmanın tamamlandığı andaki malikler, kurtarılan değerler oranında; **teselsül yok**; eşyayı bilerek teslim alan gönderilen şahsen sorumlu | 6102 m.1306-1307  |
+| Tek ücret ve birden çok kurtaran | Tek ücret; davalar birleştirilir; pay m.1305 ölçütleriyle | 6102 m.1308-1309  |
+| Gemi adamlarının payı | Pay cetveline, Türkiye'de ilk varılan yer mahkemesinde varıştan **15 gün** içinde itiraz; karar kesin; kurtarmaya tahsisli gemi/römorkör personeli pay isteyemez | 6102 m.1310  |
+| Ücretten mahrumiyet | Kurtarmayı kendi kusuruyla zorunlu kılan ya da güçleştiren, hileli/dürüstlüğe aykırı davranan | 6102 m.1311  |
+| Özel tazminat (çevre) | Çevre zararı tehdidi olan araçta, m.1305 ücreti yetersiz kalırsa giderler; çevre zararı önlendiyse artırım (oranlar madde metninden); müşterek avaryaya girmez | 6102 m.1312  |
+| Faiz, teminat, rehin, avans | Faiz teslim alınması gereken tarihten; teslimde ödeme ya da teminat; gemi üzerinde **gemi alacaklısı hakkı**, eşya üzerinde hapis hakkı; teminat gösterilmeden ilk limandan uzaklaştırılamaz; mahkeme/hakem avans verebilir | 6102 m.1313-1316  |
+| İnsan kurtarma | Kurtarılan kişi ücret borçlusu değil; yalnız insan kurtaran, eşya/çevre kurtaranın ücretinden uygun pay ister | 6102 m.1318  |
+| Zamanaşımı | Kurtarma ve enkaz kaldırma alacakları **iki yıl** (kurtarmanın sona ermesinden / enkaz kaldırmanın tamamlanmasından); borçlunun beyanıyla bir ya da birçok kez uzatılabilir | 6102 m.1319  |
 
-**Çekme mi kurtarma mı:** davalı tarafın "verilen hizmet çekme hizmetiydi, kurtarma değildi" savunması 11. HD önüne gelen güncel dosyalarda tartışılıyor; ölçüt tehlikenin varlığı ve önceden kurulmuş sözleşme (m.1298/4-c). `[çekildi ama desteği doğrulayın]` — tam metin okunmadı.
+**Çekme mi kurtarma mı:** davalı tarafın "verilen hizmet çekme hizmetiydi, kurtarma değildi" savunması 11. HD önüne gelen güncel dosyalarda tartışılıyor; ölçüt tehlikenin varlığı ve önceden kurulmuş sözleşme (m.1298/4-c).  `[çekildi ama desteği doğrulayın]` — tam metin okunmadı.
 
 ---
 
@@ -59,13 +59,13 @@
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| Tanım | Ortak deniz sergüzeştindeki gemi, yük, diğer eşya ve navlunu **birlikte** tehdit eden tehlikeden korumak için makul biçimde **bile bile olağanüstü fedakârlık ya da gider**; doğrudan sonuçları müşterek avarya; önlenen giderin yerine yapılan fazla gider o tutara kadar | 6102 m.1272 |
-| Uygulanacak kurallar | Taraflar aksini kararlaştırmadıkça **Türkçeye çevrilip RG'de yayımlanmış en son York-Anvers Kuralları** — soorgla RG'de bulunan en son çeviri **2016 York Anvers Kuralları** (tebliğ, RG 19.02.2019); öncesi 2004 Kuralları (RG 13.01.2014). Olay tarihinden sonra yeni çeviri yayımlanmış mı RG'de başlık araması yap | 6102 m.1273 |
-| Borçlular ve teminat | m.1274-1277: garame payı borçluları, gemiye düşen pay için teminat, hapis hakkı (taşıyan müşterek avarya alacağı için eşyanın tümü üzerinde — m.1201/3) | 6102 m.1274-1277 `[doğrula]`; m.1201/3 |
-| Dispeç | Donatan **gecikmeksizin** yaptırmakla yükümlü; yaptırmazsa ilgililere karşı sorumlu; süresinde yapılmazsa sigortacı dahil her ilgili yaptırabilir; dispeççi reddederse mahkeme basit yargılamayla karar verir | 6102 m.1278 |
-| Onay ve itiraz | m.1279'daki yer mahkemesinden onay ya da avarya türüne/hesabına itiraz; duruşmaya en az 15 gün önce çağrı; gelmeyen onay vermiş sayılır; itiraz **en geç ilk celsede açık ve ayrıntılı** — yoksa yapılmamış sayılır | 6102 m.1281 |
-| Zamanaşımı | Garame payı alacakları **bir yıl**; geminin m.1279'daki yere vardığı tarihten | 6102 m.1285 |
-| Gemi alacaklısı hakkı | Garame payı alacağı gemi alacaklısı hakkı verir, ama bütün rehinlerden **sonra** gelir; altı ay / 60 gün düşme süreleri | 6102 m.1320/1-f, m.1323/2, m.1326/2 |
+| Tanım | Ortak deniz sergüzeştindeki gemi, yük, diğer eşya ve navlunu **birlikte** tehdit eden tehlikeden korumak için makul biçimde **bile bile olağanüstü fedakârlık ya da gider**; doğrudan sonuçları müşterek avarya; önlenen giderin yerine yapılan fazla gider o tutara kadar | 6102 m.1272  |
+| Uygulanacak kurallar | Taraflar aksini kararlaştırmadıkça **Türkçeye çevrilip RG'de yayımlanmış en son York-Anvers Kuralları** — soorgla RG'de bulunan en son çeviri **2016 York Anvers Kuralları** (tebliğ, RG 19.02.2019); öncesi 2004 Kuralları (RG 13.01.2014). Olay tarihinden sonra yeni çeviri yayımlanmış mı RG'de başlık araması yap | 6102 m.1273   |
+| Borçlular ve teminat | m.1274-1277: garame payı borçluları, gemiye düşen pay için teminat, hapis hakkı (taşıyan müşterek avarya alacağı için eşyanın tümü üzerinde — m.1201/3) | 6102 m.1274-1277 `[doğrula]`; m.1201/3  |
+| Dispeç | Donatan **gecikmeksizin** yaptırmakla yükümlü; yaptırmazsa ilgililere karşı sorumlu; süresinde yapılmazsa sigortacı dahil her ilgili yaptırabilir; dispeççi reddederse mahkeme basit yargılamayla karar verir | 6102 m.1278  |
+| Onay ve itiraz | m.1279'daki yer mahkemesinden onay ya da avarya türüne/hesabına itiraz; duruşmaya en az 15 gün önce çağrı; gelmeyen onay vermiş sayılır; itiraz **en geç ilk celsede açık ve ayrıntılı** — yoksa yapılmamış sayılır | 6102 m.1281  |
+| Zamanaşımı | Garame payı alacakları **bir yıl**; geminin m.1279'daki yere vardığı tarihten | 6102 m.1285  |
+| Gemi alacaklısı hakkı | Garame payı alacağı gemi alacaklısı hakkı verir, ama bütün rehinlerden **sonra** gelir; altı ay / 60 gün düşme süreleri | 6102 m.1320/1-f, m.1323/2, m.1326/2  |
 
 **Kusur ve müşterek avarya:** tehlike bir ilgilinin kusurundan doğmuşsa bile garame paylaştırması yapılır ve kusurlu tarafa karşı tazminat ayrıca istenir — York-Anvers Kural D `[model bilgisi — doğrulayın]`. Taşıyanın teknik yönetim hatasından sorumsuz olduğu durumlarda (m.1180) yük ilgilisinin katkı borcu kalır `[incele]`.
 
@@ -73,8 +73,8 @@
 
 ## 4. Deniz raporu (TTK m.1096-1101)
 
-- Kaptan, yolculuk sırasında gemi ya da eşyayı ilgilendiren veya maddi zarar doğurabilecek bir kazada (gemi zayi olsa bile) **deniz raporu** düzenlenmesini istemeye yetkili, istenirse zorunlu; donatan ya da ilgisini ispat eden herkes isteyebilir; **vakit kaybetmeden** varma limanında (birden çoksa kazadan sonra ilk varılan limanda), barınma limanında ya da yolculuk bitmişse ilk elverişli yerde.
-- Türkiye'de **mahkemelerce**, yurt dışında Türk bayraklı gemiler için Türk konsolosluklarınca düzenlenir.
+- Kaptan, yolculuk sırasında gemi ya da eşyayı ilgilendiren veya maddi zarar doğurabilecek bir kazada (gemi zayi olsa bile) **deniz raporu** düzenlenmesini istemeye yetkili, istenirse zorunlu; donatan ya da ilgisini ispat eden herkes isteyebilir; **vakit kaybetmeden** varma limanında (birden çoksa kazadan sonra ilk varılan limanda), barınma limanında ya da yolculuk bitmişse ilk elverişli yerde. 
+- Türkiye'de **mahkemelerce**, yurt dışında Türk bayraklı gemiler için Türk konsolosluklarınca düzenlenir. 
 - Tespit edilecek konular, usul, saklama: m.1099-1101 → çek.
 - Gemi jurnali tutma yükümlülüğü ve içeriği: m.1096-1097 → çek.
 
@@ -127,14 +127,14 @@ Deniz raporu ile **TTK m.1292 delil tespiti** ve HMK delil tespiti ayrı araçla
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "6102" law_type: "Kanun" article_no: "1286" | "1287" | "1288" | "1289" | "1290" | "1291" | "1292" | "1297"
-legal_list_statute_articles statute_id: 69252 section: "ÜÇÜNCÜ BÖLÜM: Kurtarma" include_content: true
-legal_get_statute_article law_no: "6102" law_type: "Kanun" article_no: "1272" | "1273" | "1274" | "1278" | "1279" | "1280" | "1281" | "1285"
-legal_get_statute_article law_no: "6102" law_type: "Kanun" article_no: "1096" | "1097" | "1098" | "1099" | "1100" | "1101"
-legal_search_cases mahkeme: "yargitay" sorgu: "gemilerin çatması kusur oranı donatan tazminat" tarih_baslangic: "<son 3 yıl>"
-legal_search_cases mahkeme: "yargitay" sorgu: "kurtarma ücreti faydalı sonuç çekme hizmeti römorkör" tarih_baslangic: "<son 3 yıl>"
-legal_search_cases mahkeme: "yargitay" sorgu: "müşterek avarya dispeç onay itiraz garame payı"
-legal_search_official_gazette query: "York-Anvers Kuralları" search_in: "title"
+legal_get_statute_article  law_no: "6102"  law_type: "Kanun"  article_no: "1286" | "1287" | "1288" | "1289" | "1290" | "1291" | "1292" | "1297"
+legal_list_statute_articles  statute_id: 69252  section: "ÜÇÜNCÜ BÖLÜM: Kurtarma"  include_content: true
+legal_get_statute_article  law_no: "6102"  law_type: "Kanun"  article_no: "1272" | "1273" | "1274" | "1278" | "1279" | "1280" | "1281" | "1285"
+legal_get_statute_article  law_no: "6102"  law_type: "Kanun"  article_no: "1096" | "1097" | "1098" | "1099" | "1100" | "1101"
+legal_search_cases  mahkeme: "yargitay"  sorgu: "gemilerin çatması kusur oranı donatan tazminat"  tarih_baslangic: "<son 3 yıl>"
+legal_search_cases  mahkeme: "yargitay"  sorgu: "kurtarma ücreti faydalı sonuç çekme hizmeti römorkör"  tarih_baslangic: "<son 3 yıl>"
+legal_search_cases  mahkeme: "yargitay"  sorgu: "müşterek avarya dispeç onay itiraz garame payı"
+legal_search_official_gazette  query: "York-Anvers Kuralları"  search_in: "title"
 ```
 
 ---
@@ -164,3 +164,4 @@ legal_search_official_gazette query: "York-Anvers Kuralları" search_in: "title"
 - 🟡 Eski YAML: "Yargıtay 11. HD … P&I davaları" — P&I/sigorta poliçesi uyuşmazlığı sigorta hukukudur; daire sabit yazılmaz.
 
 ---
+

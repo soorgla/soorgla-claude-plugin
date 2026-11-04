@@ -13,27 +13,27 @@
 
 | İşlem | Süre ve başlangıç | Dayanak |
 |---|---|---|
-| Vergi mahkemesinde dava | **30 gün**; tebliğ yapılan hâllerde tebliği, tahakkuku tahsile bağlı vergilerde tahsilatı, tevkif yoluyla alınanlarda istihkak sahibine ödemeyi, tescile bağlı vergilerde tescili **izleyen günden** | 2577 m.7/1, 7/2-b |
-| Ödeme emrine karşı dava | Tebliğden itibaren **15 gün** (→ `amme-alacagi-tahsili-6183.md`) | 6183 m.58 |
-| Uzlaşma vaki olmazsa cezaya dava | Tutanak tebliğinden; süre bitmiş/15 günden az kalmışsa 15 gün | VUK ek m.7 |
-| YD kararına itiraz | Tebliği izleyen günden itibaren **7 gün**, bir defaya mahsus; vergi/idare mahkemesi kararına karşı BİM'e | 2577 m.27/7 |
-| İstinaf | Kararın tebliğinden itibaren **30 gün**; parasal sınırı geçmeyen vergi davası kararları **kesin** | 2577 m.45/1 (7524/52 ile değişik cümle) |
-| Temyiz (BİM kararına) | Tebliğden itibaren **30 gün**; vergi davalarında konusu kanundaki sınırı aşanlar (m.46/1-b) | 2577 m.46/1-b (7524/53 ile yeniden düzenleme) |
-| Temyiz — 7589 ile yeni yol | m.46/1 kapsamı dışındaki davalarda BİM ilk derece kararını **kaldırıp yeniden karar verdiyse** 30 gün içinde temyiz; ancak tek hâkimle görülen davalar, sınır altı farklar ve yalnız vekâlet ücreti/yargılama gideri kararları hariç | 2577 m.46/2 "(Ek:16/7/2026-7589/6 md.)" |
+| Vergi mahkemesinde dava | **30 gün**; tebliğ yapılan hâllerde tebliği, tahakkuku tahsile bağlı vergilerde tahsilatı, tevkif yoluyla alınanlarda istihkak sahibine ödemeyi, tescile bağlı vergilerde tescili **izleyen günden** | 2577 m.7/1, 7/2-b  |
+| Ödeme emrine karşı dava | Tebliğden itibaren **15 gün** (→ `amme-alacagi-tahsili-6183.md`) | 6183 m.58  |
+| Uzlaşma vaki olmazsa cezaya dava | Tutanak tebliğinden; süre bitmiş/15 günden az kalmışsa 15 gün | VUK ek m.7  |
+| YD kararına itiraz | Tebliği izleyen günden itibaren **7 gün**, bir defaya mahsus; vergi/idare mahkemesi kararına karşı BİM'e | 2577 m.27/7  |
+| İstinaf | Kararın tebliğinden itibaren **30 gün**; parasal sınırı geçmeyen vergi davası kararları **kesin** | 2577 m.45/1 (7524/52 ile değişik cümle)  |
+| Temyiz (BİM kararına) | Tebliğden itibaren **30 gün**; vergi davalarında konusu kanundaki sınırı aşanlar (m.46/1-b) | 2577 m.46/1-b (7524/53 ile yeniden düzenleme)  |
+| Temyiz — 7589 ile yeni yol | m.46/1 kapsamı dışındaki davalarda BİM ilk derece kararını **kaldırıp yeniden karar verdiyse** 30 gün içinde temyiz; ancak tek hâkimle görülen davalar, sınır altı farklar ve yalnız vekâlet ücreti/yargılama gideri kararları hariç | 2577 m.46/2 "(Ek:16/7/2026-7589/6 md.)"  |
 
-**Parasal sınırları bu dosyaya yazma.** m.45 ve m.46'daki sınırlar her yıl VUK mük.298 yeniden değerleme oranıyla takvim yılı başından artırılır; istinaf/temyiz edilebilirlikte **davanın açıldığı tarihteki** sınır esas alınır (İYUK ek m.1). Güncel yılın tutarını `legal_get_social_parameters` (`tur: "iyuk_istinaf_siniri"` / `"iyuk_temyiz_siniri"`) verir; dava başka bir yılda açıldıysa o yılın tutarını RG'den çek `[doğrula]`.
+**Parasal sınırları bu dosyaya yazma.** m.45 ve m.46'daki sınırlar her yıl VUK mük.298 yeniden değerleme oranıyla takvim yılı başından artırılır; istinaf/temyiz edilebilirlikte **davanın açıldığı tarihteki** sınır esas alınır (İYUK ek m.1). Güncel yılın tutarını `legal_get_social_parameters` (`tur: "iyuk_istinaf_siniri"` / `"iyuk_temyiz_siniri"`) verir; dava başka bir yılda açıldıysa o yılın tutarını RG'den çek `[doğrula]`. 
 
-`legal_calculate_deadline` `iyuk_tax_lawsuit` (İYUK m.7, 30 gün), `iyuk_appeal`, `iyuk_cassation` kodlarını tanır; sonucu elle sayımla sağla, `legal_check_holiday`.
+`legal_calculate_deadline` `iyuk_tax_lawsuit` (İYUK m.7, 30 gün), `iyuk_appeal`, `iyuk_cassation` kodlarını tanır; sonucu elle sayımla sağla, `legal_check_holiday`. 
 
 ---
 
 ## Tahsilin durması ve YD — en çok karıştırılan nokta
 
-- İdari yargıda kural: dava açmak işlemin yürütülmesini **durdurmaz** (m.27/1).
-- **Vergi davası istisnası:** vergi mahkemelerinde vergi uyuşmazlıklarından doğan davaların açılması, tarh edilen vergi, resim, harç ve benzeri mali yükümler ile zam ve cezalarının **dava konusu edilen bölümünün** tahsilini durdurur; YD istemine gerek yoktur.
-- **İstisnanın istisnası** — şu davalar tahsili durdurmaz, YD istenmelidir: (a) m.26/3 uyarınca işlemden kaldırılan dosyanın yenilenmesi, (b) **ihtirazi kayıtla verilen beyanname** üzerine yapılan işlemlere karşı davalar, (c) **tahsilat işlemlerine** (ödeme emri, haciz) karşı davalar. Ödeme emri davasında YD istemeyi unutmak 🔴.
-- YD şartları birlikte: **telafisi güç veya imkânsız zarar** ve **açıkça hukuka aykırılık**; karar gerekçeli olmalı. Kural olarak teminat karşılığı verilir; durumun gereğine göre teminat aranmayabilir; idareden ve adli yardımdan yararlananlardan alınmaz. Aynı sebeplerle ikinci kez YD istenemez.
-- Davayı kaybetme hâlinde gecikme faizi: dava konusu yapılan vergilerin ödenmemiş kısmına normal vade tarihinden yargı kararının tebliğine kadar gecikme faizi uygulanır; dava sırasında kısmen ya da tamamen ödeme yapılabilir (faiz yükünü azaltır `[incele]`). 7524 ile uzlaşılan vergilerde gecikme faizine ilişkin cümle kaldırıldı.
+- İdari yargıda kural: dava açmak işlemin yürütülmesini **durdurmaz** (m.27/1). 
+- **Vergi davası istisnası:** vergi mahkemelerinde vergi uyuşmazlıklarından doğan davaların açılması, tarh edilen vergi, resim, harç ve benzeri mali yükümler ile zam ve cezalarının **dava konusu edilen bölümünün** tahsilini durdurur; YD istemine gerek yoktur. 
+- **İstisnanın istisnası** — şu davalar tahsili durdurmaz, YD istenmelidir: (a) m.26/3 uyarınca işlemden kaldırılan dosyanın yenilenmesi, (b) **ihtirazi kayıtla verilen beyanname** üzerine yapılan işlemlere karşı davalar, (c) **tahsilat işlemlerine** (ödeme emri, haciz) karşı davalar.  Ödeme emri davasında YD istemeyi unutmak 🔴.
+- YD şartları birlikte: **telafisi güç veya imkânsız zarar** ve **açıkça hukuka aykırılık**; karar gerekçeli olmalı.  Kural olarak teminat karşılığı verilir; durumun gereğine göre teminat aranmayabilir; idareden ve adli yardımdan yararlananlardan alınmaz.  Aynı sebeplerle ikinci kez YD istenemez. 
+- Davayı kaybetme hâlinde gecikme faizi: dava konusu yapılan vergilerin ödenmemiş kısmına normal vade tarihinden yargı kararının tebliğine kadar gecikme faizi uygulanır; dava sırasında kısmen ya da tamamen ödeme yapılabilir (faiz yükünü azaltır `[incele]`).  7524 ile uzlaşılan vergilerde gecikme faizine ilişkin cümle kaldırıldı. 
 
 ---
 
@@ -43,7 +43,7 @@
 2. **Süre** (yukarıdaki tablo) ve **tebliğ tarihinin** belgesi (e-tebligatta iletim tarihi + 5 gün).
 3. **Uzlaşma / indirim çatışması**: uzlaşma talep edilen ceza için dava ancak uzlaşma vaki olmazsa; m.376 başvurusu varsa dava indirimi düşürür. → `ihbarname-ve-yol-secimi.md`
 4. **Kısmi dava**: vergi aslını kabul edip yalnız cezaya ya da tersi; tahsil durması yalnız dava konusu kısım için.
-5. **Görevli ve yetkili mahkeme**: vergi mahkemesi; yetki, vergiyi tarh ve tahakkuk ettiren / cezayı kesen dairenin, 6183 uygulamasında **ödeme emrini düzenleyen** dairenin, diğer uyuşmazlıklarda işlemi yapan dairenin bulunduğu yer (İYUK m.37).
+5. **Görevli ve yetkili mahkeme**: vergi mahkemesi; yetki, vergiyi tarh ve tahakkuk ettiren / cezayı kesen dairenin, 6183 uygulamasında **ödeme emrini düzenleyen** dairenin, diğer uyuşmazlıklarda işlemi yapan dairenin bulunduğu yer (İYUK m.37). 
 6. **İptal sebepleri** — usul önce: tebliğ, zamanaşımı (VUK m.114, m.374), yetkisiz inceleme, raporun tebliğ edilmemesi, inceleme tutanağı ve **somut tespit** eksikliği; sonra esas: hukuki yorum, matrah, istisna şartları, ceza katı.
 7. **Delil**: vergi inceleme raporu ve vergi tekniği raporu, tutanaklar, defter ve belgeler, banka kayıtları, Ba-Bs, sevk irsaliyeleri, ödeme kanıtları. Rapor dosyada yoksa mahkemeden getirtilmesini iste.
 8. **Emsal**: son 3 yıldan en az bir Danıştay / VDDK kararı tam metin okunarak (ORTAK-KURALLAR.md §7). Danıştay 2026 kapsamı seyrek; 2024-2025 kullan.
@@ -88,13 +88,13 @@
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "2577" article_no: "7" | "27" | "45" | "46"
-legal_get_statute_article law_no: "213" law_type: "Kanun" article_no: "112" | "ek 7"
-legal_search_cases mahkeme: "danistay" daire: "Vergi Dava Daireleri Kurulu" sorgu: "<uyuşmazlık>" tarih_baslangic: "<son 3 yıl>"
-legal_search_cases mahkeme: "danistay" sorgu: "<uyuşmazlık>" # daire filtresiz; dönen kararın dairesine bak
-legal_get_case_document belge_id: "<seçilen karar>"
-legal_get_social_parameters tur: "harc_basvurma_asliye" | "harc_temyiz_danistay" | "harc_istinaf_bam"
-legal_search_official_gazette query: "İdari Yargılama Usulü Kanunu parasal sınır yeniden değerleme" sort_by: "date_desc"
+legal_get_statute_article  law_no: "2577"  article_no: "7" | "27" | "45" | "46"
+legal_get_statute_article  law_no: "213"  law_type: "Kanun"  article_no: "112" | "ek 7"
+legal_search_cases  mahkeme: "danistay"  daire: "Vergi Dava Daireleri Kurulu"  sorgu: "<uyuşmazlık>"  tarih_baslangic: "<son 3 yıl>"
+legal_search_cases  mahkeme: "danistay"  sorgu: "<uyuşmazlık>"   # daire filtresiz; dönen kararın dairesine bak
+legal_get_case_document  belge_id: "<seçilen karar>"
+legal_get_social_parameters  tur: "harc_basvurma_asliye" | "harc_temyiz_danistay" | "harc_istinaf_bam"
+legal_search_official_gazette  query: "İdari Yargılama Usulü Kanunu parasal sınır yeniden değerleme"  sort_by: "date_desc"
 ```
 
 ---
@@ -123,3 +123,4 @@ legal_search_official_gazette query: "İdari Yargılama Usulü Kanunu parasal s�
 - 🟡 Davanın yalnız dava konusu kısmın tahsilini durdurduğunu unutmak.
 
 ---
+

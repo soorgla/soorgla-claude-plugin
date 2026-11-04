@@ -51,7 +51,7 @@ Belirsizse yukarı yuvarla ve satıra `[incele]` koy (ORTAK-KURALLAR.md §8: ger
 
 1. Değiştiren düzenlemenin **yürürlük maddesini** oku. Yayım tarihi ≠ yürürlük tarihi. Sık kalıplar: "yayımı tarihinde", "yayımını izleyen ayın başında", "… tarihinde", "… tarihinden itibaren … dönemlerine uygulanmak üzere", maddeden maddeye farklı tarihler.
 2. **Geçiş hükmünü** (geçici madde) oku: hangi dosya ve işlemler eski metne tabi kalıyor?
-3. Yürürlük tarihi takvimde bir tatile denk geliyor ve bir süre başlatıyorsa `legal_check_holiday` ile kontrol et; süre hesabını kendin yapma, alan becerisine bırak.
+3. Yürürlük tarihi takvimde bir tatile denk geliyor ve bir süre başlatıyorsa `legal_check_holiday` ile kontrol et; süre hesabını kendin yapma, alan becerisine bırak. 
 4. Özette üç tarih ayrı sütunda durur: **yayım**, **yürürlük**, **ilk uygulama / geçiş sonu**.
 5. Yürürlüğü 30 günden kısa sürede başlayacak ya da başlamış bir 🔴 kalem özetin en üstüne "Bu hafta / bu ay yürürlüğe girenler" bloğuna çıkar.
 

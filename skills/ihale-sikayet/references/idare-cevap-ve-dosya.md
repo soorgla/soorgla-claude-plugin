@@ -108,7 +108,7 @@ inceleme bu gerekçeyle sınırlıdır.
 ## 8. Davada idare
 - Kurul kararına karşı davada davalı **Kamu İhale Kurumu**'dur; idare (ve kazanan istekli) davaya katılabilir:
   üçüncü kişilerin davaya katılmasında ve davanın ihbarında HMK uygulanır, ihbar re'sen yapılır (İYUK m.31/1)
-  `[soorgla]`.
+  `[soorgla]`. 
 - İdarenin kendisinin Kurul kararına dava açıp açamayacağı (idarenin dava ehliyeti, menfaat) tartışmalıdır `[incele]`;
   Kurul kararlarındaki "dava yolu açık" ibaresi bu soruyu çözmez.
 - Savunma ve süreler → `ivedi-dava-ve-temyiz.md`.

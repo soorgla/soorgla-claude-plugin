@@ -14,10 +14,10 @@
 - (a) **sözleşmeye esas proje içinde kalması**,
 - (b) idareyi külfete sokmaksızın **asıl işten ayrılmasının teknik veya ekonomik olarak mümkün olmaması**
 
-şartlarıyla, **anahtar teslimi götürü bedel yapım işlerinde sözleşme bedelinin %10'una**, **birim fiyatlı** mal, hizmet ve yapım sözleşmelerinde **%20'sine** kadar, **süre hariç** sözleşme ve ihale dokümanı hükümleri çerçevesinde aynı yükleniciye yaptırılabilir. Birim fiyatlı **yapım** işlerinde Cumhurbaşkanı bu oranı sözleşme bazında **%40'a kadar** artırmaya yetkilidir.
+şartlarıyla, **anahtar teslimi götürü bedel yapım işlerinde sözleşme bedelinin %10'una**, **birim fiyatlı** mal, hizmet ve yapım sözleşmelerinde **%20'sine** kadar, **süre hariç** sözleşme ve ihale dokümanı hükümleri çerçevesinde aynı yükleniciye yaptırılabilir. Birim fiyatlı **yapım** işlerinde Cumhurbaşkanı bu oranı sözleşme bazında **%40'a kadar** artırmaya yetkilidir. 
 
-- İş bu şartlar içinde tamamlanamayacaksa **artış yapılmaksızın hesabı genel hükümlere göre tasfiye edilir**; bu durumda işin tamamının ihale dokümanı ve sözleşmeye uygun yapılması zorunludur.
-- Sözleşme bedelinin **%80'inden düşük** bedelle tamamlanacağı anlaşılan işlerde yüklenici işi bitirmek zorundadır; yükleniciye gerçek giderleri ve kârı karşılığı olarak, sözleşme bedelinin %80'i ile sözleşme fiyatlarıyla yaptığı iş tutarı arasındaki farkın **%5'i** geçici kabul tarihindeki fiyatlar üzerinden ödenir.
+- İş bu şartlar içinde tamamlanamayacaksa **artış yapılmaksızın hesabı genel hükümlere göre tasfiye edilir**; bu durumda işin tamamının ihale dokümanı ve sözleşmeye uygun yapılması zorunludur. 
+- Sözleşme bedelinin **%80'inden düşük** bedelle tamamlanacağı anlaşılan işlerde yüklenici işi bitirmek zorundadır; yükleniciye gerçek giderleri ve kârı karşılığı olarak, sözleşme bedelinin %80'i ile sözleşme fiyatlarıyla yaptığı iş tutarı arasındaki farkın **%5'i** geçici kabul tarihindeki fiyatlar üzerinden ödenir. 
 
 ---
 
@@ -29,22 +29,22 @@
 | ÖNGÖRÜLEMEZLİK | Artış ihale öncesinde öngörülemeyen bir durumdan mı (zemin, mevzuat değişikliği, yer koşulu) doğdu, yoksa proje hatası/eksikliği mi? | 4735 m.24/1 | Proje hatası tek başına öngörülemezlik değildir `[incele]`; idare için 🔴 Sayıştay riski |
 | PROJE-İÇİ | Artışa konu iş sözleşmeye esas proje içinde mi? Projeden bağımsız yeni yapı → ayrı ihale | 4735 m.24/1-a | Kampüse ayrı bina eklemek iş artışı değildir |
 | AYRILMAZLIK | Asıl işten ayrılması teknik/ekonomik olarak mümkün değil mi? | 4735 m.24/1-b | Mümkünse ayrı ihale |
-| GÖTÜRÜ-KAPSAM | Götürü bedelde artış diye ödenen imalat zaten götürü bedel kapsamında (poz tarifi, uygulama projesi) mı? | Sözleşme, poz tarifleri | Sayıştay bunu kamu zararı saydı |
-| ORAN-HESABI | Oran = toplam artış tutarı / **ilk sözleşme bedeli**; fiyat farkları hesaba katılmaz | 4735 m.24; Genel Şartname m.21/1, 4, 6 | YBF ile yapılan kalemler oran hesabında hangi fiyatla? → §4. Genel Şartname m.21/4: "İşin tamamı ifadesinden ilk sözleşme bedeline karşılık gelen iş miktarı anlaşılır"; m.21/6: YBF'li artış tutarı uygulama ayı Pn'ine bölünerek **ihale tarihi itibarıyla** hesaplanır (fiyat farkı etkisi ayıklanır). |
-| ARTIŞ-EKSİLİŞ | Eksilişler artışla mahsup edilerek "net %20" mi hesaplandı? | Genel Şartname m.21 | Eski YAML "mutlak artış esastır, eksiliş kotayı açmaz" diyordu. m.21 artış ile eksilişin **mahsubunu düzenlemiyor**; yalnız götürü bedelde eksilişin ihale tarihi itibarıyla tutarının m.21/6 esaslarıyla hesaplanacağını söylüyor (m.21/7). Mahsup sorusu Sayıştay ve yargı kararından çözülür → `[incele]` |
+| GÖTÜRÜ-KAPSAM | Götürü bedelde artış diye ödenen imalat zaten götürü bedel kapsamında (poz tarifi, uygulama projesi) mı? | Sözleşme, poz tarifleri | Sayıştay bunu kamu zararı saydı  |
+| ORAN-HESABI | Oran = toplam artış tutarı / **ilk sözleşme bedeli**; fiyat farkları hesaba katılmaz | 4735 m.24; Genel Şartname m.21/1, 4, 6 | YBF ile yapılan kalemler oran hesabında hangi fiyatla? → §4. Genel Şartname m.21/4: "İşin tamamı ifadesinden ilk sözleşme bedeline karşılık gelen iş miktarı anlaşılır"; m.21/6: YBF'li artış tutarı uygulama ayı Pn'ine bölünerek **ihale tarihi itibarıyla** hesaplanır (fiyat farkı etkisi ayıklanır).  |
+| ARTIŞ-EKSİLİŞ | Eksilişler artışla mahsup edilerek "net %20" mi hesaplandı? | Genel Şartname m.21 | Eski YAML "mutlak artış esastır, eksiliş kotayı açmaz" diyordu. m.21 artış ile eksilişin **mahsubunu düzenlemiyor**; yalnız götürü bedelde eksilişin ihale tarihi itibarıyla tutarının m.21/6 esaslarıyla hesaplanacağını söylüyor (m.21/7). Mahsup sorusu Sayıştay ve yargı kararından çözülür → `[incele]`  |
 | OLUR | İhale yetkilisinin iş artışı oluru (gerekçe raporu, mukayeseli keşif, revize proje) artıştan **önce** alındı mı? | Genel Şartname m.12, m.21 | Olursuz yapılan imalat ödeme riski; yüklenici için 🟠 |
-| SÜRE | Proje değişikliği varsa değişikliğe konu işin yapılması için gerekli süre hesaplanarak süre uzatımı verildi mi? | Genel Şartname m.12/4 (1.9.2025 sonrası: "süre uzatımı verilir") | "Süre hariç" ifadesi (4735 m.24) artışın eski süreye sıkıştırılması demek değildir `[incele]` |
-| PROJE-GÖRÜŞ | Yükleniciye proje değişikliği tebliğ edildiyse görüşlerini tebliğ/bildirimden itibaren **15 gün** içinde bildirdi mi? | Genel Şartname m.12/6 (1.9.2025 sonrası) | |
-| UYGULAMA-PROJESİ | Birim fiyatlı işin onaylı uygulama projesi olmayan kısmına başlandı mı? (Başlanamaz; sorumluluk aykırı davranan tarafta) | Genel Şartname m.12/2 (1.9.2025 sonrası) | |
-| BAŞKA-YÜKLENİCİ | İdare, proje içinde kalan zorunlu artışı başka yükleniciye de yaptırabilir; yüklenici bundan hak iddia edemez | Genel Şartname m.22/7 (1.9.2025 sonrası) | |
+| SÜRE | Proje değişikliği varsa değişikliğe konu işin yapılması için gerekli süre hesaplanarak süre uzatımı verildi mi? | Genel Şartname m.12/4 (1.9.2025 sonrası: "süre uzatımı verilir") |  "Süre hariç" ifadesi (4735 m.24) artışın eski süreye sıkıştırılması demek değildir `[incele]` |
+| PROJE-GÖRÜŞ | Yükleniciye proje değişikliği tebliğ edildiyse görüşlerini tebliğ/bildirimden itibaren **15 gün** içinde bildirdi mi? | Genel Şartname m.12/6 (1.9.2025 sonrası) |  |
+| UYGULAMA-PROJESİ | Birim fiyatlı işin onaylı uygulama projesi olmayan kısmına başlandı mı? (Başlanamaz; sorumluluk aykırı davranan tarafta) | Genel Şartname m.12/2 (1.9.2025 sonrası) |  |
+| BAŞKA-YÜKLENİCİ | İdare, proje içinde kalan zorunlu artışı başka yükleniciye de yaptırabilir; yüklenici bundan hak iddia edemez | Genel Şartname m.22/7 (1.9.2025 sonrası) |  |
 | SINIR-AŞIMI | Sınır aşılacaksa: artış yapılmaksızın **tasfiye** (4735 m.24/3) ya da ayrı ihale; sınırı aşan ödeme | 4735 m.24/3 | Eski YAML "%10,01 aşımda devam ettirmek suçtur" diyordu → kanunda böyle bir hüküm yok; sonuç tasfiye ve kamu zararı/disiplin riski `[incele]` |
-| İŞ-DENEYİM | İş artışı iş deneyim belgesi tutarına nasıl yansır? | YİİUY m.46/2: belge tutarı fiyat farkları **hariç**, varsa **yasal keşif artışları dahil** sözleşme fiyatlarıyla yapılan iş üzerinden yazılır (özel sektör işlerinde sözleşmede iş artışı hükmü varsa en çok %10, m.46/4). **Düzeltme:** önceki metin m.46/5'i iş artışı kuralı sanıyordu; m.46/5 idarenin yükleniciye verdiği malzeme bedelinin yarısının belge tutarına eklenmesidir ve 9.4.2026'da "ilk sözleşme bedelinin %20'sini aşmamak üzere" sınırı bu ekleme için getirildi | Ayrıntı `../../kamu-ihale/SKILL.md` |
+| İŞ-DENEYİM | İş artışı iş deneyim belgesi tutarına nasıl yansır? | YİİUY m.46/2: belge tutarı fiyat farkları **hariç**, varsa **yasal keşif artışları dahil** sözleşme fiyatlarıyla yapılan iş üzerinden yazılır (özel sektör işlerinde sözleşmede iş artışı hükmü varsa en çok %10, m.46/4). **Düzeltme:** önceki metin m.46/5'i iş artışı kuralı sanıyordu; m.46/5 idarenin yükleniciye verdiği malzeme bedelinin yarısının belge tutarına eklenmesidir ve 9.4.2026'da "ilk sözleşme bedelinin %20'sini aşmamak üzere" sınırı bu ekleme için getirildi | Ayrıntı `../../kamu-ihale/SKILL.md`  |
 
 ---
 
 ## 3. Yeni birim fiyat (Genel Şartname m.22) — 1.9.2025 sonrası metin
 
-Proje değişikliği şartları gerçekleştiğinde, idarenin gerekli görüp yaptırmak istediği ve ihale dokümanında/teklifte fiyatı bulunmayan iş kalemlerinin ve m.21'e göre yaptırılan ilave işlerin birim fiyatları **yüklenici ile birlikte** tespit edilir. Birim fiyat sözleşmede yeni birim fiyatlar üzerinden; götürü bedelde yeni birim fiyatlarla hesaplanan artış tutarına göre belirlenecek ilerleme yüzdeleriyle ödenir.
+Proje değişikliği şartları gerçekleştiğinde, idarenin gerekli görüp yaptırmak istediği ve ihale dokümanında/teklifte fiyatı bulunmayan iş kalemlerinin ve m.21'e göre yaptırılan ilave işlerin birim fiyatları **yüklenici ile birlikte** tespit edilir. Birim fiyat sözleşmede yeni birim fiyatlar üzerinden; götürü bedelde yeni birim fiyatlarla hesaplanan artış tutarına göre belirlenecek ilerleme yüzdeleriyle ödenir. 
 
 **Analiz sırası (m.22/2):**
 1. (a) Yüklenicinin **aşırı düşük teklif açıklaması** kapsamında sunduğu ve yeni kaleme benzeyen kalemlerin analizleri,
@@ -62,7 +62,7 @@ Proje değişikliği şartları gerçekleştiğinde, idarenin gerekli görüp ya
 
 **İş eksilişi (m.22/8):** proje değişikliğine bağlı iş eksilişinde eksilen imalatın fiyatı da yeni fiyat hükümleriyle hesaplanır.
 
-**Ocak ve depo yeri değişikliği (m.30/3) ve sonradan istenen yıkım işleri (m.31/1):** etkilenen kalemler için m.22'ye göre yeni fiyat.
+**Ocak ve depo yeri değişikliği (m.30/3) ve sonradan istenen yıkım işleri (m.31/1):** etkilenen kalemler için m.22'ye göre yeni fiyat. 
 
 ### YBF kontrol listesi
 
@@ -85,7 +85,7 @@ Sözleşmede birim fiyatı bulunmayan kalem için m.22'ye göre YBF yapıldığ�
 - fiyat farkı öngörülen işlerde bu kalem için **ihale tarihinin içinde bulunduğu aya** ilişkin;
 - fiyat farkı öngörülmeyen işlerde proje değişikliği iş bitim tarihinden önceyse **onay ayına** ilişkin, sonraysa onay ayına ilişkin fiyatın iş bitim ayına endeksle **indirgenmiş** hâli
 
-esas alınır.
+esas alınır. 
 
 ---
 
@@ -96,7 +96,7 @@ esas alınır.
 | Proje değişikliğine görüş: 15 gün | Tebliğ/bildirim | Genel Şartname m.12/6 (1.9.2025 sonrası) |
 | Yeni fiyatın tespiti ve onaya sunulması: 30 gün, imalattan önce | Proje değişikliği onayı | Genel Şartname m.22/6 |
 | Anlaşmazlığın YFK'ya intikali: 10 gün (idare) | Anlaşmazlık tutanağı | Genel Şartname m.22/6 |
-| YFK'ya itiraz (genel yol) | Kesin kabul tamamlanıncaya kadar; idare 30 günde gönderir, YFK 60 günde karar verir | 4735 ek m.2 |
+| YFK'ya itiraz (genel yol) | Kesin kabul tamamlanıncaya kadar; idare 30 günde gönderir, YFK 60 günde karar verir | 4735 ek m.2  |
 
 `legal_calculate_deadline` Genel Şartname sürelerini tanımaz (canlıdaki 4735 kodları yalnız m.20/a ihtarı ve m.10 mücbir sebep bildirimi); elle hesapla, `legal_check_holiday`, `[doğrula]`.
 
@@ -118,14 +118,14 @@ esas alınır.
 ## 7. MCP adımları
 
 ```
-legal_get_statute_article law_no: "4735" law_type: "Kanun" article_no: "24"
-legal_get_statute_article_history law_no: "4735" law_type: "Kanun" article_no: "24"
-legal_get_official_gazette_document url: "https://www.resmigazete.gov.tr/eskiler/2025/07/20250730-16.htm" # Genel Şartname m.12, 21, 22 yeni metni
-legal_search_official_gazette query: "iş artışı oranı Cumhurbaşkanı Kararı birim fiyat yapım" sort_by: "date_desc"
-legal_search_cases mahkeme: "sayistay" sorgu: "<ör. anahtar teslimi götürü bedel kapsamındaki imalata iş artışı yoluyla ödeme kamu zararı>"
-legal_search_cases mahkeme: "yargitay" daire: "6. Hukuk Dairesi" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "4735"  law_type: "Kanun"  article_no: "24"
+legal_get_statute_article_history  law_no: "4735"  law_type: "Kanun"  article_no: "24"
+legal_get_official_gazette_document  url: "https://www.resmigazete.gov.tr/eskiler/2025/07/20250730-16.htm"   # Genel Şartname m.12, 21, 22 yeni metni
+legal_search_official_gazette  query: "iş artışı oranı Cumhurbaşkanı Kararı birim fiyat yapım"  sort_by: "date_desc"
+legal_search_cases  mahkeme: "sayistay"  sorgu: "<ör. anahtar teslimi götürü bedel kapsamındaki imalata iş artışı yoluyla ödeme kamu zararı>"
+legal_search_cases  mahkeme: "yargitay"  daire: "6. Hukuk Dairesi"  tarih_baslangic: "<son 3 yıl>"
     sorgu: "kamu ihale yapım işi yeni birim fiyat yüklenici ile anlaşılamaması Yüksek Fen Kurulu fiyatı"
-legal_get_case_document belge_id: "<seçilen>"
+legal_get_case_document  belge_id: "<seçilen>"
 ```
 
 ---
@@ -158,11 +158,5 @@ legal_get_case_document belge_id: "<seçilen>"
 - Oranı güncel (fiyat farklı) bedel üzerinden hesaplamak.
 - YBF'yi imalattan sonra belirlemek ya da anlaşmazlık tutanağı düzenlemeden yükleniciye fiyat dayatmak.
 - Kârlı resmî poza ikinci kez kâr eklemek.
-- Sınırı aşan işte tasfiye yerine "ek sözleşme" yapmak (4735 m.4: kanundaki haller dışında ek sözleşme düzenlenemez).
+- Sınırı aşan işte tasfiye yerine "ek sözleşme" yapmak (4735 m.4: kanundaki haller dışında ek sözleşme düzenlenemez). 
 
-## Eski YAML'dan düzeltilenler
-- **YBF analiz sırası:** YAML "(a) yüklenicinin sözleşmedeki diğer birim fiyatları, (b) resmî kurum analizleri, (c) meslek odası/üniversite rayiçleri, (ç) faturalar" diyordu → 1.9.2025 sonrası sıra: aşırı düşük teklif analizleri, idarelerin benzer analizleri, idarenin önceki işleri, puantaj.
-- **Kâr oranı:** YAML "%25 yüklenici kârı ve genel gider" diyordu → sözleşmede oran yoksa %10 kâr + %15'e kadar anlaşılan genel gider, ayrıca %90 üst sınır.
-- **Götürü bedelde 0,90 katsayısı:** YAML "YBF'de 0,90 katsayısı uygulanmalı" diyordu → güncel kural m.22/5'teki %90'ı aşmayan oran sınırıdır.
-- **%10 aşımı "suçtur":** kanunda karşılığı yok; sonuç tasfiye (4735 m.24/3).
-- **Birim fiyatta %20:** YAML Cumhurbaşkanının birim fiyatlı yapım işlerinde %40'a kadar artırma yetkisini anmıyordu.

@@ -25,8 +25,8 @@ Yıllık kurumlar vergisi hesabı: oran (genel / finans), ihracat ve üretim ind
 ## Araç çağrıları
 
 ```json
-{ "hesap": "kurumlar", "girdi": { "yil": 2025, "matrah": 3200000, "ihracat_matrahi": 900000, "ticari_bilanco_kari": 2600000, "kkeg": 450000, "asgari_dusulecek": 300000 }, "tarih": "2025-12-31" }
-{ "hesap": "had", "girdi": { "ara": "kv" }, "tarih": "2025-12-31" }
+{ "hesap": "kurumlar", "kurumlar": { "yil": 2025, "matrah": 3200000, "ihracat_matrahi": 900000, "ticari_bilanco_kari": 2600000, "kkeg": 450000, "asgari_dusulecek": 300000 }, "tarih": "2025-12-31" }
+{ "hesap": "had", "had": { "ara": "kv" }, "tarih": "2025-12-31" }
 ```
 
 - Araç: `hesaplanan_kv`, `asgari_kv`, `odenecek_kv` (büyük olanı), `asgari_uygulandi` döndürür; **geçici vergi ve kesinti mahsubu öncesidir.**
@@ -76,9 +76,9 @@ Yıllık kurumlar vergisi hesabı: oran (genel / finans), ihracat ve üretim ind
 
 ```
 31.12.AAAA
-691 Dönem Kârı Vergi ve Diğer Yasal Yükümlülük Karşılıkları [odenecek_kv]
-        370 Dönem Kârı Vergi ve Diğer Yasal Yükümlülük Karşılıkları [odenecek_kv]
-370 … [mahsup edilen]
+691 Dönem Kârı Vergi ve Diğer Yasal Yükümlülük Karşılıkları   [odenecek_kv]
+        370 Dönem Kârı Vergi ve Diğer Yasal Yükümlülük Karşılıkları  [odenecek_kv]
+370 …                                                          [mahsup edilen]
         371 Dönem Kârının Peşin Ödenen Vergi ve Diğer Yükümlülükleri (-) [mahsup edilen]
 (193 Peşin Ödenen Vergiler ve Fonlar → 371'e aktarım)
 ```

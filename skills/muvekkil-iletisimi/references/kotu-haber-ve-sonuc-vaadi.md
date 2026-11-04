@@ -15,7 +15,7 @@ Uyarlama: Anthropic `legal-clinic/client-letter` ve `legal-clinic/status` "bu be
 
 TBB Meslek Kuralları'nın müvekkile güvence vermeye ilişkin hükümleri MCP katalogunda bulunamadı `[model bilgisi — doğrulayın]`; atıf gerekiyorsa yukarıdaki kanun ve yönetmelik maddeleri kullanılır.
 
-Ayrıca: avukatın yükümlülüğü sonucu değil **özeni** borçlanmaktır; Yargıtay HGK avukatın özen borcunun genel vekâletten "çok daha ağır ve kapsamlı" olduğunu, özen borcuna aykırılığın haklı azil, ücret kaybı ve tazminat sonucu doğurabileceğini belirtir `[soorgla]`: [Yargıtay Hukuk Genel Kurulu, E. 2022/109, K. 2023/439, 10.05.2023](https://soorgla.com/karar/yargitay-hukuk-genel-kurulu-2023-439-karari) (gerekçe §20-25). Bu karar mektupta değil, avukat notunda gerekçe olarak kullanılır.
+Ayrıca: avukatın yükümlülüğü sonucu değil **özeni** borçlanmaktır; Yargıtay HGK avukatın özen borcunun genel vekâletten "çok daha ağır ve kapsamlı" olduğunu, özen borcuna aykırılığın haklı azil, ücret kaybı ve tazminat sonucu doğurabileceğini belirtir `[soorgla]`: [Yargıtay Hukuk Genel Kurulu, E. 2022/109, K. 2023/439, 10.05.2023](https://soorgla.com/karar/yargitay-hukuk-genel-kurulu-2023-439-karari) (gerekçe §20-25). Bu karar mektupta değil, avukat notunda gerekçe olarak kullanılır. 
 
 ### Yasaklı ifadeler (taslakta bulunursa değiştir ve avukat notuna yaz)
 
@@ -105,7 +105,7 @@ Av. [Ad Soyad]
 
 ### 3.1 Süre kaçırıldı (büro hatası olabilir)
 
-- Taslak **hata kabulü ya da inkâr içermez**; olguyu yazar. Bu durum avukatın mesleki sorumluluğunu ilgilendirir (Av.K. m.135/2-m: özen yükümlülüğünü ihlal ederek hak kaybına sebebiyet verme kınama sebebidir `[soorgla]`).
+- Taslak **hata kabulü ya da inkâr içermez**; olguyu yazar. Bu durum avukatın mesleki sorumluluğunu ilgilendirir (Av.K. m.135/2-m: özen yükümlülüğünü ihlal ederek hak kaybına sebebiyet verme kınama sebebidir `[soorgla]`). 
 - Avukat notunun en üstüne 🔴 ve "**Ortağa / sorumlu avukata yükselt; mesleki sorumluluk sigortasına bildirim gerekip gerekmediğini kontrol edin `[incele]`.**" Eski hâle getirme gibi kurtarma yolu varsa ilgili dilekçe becerisine işaret et (`hukuk-yargilamasi-dilekce`), ama mektuba "kurtarırız" yazma.
 - Müvekkile yazılı metin avukat bunu açıkça onaylamadan hazırlanmaz; yalnız görüşme planı üretilir.
 
@@ -116,7 +116,7 @@ Av. [Ad Soyad]
 
 ### 3.3 Beklenenden düşük tutar / kısmi kabul
 
-Kısmi kabulde yargılama giderleri haklılık oranına göre paylaştırılır (HMK m.326/2 `[soorgla]`). Mektup "kısmen kazandık" demez; **kabul edilen ve reddedilen** kısmı ve reddedilen kısım için karşı tarafa ödenecek vekâlet ücretini ayrı yazar.
+Kısmi kabulde yargılama giderleri haklılık oranına göre paylaştırılır (HMK m.326/2 `[soorgla]`). Mektup "kısmen kazandık" demez; **kabul edilen ve reddedilen** kısmı ve reddedilen kısım için karşı tarafa ödenecek vekâlet ücretini ayrı yazar. 
 
 ### 3.4 Ceza dosyası
 

@@ -15,26 +15,26 @@
 
 | Süre | Başlangıç | Dayanak | Not |
 |---|---|---|---|
-| Kurumun dilekçeye **gerekçeli cevap** süresi: **en geç 30 gün** | Başvurunun yetkili makama ulaşması | 3071 m.7 | Hak düşürücü değil; kurumun yükümlülüğü. 30 günde cevap yoksa CİMER'e ya da üst makama tekrar başvurulabilir. Cevapsızlığın idari yargı açısından sonucu (zımni ret) ayrı konudur `[incele]`. |
-| Bilgi/belgeye erişim: **15 iş günü**; başka birim/kurum gerekiyorsa **30 iş günü** | Başvurunun kuruma ulaşması | 4982 m.11 | Eski YAML "15/30 gün" diyordu; doğrusu **iş günü**. |
-| Bilgi edinme reddine **Kurula itiraz: 15 gün** | Ret kararının tebliği | 4982 m.13 | Kurul: Bilgi Edinme Değerlendirme Kurulu. İtiraz yargı yoluna başvurmadan önce yapılabilir; dava süresi için 🔴 avukat eşiği. |
+| Kurumun dilekçeye **gerekçeli cevap** süresi: **en geç 30 gün** | Başvurunun yetkili makama ulaşması | 3071 m.7  | Hak düşürücü değil; kurumun yükümlülüğü. 30 günde cevap yoksa CİMER'e ya da üst makama tekrar başvurulabilir. Cevapsızlığın idari yargı açısından sonucu (zımni ret) ayrı konudur `[incele]`.  |
+| Bilgi/belgeye erişim: **15 iş günü**; başka birim/kurum gerekiyorsa **30 iş günü** | Başvurunun kuruma ulaşması | 4982 m.11  | Eski YAML "15/30 gün" diyordu; doğrusu **iş günü**. |
+| Bilgi edinme reddine **Kurula itiraz: 15 gün** | Ret kararının tebliği | 4982 m.13  | Kurul: Bilgi Edinme Değerlendirme Kurulu. İtiraz yargı yoluna başvurmadan önce yapılabilir; dava süresi için 🔴 avukat eşiği. |
 
 Bu sürelerin hiçbiri `legal_calculate_deadline` ile hesaplanmaz; elle say, `legal_check_holiday` ile son günü kontrol et, `[doğrula]` işaretle.
 
 ## Zorunlu unsurlar
 
 **Dilekçe (3071):**
-- Dilekçe sahibinin **adı-soyadı, imzası ve iş ya da ikametgâh adresi** zorunludur.
-- **Belli bir konu** içermelidir. Konusuz, **yargı mercilerinin görevine giren** ya da m.4 şartlarını taşımayan dilekçeler **incelenmez**. → Mahkemede ya da icra dairesinde görülen bir işi kuruma/CİMER'e şikâyet etmek sonuç vermez; kullanıcıyı uyar.
-- T.C. kimlik no kanunda sayılmaz ama kurumlar uygulamada ister; kullanıcı vermediyse `[___]`.
+- Dilekçe sahibinin **adı-soyadı, imzası ve iş ya da ikametgâh adresi** zorunludur. 
+- **Belli bir konu** içermelidir. Konusuz, **yargı mercilerinin görevine giren** ya da m.4 şartlarını taşımayan dilekçeler **incelenmez**.  → Mahkemede ya da icra dairesinde görülen bir işi kuruma/CİMER'e şikâyet etmek sonuç vermez; kullanıcıyı uyar.
+- T.C. kimlik no kanunda sayılmaz ama kurumlar uygulamada ister; kullanıcı vermediyse `[___]`. 
 
 **CİMER başvurusu:**
-- Dayanak: **Cumhurbaşkanlığı İletişim Merkezi Yönetmeliği** (RG 04.06.2022, s.31856, Karar Sayısı 5690). CİMER yalnızca aracıdır; başvuru **ilgili kuruma** iletilir ve cevabı o kurum verir; kurum kendisiyle ilgili görmezse gerekçesiyle ilgili kuruma iletir.
-- Başvuru yolları: elektronik/mobil, e-Devlet, ALO 150, mektup/posta (yönetmelik m.6). Başvuru tamamlanınca takip için **başvuru sayısı** verilir.
-- Metin **kısa ve sonuç odaklı** olmalı; ayrıntıyı eke koy. Metin kutusunun bir karakter sınırı olabilir: kullanıcıya **başvuru ekranındaki sınırı kontrol etmesini** söyle, sınır sayısı uydurma; metin sığmazsa özeti kutuya, tam dilekçeyi eke koy.
+- Dayanak: **Cumhurbaşkanlığı İletişim Merkezi Yönetmeliği** (RG 04.06.2022, s.31856, Karar Sayısı 5690). CİMER yalnızca aracıdır; başvuru **ilgili kuruma** iletilir ve cevabı o kurum verir; kurum kendisiyle ilgili görmezse gerekçesiyle ilgili kuruma iletir. 
+- Başvuru yolları: elektronik/mobil, e-Devlet, ALO 150, mektup/posta (yönetmelik m.6). Başvuru tamamlanınca takip için **başvuru sayısı** verilir. 
+- Metin **kısa ve sonuç odaklı** olmalı; ayrıntıyı eke koy. Metin kutusunun bir karakter sınırı olabilir: kullanıcıya **başvuru ekranındaki sınırı kontrol etmesini** söyle, sınır sayısı uydurma; metin sığmazsa özeti kutuya, tam dilekçeyi eke koy. 
 
 **Bilgi edinme (4982):**
-- İstenen bilgi/belge **açıkça** tanımlanmalı (tarih, sayı, konu). Görüş, yorum ya da araştırma gerektiren talep bilgi edinme kapsamı dışında kalabilir.
+- İstenen bilgi/belge **açıkça** tanımlanmalı (tarih, sayı, konu). Görüş, yorum ya da araştırma gerektiren talep bilgi edinme kapsamı dışında kalabilir. 
 
 ## 🔴 Avukat eşikleri
 
@@ -56,12 +56,12 @@ Bu sürelerin hiçbiri `legal_calculate_deadline` ile hesaplanmaz; elle say, `le
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "3071" article_no: "4" | "6" | "7"
-legal_get_statute_article law_no: "4982" article_no: "11" | "13" # bilgi edinme süreleri, itiraz
-legal_get_statute_article law_no: "4982" article_no: "7" # başvuru dilekçesi unsurları (çekip kontrol et)
-legal_search_statute_semantic mevzuat_no: "5690" sorgu: "CİMER başvuru usulü ve cevap"
-legal_search_official_gazette query: "Cumhurbaşkanlığı İletişim Merkezi Yönetmeliği" search_in: "title" # değişiklik var mı
-legal_search_cases mahkeme: "danistay" sorgu: "<bilgi edinme reddi …>" tarih_baslangic: <son 3 yıl> # yalnız ret/itiraz aşamasında
+legal_get_statute_article  law_no: "3071"  article_no: "4" | "6" | "7"
+legal_get_statute_article  law_no: "4982"  article_no: "11" | "13"     # bilgi edinme süreleri, itiraz
+legal_get_statute_article  law_no: "4982"  article_no: "7"             # başvuru dilekçesi unsurları (çekip kontrol et)
+legal_search_statute_semantic  mevzuat_no: "5690"  sorgu: "CİMER başvuru usulü ve cevap"
+legal_search_official_gazette  query: "Cumhurbaşkanlığı İletişim Merkezi Yönetmeliği"  search_in: "title"   # değişiklik var mı
+legal_search_cases  mahkeme: "danistay"  sorgu: "<bilgi edinme reddi …>"  tarih_baslangic: <son 3 yıl>   # yalnız ret/itiraz aşamasında
 ```
 
 ## İskelet — kurum dilekçesi (3071)
@@ -132,3 +132,4 @@ Ad Soyad / İmza / Adres / T.C. kimlik no / e-posta : [___]
 - Bilgi edinme başvurusunda görüş ya da hukuki yorum istemek.
 - Bir idari karara karşı yalnızca dilekçe verip dava süresini kaçırmak.
 - İmzasız ya da adressiz dilekçe (3071 m.4, m.6/c).
+

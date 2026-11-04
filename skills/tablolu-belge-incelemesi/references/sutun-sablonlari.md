@@ -51,12 +51,12 @@ sema:
 **Hızlı ilk geçiş (6 sütun):** karşı taraf, imza/yürürlük, süre, kontrol değişikliği, devir, haklı sebep olmadan fesih. Erken soruların çoğunu cevaplar; işlem ekibi öncelikleri belirleyince şema genişletilir.
 
 **Sütunların hukuki çerçevesi** (değerlendirme alan becerisinde; burada yalnız neye bakıldığı):
-- Sözleşmenin devri üç taraflı anlaşma ya da kalan tarafın önceden izni/sonradan onayıyla olur; geçerliliği devredilen sözleşmenin şekline bağlıdır — TBK m.205 `[soorgla]`. **Pay devri** sözleşme devri değildir; hedef şirket taraf olarak kalır, bu yüzden pay alımında asıl sütun **kontrol değişikliği**dir. **Malvarlığı / işletme devrinde** ise sözleşmeler tek tek devredilir ve devralan bildirim/ilandan itibaren borçlardan sorumlu olur, önceki borçlu iki yıl müteselsilen sorumlu kalır — TBK m.202 `[soorgla]`.
-- Tacirler arasında temerrüt, fesih ve dönme ihbarlarının şekli TTK m.18/3'te sayılır (noter, taahhütlü mektup, telgraf, güvenli elektronik imzalı KEP) `[soorgla]` → `bildirim_sekli` sütunu bu yüzden vardır.
-- Yetki sözleşmesi yalnız tacirler veya kamu tüzel kişileri arasında yapılabilir — HMK m.17 `[soorgla]`; tüketici ya da tacir olmayan karşı tarafta yetki maddesi `belirsiz` işaretlenir.
-- Hâkim aşırı cezai şartı kendiliğinden indirir — TBK m.182/3 `[soorgla]`; tacir borçlu için TTK m.22 istisnası → `sozlesme-incelemesi-tbk` `[model bilgisi — doğrulayın]`.
-- Hedef şirket lisanslı bir sektördeyse (enerji, finansal kiralama/faktoring, sermaye piyasası, bankacılık, telekom) kontrol değişikliği sözleşmeden bağımsız olarak **kurul iznine** tabi olabilir; ayrı bir `sektor_izni` sütunu ekle ve dayanağı `legal_search_statute_semantic` ile çek (ör. 6361 m.11 `[soorgla]`). Yargıtay 11. HD, kontrol değişikliği sonucu veren pay devrinde EPDK onayının araştırılmamasını bozma sebebi saymıştır `[soorgla]` (E.2024/3398 K.2024/6583, 19.09.2024 — tam metin okundu).
-- Birleşme ve devralmalarda Rekabet Kurulu izni → 4054 m.7 `[soorgla]`; izin eşikleri tebliğdedir, beceriye yazılmaz → `sirketler-ticaret`.
+- Sözleşmenin devri üç taraflı anlaşma ya da kalan tarafın önceden izni/sonradan onayıyla olur; geçerliliği devredilen sözleşmenin şekline bağlıdır — TBK m.205 `[soorgla]` . **Pay devri** sözleşme devri değildir; hedef şirket taraf olarak kalır, bu yüzden pay alımında asıl sütun **kontrol değişikliği**dir. **Malvarlığı / işletme devrinde** ise sözleşmeler tek tek devredilir ve devralan bildirim/ilandan itibaren borçlardan sorumlu olur, önceki borçlu iki yıl müteselsilen sorumlu kalır — TBK m.202 `[soorgla]` .
+- Tacirler arasında temerrüt, fesih ve dönme ihbarlarının şekli TTK m.18/3'te sayılır (noter, taahhütlü mektup, telgraf, güvenli elektronik imzalı KEP) `[soorgla]`  → `bildirim_sekli` sütunu bu yüzden vardır.
+- Yetki sözleşmesi yalnız tacirler veya kamu tüzel kişileri arasında yapılabilir — HMK m.17 `[soorgla]` ; tüketici ya da tacir olmayan karşı tarafta yetki maddesi `belirsiz` işaretlenir.
+- Hâkim aşırı cezai şartı kendiliğinden indirir — TBK m.182/3 `[soorgla]` ; tacir borçlu için TTK m.22 istisnası → `sozlesme-incelemesi-tbk` `[model bilgisi — doğrulayın]`.
+- Hedef şirket lisanslı bir sektördeyse (enerji, finansal kiralama/faktoring, sermaye piyasası, bankacılık, telekom) kontrol değişikliği sözleşmeden bağımsız olarak **kurul iznine** tabi olabilir; ayrı bir `sektor_izni` sütunu ekle ve dayanağı `legal_search_statute_semantic` ile çek (ör. 6361 m.11 `[soorgla]`). Yargıtay 11. HD, kontrol değişikliği sonucu veren pay devrinde EPDK onayının araştırılmamasını bozma sebebi saymıştır `[soorgla]` (E.2024/3398 K.2024/6583, 19.09.2024 — tam metin okundu). 
+- Birleşme ve devralmalarda Rekabet Kurulu izni → 4054 m.7 `[soorgla]`; izin eşikleri tebliğdedir, beceriye yazılmaz → `sirketler-ticaret` .
 
 ### İşlem türüne göre ek sütunlar
 - **Teknoloji / yazılım:** kaynak kod yediemini, açık kaynak kısıtları, veri ve model eğitim hakları, API erişimi → değerlendirme `fikri-mulkiyet-bilisim`.
@@ -89,8 +89,8 @@ sema:
     - {id: sonraki_kritik_tarih, etiket: "Sonraki kritik tarih", tur: tarih, soru: "Artış dönemi, süre sonu ya da bildirim son günü — hangisi en yakın?"}
 ```
 
-- Kira ilişkisinin devri kiraya verenin yazılı rızasına bağlıdır; işyeri kiralarında haklı sebep olmadıkça rıza esirgenemez ve devreden kiracı en fazla iki yıl müteselsil sorumlu kalır — TBK m.323 `[soorgla]`.
-- Konut ve çatılı işyerinde belirli süreli sözleşme, kiracı süre bitiminden en az on beş gün önce bildirmezse bir yıl uzar; kiraya veren süre bitimine dayanarak sona erdiremez — TBK m.347 `[soorgla]`. `sonraki_kritik_tarih` hesaplanırken son gün `legal_check_holiday` ile kontrol edilir ve `[doğrula]` alır.
+- Kira ilişkisinin devri kiraya verenin yazılı rızasına bağlıdır; işyeri kiralarında haklı sebep olmadıkça rıza esirgenemez ve devreden kiracı en fazla iki yıl müteselsil sorumlu kalır — TBK m.323 `[soorgla]` .
+- Konut ve çatılı işyerinde belirli süreli sözleşme, kiracı süre bitiminden en az on beş gün önce bildirmezse bir yıl uzar; kiraya veren süre bitimine dayanarak sona erdiremez — TBK m.347 `[soorgla]` . `sonraki_kritik_tarih` hesaplanırken son gün `legal_check_holiday` ile kontrol edilir ve `[doğrula]` alır.
 - Artış maddesinin geçerliliği, kira tespiti, tahliye ve güncel bedel hesabı → `../../kira-hukuku/SKILL.md`. Tabloda yalnız madde birebir alınır; `legal_calculate_cpi_change` ile kaba bir "TÜFE'ye göre bugünkü bedel" sütunu eklenebilir ama TBK m.344'ün on iki aylık ortalama kipi araçta yoktur → `[doğrula]`.
 
 ## 3. İş sözleşmeleri seti (durum tespiti ya da iç denetim)

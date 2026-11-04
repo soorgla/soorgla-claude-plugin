@@ -45,7 +45,7 @@ değildir**: aynı konuda Danıştay'ın aksi yönde kararı varsa o ağır basa
      işin kapsamından da dar tanım — KİK 2025/UH.I-296). Tanım ihale konusuyla **aynı ya da daha genişse** bu emsaller
      uygulanmaz; o dosyada soru, belgenin tanıma girip girmediğidir (açıklama talebi konusu). Kontrol satırı:
      "Emsalde tanım ⊂ ihale konusu mu? Bizde tanım ⊂ ihale konusu mu?" — ikincisi hayırsa emsali kullanma.
-
+     
    - Aynı yaklaşım diğer "rekabeti daraltan şart" emsallerinde de geçerlidir: kararda daraltıcı bulunan şartın ölçüsü
      (oran, belge, süre) dosyadakiyle aynı mı?
 

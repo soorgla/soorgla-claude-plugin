@@ -26,10 +26,10 @@ Bu dosya yalnızca o analizin çıktısını **dışarıya gidecek dilekçe metn
 `../../sosyal-guvenlik-sgk/references/sgk-uyum-ve-itiraz.md` dosyasının "Çıktı iskeleti — SGK itiraz dilekçesi" bölümündeki iskeleti kullan. Ek olarak:
 
 ```markdown
-KONU : [… tarih ve … sayılı … tebligatına (İPC / prim borcu / teşvik iptali) karşı itirazlarımızdır.]
+KONU             : [… tarih ve … sayılı … tebligatına (İPC / prim borcu / teşvik iptali) karşı itirazlarımızdır.]
                    Tebliğ tarihi: [___] — itiraz süresi içindedir.
 
-İSTEM SIRASI : 1) Usul yönünden iptal (tebligat, zamanaşımı, yetki)
+İSTEM SIRASI     : 1) Usul yönünden iptal (tebligat, zamanaşımı, yetki)
                    2) Esas yönünden iptal (fiil oluşmamıştır / tutar hatalıdır)
                    3) Terditli: tutarın [___] olarak düzeltilmesi
 ```
@@ -41,3 +41,4 @@ KONU : [… tarih ve … sayılı … tebligatına (İPC / prim borcu / teşvik 
 - 🟡 Genelge numarasını tahmin etmek.
 
 ---
+

@@ -12,14 +12,15 @@
   kriterleri, kısmi teklif) süre **ilk ilan tarihinden** işler — ilk ilan tarihini EKAP'tan al ya da kullanıcıya
   **mutlaka sor**; ilan eskiyse süre doküman indirilmeden dolmuş olabilir 🔴. `kik_complaint_before_tender` canlı
   (10 gün); 3 iş günü sınırını araç hesaplamaz, `legal_check_holiday` ile elle say, `[incele]`.
-
+  
+  
 - Açıklama talebi: ihale tarihinden **20 gün** öncesine kadar; idare cevabı en az 10 gün önce herkese (4734 m.29;
   tip idari şartname m.13). Belirsizlikler çoğu zaman açıklama talebiyle çözülür, **ama açıklama talebi şikâyet
   süresini durdurmaz ve uzatmaz**; idarenin cevabı şikâyet süresi dolduktan sonra gelebilir. Aykırılık şüphesi varsa
   şikâyeti süresinde ver, açıklama talebini paralel yap; iki son günü birlikte göster (§5 çıktı iskeleti).
-
+  
 - Zeyilname ihaleden en az 10 gün önce; ihale bir defa en fazla 20 gün ertelenebilir; zeyilnameden önce verilen teklif
-  geri çekilip yeniden verilebilir (Mal Yön. m.24/1-2).
+  geri çekilip yeniden verilebilir (Mal Yön. m.24/1-2). 
 - Süre 7 günden azsa 🔴; şikâyet kararı verilirse `../../ihale-sikayet/SKILL.md`'ye iddia listesiyle devret.
 
 ## 1. Rekabeti daraltan şartlar (itiraz modu)
@@ -84,6 +85,7 @@ usulden ret mi olduğunu oku.
   endeksiyle (m.35) → `tutar_guncelle` (`belge: toplam_ciro` / `fatura`).
 - [ ] Bilanço / iş hacmi istenmişse `bilanco_kontrol`, `is_hacmi_kontrol`; araç yoksa m.33/3 ve m.34/6'dan elle.
 - [ ] Kamu görevlisine ait belge görevi sürerken kullanılamaz (m.47/11); unvan/tür değişikliğinde değişiklik belgesi (m.47/10).
+  
 
 **Örnek (İKN 2026/1824919):** %20 oran, benzer iş "her türlü gıda satışı". Özel sektöre gıda satışında belge seti
 sözleşme + faturalar + damga vergisi belgesi; sözleşme yoksa yalnız faturalarla iş deneyimi **tevsik edilemez**
@@ -96,6 +98,7 @@ sözleşme + faturalar + damga vergisi belgesi; sözleşme yoksa yalnız fatural
   Sanayi ve Teknoloji Bakanlığı yerli malı sayfası / sanayi sicil sistemi `[web araması — doğrulayın]`.
 - [ ] Çok kalemli ihalede avantaj kalem bazında: yerli malı teklif etmeyenin o kalemdeki bedeline kendi bedeli × oran
   eklenir (m.61/4); sıralamayı `yerli_mali` hesabıyla ya da elle kontrol et.
+  
 
 ## 5. Çıktı iskeleti
 ```markdown

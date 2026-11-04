@@ -33,12 +33,12 @@ Emin değilsen yukarı yuvarla (ORTAK-KURALLAR.md §8): ⚠️ ile 🛑 arasınd
 | "Belediye başkanının temsil gideri" | Temsil giderleri "görev ile ilgili olma şartı" ile ve yönergeye göre yapılabilir | "Harcama kimin, hangi temsil faaliyeti için? Belge?" |
 
 Dayanaklar:
-- 5018 m.31/3: kanun/CBK yetkisine dayanarak kurul, komite, komisyon kararıyla yapılan harcamalarda harcama yetkisinden doğan sorumluluk kurula aittir.
-- 5018 m.74: kamu zararı ve para cezaları, fiilin işlendiği yılı izleyen mali yıl başından itibaren onuncu yılın sonunda zamanaşımına uğrar (kesen/durduran genel hükümler saklı).
-- Şehir içi taksi: Sayıştay Temyiz Kurulu, karar düzeltme aşamasında, yurt içi geçici görevde şehir içi taksi ücretlerinin belediye bütçesinden ödenmesinde tazmin hükmünü yerinde gördü. `[soorgla]`
-- Sınavsız atama: Temyiz Kurulu, görevin fiilen yapıldığı sınavsız şube müdürü atamasında tazmin hükmünü kaldırdı. `[soorgla]` `[çekildi ama desteği doğrulayın]` (gerekçenin "GEREĞİ GÖRÜŞÜLDÜ" kısmı metinde kesildi; hüküm fıkrası okundu)
-- Tasarruf tedbirleri: 7521 ile 5018'e eklenen ek m.9'a göre tasarruf tedbirlerine aykırı iş ve işlemleri tespit edilenlere disiplin hükümleri uygulanır ve sonuç Cumhurbaşkanlığına bildirilir. Güncel genelge: Tasarruf Tedbirleri ile İlgili 2024/7 sayılı Cumhurbaşkanlığı Genelgesi (RG 17.05.2024, 32549). 2026/10 sayılı Cumhurbaşkanlığı Genelgesi (2027-2029 Kamu Yatırım Programı hazırlıkları, RG 12.09.2026) de dayanak olarak hâlâ 2024/7'yi anar. Çalışma anında yeni genelge çıkıp çıkmadığını kontrol et: `legal_search_official_gazette` `query: "Tasarruf"`, `search_in: "title"`, `date_from: 2024-05-18`, `sort_by: "date_desc"`; ayrıca `search_in: "all"` ile "tasarruf tedbirleri genelgesi" ara.
-- Temsil giderleri: belediye temsil-ağırlama yönergesinde "görev ile ilgili olma şartı". `[soorgla]` `[çekildi ama desteği doğrulayın]` Yönerge, İçişleri Bakanlığının 25.04.1984 tarihli ve 27302 sayılı onayıyla yürürlüğe konuldu (Sayıştay kararındaki aktarım); RG'de yayımlanmadığından soorgla'da tam metni yok. Güncel metni idareden ya da İçişleri Bakanlığından temin et; Sayıştay'ın m.3'teki başkan takdirini "mahalli müşterek ihtiyaçlar ekseninde" sınırladığını gözet.
+- 5018 m.31/3: kanun/CBK yetkisine dayanarak kurul, komite, komisyon kararıyla yapılan harcamalarda harcama yetkisinden doğan sorumluluk kurula aittir. 
+- 5018 m.74: kamu zararı ve para cezaları, fiilin işlendiği yılı izleyen mali yıl başından itibaren onuncu yılın sonunda zamanaşımına uğrar (kesen/durduran genel hükümler saklı). 
+- Şehir içi taksi: Sayıştay Temyiz Kurulu, karar düzeltme aşamasında, yurt içi geçici görevde şehir içi taksi ücretlerinin belediye bütçesinden ödenmesinde tazmin hükmünü yerinde gördü. `[soorgla]` 
+- Sınavsız atama: Temyiz Kurulu, görevin fiilen yapıldığı sınavsız şube müdürü atamasında tazmin hükmünü kaldırdı. `[soorgla]` `[çekildi ama desteği doğrulayın]` (gerekçenin "GEREĞİ GÖRÜŞÜLDÜ" kısmı metinde kesildi; hüküm fıkrası okundu) 
+- Tasarruf tedbirleri: 7521 ile 5018'e eklenen ek m.9'a göre tasarruf tedbirlerine aykırı iş ve işlemleri tespit edilenlere disiplin hükümleri uygulanır ve sonuç Cumhurbaşkanlığına bildirilir.  Güncel genelge: Tasarruf Tedbirleri ile İlgili 2024/7 sayılı Cumhurbaşkanlığı Genelgesi (RG 17.05.2024, 32549).  2026/10 sayılı Cumhurbaşkanlığı Genelgesi (2027-2029 Kamu Yatırım Programı hazırlıkları, RG 12.09.2026) de dayanak olarak hâlâ 2024/7'yi anar. Çalışma anında yeni genelge çıkıp çıkmadığını kontrol et: `legal_search_official_gazette` `query: "Tasarruf"`, `search_in: "title"`, `date_from: 2024-05-18`, `sort_by: "date_desc"`; ayrıca `search_in: "all"` ile "tasarruf tedbirleri genelgesi" ara. 
+- Temsil giderleri: belediye temsil-ağırlama yönergesinde "görev ile ilgili olma şartı". `[soorgla]` `[çekildi ama desteği doğrulayın]`  Yönerge, İçişleri Bakanlığının 25.04.1984 tarihli ve 27302 sayılı onayıyla yürürlüğe konuldu (Sayıştay kararındaki aktarım); RG'de yayımlanmadığından soorgla'da tam metni yok. Güncel metni idareden ya da İçişleri Bakanlığından temin et; Sayıştay'ın m.3'teki başkan takdirini "mahalli müşterek ihtiyaçlar ekseninde" sınırladığını gözet. 
 
 ---
 
@@ -46,20 +46,20 @@ Dayanaklar:
 
 | # | Kontrol | Dayanak | İşaret |
 |---|---|---|---|
-| 1 | **Harcama talimatı** var mı; hizmet gerekçesi, işin konusu ve tutarı, süresi, kullanılabilir ödenek, gerçekleştirme usulü ve görevliler yazılı mı? | 5018 m.32/1 | |
-| 2 | **Ödenek** var mı, doğru tertipten mi; yüklenmeye girişilen tutar saklı tutuldu mu? Bütçede yeterli ödenek olmayan iş için yüklenmeye girişilemez | 5018 m.26 | |
+| 1 | **Harcama talimatı** var mı; hizmet gerekçesi, işin konusu ve tutarı, süresi, kullanılabilir ödenek, gerçekleştirme usulü ve görevliler yazılı mı? | 5018 m.32/1  | |
+| 2 | **Ödenek** var mı, doğru tertipten mi; yüklenmeye girişilen tutar saklı tutuldu mu? Bütçede yeterli ödenek olmayan iş için yüklenmeye girişilemez | 5018 m.26  | |
 | 3 | **Dayanak mevzuat**: ödeme kanunda/CBK'da/yönetmelikte öngörülmüş mü? Öngörülmeyen ödeme başlı başına kamu zararı hâlidir | 5018 m.71/2-g | |
-| 4 | **Gerçekleştirme**: iş/mal/hizmet usulüne uygun alındı mı, görevli kişi/komisyon onayladı mı, gerçekleştirme belgeleri düzenlendi mi? | 5018 m.33/1-2 | |
+| 4 | **Gerçekleştirme**: iş/mal/hizmet usulüne uygun alındı mı, görevli kişi/komisyon onayladı mı, gerçekleştirme belgeleri düzenlendi mi? | 5018 m.33/1-2  | |
 | 5 | **Tutar**: sözleşme, karar, onaydaki tutarı aşıyor mu; rayiç bedelin üstünde mi? | 5018 m.71/2-a, d | |
-| 6 | **Ön mali kontrol**: mali hizmetler biriminin ön mali kontrolüne tabi işlemse görüş alındı mı? | 5018 m.58 | |
-| 7 | **Muhasebe yetkilisi kontrolü**: yetkili imzalar, mevzuattaki belgelerin tamlığı, maddi hata, hak sahibinin kimliği | 5018 m.61/3 | |
+| 6 | **Ön mali kontrol**: mali hizmetler biriminin ön mali kontrolüne tabi işlemse görüş alındı mı? | 5018 m.58  | |
+| 7 | **Muhasebe yetkilisi kontrolü**: yetkili imzalar, mevzuattaki belgelerin tamlığı, maddi hata, hak sahibinin kimliği | 5018 m.61/3  | |
 | 8 | **Tasarruf tedbirleri**: güncel genelgenin kalemine giriyor mu, istisna onayı gerekli mi? | 5018 ek m.9; 2024/7 Genelge | |
-| 9 | **Ödenek üstü / program dışı**: ayrıntılı harcama programı, serbest bırakma oranı ya da ödenek gönderme belgesi aşılıyor mu? (kamu zararı olmasa da para cezası) | 5018 m.70 | |
-| 10 | **Yetki**: harcama yetkisi devredildiyse devir usulüne uygun mu (devir, devredenin idari sorumluluğunu kaldırmaz) | 5018 m.31/5 | |
+| 9 | **Ödenek üstü / program dışı**: ayrıntılı harcama programı, serbest bırakma oranı ya da ödenek gönderme belgesi aşılıyor mu? (kamu zararı olmasa da para cezası) | 5018 m.70  | |
+| 10 | **Yetki**: harcama yetkisi devredildiyse devir usulüne uygun mu (devir, devredenin idari sorumluluğunu kaldırmaz) | 5018 m.31/5  | |
 | 11 | **Sayıştay emsali**: aynı tip ödeme için tazmin ya da beraat kararı var mı (idare türüyle)? | `legal_search_cases` `mahkeme: "sayistay"` | |
 | 12 | **İBK**: konu Sayıştay İçtihadı Birleştirme Kararına bağlanmış mı? (bağlayıcı) | 6085 m.58/3 | |
 
-**Muhasebe yetkilisi için not:** muhasebe yetkilisi ilgili mevzuatta düzenlenmiş belgeler dışında belge arayamaz; belgesi eksik/hatalı ödeme emri belgesini en geç bir iş günü içinde gerekçesiyle harcama yetkilisine yazılı olarak geri gönderir; sorumluluğu incelemesi gereken belgelerle sınırlıdır. Bu nedenle "muhasebe yetkilisi de imzaladı, sorun yok" savunması harcama yetkilisini korumaz.
+**Muhasebe yetkilisi için not:** muhasebe yetkilisi ilgili mevzuatta düzenlenmiş belgeler dışında belge arayamaz; belgesi eksik/hatalı ödeme emri belgesini en geç bir iş günü içinde gerekçesiyle harcama yetkilisine yazılı olarak geri gönderir; sorumluluğu incelemesi gereken belgelerle sınırlıdır.  Bu nedenle "muhasebe yetkilisi de imzaladı, sorun yok" savunması harcama yetkilisini korumaz.
 
 ---
 
@@ -80,13 +80,13 @@ Dayanaklar:
 ## 4. MCP adımları
 
 ```
-legal_get_statute_article law_no: "5018" law_type: "Kanun" article_no: "31" | "32" | "33" | "58" | "61" | "70" | "71"
-legal_list_statute_articles law_no: "5018" law_type: "Kanun" article_kind: "ek" article_no: "9" include_content: true
-legal_get_statute_article law_no: "<işlemin dayanağı: 6245 | 657 | 5393 | 2547 | 4734 …>" article_no: "<madde>"
-legal_search_official_gazette search_in: "title" query: "Tasarruf Tedbirleri" sort_by: "date_desc"
-legal_search_cases mahkeme: "sayistay" sorgu: "<idare türü + harcama + aykırılık; ör. belediye personelinin geçici görevde şehir içi taksi ücretinin bütçeden ödenmesi kamu zararı>" tarih_baslangic: "2022-01-01"
-legal_get_case_document belge_id: "<seçilen; daire ilamı mı Temyiz Kurulu kararı mı ayır>"
-legal_search_admin_guidance kurum: "Sayıştay Genel Kurulu" sorgu: "<konu>" # yalnız 2006/2011/2013 İBK'ları
+legal_get_statute_article  law_no: "5018"  law_type: "Kanun"  article_no: "31" | "32" | "33" | "58" | "61" | "70" | "71"
+legal_list_statute_articles  law_no: "5018"  law_type: "Kanun"  article_kind: "ek"  article_no: "9"  include_content: true
+legal_get_statute_article  law_no: "<işlemin dayanağı: 6245 | 657 | 5393 | 2547 | 4734 …>"  article_no: "<madde>"
+legal_search_official_gazette  search_in: "title"  query: "Tasarruf Tedbirleri"  sort_by: "date_desc"
+legal_search_cases  mahkeme: "sayistay"  sorgu: "<idare türü + harcama + aykırılık; ör. belediye personelinin geçici görevde şehir içi taksi ücretinin bütçeden ödenmesi kamu zararı>"  tarih_baslangic: "2022-01-01"
+legal_get_case_document  belge_id: "<seçilen; daire ilamı mı Temyiz Kurulu kararı mı ayır>"
+legal_search_admin_guidance  kurum: "Sayıştay Genel Kurulu"  sorgu: "<konu>"     # yalnız 2006/2011/2013 İBK'ları
 ```
 
 ---
@@ -123,7 +123,3 @@ legal_search_admin_guidance kurum: "Sayıştay Genel Kurulu" sorgu: "<konu>" # y
 - Araçtaki Sayıştay sonuçlarını güncel sanmak (2025+ yok) ve Başsavcılık mütalaasını karar gibi aktarmak.
 - Tasarruf tedbirine aykırılığı yalnız "kamu zararı" olarak değerlendirip 7521 sonrası disiplin sonucunu atlamak.
 
-## Eski YAML'dan düzeltilenler
-- `expenditure_check.yaml` "Sayıştay Temyiz Kurulu'nun X tarihli kararında kamu zararı sayılmıştır" kalıbını öneriyordu; araçta Temyiz Kurulu filtresi yok, kararlar ilamı veren dairenin etiketiyle dönüyor → kararın türü metinden tespit edilmeden "Temyiz Kurulu kararı" denmez.
-- YAML tasarruf tedbirlerini yalnız genelge düzeyinde anıyordu → 2024'ten beri 5018 ek m.9 ile kanuni disiplin sonucu var.
-- YAML'daki hayalî `TASARRUF` mevzuat kodu atıldı; genelge RG başlık aramasıyla bulunur.

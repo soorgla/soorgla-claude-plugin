@@ -9,12 +9,12 @@ Her hesap ve aramada önce bu dosya: hangi araç var, hangi girdiyi ister, yanı
 
 | Araç | Ne verir | Durum | Araç yanıt vermezse |
 |---|---|---|---|
-| `legal_calculate_tax` `hesap: "gumruk_maliyet"` | Gümrüklenmiş maliyet: kalem kalem vergi, matrah, oran, tutar, dayanak, uyarı | ✓ | `gumruklenmis-maliyet.md` elle hesap akışı |
-| `legal_calculate_tax` `hesap: "gumruk_ceza"` | 4458 m.234-241 idari para cezası: kod, matrah, kat, asgari, %10 öz bildirim, fiil yılının usulsüzlük tutarı ve tebliği | ✓ | `../../gumruk-dis-ticaret/references/ek-tahakkuk-ve-yol-secimi.md` + o yılın Gümrük Genel Tebliği |
+| `legal_calculate_tax` `hesap: "gumruk_maliyet"` | Gümrüklenmiş maliyet: kalem kalem vergi, matrah, oran, tutar, dayanak, uyarı | ✓  | `gumruklenmis-maliyet.md` elle hesap akışı |
+| `legal_calculate_tax` `hesap: "gumruk_ceza"` | 4458 m.234-241 idari para cezası: kod, matrah, kat, asgari, %10 öz bildirim, fiil yılının usulsüzlük tutarı ve tebliği | ✓  | `../../gumruk-dis-ticaret/references/ek-tahakkuk-ve-yol-secimi.md` + o yılın Gümrük Genel Tebliği |
 | `legal_search_tariff` | Kod öneki ya da serbest metinle TGTC araması, yıl sürümü, kod geçmişi | ✓ | `gtip-tespiti.md` elle akış |
-| `legal_search_forms` / `legal_get_form` | Form bankası: beyanname formları, YYS soru formu, rejim ekleri, kılavuzlar | ✓ | `beyanname-kodlari-ve-formlar.md` kaynak listesi |
-| `legal_search_admin_guidance` | Gümrük genelgeleri (`kurum: "Ticaret Bakanlığı"`, `belge_tur: "genelge"`) | ✓ | — |
-| `legal_get_exchange_rate` | TCMB kuru (`para_birimi`, `tarih`) | ✓ | — |
+| `legal_search_forms` / `legal_get_form` | Form bankası: beyanname formları, YYS soru formu, rejim ekleri, kılavuzlar | ✓  | `beyanname-kodlari-ve-formlar.md` kaynak listesi |
+| `legal_search_admin_guidance` | Gümrük genelgeleri (`kurum: "Ticaret Bakanlığı"`, `belge_tur: "genelge"`) | ✓  | — |
+| `legal_get_exchange_rate` | TCMB kuru (`para_birimi`, `tarih`) | ✓  | — |
 | `legal_get_statute_article` / `legal_list_statute_articles` | 4458, 4760, 3065 maddeleri; 4458 `statute_id 54479` | ✓ | — |
 | `legal_search_official_gazette` | İthalat Rejimi Kararı, İGV, önlem tebliğleri, TGTC değişiklikleri | ✓ | — |
 | `legal_calculate_deadline` | Gümrük süreleri (`customs_objection`, `customs_settlement_request`, `customs_payment`, `customs_lawsuit`, `customs_refund_application`…) | ✓ (`customs_*` kodları). Rejim süreleri (DİİB, geçici ithalat, antrepo) kod değil, izin/belgeden | Elle hesap + `legal_check_holiday`, `[doğrula]` |
@@ -59,12 +59,12 @@ Alan adını bilmiyorsan eksik girdiyle çağır; araç gereken bilgiyi uyarıda
 | `ton` / `kap`, `adet`, `faiz` | 235/1-b,d; 241, 237/2; 238/1-c,d | Adet = fiil, kap ya da işlem sayısı; faiz kullanıcıdan (gecikme zammı oranıyla) |
 | `oz_bildirim`, `kamu_idaresi`, `yanlis_izahat` | — | Tespitten önce bildirim (%10 ya da 234/5'te ceza yok); genel yönetim kamu idaresi (241/1); idarenin yazılı yanlış izahatı (m.231/5: ceza ve faiz yok) |
 
-Yanıtta `sonuc.ceza`, `ara_degerler` (matrah, kat, hesaplanan, asgari, usulsüzlük tutarı ve tebliği) ve `uyarilar` (koşul notları, peşin ödeme, zamanaşımı) gelir. Ton/kap ve 241/7 işlem tutarları kanun metnindeki tutardır; yeniden değerleme uyarısını çıktıya taşı. **241/1 (tek kat usulsüzlük):** AYM'nin 26.03.2026 tarihli E.2025/269, K.2026/72 kararıyla (RG 02.06.2026) "ikincil düzenlemelere aykırılık" dayanağı iptal edildi; yönetmelik, tebliğ ya da genelge yükümlülüğüne aykırılık için 241/1 cezası kesilemez, aykırı hükmün Kanunda olması gerekir. Araç bunu fiil tarihine göre uyarır. 241/3-6 bentleri kendi fiilini Kanunda saydığı için bu kararın kapsamında değil. Kaçakçılık bağlantılı fiil → `../../gumruk-dis-ticaret/references/kacakcilik-ve-idari-yaptirim-ayrimi.md`.
+Yanıtta `sonuc.ceza`, `ara_degerler` (matrah, kat, hesaplanan, asgari, usulsüzlük tutarı ve tebliği) ve `uyarilar` (koşul notları, peşin ödeme, zamanaşımı) gelir. Ton/kap ve 241/7 işlem tutarları kanun metnindeki tutardır; yeniden değerleme uyarısını çıktıya taşı. **241/1 (tek kat usulsüzlük):** AYM'nin 26.03.2026 tarihli E.2025/269, K.2026/72 kararıyla (RG 02.06.2026) "ikincil düzenlemelere aykırılık" dayanağı iptal edildi; yönetmelik, tebliğ ya da genelge yükümlülüğüne aykırılık için 241/1 cezası kesilemez, aykırı hükmün Kanunda olması gerekir. Araç bunu fiil tarihine göre uyarır.  241/3-6 bentleri kendi fiilini Kanunda saydığı için bu kararın kapsamında değil. Kaçakçılık bağlantılı fiil → `../../gumruk-dis-ticaret/references/kacakcilik-ve-idari-yaptirim-ayrimi.md`.
 
 ## Genelge araması
 
 ```
-legal_search_admin_guidance sorgu: "<konu>" kurum: "Ticaret Bakanlığı" belge_tur: "genelge"
+legal_search_admin_guidance  sorgu: "<konu>"  kurum: "Ticaret Bakanlığı"  belge_tur: "genelge"
 ```
 Başlıkta "MÜLGA" ya da "… sayılı Genelge ile değişiklik yapılmıştır" ibaresi varsa güncel hâli ayrıca ara. Genelge idareyi bağlar, yükümlüyü bağlamaz; uyuşmazlıkta kanun ve yönetmelik esastır.
 

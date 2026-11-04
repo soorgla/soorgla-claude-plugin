@@ -33,5 +33,5 @@ Bakiye ömür bir tazminat hesabına girdiyse her zaman 🟠 **aktüer bilirkiş
 ## Örnek çağrı
 
 ```
-legal_get_life_expectancy cinsiyet: "erkek" yas: 35
+legal_get_life_expectancy  cinsiyet: "erkek"  yas: 35
 ```

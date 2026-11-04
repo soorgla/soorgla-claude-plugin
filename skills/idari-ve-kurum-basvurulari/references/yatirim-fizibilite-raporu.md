@@ -10,7 +10,7 @@ Yatırım teşvik belgesi başvurusu ya da banka kredisi için yatırımın tekn
 
 Süreye bağlı bir başvuru değildir; ancak teşvik belgesinin kapsamı **belge tarihinden önce yapılan harcamaları** genellikle kapsamaz `[doğrula]`. Kullanıcıya yatırım harcamasına başlamadan başvuruyu sor.
 
-Dayanak: yürürlükteki **Yatırımlarda Devlet Yardımları Hakkında Karar** (Cumhurbaşkanı kararı) ve uygulama tebliği. Karar sık değişir ve yeni karar sistemi gelebilir; adını, tarihini ve sayısını her seferinde Resmî Gazete'den çek. Güncel sistem: 9903 sayılı Yatırımlarda Devlet Yardımları Hakkında Karar (RG 30.05.2025) ve Uygulama Tebliği No 2025/1 (RG 21.06.2025); ayrıntı → `../../tesvik-yatirim/references/tesvik-sistemi-ve-uygunluk.md`.
+Dayanak: yürürlükteki **Yatırımlarda Devlet Yardımları Hakkında Karar** (Cumhurbaşkanı kararı) ve uygulama tebliği. Karar sık değişir ve yeni karar sistemi gelebilir; adını, tarihini ve sayısını her seferinde Resmî Gazete'den çek. Güncel sistem: 9903 sayılı Yatırımlarda Devlet Yardımları Hakkında Karar (RG 30.05.2025) ve Uygulama Tebliği No 2025/1 (RG 21.06.2025); ayrıntı → `../../tesvik-yatirim/references/tesvik-sistemi-ve-uygunluk.md`. 
 
 ## Zorunlu unsurlar (eski şablondan)
 
@@ -41,10 +41,10 @@ Dayanak: yürürlükteki **Yatırımlarda Devlet Yardımları Hakkında Karar** 
 ## soorgla çağrıları
 
 ```
-legal_search_official_gazette query: "Yatırımlarda Devlet Yardımları Hakkında Karar" search_in: "title" sort_by: "date_desc"
-legal_search_official_gazette query: "Yatırımlarda Devlet Yardımları Hakkında Kararın Uygulanmasına İlişkin Tebliğ" search_in: "title" sort_by: "date_desc"
-legal_search_statute_semantic sorgu: "<sektör> yatırımı teşvik bölgesi destek unsurları" mevzuat_tur: "cb_kararnamesi"
-legal_get_exchange_rate # ithal makine tutarını TL'ye çevirmek gerekiyorsa
+legal_search_official_gazette  query: "Yatırımlarda Devlet Yardımları Hakkında Karar"  search_in: "title"  sort_by: "date_desc"
+legal_search_official_gazette  query: "Yatırımlarda Devlet Yardımları Hakkında Kararın Uygulanmasına İlişkin Tebliğ"  search_in: "title"  sort_by: "date_desc"
+legal_search_statute_semantic  sorgu: "<sektör> yatırımı teşvik bölgesi destek unsurları"  mevzuat_tur: "cb_kararnamesi"
+legal_get_exchange_rate                                        # ithal makine tutarını TL'ye çevirmek gerekiyorsa
 ```
 Kapsam zayıf dönerse ORTAK-KURALLAR.md §5; teşvik oranını ve bölgeyi "model bilgisi" ile yazma, `[doğrula]` bırak.
 
@@ -88,3 +88,4 @@ Finansman: özkaynak [___] / kredi [___]
 - 🟡 Sabit yatırım ile işletme sermayesini karıştırmak; ithal makineyi döviz cinsi belirtmeden yazmak.
 
 ---
+

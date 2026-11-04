@@ -25,7 +25,7 @@ Amaç: her dosya aynı sorularla açılsın ki portföy karşılaştırılabilir
 
 Bu adım beceri bir çatışma olup olmadığına **karar vermek** için değil, kontrolün yapıldığından ve kaydın tutulduğundan emin olmak içindir.
 
-Dayanak: Av.K. m.38 avukatın işi reddetmek zorunda olduğu hâlleri sayar; m.38/b "aynı işte menfaati zıt bir tarafa avukatlık etmiş veya mütalaa vermiş" olmaktır ve zorunluluk "avukatların ortaklarını ve yanlarında çalıştırdıkları avukatları da kapsar" `[soorgla]`. TBB Meslek Kuralları soorgla'da yok; çıkar çatışması ve karşı tarafla görüşme kurallarını bu becerinin bilgisiyle yazma, barobirlik.org.tr'deki güncel metinden teyit et ve dosya notuna "TBB Meslek Kuralları — elle teyit edildi / edilmedi" diye işle `[incele]`.
+Dayanak: Av.K. m.38 avukatın işi reddetmek zorunda olduğu hâlleri sayar; m.38/b "aynı işte menfaati zıt bir tarafa avukatlık etmiş veya mütalaa vermiş" olmaktır ve zorunluluk "avukatların ortaklarını ve yanlarında çalıştırdıkları avukatları da kapsar" `[soorgla]`.  TBB Meslek Kuralları soorgla'da yok; çıkar çatışması ve karşı tarafla görüşme kurallarını bu becerinin bilgisiyle yazma, barobirlik.org.tr'deki güncel metinden teyit et ve dosya notuna "TBB Meslek Kuralları — elle teyit edildi / edilmedi" diye işle `[incele]`. 
 
 Kaydedilecekler: **durum**, **yöntem**, **kontrol eden**, **tarih**, **kontrol edilen adlar** (karşı taraf, bilinen bağlı şirketler, karşı taraf vekili, temel tanıklar; ince liste olur, boş olmaz), **not**.
 
@@ -52,12 +52,12 @@ Duruma göre:
 | yüksek | KVKK m.6 özel nitelikli veri (sağlık, cinsel hayat, ceza mahkûmiyeti, sendika üyeliği, biyometrik veri …) içeren dosya; aile, şiddet (6284), çocuk; kamuoyu bilinen kişi | Dizinde müvekkil adı yerine kod; kısa adda ad yok; brifing ve portföy özetinde ad yerine kod; çıktıları paylaşmadan önce sor |
 | çok yüksek | Ceza soruşturması ve müdafilik, iç soruşturma, birleşme/satın alma, ihbarcı (whistleblower), aynı büroda birbirine yakın müvekkiller | "yüksek"tekilere ek: dosyalar arası bağlam profilde açık olsa bile bu dosya için kapalı; dosya içeriği alan becerisi dışındaki becerilere (ör. müvekkil mektubu) yalnız kullanıcının açık isteğiyle aktarılır |
 
-Özel nitelikli verinin tanımı KVKK m.6/1'den alınır `[soorgla]`. Gizlilik sınıfını avukat seçer; beceri yalnız önerir ve gerekçesini yazar.
+Özel nitelikli verinin tanımı KVKK m.6/1'den alınır `[soorgla]`.  Gizlilik sınıfını avukat seçer; beceri yalnız önerir ve gerekçesini yazar.
 
 ## 4. Vekaletname ve yetki
 
 - Vekaletname var mı, tarihi, noteri, yevmiye no, genel/özel.
-- HMK m.74'teki özel yetkiler vekaletnamede açıkça var mı: sulh, feragat, kabul, ibra, davanın tamamını ıslah, tahkim, alternatif uyuşmazlık çözüm yoluna başvuru, tevkil `[soorgla]`. Bilinmiyorsa "kontrol edilmedi" yaz; arabuluculuk ve sulh aşamasında `guncelle` bu satıra bakar.
+- HMK m.74'teki özel yetkiler vekaletnamede açıkça var mı: sulh, feragat, kabul, ibra, davanın tamamını ıslah, tahkim, alternatif uyuşmazlık çözüm yoluna başvuru, tevkil `[soorgla]`.  Bilinmiyorsa "kontrol edilmedi" yaz; arabuluculuk ve sulh aşamasında `guncelle` bu satıra bakar.
 - Ücret sözleşmesi var mı (yalnız varlığı ve yeri; tutarı karta yazma).
 
 ## 5. Süreler ve delil koruma

@@ -13,26 +13,26 @@ Bu dosya **genel (global) sınırlamayı** anlatır; taşıyanın **yük başın
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| Uygulanacak sözleşme | Deniz alacaklarından doğan sorumluluk 1976 LLMC (RG 04.06.1980, 17007) ve onu değiştiren 1996 Protokolü ya da yerine geçen ve Türkiye'nin kabul ettiği sözleşmelere göre sınırlanabilir; sınır değişiklikleri Türkiye bakımından yürürlüğe girdiği tarihten uygulanır | 6102 m.1328 |
+| Uygulanacak sözleşme | Deniz alacaklarından doğan sorumluluk 1976 LLMC (RG 04.06.1980, 17007) ve onu değiştiren 1996 Protokolü ya da yerine geçen ve Türkiye'nin kabul ettiği sözleşmelere göre sınırlanabilir; sınır değişiklikleri Türkiye bakımından yürürlüğe girdiği tarihten uygulanır | 6102 m.1328  |
 | Yabancılık unsuru taşımayan hâller | m.1329 — çek | `[doğrula]` |
-| Uygulama alanının genişletilmesi | LLMC m.15'te sayılan kişi ve gemilere de; alacaklı, kişinin kendi ülkesinde sınırlamanın caiz olmadığını ispatlarsa Türkiye'de de sınırlanamaz, daha yüksek sınır varsa o uygulanır | 6102 m.1330 |
-| Sınırlanamayan alacaklar | 1976 Sözleşmesinin m.2/1-(d), (e) bentleri ve m.3'te sayılan alacaklara karşı sorumluluk sınırlandırılamaz; bentlerin içeriğini sözleşme metninden oku — metin soorgla'da yok, kullanıcıya resmî metinden (RG / IMO) teyit ettir | 6102 m.1331 |
-| Küçük gemiler, sondaj gemileri | Özel sınırlar madde metninde (ÖÇH) — tutarları oradan oku | 6102 m.1332, m.1333 |
-| Fon kurmadan sınırlama | LLMC m.10 uyarınca fon kurulmadan da sınırlama hakkı ileri sürülebilir | 6102 m.1335 |
-| Petrol kirliliği | CLC 1992 (RG 24.07.2001, 24472) ve Fon 1992 (RG 18.07.2001, 24466) uygulanır; diğer mevzuat uygulanmaz | 6102 m.1336 |
-| CLC'nin genişletilmesi | III/4 dışındaki kişilere karşı da kıyasen sınırlama; bağımsız fon | 6102 m.1338 |
-| Kılavuzlar | Kılavuza doğrudan yöneltilen istemlerde ayrı ve düşük toplam sınır (madde metninden); "kılavuz" kılavuzluk teşkilatını da kapsar | 6102 m.1341 |
-| Kişisel sorumlulukta fon | Tüzel kişi/adi şirket/donatma iştiraki adına fon kurulmazsa şahsen sorumlu tutulabilecek kişi **toplam sınır** üzerinden fon kurabilir | 6102 m.1342 |
-| Sınırlama hakkını kaldıran kusur | LLMC m.4 / CLC V(2) için kimin kusuru: gerçek kişi; tüzel kişide **organlar** (TMK m.50) ve organ üyeleri; adi şirkette ortaklar; donatma iştirakinde paydaşlar ve gemi müdürü; bunları genel/özel yetkiyle temsil edenler. Sınırlama hakkının kalkmasına kusuruyla sebep olan kişi kendi sorumluluğunu sınırlayamaz | 6102 m.1343 |
+| Uygulama alanının genişletilmesi | LLMC m.15'te sayılan kişi ve gemilere de; alacaklı, kişinin kendi ülkesinde sınırlamanın caiz olmadığını ispatlarsa Türkiye'de de sınırlanamaz, daha yüksek sınır varsa o uygulanır | 6102 m.1330  |
+| Sınırlanamayan alacaklar | 1976 Sözleşmesinin m.2/1-(d), (e) bentleri ve m.3'te sayılan alacaklara karşı sorumluluk sınırlandırılamaz; bentlerin içeriğini sözleşme metninden oku — metin soorgla'da yok, kullanıcıya resmî metinden (RG / IMO) teyit ettir | 6102 m.1331   |
+| Küçük gemiler, sondaj gemileri | Özel sınırlar madde metninde (ÖÇH) — tutarları oradan oku | 6102 m.1332, m.1333  |
+| Fon kurmadan sınırlama | LLMC m.10 uyarınca fon kurulmadan da sınırlama hakkı ileri sürülebilir | 6102 m.1335  |
+| Petrol kirliliği | CLC 1992 (RG 24.07.2001, 24472) ve Fon 1992 (RG 18.07.2001, 24466) uygulanır; diğer mevzuat uygulanmaz | 6102 m.1336  |
+| CLC'nin genişletilmesi | III/4 dışındaki kişilere karşı da kıyasen sınırlama; bağımsız fon | 6102 m.1338  |
+| Kılavuzlar | Kılavuza doğrudan yöneltilen istemlerde ayrı ve düşük toplam sınır (madde metninden); "kılavuz" kılavuzluk teşkilatını da kapsar | 6102 m.1341  |
+| Kişisel sorumlulukta fon | Tüzel kişi/adi şirket/donatma iştiraki adına fon kurulmazsa şahsen sorumlu tutulabilecek kişi **toplam sınır** üzerinden fon kurabilir | 6102 m.1342  |
+| Sınırlama hakkını kaldıran kusur | LLMC m.4 / CLC V(2) için kimin kusuru: gerçek kişi; tüzel kişide **organlar** (TMK m.50) ve organ üyeleri; adi şirkette ortaklar; donatma iştirakinde paydaşlar ve gemi müdürü; bunları genel/özel yetkiyle temsil edenler. Sınırlama hakkının kalkmasına kusuruyla sebep olan kişi kendi sorumluluğunu sınırlayamaz | 6102 m.1343  |
 | Kanuni halefiyet, teminat | m.1344, m.1345 — çek | `[doğrula]` |
-| Diğer alacaklılar | Fon yalnız sınırlanabilir alacaklar için; diğer alacaklılar fona başvuramaz, yalnız bakiyeyi takip edebilir | 6102 m.1346 |
-| Faiz | Sınırlama kabul edilirse sınırı aşan kısma faiz işlemez; fon faizli hesapta tutulur | 6102 m.1347 |
-| Görevli/yetkili mahkeme | Deniz ticareti işlerine bakan asliye ticaret (yoksa görevlendirilmiş asliye ticaret, o da yoksa görevlendirilmiş asliye hukuk); Türk sicilli gemide sicil mahkemesi, sicilsiz Türk gemisinde malikin yerleşim yeri, **yabancı gemide İstanbul** deniz ticareti işlerine bakan asliye ticaret | 6102 m.1348 |
-| Yargılama giderleri | Sınırlanamaz; fon kurulsa bile ayrıca ödenir | 6102 m.1349 |
-| Teminat ≠ vazgeçme | Gemiyi serbest bırakmak için teminat vermek sınırlama hakkından vazgeçme sayılmaz | 6102 m.1373 |
-| Donatan ve kaptanın sınırlama hakkı saklı | Gemi adamlarının kusurundan donatan sorumluluğu ve kaptanın sorumluluğunda sınırlama hakkı saklı | 6102 m.1062/2, m.1089/4 |
+| Diğer alacaklılar | Fon yalnız sınırlanabilir alacaklar için; diğer alacaklılar fona başvuramaz, yalnız bakiyeyi takip edebilir | 6102 m.1346  |
+| Faiz | Sınırlama kabul edilirse sınırı aşan kısma faiz işlemez; fon faizli hesapta tutulur | 6102 m.1347  |
+| Görevli/yetkili mahkeme | Deniz ticareti işlerine bakan asliye ticaret (yoksa görevlendirilmiş asliye ticaret, o da yoksa görevlendirilmiş asliye hukuk); Türk sicilli gemide sicil mahkemesi, sicilsiz Türk gemisinde malikin yerleşim yeri, **yabancı gemide İstanbul** deniz ticareti işlerine bakan asliye ticaret | 6102 m.1348  |
+| Yargılama giderleri | Sınırlanamaz; fon kurulsa bile ayrıca ödenir | 6102 m.1349  |
+| Teminat ≠ vazgeçme | Gemiyi serbest bırakmak için teminat vermek sınırlama hakkından vazgeçme sayılmaz | 6102 m.1373  |
+| Donatan ve kaptanın sınırlama hakkı saklı | Gemi adamlarının kusurundan donatan sorumluluğu ve kaptanın sorumluluğunda sınırlama hakkı saklı | 6102 m.1062/2, m.1089/4  |
 
-**Sınır tutarları** (LLMC m.6-7 tonaja göre ÖÇH, 1996 Protokolü ve 2012 değişikliği) beceri metnine yazılmaz; sözleşme metni MCP'de yok. Tutarı ve hangi sınır değişikliğinin Türkiye bakımından yürürlükte olduğunu (m.1328: değişiklikler Türkiye bakımından yürürlüğe girdiği tarihten uygulanır) kullanıcıya resmî kaynaktan (RG onay kararı, IMO depozitör kaydı) teyit ettir; soorgla'da yok.
+**Sınır tutarları** (LLMC m.6-7 tonaja göre ÖÇH, 1996 Protokolü ve 2012 değişikliği) beceri metnine yazılmaz; sözleşme metni MCP'de yok. Tutarı ve hangi sınır değişikliğinin Türkiye bakımından yürürlükte olduğunu (m.1328: değişiklikler Türkiye bakımından yürürlüğe girdiği tarihten uygulanır) kullanıcıya resmî kaynaktan (RG onay kararı, IMO depozitör kaydı) teyit ettir; soorgla'da yok. 
 
 ---
 
@@ -82,9 +82,9 @@ Bu dosya **genel (global) sınırlamayı** anlatır; taşıyanın **yük başın
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "6102" law_type: "Kanun" article_no: "1328" | "1329" | "1330" | "1331" | "1332" | "1335" | "1336" | "1341" | "1342" | "1343" | "1344" | "1345" | "1346" | "1347" | "1348" | "1349"
-legal_search_cases mahkeme: "yargitay" sorgu: "sorumluluğun sınırlandırılması fon kurulması 1976 sözleşmesi gemi tonaj"
-legal_search_official_gazette query: "Deniz Alacaklarına Karşı Mesuliyetin Sınırlanması" search_in: "title"
+legal_get_statute_article  law_no: "6102"  law_type: "Kanun"  article_no: "1328" | "1329" | "1330" | "1331" | "1332" | "1335" | "1336" | "1341" | "1342" | "1343" | "1344" | "1345" | "1346" | "1347" | "1348" | "1349"
+legal_search_cases  mahkeme: "yargitay"  sorgu: "sorumluluğun sınırlandırılması fon kurulması 1976 sözleşmesi gemi tonaj"
+legal_search_official_gazette  query: "Deniz Alacaklarına Karşı Mesuliyetin Sınırlanması"  search_in: "title"
 ```
 
 ---
@@ -111,3 +111,4 @@ legal_search_official_gazette query: "Deniz Alacaklarına Karşı Mesuliyetin S�
 - 🟡 Yabancı bayraklı gemi için fonu bulunduğu limanda kurmaya çalışmak (m.1348/2: İstanbul).
 
 ---
+

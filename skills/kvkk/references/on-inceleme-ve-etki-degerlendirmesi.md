@@ -4,7 +4,7 @@
 - "Bu özelliği yapabilir miyiz?", "yüz tanıma ile giriş kuracağız", "çalışanların e-postalarını inceleyeceğiz", "müşteri verisini yapay zekâ modeline vereceğiz", "konum takibi", "yeni CRM/tedarikçi".
 - Etki değerlendirmesi (upstream'de PIA/DPIA) isteniyor.
 
-KVKK'da GDPR m.35 gibi **genel bir zorunlu etki değerlendirmesi hükmü yoktur**. `[model bilgisi — doğrulayın]` Yine de yüksek riskli faaliyetlerde (özel nitelikli veri, çalışan izleme, profil çıkarma, yeni teknoloji, çocuk verisi) yazılı bir değerlendirme, m.4 ölçülülük ilkesini ve m.12 tedbirlerini ispat için en iyi araçtır ve Kurul ilke kararları bu türden bir ölçülülük değerlendirmesi beklemektedir. Sektörel mevzuat ayrıca risk analizi isteyebilir `[incele]`.
+KVKK'da GDPR m.35 gibi **genel bir zorunlu etki değerlendirmesi hükmü yoktur**. `[model bilgisi — doğrulayın]` Yine de yüksek riskli faaliyetlerde (özel nitelikli veri, çalışan izleme, profil çıkarma, yeni teknoloji, çocuk verisi) yazılı bir değerlendirme, m.4 ölçülülük ilkesini ve m.12 tedbirlerini ispat için en iyi araçtır ve Kurul ilke kararları bu türden bir ölçülülük değerlendirmesi beklemektedir.  Sektörel mevzuat ayrıca risk analizi isteyebilir `[incele]`.
 
 ---
 
@@ -18,23 +18,23 @@ Dört sonuçtan biri:
 
 Önce faaliyeti netleştir (aşağıdaki görüşme soruları). "Yeni özellik" sınıflama için yeterli değildir.
 
-**Uç durumlar (upstream'den):** "anonim" demek DEVAM sonucu doğurmaz — yeniden kimliklendirme riskini sor (m.3/1-b tanımı "başka verilerle eşleştirilerek dahi" der); "zaten benzerini yapıyoruz" değerlendirmeden muaf tutmaz; "pilot" da gerçek veriyle yapılıyorsa aynı kurallara tabidir; "tedarikçi hallediyor" — amaç ve vasıtayı siz belirliyorsanız veri sorumlususunuz; türetilmiş/tahmini veriler (skor, segment) de kişisel veridir.
+**Uç durumlar (upstream'den):** "anonim" demek DEVAM sonucu doğurmaz — yeniden kimliklendirme riskini sor (m.3/1-b tanımı "başka verilerle eşleştirilerek dahi" der) ; "zaten benzerini yapıyoruz" değerlendirmeden muaf tutmaz; "pilot" da gerçek veriyle yapılıyorsa aynı kurallara tabidir; "tedarikçi hallediyor" — amaç ve vasıtayı siz belirliyorsanız veri sorumlususunuz; türetilmiş/tahmini veriler (skor, segment) de kişisel veridir.
 
 ---
 
 ## Kontrol listesi — etki değerlendirmesi
 
-1. **Faaliyetin tanımı**: ne, neden, hangi alanlar (tek tek), yeni toplama mı mevcut verinin yeni amaçla kullanımı mı? Yeni amaç → yeni aydınlatma.
-2. **Hukuki sebep** her amaç için (m.5/2, m.6/3). Meşru menfaate dayanılıyorsa denge testi yazılı olmalı: menfaat, zorunluluk, ilgili kişinin temel hak ve özgürlüklerine etki.
-3. **Genel ilkeler** (m.4): amaçla bağlantılı, sınırlı, ölçülü; gerekli süre kadar saklama.
-4. **Daha az müdahaleci yol var mı?** (kademelilik) — örn. biyometrik yerine kart/şifre; içerik yerine trafik/log denetimi; teknik engelleme (filtre) mümkünse genel denetim hakkı doğmaz.
+1. **Faaliyetin tanımı**: ne, neden, hangi alanlar (tek tek), yeni toplama mı mevcut verinin yeni amaçla kullanımı mı? Yeni amaç → yeni aydınlatma. 
+2. **Hukuki sebep** her amaç için (m.5/2, m.6/3). Meşru menfaate dayanılıyorsa denge testi yazılı olmalı: menfaat, zorunluluk, ilgili kişinin temel hak ve özgürlüklerine etki. 
+3. **Genel ilkeler** (m.4): amaçla bağlantılı, sınırlı, ölçülü; gerekli süre kadar saklama. 
+4. **Daha az müdahaleci yol var mı?** (kademelilik) — örn. biyometrik yerine kart/şifre; içerik yerine trafik/log denetimi; teknik engelleme (filtre) mümkünse genel denetim hakkı doğmaz. 
 5. **Çalışan verisi**:
-   - Açık rıza, işçi–işveren güç dengesizliği nedeniyle kural olarak birincil dayanak değildir; özgür irade somut olayda ayrıca değerlendirilir.
-   - Kurumsal e-posta denetimi: yalnız trafik/log incelemesi de veri işlemedir; iş amaçlı/özel kullanım ayrımı; önceden, somut aydınlatma (genel "e-postalar denetlenebilir" bildirimi yetmez); içerik denetimi yalnız somut şüphede ve iddiayla sınırlı; gizli ve ayrım gözetmeyen izleme hukuka aykırı; erişim yetkisi sınırlı ve kayıtlı; iş ilişkisi bitince hesabın kapatılması. İç soruşturma bağlamı → `../../is-hukuku/references/ic-sorusturma.md`.
-   - Biyometrik mesai takibi: biyometrik veri özel niteliklidir; ölçülülük ve alternatif yöntem şartı.
-   - Sendika üyeliği özel nitelikli veridir.
-6. **Özel nitelikli veri**: m.6/3 şartı + Kurulun yeterli önlemleri.
-7. **Otomatik karar ve profil**: münhasıran otomatik analiz kişi aleyhine sonuç doğurabiliyorsa itiraz hakkı (m.11/1-g) için süreç; Kurul araç kiralama sektöründe profilleme sonucu olumsuz karara dikkat çekmiştir.
+   - Açık rıza, işçi–işveren güç dengesizliği nedeniyle kural olarak birincil dayanak değildir; özgür irade somut olayda ayrıca değerlendirilir. 
+   - Kurumsal e-posta denetimi: yalnız trafik/log incelemesi de veri işlemedir; iş amaçlı/özel kullanım ayrımı; önceden, somut aydınlatma (genel "e-postalar denetlenebilir" bildirimi yetmez); içerik denetimi yalnız somut şüphede ve iddiayla sınırlı; gizli ve ayrım gözetmeyen izleme hukuka aykırı; erişim yetkisi sınırlı ve kayıtlı; iş ilişkisi bitince hesabın kapatılması.  İç soruşturma bağlamı → `../../is-hukuku/references/ic-sorusturma.md`.
+   - Biyometrik mesai takibi: biyometrik veri özel niteliklidir; ölçülülük ve alternatif yöntem şartı. 
+   - Sendika üyeliği özel nitelikli veridir. 
+6. **Özel nitelikli veri**: m.6/3 şartı + Kurulun yeterli önlemleri. 
+7. **Otomatik karar ve profil**: münhasıran otomatik analiz kişi aleyhine sonuç doğurabiliyorsa itiraz hakkı (m.11/1-g) için süreç; Kurul araç kiralama sektöründe profilleme sonucu olumsuz karara dikkat çekmiştir. 
 8. **Yapay zekâ**: eğitim verisi olarak kişisel veri kullanımı ayrı amaçtır; tedarikçinin veriyi kendi modelini eğitmek için kullanması veri işleyen rolünü aşar → `veri-isleme-sozlesmesi.md`. Kurumun üretken yapay zekâ rehberi için `[model bilgisi — doğrulayın]`.
 9. **Veri akışı**: toplama → saklama (ülke, şifreleme) → erişim (kim) → aktarım (alıcı, DPA) → saklama süresi ve imha.
 10. **Yurt dışı** → `yurt-disi-aktarim.md`.
@@ -67,12 +67,12 @@ Dört sonuçtan biri:
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "6698" article_no: "3" | "4" | "5" | "6" | "11" | "12"
-legal_search_official_gazette query: "Kişisel Verileri Koruma Kurulunun" search_in: "title" sort_by: "date_desc"
-legal_get_official_gazette_document url: "<2026/921 biyometrik; 2026/2035 e-posta denetimi>"
-legal_search_admin_guidance sorgu: "Kişisel Verileri Koruma Kurulunun kararı <faaliyet: kamera, konum, biyometrik, profilleme>" kurum: "Kişisel Verileri Koruma Kurulu" tarih_baslangic: "<son 3 yıl>"
-legal_search_cases sorgu: "<işyeri kamera / e-posta denetimi / biyometrik> kişisel veri" mahkeme: "anayasa"
-legal_search_cases sorgu: "<aynı>" mahkeme: "yargitay" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "6698"  article_no: "3" | "4" | "5" | "6" | "11" | "12"
+legal_search_official_gazette  query: "Kişisel Verileri Koruma Kurulunun"  search_in: "title"  sort_by: "date_desc"
+legal_get_official_gazette_document  url: "<2026/921 biyometrik; 2026/2035 e-posta denetimi>"
+legal_search_admin_guidance  sorgu: "Kişisel Verileri Koruma Kurulunun kararı <faaliyet: kamera, konum, biyometrik, profilleme>"  kurum: "Kişisel Verileri Koruma Kurulu"  tarih_baslangic: "<son 3 yıl>"
+legal_search_cases  sorgu: "<işyeri kamera / e-posta denetimi / biyometrik> kişisel veri"  mahkeme: "anayasa"
+legal_search_cases  sorgu: "<aynı>"  mahkeme: "yargitay"  tarih_baslangic: "<son 3 yıl>"
 ```
 
 ---
@@ -102,7 +102,7 @@ legal_search_cases sorgu: "<aynı>" mahkeme: "yargitay" tarih_baslangic: "<son 3
 ## 7. Öneri
 [ONAY / ŞARTLI ONAY / DEĞİŞİKLİK GEREKLİ / RED]
 Şartlar: - [ ] [somut iş — sorumlu — başlamadan önce]
-**Onaylayan:** [ad, tarih] (bu beceri onay vermez)
+**Onaylayan:** [ad, tarih]   (bu beceri onay vermez)
 ```
 
 ---
@@ -114,3 +114,4 @@ legal_search_cases sorgu: "<aynı>" mahkeme: "yargitay" tarih_baslangic: "<son 3
 - Daha az müdahaleci alternatifleri tartışmamak.
 - Aydınlatma metnini güncellemeden yeni amaca başlamak.
 - Tedarikçinin veriyi kendi yapay zekâsını eğitmekte kullanmasını gözden kaçırmak.
+

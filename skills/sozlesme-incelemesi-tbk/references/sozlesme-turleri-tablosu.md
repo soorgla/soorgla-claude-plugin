@@ -6,7 +6,7 @@ Sözleşmenin türünü belirlemek, uygulanacak temel ve yan mevzuatı bulmak, k
 - "Bu hangi sözleşme", "hangi kanun uygulanır", karma sözleşme, başlığı içeriğiyle uyuşmayan metin.
 - Yönlendirmede tereddüt varsa her incelemenin başında.
 
-**İlke:** başlık bağlamaz; tarafların edimleri belirler. Karma sözleşmede her edime kendi türünün hükümleri uygulanır; uyuşmazlığın asıl ağırlığı hangi türdeyse yargılama ve temyiz yolu ona göre belirlenir. Güncel Yargıtay iş bölümüne göre karma ya da birden fazla özel sözleşmeye dayanan uyuşmazlıkta temyiz, **TBK'da önce düzenlenen sözleşme türüne** bakan daireye gider.
+**İlke:** başlık bağlamaz; tarafların edimleri belirler. Karma sözleşmede her edime kendi türünün hükümleri uygulanır; uyuşmazlığın asıl ağırlığı hangi türdeyse yargılama ve temyiz yolu ona göre belirlenir. Güncel Yargıtay iş bölümüne göre karma ya da birden fazla özel sözleşmeye dayanan uyuşmazlıkta temyiz, **TBK'da önce düzenlenen sözleşme türüne** bakan daireye gider. 
 
 ---
 
@@ -43,9 +43,9 @@ Sözleşmenin türünü belirlemek, uygulanacak temel ve yan mevzuatı bulmak, k
 | Kamu | İhale sözleşmesi, idari şartname, teknik şartname, hakediş | 4734, 4735 | İhale Uygulama Yönetmelikleri | Yeterlik kriterleri, "adrese teslim" teknik şartname, iş artışı, fiyat farkı | `../../kamu-ihale/SKILL.md` (ihale aşaması), `../../hakedis/SKILL.md` (sözleşme yürütme) |
 
 ## 2. Daire ve mahkeme yönlendirmesi
-- **Görevli mahkeme:** taraflar tacir ve iş ticari işletmeyle ilgiliyse ya da TTK m.4'te sayılan ticari davalardan biriyse asliye ticaret mahkemesi (asliye hukukla ilişki görev ilişkisidir); tüketici işleminde tüketici mahkemesi; geri kalanında asliye hukuk / sulh hukuk.
+- **Görevli mahkeme:** taraflar tacir ve iş ticari işletmeyle ilgiliyse ya da TTK m.4'te sayılan ticari davalardan biriyse asliye ticaret mahkemesi (asliye hukukla ilişki görev ilişkisidir); tüketici işleminde tüketici mahkemesi; geri kalanında asliye hukuk / sulh hukuk.  
 - **Dava şartı arabuluculuk:** ticari davalardan konusu bir miktar para olan alacak, tazminat, itirazın iptali, menfi tespit ve istirdat davaları (TTK m.5/A); tüketici mahkemesindeki uyuşmazlıklar (6502 m.73/A, istisnalarla). Kira için → `../../kira-hukuku/SKILL.md`.
-- **Yargıtay dairesi:** güncel BGK iş bölümü kararından çek (SKILL.md Adım 4). 2026/1 kararına göre özet: genel sözleşmeler, adi ortaklık, kira, tüketici (bazı istisnalarla) → 3. HD; tüm eser ve hizmet alım, arsa payı karşılığı inşaat → 6. HD; ticari satış, simsarlık, faktoring, finansal kiralama, TTK m.4 ticari davaları → 11. HD; taşınmaz satış vaadi, ölünceye kadar bakmaya dayalı tapu iptali → 7. HD; genel muvazaa (TBK m.19) → 12. HD.
+- **Yargıtay dairesi:** güncel BGK iş bölümü kararından çek (SKILL.md Adım 4). 2026/1 kararına göre özet: genel sözleşmeler, adi ortaklık, kira, tüketici (bazı istisnalarla) → 3. HD; tüm eser ve hizmet alım, arsa payı karşılığı inşaat → 6. HD; ticari satış, simsarlık, faktoring, finansal kiralama, TTK m.4 ticari davaları → 11. HD; taşınmaz satış vaadi, ölünceye kadar bakmaya dayalı tapu iptali → 7. HD; genel muvazaa (TBK m.19) → 12. HD. 
 
 ## 3. Görüşme soruları
 1. Tarafların her birinin borcu (edimi) ne? Para karşılığı mal mı, iş mi, hizmet mi, hak kullanımı mı?
@@ -55,10 +55,10 @@ Sözleşmenin türünü belirlemek, uygulanacak temel ve yan mevzuatı bulmak, k
 
 ## 4. MCP adımları
 ```
-legal_list_statute_articles law_no: "6098" article_query: "<tür adı>" # bölüm ve madde aralığını teyit
-legal_resolve_statute query: "<mevzuat adı>"
-legal_search_official_gazette query: "Büyük Genel Kurulu" search_in: "title" sort_by: "date_desc"
-legal_case_facets mahkeme: "yargitay" sorgu: "<uyuşmazlık>"
+legal_list_statute_articles  law_no: "6098"  article_query: "<tür adı>"     # bölüm ve madde aralığını teyit
+legal_resolve_statute  query: "<mevzuat adı>"
+legal_search_official_gazette  query: "Büyük Genel Kurulu"  search_in: "title"  sort_by: "date_desc"
+legal_case_facets  mahkeme: "yargitay"  sorgu: "<uyuşmazlık>"
 ```
 
 ## 5. Çıktı iskeleti
@@ -76,3 +76,4 @@ legal_case_facets mahkeme: "yargitay" sorgu: "<uyuşmazlık>"
 - Daire listesini önceki yılın iş bölümünden yazmak.
 
 ---
+

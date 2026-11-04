@@ -11,18 +11,18 @@
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| Hak sahibi | Paylı mülkiyette bir paydaş taşınmaz üzerindeki payını tamamen ya da kısmen **üçüncü kişiye satarsa** diğer paydaşlar önalım hakkını kullanabilir | TMK m.732 |
-| Kullanılamayacağı satışlar | **2886 sayılı Kanun kapsamındaki satışlar** ile cebrî artırmayla satışlar (2886 ibaresi 7571 ile eklendi) | TMK m.733/1 |
-| Feragat ve vazgeçme | Önalımdan feragat resmî şekil ve tapuya şerh; belirli satışta vazgeçme yazılı şekil, satıştan önce ya da sonra | TMK m.733/2 |
-| Bildirim | Satış alıcı ya da satıcı tarafından diğer paydaşlara **noter aracılığıyla** bildirilir | TMK m.733/3 |
-| Hak düşürücü süre | Bildirimden itibaren **üç ay**, her hâlde satıştan itibaren **bir yıl** (7571 öncesi iki yıl) | TMK m.733/4 |
-| Geçiş (süre) | 733'teki değişiklikler 25.12.2025'ten **önce yapılmış satışlara uygulanmaz**; onlarda eski metin (iki yıl, 2886 istisnası yok) | TMK geçici m.1/1 (7571 m.37) |
-| Kullanma | Alıcıya karşı dava açılarak | TMK m.734/1 |
-| Bedel | Dava konusu payın **rayiç bedeli** hâkimce gecikmeksizin belirlenir; hak sahibi rayiç bedel + alıcıya düşen tapu giderlerini, hâkimin belirlediği yere, verilen **kesin süre** içinde nakden yatırır; yatırmazsa tescile karar verilemez; bedel kesinleşmede nemasıyla ödenir (eski metinde tapuda gösterilen satış bedeli esastı) | TMK m.734/2 (7571 m.36) |
-| Geçiş (bedel) | 734'teki değişiklik 25.12.2025'ten önce **açılmış davalara da** uygulanır | TMK geçici m.1/2 |
-| Görev, yetki, daire | Taşınmazın bulunduğu yer (HMK m.12); temyiz 2026/1'e göre 7. HD | |
+| Hak sahibi | Paylı mülkiyette bir paydaş taşınmaz üzerindeki payını tamamen ya da kısmen **üçüncü kişiye satarsa** diğer paydaşlar önalım hakkını kullanabilir | TMK m.732  |
+| Kullanılamayacağı satışlar | **2886 sayılı Kanun kapsamındaki satışlar** ile cebrî artırmayla satışlar (2886 ibaresi 7571 ile eklendi) | TMK m.733/1  |
+| Feragat ve vazgeçme | Önalımdan feragat resmî şekil ve tapuya şerh; belirli satışta vazgeçme yazılı şekil, satıştan önce ya da sonra | TMK m.733/2  |
+| Bildirim | Satış alıcı ya da satıcı tarafından diğer paydaşlara **noter aracılığıyla** bildirilir | TMK m.733/3  |
+| Hak düşürücü süre | Bildirimden itibaren **üç ay**, her hâlde satıştan itibaren **bir yıl** (7571 öncesi iki yıl) | TMK m.733/4  |
+| Geçiş (süre) | 733'teki değişiklikler 25.12.2025'ten **önce yapılmış satışlara uygulanmaz**; onlarda eski metin (iki yıl, 2886 istisnası yok) | TMK geçici m.1/1 (7571 m.37)  |
+| Kullanma | Alıcıya karşı dava açılarak | TMK m.734/1  |
+| Bedel | Dava konusu payın **rayiç bedeli** hâkimce gecikmeksizin belirlenir; hak sahibi rayiç bedel + alıcıya düşen tapu giderlerini, hâkimin belirlediği yere, verilen **kesin süre** içinde nakden yatırır; yatırmazsa tescile karar verilemez; bedel kesinleşmede nemasıyla ödenir (eski metinde tapuda gösterilen satış bedeli esastı) | TMK m.734/2 (7571 m.36)  |
+| Geçiş (bedel) | 734'teki değişiklik 25.12.2025'ten önce **açılmış davalara da** uygulanır | TMK geçici m.1/2  |
+| Görev, yetki, daire | Taşınmazın bulunduğu yer (HMK m.12); temyiz 2026/1'e göre 7. HD |  |
 
-**Rayiç bedelin hangi tarihe göre belirleneceği** kanunda yazılı değil. 7. HD çoğunluğu (2026): 7571 s. Kanun'un yürürlüğünden (25.12.2025) **sonra açılan** davalarda **dava tarihi**, o tarihte **derdest** davalarda **25.12.2025** esas alınır. Gerekçede karşı oy: her iki durumda da **satış tarihi** esas alınmalı. Kararlar "gerekçede oy çokluğu" ile verildi; çalışma anında `legal_search_cases` (7. HD, 2026 sonrası) ile yaklaşımın sürüp sürmediğini kontrol et `[incele]`.
+**Rayiç bedelin hangi tarihe göre belirleneceği** kanunda yazılı değil. 7. HD çoğunluğu (2026): 7571 s. Kanun'un yürürlüğünden (25.12.2025) **sonra açılan** davalarda **dava tarihi**, o tarihte **derdest** davalarda **25.12.2025** esas alınır. Gerekçede karşı oy: her iki durumda da **satış tarihi** esas alınmalı. Kararlar "gerekçede oy çokluğu" ile verildi; çalışma anında `legal_search_cases` (7. HD, 2026 sonrası) ile yaklaşımın sürüp sürmediğini kontrol et `[incele]`.  
 
 ---
 
@@ -48,7 +48,7 @@
 | Bedelin depo edilmesi | Hâkimin ara kararı | Hâkimin verdiği kesin süre | TMK m.734/2 |
 | İstinaf/temyiz | Tebliğ | `hmk_appeal` / `hmk_cassation` | HMK |
 
-`legal_calculate_deadline` önalım süresini tanımıyor (`tmk_onalim` → "Kural bulunamadı"); elle hesapla, `legal_check_holiday`, `[doğrula]`.
+`legal_calculate_deadline` önalım süresini tanımıyor (`tmk_onalim` → "Kural bulunamadı"); elle hesapla, `legal_check_holiday`, `[doğrula]`. 
 
 ---
 
@@ -74,12 +74,12 @@
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "4721" law_type: "Kanun" article_no: "732" | "733" | "734" | "735" | "736"
-legal_list_statute_articles law_no: "4721" law_type: "Kanun" article_kind: "gecici" include_content: true # geçici m.1 (7571)
-legal_get_official_gazette_document url: "https://www.resmigazete.gov.tr/eskiler/2025/12/20251225-33.htm" offset: 36000 # 7571 m.35-37
-legal_search_cases mahkeme: "yargitay" daire: "7. Hukuk Dairesi" tarih_baslangic: "2025-12-25"
+legal_get_statute_article  law_no: "4721"  law_type: "Kanun"  article_no: "732" | "733" | "734" | "735" | "736"
+legal_list_statute_articles  law_no: "4721"  law_type: "Kanun"  article_kind: "gecici"  include_content: true   # geçici m.1 (7571)
+legal_get_official_gazette_document  url: "https://www.resmigazete.gov.tr/eskiler/2025/12/20251225-33.htm"  offset: 36000   # 7571 m.35-37
+legal_search_cases  mahkeme: "yargitay"  daire: "7. Hukuk Dairesi"  tarih_baslangic: "2025-12-25"
     sorgu: "<ör. 7571 sonrası önalım davasında rayiç bedelin belirlenmesi ve kesin süre içinde depo>"
-legal_get_case_document belge_id: "<seçilen>"
+legal_get_case_document  belge_id: "<seçilen>"
 ```
 
 ---
@@ -105,3 +105,4 @@ legal_get_case_document belge_id: "<seçilen>"
 - 🟠 Kat irtifakı/kat mülkiyeti kurulmuş bağımsız bölüm satışında önalım aramak `[doğrula]`.
 
 ---
+

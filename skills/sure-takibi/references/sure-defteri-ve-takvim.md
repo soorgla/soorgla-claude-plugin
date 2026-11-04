@@ -32,29 +32,29 @@ Kip A'da `_liste.yaml` → her dosya satırının `sureler[]` alanı (dosya list
 surum: 1
 son_guncelleme: 2026-10-31
 sureler:
-  - id: "ise-iade-a-arabuluculuk-2026-11" # [dosya]-[kısa-iş]-[YYYY-AA]
-    dosya: "2026-ise-iade-a" # kip A'da yok (üst satırdan gelir)
-    alan: is-hukuku # alan becerisinin adı
-    ne: "işe iade için arabulucuya başvuru" # tek satır: ne yapılacak
-    tur: hak-dusurucu # bkz. sure-turleri-ve-kaynak-haritasi.md §1
-    saat_sahibi: biz # biz | karsi-taraf | mahkeme-idare
+  - id: "ise-iade-a-arabuluculuk-2026-11"   # [dosya]-[kısa-iş]-[YYYY-AA]
+    dosya: "2026-ise-iade-a"                # kip A'da yok (üst satırdan gelir)
+    alan: is-hukuku                          # alan becerisinin adı
+    ne: "işe iade için arabulucuya başvuru"  # tek satır: ne yapılacak
+    tur: hak-dusurucu                        # bkz. sure-turleri-ve-kaynak-haritasi.md §1
+    saat_sahibi: biz                         # biz | karsi-taraf | mahkeme-idare
     baslangic:
       olay: "fesih bildiriminin tebliği"
       tarih: 2026-10-20
-      kesinlik: kesin # kesin | turetilmis | yaklasik
+      kesinlik: kesin                        # kesin | turetilmis | yaklasik
       kaynak: "[kullanıcı verdi] fesih bildirimi, elden imzalı"
     dayanak: "4857 m.20/1 [soorgla]"
-    hesap: "elle [doğrula]" # legal_calculate_deadline:<kod> | elle [doğrula]
+    hesap: "elle [doğrula]"                  # legal_calculate_deadline:<kod> | elle [doğrula]
     gerekce: "Tebliğ 20.10.2026 → 4857 m.20/1 süresi (metinden) → ham bitiş … → tatil yok → son gün …; sağlama tuttu"
-    son_gun: 2026-11-19 # ya da "[HESAPLANACAK]"
+    son_gun: 2026-11-19                      # ya da "[HESAPLANACAK]"
     son_saat: "gün sonu (UYAP) / mesai bitimi (fiziki)"
-    olasi_uzama: null # geç tarih yalnız burada (ör. adli tatil tartışmalı)
+    olasi_uzama: null                        # geç tarih yalnız burada (ör. adli tatil tartışmalı)
     ic_hedef: 2026-11-16
     sorumlu: "Av. ___"
     bagli_sureler: ["ise-iade-a-dava-2026-12"]
-    durum: acik # acik | durdu | yapildi | kapatildi | kacti
-    tamamlanma: null # { tarih, kanit: "UYAP gönderim no / noter yevmiye / KEP alındısı" }
-    takvim_uid: null # takvime yazıldıysa: google:<id> / outlook:<id> ya da ICS UID
+    durum: acik                              # acik | durdu | yapildi | kapatildi | kacti
+    tamamlanma: null                         # { tarih, kanit: "UYAP gönderim no / noter yevmiye / KEP alındısı" }
+    takvim_uid: null                         # takvime yazıldıysa: google:<id> / outlook:<id> ya da ICS UID
     notlar:
       - "2026-10-31: eklendi (sure-takibi)"
     olusturma: 2026-10-31

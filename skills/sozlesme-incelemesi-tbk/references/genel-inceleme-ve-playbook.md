@@ -57,7 +57,7 @@ Profil şablonu (kullanıcı onayıyla `~/.claude/plugins/config/soorgla-hukuk/p
 1. Tavan doğrudan zararı mı, her türlü sorumluluğu mu kapsıyor; dolaylı zarar ve kâr kaybı nasıl?
 2. **Tavan matrahını aynen alıntıla** ("son 12 ayda ödenen" ile "sözleşme süresince ödenecek" arasında kat kat fark vardır); belirsizse işaretle.
 3. Tavanın üstünde kalanlar (istisnalar) ile altında kalanları say; tavanın gerçekten anlamlı bir alanı kapsayıp kapsamadığını söyle.
-4. **Türk hukuku süzgeci:** borçlunun ağır kusurundan sorumsuzluk anlaşması kesin hükümsüzdür; hizmet sözleşmesinden doğan her türlü sorumsuzluk anlaşması ve izinle yürütülen meslek/sanat için hafif kusurdan sorumsuzluk da kesin hükümsüzdür (TBK m.115). Bu nedenle "hiçbir durumda sorumlu değildir" ibaresi ağır kusur bakımından zaten işlemez; bunu tavan analizine yaz.
+4. **Türk hukuku süzgeci:** borçlunun ağır kusurundan sorumsuzluk anlaşması kesin hükümsüzdür; hizmet sözleşmesinden doğan her türlü sorumsuzluk anlaşması ve izinle yürütülen meslek/sanat için hafif kusurdan sorumsuzluk da kesin hükümsüzdür (TBK m.115). Bu nedenle "hiçbir durumda sorumlu değildir" ibaresi ağır kusur bakımından zaten işlemez; bunu tavan analizine yaz. 
 
 ## 2. Yönlendirme tablosu (ilk okuma, hızlı)
 
@@ -82,24 +82,24 @@ Profil şablonu (kullanıcı onayıyla `~/.claude/plugins/config/soorgla-hukuk/p
 | Kod | Kontrol | Dayanak | Not |
 |---|---|---|---|
 | TÜR | Nitelendirme doğru mu; karma sözleşmede hangi hükümler uygulanır? | TBK genel; `sozlesme-turleri-tablosu.md` | Başlık bağlamaz, içerik belirler `[incele]` |
-| ŞEKİL | Türün geçerlilik şekli (yazılı, el yazısı, resmî, miras sözleşmesi şekli) karşılanmış mı? Sonradan yapılan değişiklik de aynı şekle tabi mi? | TBK m.12-13; türe özgü madde | Şekil eksikse 🔴 |
+| ŞEKİL | Türün geçerlilik şekli (yazılı, el yazısı, resmî, miras sözleşmesi şekli) karşılanmış mı? Sonradan yapılan değişiklik de aynı şekle tabi mi? | TBK m.12-13; türe özgü madde | Şekil eksikse 🔴  |
 | TARAF-SIFATI | Taraflar tacir mi, tüketici mi? Tüketici varsa 6502 ve haksız şart denetimi. | TTK m.12, m.18-22; 6502 m.3 | |
-| İMZA-YETKİSİ | İmzalayanın temsil yetkisi (imza sirküleri, müşterek imza)? Yetkisiz temsil hâlinde sözleşme onaya kadar bağlamaz. | TBK m.46-47; TTK (şirket temsili) | Eski YAML "askıda hükümsüz" diyordu; sonuç doğru, madde atfı eksikti |
-| GİK | Tek taraflı hazırlanmış, çok sayıda sözleşmede kullanılan matbu hükümler var mı? Bilgilendirme yapılmış mı, şaşırtıcı hüküm var mı? | TBK m.20-25 | Ayrıntı: `genel-islem-kosullari-ve-tuketici.md` |
+| İMZA-YETKİSİ | İmzalayanın temsil yetkisi (imza sirküleri, müşterek imza)? Yetkisiz temsil hâlinde sözleşme onaya kadar bağlamaz. | TBK m.46-47; TTK (şirket temsili)  | Eski YAML "askıda hükümsüz" diyordu; sonuç doğru, madde atfı eksikti |
+| GİK | Tek taraflı hazırlanmış, çok sayıda sözleşmede kullanılan matbu hükümler var mı? Bilgilendirme yapılmış mı, şaşırtıcı hüküm var mı? | TBK m.20-25 | Ayrıntı: `genel-islem-kosullari-ve-tuketici.md`  |
 | CEZAİ-ŞART | Türü (seçimlik / ifaya eklenen / dönme cezası), karşılıklı mı, aşırı mı; borçlu tacir mi? | TBK m.179-182; TTK m.22 | Ayrıntı: `cezai-sart-ifa-ve-sorumluluk.md` |
 | SORUMLULUK | Sorumluluk sınırı, dolaylı zarar, ağır kusur istisnası | TBK m.115 | §1'deki dört pozisyon |
-| FAİZ | Akdî faiz ve temerrüt faizi üst sınırları; bileşik faiz | TBK m.88, m.120; TBK m.388/3; 6502 m.4/7 | Oran araçtan; tüketici işleminde bileşik faiz uygulanmaz |
+| FAİZ | Akdî faiz ve temerrüt faizi üst sınırları; bileşik faiz | TBK m.88, m.120; TBK m.388/3; 6502 m.4/7 | Oran araçtan; tüketici işleminde bileşik faiz uygulanmaz   |
 | DÖVİZ | Bedel döviz cinsinden ya da dövize endeksli mi; taraflar Türkiye'de yerleşik mi; istisna var mı? | 32 sayılı Karar m.4/g; 2008-32/34 Tebliğ m.8 | Ayrıntı: `odunc-ve-yabanci-para.md` §2 |
-| SÜRE-FESİH | Belirli/belirsiz süre, otomatik yenileme, fesih bildirimi süresi ve şekli, haklı nedenle fesih | TBK genel; tacirler arasında TTK m.18/3 şekli | |
-| MÜCBİR-UYARLAMA | Mücbir sebep tanımı, bildirim yükümlülüğü; aşırı ifa güçlüğünde uyarlama/fesih | TBK m.136-138 | TBK m.138 yabancı para borçlarına da uygulanır |
-| DEVİR | Sözleşmenin/alacağın devri ve kontrol değişikliği | TBK m.183 vd., m.205 | |
+| SÜRE-FESİH | Belirli/belirsiz süre, otomatik yenileme, fesih bildirimi süresi ve şekli, haklı nedenle fesih | TBK genel; tacirler arasında TTK m.18/3 şekli |  |
+| MÜCBİR-UYARLAMA | Mücbir sebep tanımı, bildirim yükümlülüğü; aşırı ifa güçlüğünde uyarlama/fesih | TBK m.136-138 | TBK m.138 yabancı para borçlarına da uygulanır  |
+| DEVİR | Sözleşmenin/alacağın devri ve kontrol değişikliği | TBK m.183 vd., m.205 |  |
 | GİZLİLİK | Gizlilik süresi, ticari sır, çalışanlara yayılma | TBK genel; TTK haksız rekabet m.55 | Ayrı NDA varsa `nda-ve-niyet-mektubu.md` |
 | KVKK | Kişisel veri aktarımı, veri işleyen rolü, yurt dışı aktarım | 6698 | → `../../kvkk/SKILL.md`; burada yalnız işaret |
-| YETKİ | Yetki şartı yalnız tacirler veya kamu tüzel kişileri arasında geçerli; tüketiciye karşı yetki şartı tüketicinin yerleşim yeri yetkisini kaldırmaz | HMK m.17; 6502 m.73/5 | |
-| TAHKİM | Tahkim şartı açık mı (kurum, yer, dil, hakem sayısı); tüketici ve iş uyuşmazlığında sınırlar | HMK m.407 vd.; MTK 4686 | |
-| ARABULUCULUK | Ticari parasal alacaklarda dava şartı arabuluculuk; tüketici mahkemesi uyuşmazlıklarında da (THH görevi hariç) | TTK m.5/A; 6502 m.73/A | Sözleşmeye "önce arabuluculuk" yazmak dava şartının yerine geçmez |
-| UYGULANACAK-HUKUK | Yabancı unsur varsa hukuk seçimi | MÖHUK 5718 m.24 | Yabancı hukuk seçilmişse ORTAK-KURALLAR.md §2 |
-| İSPAT | Delil sözleşmesi, e-posta/elektronik kayıtların delil sayılması | HMK m.193 | |
+| YETKİ | Yetki şartı yalnız tacirler veya kamu tüzel kişileri arasında geçerli; tüketiciye karşı yetki şartı tüketicinin yerleşim yeri yetkisini kaldırmaz | HMK m.17; 6502 m.73/5 |  |
+| TAHKİM | Tahkim şartı açık mı (kurum, yer, dil, hakem sayısı); tüketici ve iş uyuşmazlığında sınırlar | HMK m.407 vd.; MTK 4686 |  |
+| ARABULUCULUK | Ticari parasal alacaklarda dava şartı arabuluculuk; tüketici mahkemesi uyuşmazlıklarında da (THH görevi hariç) | TTK m.5/A; 6502 m.73/A | Sözleşmeye "önce arabuluculuk" yazmak dava şartının yerine geçmez  |
+| UYGULANACAK-HUKUK | Yabancı unsur varsa hukuk seçimi | MÖHUK 5718 m.24 |  Yabancı hukuk seçilmişse ORTAK-KURALLAR.md §2 |
+| İSPAT | Delil sözleşmesi, e-posta/elektronik kayıtların delil sayılması | HMK m.193 |  |
 | DAMGA | Nüsha sayısı ve damga vergisi yükü kimde | 488 s. Kanun | Oran yazma; mali müşavir `[doğrula]` |
 
 Tablo tabandır; sözleşmede başka bir sorun görürsen ekle.
@@ -128,11 +128,11 @@ Kalibrasyon: her şey KIRMIZI değildir. Belirsizse bir üst kovaya yuvarla (ORT
 
 | Süre | Dayanak | Not |
 |---|---|---|
-| Aşırı yararlanmada iptal: öğrenme/zor durumun kalkmasından 1 yıl, her hâlde kuruluştan 5 yıl | TBK m.28/2 | Hak düşürücü |
-| Genel zamanaşımı 10 yıl; dönemsel edimler, vekâlet, komisyon, acentelik, eser (ağır kusur hariç) 5 yıl | TBK m.146-147 | |
-| Tacirler arası satışta ayıp ihbarı: açık ayıpta 2 gün, açık olmayanda teslimden 8 gün içinde inceleme ve ihbar | TTK m.23/1-c | Bkz. `satis-trampa-bagislama.md` |
-| Acentelikte belirsiz süreli sözleşmenin feshi 3 ay önceden; denkleştirme istemi sona ermeden itibaren 1 yıl | TTK m.121/1, m.122/4 | |
-| Ticari arabuluculuk süresi: görevlendirmeden 6 hafta, zorunlu hâlde en çok 2 hafta uzatma | TTK m.5/A/2 | |
+| Aşırı yararlanmada iptal: öğrenme/zor durumun kalkmasından 1 yıl, her hâlde kuruluştan 5 yıl | TBK m.28/2 | Hak düşürücü  |
+| Genel zamanaşımı 10 yıl; dönemsel edimler, vekâlet, komisyon, acentelik, eser (ağır kusur hariç) 5 yıl | TBK m.146-147 |   |
+| Tacirler arası satışta ayıp ihbarı: açık ayıpta 2 gün, açık olmayanda teslimden 8 gün içinde inceleme ve ihbar | TTK m.23/1-c | Bkz. `satis-trampa-bagislama.md`  |
+| Acentelikte belirsiz süreli sözleşmenin feshi 3 ay önceden; denkleştirme istemi sona ermeden itibaren 1 yıl | TTK m.121/1, m.122/4 |  |
+| Ticari arabuluculuk süresi: görevlendirmeden 6 hafta, zorunlu hâlde en çok 2 hafta uzatma | TTK m.5/A/2 |  |
 
 Otomatik yenilemeli sözleşmelerde **yenileme tarihini ve itiraz son gününü** her durumda tabloya yaz (upstream renewal-tracker devri); son günü `legal_check_holiday` ile kontrol et.
 
@@ -147,16 +147,16 @@ Otomatik yenilemeli sözleşmelerde **yenileme tarihini ve itiraz son gününü*
 
 ## 8. MCP adımları
 ```
-legal_get_statute_article law_no: "6098" article_no: "20" | "21" | "25" | "28" | "88" | "115" | "120" | "138" | "146" | "147"
-legal_get_statute_article law_no: "6102" article_no: "18" | "22" | "23"
-legal_list_statute_articles law_no: "6102" article_no: "5" include_content: true # 5/A
-legal_list_statute_articles law_no: "6502" article_no: "73" include_content: true # 73/A
-legal_get_statute_article law_no: "6100" article_no: "17"
-legal_search_official_gazette query: "Büyük Genel Kurulu" search_in: "title" sort_by: "date_desc" # güncel daire iş bölümü
-legal_search_cases mahkeme: "yargitay" daire: "<iş bölümüne göre>" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article   law_no: "6098"  article_no: "20" | "21" | "25" | "28" | "88" | "115" | "120" | "138" | "146" | "147"
+legal_get_statute_article   law_no: "6102"  article_no: "18" | "22" | "23"
+legal_list_statute_articles law_no: "6102"  article_no: "5"  include_content: true      # 5/A
+legal_list_statute_articles law_no: "6502"  article_no: "73" include_content: true      # 73/A
+legal_get_statute_article   law_no: "6100"  article_no: "17"
+legal_search_official_gazette  query: "Büyük Genel Kurulu"  search_in: "title"  sort_by: "date_desc"   # güncel daire iş bölümü
+legal_search_cases  mahkeme: "yargitay"  daire: "<iş bölümüne göre>"  tarih_baslangic: "<son 3 yıl>"
     sorgu: "<ör. matbu sözleşmedeki tek taraflı fesih yetkisi genel işlem koşulu olarak yazılmamış sayılır>"
-legal_get_case_document belge_id: "<seçilen karar>"
-legal_get_legal_interest_rates # faiz maddesi varsa
+legal_get_case_document  belge_id: "<seçilen karar>"
+legal_get_legal_interest_rates      # faiz maddesi varsa
 ```
 
 ## 9. Çıktı iskeleti
@@ -176,3 +176,4 @@ Kanal özeti (iş birimi "sorun var mı?" diye sorduysa): `[Karşı taraf] [tür
 - Daire iş bölümünü eski bir yılın kararından yazmak (eski YAML'lar "2025 iş bölümü"nü sabit yazıyordu).
 
 ---
+

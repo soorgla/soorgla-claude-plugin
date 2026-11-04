@@ -3,12 +3,12 @@
 Tek hesap aracı. Çağrı biçimi:
 
 ```json
-{ "hesap": "<hesap adı>", "girdi": { ... }, "tarih": "YYYY-AA-GG" }
+{ "hesap": "<hesap adı>", "<hesap adı>": { ... }, "tarih": "YYYY-AA-GG" }
 ```
 
-- `hesap` serbest metindir. Eş adlar: `bordro`, `maas`, `maaş`, `ücret` → `ucret`.
-- `girdi` hesaba göre alan nesnesidir. Eksik ya da yanlış alanda araç hata vermez; o hesabın istediği alanları döndürür.
-- Bilinmeyen `hesap` değerinde geçerli hesapların listesi, her birinin alanları ve henüz yazılmamış (`planlanan`) hesaplar döner.
+- `hesap` sabit listeden seçilir (26 hesap; liste ve her hesabın alanları aracın şemasında). Eş ad kullanma: bordro/maaş için `ucret`.
+- Girdiler, hesabın **kendi adını taşıyan alanda** verilir (ör. `"hesap": "damga", "damga": { ... }`). Eski `girdi` alanı artık kabul edilmez. Eksik alanda araç hata vermez; o hesabın istediği alanları (`gereken_alanlar`) döndürür. Sayıları sayı olarak gönder ("1.000,5" gibi metin değil).
+- Listede olmayan `hesap` değeri araç tarafından reddedilir; geçerli değerler şemadaki listedir.
 - `tarih` hangi dönemin tarifesi ve oranının kullanılacağını belirler. Verilmezse bugün kullanılır ve `uyarilar` alanında yazılır.
 
 ## Yanıt alanları

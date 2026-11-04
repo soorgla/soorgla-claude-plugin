@@ -34,12 +34,12 @@ Son gün tatile rastlarsa ödeme süresi tatil olmayan ilk güne uzar; **o gün 
 ## Araç çağrıları
 
 ```json
-{ "hesap": "sgk_gecikme", "girdi": { "tutar": 0, "vade": "2026-03-31", "odeme": "2026-07-10" }, "tarih": "2026-07-10" }
+{ "hesap": "sgk_gecikme", "sgk_gecikme": { "tutar": 0, "vade": "2026-03-31", "odeme": "2026-07-10" }, "tarih": "2026-07-10" }
 ```
 ```
-legal_check_holiday tarih: "<asıl son gün>"
-legal_get_statute_article law_no: "5510" article_no: "89" law_type: "Kanun"
-legal_search_admin_guidance sorgu: "gecikme cezası gecikme zammı hesaplanması" kurum: "Sosyal Güvenlik Kurumu"
+legal_check_holiday  tarih: "<asıl son gün>"
+legal_get_statute_article  law_no: "5510"  article_no: "89"  law_type: "Kanun"
+legal_search_admin_guidance  sorgu: "gecikme cezası gecikme zammı hesaplanması"  kurum: "Sosyal Güvenlik Kurumu"
 ```
 Yanıt: `sonuc.gecikme_cezasi`, `gecikme_zammi`, `toplam_ek`, `toplam_borc`; `ara_degerler.donemler[]` her dönem için başlangıç, ceza oranı, DİBS ayı ve oranı, son dönemde gün sayısı. `parametre.dibs_ilk` / `dibs_son` seri kapsamını gösterir; ödeme tarihi `dibs_son`'dan sonraki bir aya düşüyorsa sonuç yoktur, tahmin etme.
 

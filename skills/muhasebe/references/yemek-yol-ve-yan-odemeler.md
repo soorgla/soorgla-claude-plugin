@@ -24,14 +24,14 @@ Gelir vergisi ve SGK aynı ödemeyi farklı ele alır: bir kalem GV'den istisna 
 ## Araç çağrıları
 
 ```json
-{ "hesap": "had", "girdi": { "ara": "yemek" }, "tarih": "2026-05-31" }
+{ "hesap": "had", "had": { "ara": "yemek" }, "tarih": "2026-05-31" }
 ```
 ```json
-{ "hesap": "had", "girdi": { "kod": "gvk_23_10_ulasim_gunluk" }, "tarih": "2026-05-31" }
+{ "hesap": "had", "had": { "kod": "gvk_23_10_ulasim_gunluk" }, "tarih": "2026-05-31" }
 ```
 SGK tarafındaki yemek istisnası kodunu `ara: "yemek"` sonucundan seç; yoksa tutarı 5510 m.80 metninden ve SGK duyurusundan al `[doğrula]`. İstisna dışı kalan tutarı brüte ekleyip:
 ```json
-{ "hesap": "ucret", "girdi": { "ay": "2026-05", "brut": 0, "onceki_kumulatif_matrah": 0 }, "tarih": "2026-05-31" }
+{ "hesap": "ucret", "ucret": { "ay": "2026-05", "brut": 0, "onceki_kumulatif_matrah": 0 }, "tarih": "2026-05-31" }
 ```
 Not: GV matrahına giren tutar ile prime esas kazanca giren tutar farklıysa `ucret` aracı ikisini ayırmaz (tek `brut` alır). İki ayrı çağrı yapma; farkı elle düzelt ve tabloda göster `[doğrula]`.
 
@@ -43,7 +43,7 @@ Not: GV matrahına giren tutar ile prime esas kazanca giren tutar farklıysa `uc
 - **Evlenme ve doğum yardımı (GV):** kanunda belirtilen aylık tutarına kadar istisna. [GVK m. 25/5](https://soorgla.com/mevzuat/193-gelir-vergisi-kanunu-gvk/) [soorgla]
 - **Aynî ödemeler (GV):** ayınlar da ücrettir; verildiği gün ve yerdeki ortalama perakende fiyatla değerlenir. [GVK m. 61](https://soorgla.com/mevzuat/193-gelir-vergisi-kanunu-gvk/), [GVK m. 63](https://soorgla.com/mevzuat/193-gelir-vergisi-kanunu-gvk/) [soorgla]
 - **SGK — prime esas kazanç:** hak edilen ücret, o ay ödenen prim-ikramiye ve benzeri istihkak, işverenin ödediği özel sağlık sigortası ve BES katkısı brüt toplamı. [5510 m. 80/1-a](https://soorgla.com/mevzuat/5510-sosyal-sigortalar-ve-genel-saglik-sigortasi-kanunu/) [soorgla]
-- **SGK — prime tabi olmayanlar:** aynî yardımlar; ölüm, doğum, evlenme yardımları; görev yollukları; seyyar görev, kıdem, ihbar ve kasa tazminatı; iş sonu tazminatı niteliğindeki toplu ödemeler; keşif ücreti; Kurumca belirlenen çocuk ve aile zamları; kanundaki sınırı aşmayan işveren ÖSS/BES katkısı; işyerinde yemek verilmeyen durumda çalışılan günlere ait günlük yemek bedelinin kanundaki tutara kadar olan kısmı (tutar yeniden değerleme oranıyla güncellenir). [5510 m. 80/1-b](https://soorgla.com/mevzuat/5510-sosyal-sigortalar-ve-genel-saglik-sigortasi-kanunu/) [soorgla] Bent 2/4/2026'da değişti; bu tarihten önceki aylarda eski metin uygulanır `[doğrula]` (`legal_get_statute_article_history`).
+- **SGK — prime tabi olmayanlar:** aynî yardımlar; ölüm, doğum, evlenme yardımları; görev yollukları; seyyar görev, kıdem, ihbar ve kasa tazminatı; iş sonu tazminatı niteliğindeki toplu ödemeler; keşif ücreti; Kurumca belirlenen çocuk ve aile zamları; kanundaki sınırı aşmayan işveren ÖSS/BES katkısı; işyerinde yemek verilmeyen durumda çalışılan günlere ait günlük yemek bedelinin kanundaki tutara kadar olan kısmı (tutar yeniden değerleme oranıyla güncellenir). [5510 m. 80/1-b](https://soorgla.com/mevzuat/5510-sosyal-sigortalar-ve-genel-saglik-sigortasi-kanunu/) [soorgla]  Bent 2/4/2026'da değişti; bu tarihten önceki aylarda eski metin uygulanır `[doğrula]` (`legal_get_statute_article_history`).
 - **SGK — her şey prime tabi, nakit aynî yerine geçen dahil:** (b) dışında her ne adla yapılırsa yapılsın tüm ödemeler ile aynî yardım yerine geçen **nakdî** ödemeler prime tabi; diğer kanunlardaki muafiyetler SGK'da dikkate alınmaz. [5510 m. 80/1-c](https://soorgla.com/mevzuat/5510-sosyal-sigortalar-ve-genel-saglik-sigortasi-kanunu/) [soorgla] Sonuç: GVK 23/10 yol istisnası 5510 m.80/b listesinde **yok**; yol ödemesinin SGK durumu `[incele]`.
 - **SGK — ikramiyenin ayı:** ücret hak edildiği aya; ücret dışı ödemeler ödendiği aya mal edilir; PEK üst sınırı aşılırsa aşan kısım sonraki en çok iki ayın kazancına eklenir. [5510 m. 80/1-d](https://soorgla.com/mevzuat/5510-sosyal-sigortalar-ve-genel-saglik-sigortasi-kanunu/) [soorgla]
 

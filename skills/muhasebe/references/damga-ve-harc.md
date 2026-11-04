@@ -19,14 +19,14 @@ Sözleşme, taahhütname, kira kontratı, beyanname, bordro gibi kâğıtların 
 `legal_calculate_tax`, hesap `damga`:
 
 ```json
-{ "hesap": "damga", "girdi": { "ara": "kira" }, "tarih": "<imza tarihi>" }
+{ "hesap": "damga", "damga": { "ara": "kira" }, "tarih": "<imza tarihi>" }
 ```
 Sıra bilinmiyorsa `ara` ile çağır; yanıt `adaylar` (sıra, açıklama, binde oran ya da maktu tutar) döner ve "kâğıt seçilmedi" uyarısı verir. Doğru sırayı kullanıcıyla seç, sonra:
 
 ```json
-{ "hesap": "damga", "girdi": { "sira": "I.A.2", "tutar": "<sayı>", "nusha": 2 }, "tarih": "<imza tarihi>" }
+{ "hesap": "damga", "damga": { "sira": "I.A.2", "tutar": "<sayı>", "nusha": 2 }, "tarih": "<imza tarihi>" }
 ```
-Yanıt: `damga_vergisi`, `ust_sinir_uygulandi`; `ara_degerler` içinde binde oran, ham vergi, üst sınır ve yürürlük. Üst sınır tek başına: `{"hesap":"had","girdi":{"kod":"dvk_14_ust_sinir"}}`.
+Yanıt: `damga_vergisi`, `ust_sinir_uygulandi`; `ara_degerler` içinde binde oran, ham vergi, üst sınır ve yürürlük. Üst sınır tek başına: `{"hesap":"had","had":{"kod":"dvk_14_ust_sinir"}}`.
 
 **Araç sınırları (koddan):**
 - Maktu vergide sonuç = maktu × nüsha; nispi vergide nüsha sayısı tutarı değiştirmez ve uyarı yazar.

@@ -15,13 +15,13 @@ Mahkemeye ya da noter ihtarnamesine gitmeden önce, WhatsApp, SMS, e-posta, bina
 
 ## Dayanaklar
 
-- **TMK m.737:** Herkes taşınmaz mülkiyetinden doğan yetkileri kullanırken komşularını olumsuz etkileyecek **taşkınlıktan kaçınmakla** yükümlüdür; yerel âdete göre hoş görülebilecek dereceyi aşan **duman, buğu, kurum, toz, koku, gürültü veya sarsıntı** yasaktır. Eski YAML bunu "**TBK** 737" diye gösteriyordu; madde **Türk Medeni Kanunu**'ndadır (6098 m.737 soorgla'da sonuç döndürmedi).
-- **KMK m.18:** Kat malikleri bağımsız bölümleri ve ortak yerleri kullanırken doğruluk kurallarına uymak, **birbirini rahatsız etmemek** ve yönetim planına uymakla yükümlüdür; bu borçlar **kiracılara** ve bölümden sürekli yararlananlara da uygulanır, bunlar kat malikiyle müteselsilen sorumludur.
-- **TBK m.316:** Kiracı kiralananı özenle kullanmak ve **komşulara gerekli saygıyı** göstermekle yükümlüdür. Aykırılıkta kiraya veren, konut ve çatılı işyeri kirasında **en az 30 gün süre vererek** aykırılığın giderilmesini, aksi hâlde sözleşmeyi feshedeceğini **yazılı** olarak ihtar eder; çekilmezlik gibi hâllerde hemen fesih mümkündür. → Ev sahibinin kiracıya yazdığı "son uyarı" bu maddedeki **fesih ihtarı** niteliği taşıyabilir; bu yüzden ev sahibi → kiracı fesih ihtarı 🔴 avukat eşiğidir.
-- **TBK m.318:** Kiracı, kendisinin gidermekle yükümlü olmadığı ayıpları kiraya verene **gecikmeksizin bildirmekle** yükümlüdür; bildirmezse doğan zarardan sorumludur. Eski YAML bu borcu "**TBK 306**" diye gösteriyordu; bildirim borcu **m.318**'dedir.
-- **TBK m.306:** Kiracı, ayıbın **uygun bir sürede** giderilmesini isteyebilir; giderilmezse kiraya veren hesabına gidertip bedeli kiradan indirebilir ya da ayıpsız benzerini isteyebilir; ayıp kullanımı ortadan kaldırıyor/önemli ölçüde engelliyorsa ve sürede giderilmezse sözleşmeyi feshedebilir. → Kiracı ev sahibine yazarken **somut ve makul bir süre** vermeli (ör. "[___] gün içinde"). Kiradan indirme ya da fesih adımı 🔴 avukat eşiği.
-- Apartmanda kat malikleri kurulu, yönetici ve sulh hukuk mahkemesine başvuru yolları.
-- Gürültünün zabıta/kolluk yoluyla idari yaptırıma bağlanması.
+- **TMK m.737:** Herkes taşınmaz mülkiyetinden doğan yetkileri kullanırken komşularını olumsuz etkileyecek **taşkınlıktan kaçınmakla** yükümlüdür; yerel âdete göre hoş görülebilecek dereceyi aşan **duman, buğu, kurum, toz, koku, gürültü veya sarsıntı** yasaktır.  Eski YAML bunu "**TBK** 737" diye gösteriyordu; madde **Türk Medeni Kanunu**'ndadır (6098 m.737 soorgla'da sonuç döndürmedi).
+- **KMK m.18:** Kat malikleri bağımsız bölümleri ve ortak yerleri kullanırken doğruluk kurallarına uymak, **birbirini rahatsız etmemek** ve yönetim planına uymakla yükümlüdür; bu borçlar **kiracılara** ve bölümden sürekli yararlananlara da uygulanır, bunlar kat malikiyle müteselsilen sorumludur. 
+- **TBK m.316:** Kiracı kiralananı özenle kullanmak ve **komşulara gerekli saygıyı** göstermekle yükümlüdür. Aykırılıkta kiraya veren, konut ve çatılı işyeri kirasında **en az 30 gün süre vererek** aykırılığın giderilmesini, aksi hâlde sözleşmeyi feshedeceğini **yazılı** olarak ihtar eder; çekilmezlik gibi hâllerde hemen fesih mümkündür.  → Ev sahibinin kiracıya yazdığı "son uyarı" bu maddedeki **fesih ihtarı** niteliği taşıyabilir; bu yüzden ev sahibi → kiracı fesih ihtarı 🔴 avukat eşiğidir.
+- **TBK m.318:** Kiracı, kendisinin gidermekle yükümlü olmadığı ayıpları kiraya verene **gecikmeksizin bildirmekle** yükümlüdür; bildirmezse doğan zarardan sorumludur.  Eski YAML bu borcu "**TBK 306**" diye gösteriyordu; bildirim borcu **m.318**'dedir.
+- **TBK m.306:** Kiracı, ayıbın **uygun bir sürede** giderilmesini isteyebilir; giderilmezse kiraya veren hesabına gidertip bedeli kiradan indirebilir ya da ayıpsız benzerini isteyebilir; ayıp kullanımı ortadan kaldırıyor/önemli ölçüde engelliyorsa ve sürede giderilmezse sözleşmeyi feshedebilir.  → Kiracı ev sahibine yazarken **somut ve makul bir süre** vermeli (ör. "[___] gün içinde"). Kiradan indirme ya da fesih adımı 🔴 avukat eşiği.
+- Apartmanda kat malikleri kurulu, yönetici ve sulh hukuk mahkemesine başvuru yolları. 
+- Gürültünün zabıta/kolluk yoluyla idari yaptırıma bağlanması. 
 
 ## Süre
 
@@ -52,11 +52,11 @@ Bu uyarı yazısı kanunda bir süreye bağlı değildir. Ama:
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "4721" article_no: "737" # komşuluk hukuku (TMK)
-legal_get_statute_article law_no: "634" article_no: "18" # kat mülkiyeti
-legal_get_statute_article law_no: "6098" article_no: "316" | "318" | "306"
-legal_get_statute_article law_no: "634" article_no: "33" # hâkimin müdahalesi (çekip kontrol et)
-legal_get_statute_article law_no: "5326" article_no: "36" # gürültü kabahati (çekip kontrol et)
+legal_get_statute_article  law_no: "4721"  article_no: "737"     # komşuluk hukuku (TMK)
+legal_get_statute_article  law_no: "634"   article_no: "18"      # kat mülkiyeti
+legal_get_statute_article  law_no: "6098"  article_no: "316" | "318" | "306"
+legal_get_statute_article  law_no: "634"   article_no: "33"      # hâkimin müdahalesi (çekip kontrol et)
+legal_get_statute_article  law_no: "5326"  article_no: "36"      # gürültü kabahati (çekip kontrol et)
 ```
 Karar araması bu yazı için genelde gerekmez. Kullanıcı mahkemeye gitmeyi düşünüyorsa `legal_search_cases` (son 3 yıl) ile örnek bulup kullanıcıya yolu anlat; dilekçeyi avukata yönlendir.
 
@@ -116,3 +116,4 @@ Türk Borçlar Kanunu m.318 uyarınca durumu gecikmeksizin bildiriyor, m.306 uya
 - Ev sahibinin kiracıya "son uyarı" adıyla aslında fesih ihtarı göndermesi ve 30 günlük süreyi vermemesi (m.316/2).
 - Hakaret, tehdit, karşı tarafın kişisel bilgilerini bina panosunda ifşa etmek (cezai ve KVKK riski) `[incele]`.
 - Sözlü uyarıyla yetinip yazılı ve tarihli iz bırakmamak.
+

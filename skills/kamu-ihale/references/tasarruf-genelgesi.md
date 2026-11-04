@@ -28,7 +28,7 @@ kararı dahil) → `belediye-butce-yetki.md`. Sayıştay sorgusu ve kamu zararı
 ## 1. Yürürlükteki metin ve tarihçe
 
 **Esas metin:** Tasarruf Tedbirleri ile İlgili **2024/7 sayılı Cumhurbaşkanlığı Genelgesi**, RG **17.05.2024, sayı 32549**
-(imza tarihi 16.05.2024). `[soorgla]`
+(imza tarihi 16.05.2024). `[soorgla]` 
 
 | Tarih | Metin | Not |
 |---|---|---|
@@ -68,7 +68,7 @@ işletmeler" der; belediyenin **sermayesinin yarısından fazlasına sahip oldu�
 ölçütü KİT'ler için yazılmış). Uygulamada belediye şirketleri de genelgeyi uyguluyor: Danıştay 13. D. E.2024/2850
 K.2024/3936'da davalı bir "Kültür Ticaret A.Ş."nin araç kiralama ihalesini genelge gerekçesiyle iptali onandı.
 Şirketin kapsamda olup olmadığı `[incele]`; "son paragraf: diğer tüm kamu kurum ve kuruluşları" ve 4734 m.2 kapsamı
-birlikte değerlendirilir.
+birlikte değerlendirilir. 
 
 **İzin ve yorum makamı (belediye için kritik):**
 - Genelgeye aykırı zorunlu ihtiyaç ya da izin gerektiren durumda izin: bakanlıklar ve diğer idareler için
@@ -168,7 +168,7 @@ Hepsi 2024/7 tam metninden `[soorgla]`. "İhaleye etkisi" sütunu bu dosyanın y
   yok; şartnamede araç yaşında **model yılı yeni olmayan araçlara öncelik** (Personel Servis Hizmet Yönetmeliği'ne uygun).
 - **Danıştay'a göre genelgenin "Personel Giderleri" ve "Haberleşme Giderleri" bölümleri ihalelere yönelik değildir**;
   yapım sözleşmesindeki kontrollük personeli/şoför kalemleri bu bölümlere dayanılarak iptal gerekçesi yapılamaz.
-  `[soorgla]`
+  `[soorgla]` 
 
 ### 3.8 Enerji ve su
 - Kamu Binalarında Tasarruf Hedefi ve Uygulama Rehberi'ne uyum; **serbest tüketici** kriterini sağlayan binalarda
@@ -253,22 +253,22 @@ bulunamadı; tersine, istekli lehine genelge-dayanaklı doküman iptali de bulun
   idarelerce yaptırım; veriler **Tasarruf Tedbirleri Bilgi Sistemi**'ne girilir, Hazine ve Maliye Bakanlığı izler. `[soorgla]`
 - **Kamu zararı:** "kamu görevlilerinin kasıt, kusur veya ihmallerinden kaynaklanan **mevzuata aykırı** karar, işlem veya
   eylemleri sonucunda kamu kaynağında artışa engel veya eksilmeye neden olunması" (5018 m.71). Genelgenin "mevzuat"
-  sayılıp sayılmadığı tartışmalı. `[soorgla]`
+  sayılıp sayılmadığı tartışmalı. `[soorgla]` 
 - Sayıştay 3. Daire, **K.53187, 15.11.2023** (belediye, 2021 hesabı): 2021/14 sayılı tasarruf genelgesine aykırı gazete-dergi
   alımı ve abonelik için ilamla tazmin hükmü; temyizde **karşı oy**, genelgeye dayalı kamu zararı kurulmasına itiraz
   ediyor. Temyiz çoğunluk sonucu çekilen metinden net okunamadı `[incele]` — tam metni okumadan "Sayıştay genelgeye
-  aykırılığı kamu zararı sayıyor" diye kesin yazma.
+  aykırılığı kamu zararı sayıyor" diye kesin yazma. 
 - Taşıt kiralamada Sayıştay'ın yerleşik tazmin konusu genelge değil, **Hizmet Alımı Suretiyle Taşıt Edinilmesine İlişkin
   Esas ve Usuller** (BKK 2006/10193) m.6'daki aylık kira üst sınırının aşılmasıdır (ör. Sayıştay 6. Daire K.45160,
   08.01.2020, belediye) `[soorgla]` → ayrıntı `../../ihale-hizmet/references/konu-arac-kiralama.md`. soorgla mevzuat
   kaydı 2006/10193'ü "mülga" etiketiyle gösteriyor, oysa 2024/7 bu Esas ve Usullere atıf yapıyor ve Resmî Gazete'de
-  kaldırma kararı bulunamadı `[incele]` (son değişiklik: CB Kararı 5474, RG 21.04.2022).
+  kaldırma kararı bulunamadı `[incele]` (son değişiklik: CB Kararı 5474, RG 21.04.2022). 
 
 ---
 
 ## 6. Taşıt: 237 sayılı Kanun ve 2026 Bütçe Kanunu madde metinleri
 
-**237 sayılı Taşıt Kanunu** `[soorgla]`
+**237 sayılı Taşıt Kanunu** `[soorgla]` 
 - **m.1 (kapsam):** "a) Genel bütçeye dahil dairelerle katma ve özel bütçeli idareler ve bunlara bağlı sabit ve döner
   sermayeli müesseseler, il özel idareleri, belediyeler ve bunların bağlı kuruluşları ile mahalli idare birlikleri, b)
   İktisadi Devlet Teşekkülleri … c) Yukardaki (a) ve (b) fıkralarında yazılı daire, idare, banka, teşekkül ve
@@ -405,29 +405,29 @@ hiyerarşisi tartışmasıdır `[incele]`; idare tarafına tavsiye: izni al, tar
 
 ```
 # 1. Yürürlükteki genelge (her kullanımda)
-legal_search_official_gazette query: "Tasarruf Tedbirleri" search_in: "title" sort_by: "date_desc"
-legal_search_official_gazette query: "Cumhurbaşkanlığı Genelgesi" search_in: "title" date_from: "<son kontrol>" sort_by: "date_desc"
-legal_search_official_gazette query: "2024/7 sayılı Tasarruf Tedbirleri ile İlgili Cumhurbaşkanlığı Genelgesi" date_from: "<son kontrol>" sort_by: "date_desc" # atıf yapan OVP / yatırım genelgesi / değişiklik
-legal_get_official_gazette_document url: "https://www.resmigazete.gov.tr/eskiler/2024/05/20240517-5.pdf"
+legal_search_official_gazette  query: "Tasarruf Tedbirleri"  search_in: "title"  sort_by: "date_desc"
+legal_search_official_gazette  query: "Cumhurbaşkanlığı Genelgesi"  search_in: "title"  date_from: "<son kontrol>"  sort_by: "date_desc"
+legal_search_official_gazette  query: "2024/7 sayılı Tasarruf Tedbirleri ile İlgili Cumhurbaşkanlığı Genelgesi"  date_from: "<son kontrol>"  sort_by: "date_desc"   # atıf yapan OVP / yatırım genelgesi / değişiklik
+legal_get_official_gazette_document  url: "https://www.resmigazete.gov.tr/eskiler/2024/05/20240517-5.pdf"
 
 # 2. Taşıt
-legal_get_statute_article law_no: "237" law_type: "Kanun" article_no: "1" | "2" | "7" | "10" | "14"
-legal_search_official_gazette query: "Yılı Merkezi Yönetim Bütçe Kanunu" search_in: "title" sort_by: "date_desc" # m.4/1-i, m.7/2
-legal_search_official_gazette query: "Hizmet Alımı Suretiyle Taşıt Edinilmesine" search_in: "title" sort_by: "date_desc"
+legal_get_statute_article  law_no: "237"  law_type: "Kanun"  article_no: "1" | "2" | "7" | "10" | "14"
+legal_search_official_gazette  query: "Yılı Merkezi Yönetim Bütçe Kanunu"  search_in: "title"  sort_by: "date_desc"   # m.4/1-i, m.7/2
+legal_search_official_gazette  query: "Hizmet Alımı Suretiyle Taşıt Edinilmesine"  search_in: "title"  sort_by: "date_desc"
 
 # 3. Emsal
-legal_search_cases mahkeme: "danistay" sorgu: "2024/7 sayılı Tasarruf Tedbirleri Genelgesi ihalenin iptali <kalem: kontrollük aracı / bilgisayar / personel servisi>" tarih_baslangic: "2024-05-17"
-legal_search_cases mahkeme: "kik" sorgu: "tasarruf tedbirleri genelgesi <iptal / doküman / DK.D-91>" tarih_baslangic: "2024-05-17"
-legal_search_cases mahkeme: "sayistay" sorgu: "tasarruf tedbirleri genelgesine aykırı <harcama türü> kamu zararı"
-legal_get_case_document belge_id: "<sonuçtan>" # en az bir güncel kararı tam oku
+legal_search_cases  mahkeme: "danistay"  sorgu: "2024/7 sayılı Tasarruf Tedbirleri Genelgesi ihalenin iptali <kalem: kontrollük aracı / bilgisayar / personel servisi>"  tarih_baslangic: "2024-05-17"
+legal_search_cases  mahkeme: "kik"  sorgu: "tasarruf tedbirleri genelgesi <iptal / doküman / DK.D-91>"  tarih_baslangic: "2024-05-17"
+legal_search_cases  mahkeme: "sayistay"  sorgu: "tasarruf tedbirleri genelgesine aykırı <harcama türü> kamu zararı"
+legal_get_case_document  belge_id: "<sonuçtan>"   # en az bir güncel kararı tam oku
 
 # 4. Kamu zararı ve başvuru ehliyeti
-legal_get_statute_article law_no: "5018" law_type: "Kanun" article_no: "71"
-legal_get_statute_article law_no: "4734" law_type: "Kanun" article_no: "5" | "29" | "39" | "40" | "54" | "56"
+legal_get_statute_article  law_no: "5018"  law_type: "Kanun"  article_no: "71"
+legal_get_statute_article  law_no: "4734"  law_type: "Kanun"  article_no: "5" | "29" | "39" | "40" | "54" | "56"
 ```
 
 Not: `legal_search_official_gazette` "Kamuda Tasarruf Tedbirleri" başlık aramasında sonuç vermiyor; doğru başlık
-"Tasarruf Tedbirleri ile İlgili … Genelgesi" (2026-11-03).
+"Tasarruf Tedbirleri ile İlgili … Genelgesi" (2026-11-03). 
 
 ---
 
@@ -466,3 +466,4 @@ Esas metin: 2024/7 sayılı CB Genelgesi (RG 17.05.2024/32549) [yeni genelge: yo
 ```
 
 ---
+

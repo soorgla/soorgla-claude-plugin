@@ -34,7 +34,7 @@ sonra "ben yeterli miyim, teklifim eksiksiz mi?" sorusunu yürütür. İdare ayn
   m.55'e bağlıdır. İdarenin cevabı şikâyet süresi dolduktan sonra gelebilir. Aykırılık şüphesi olan bulguda şikâyet
   dilekçesini süresinde ver, açıklama talebini **paralel** yap. Çıktıda iki son günü birlikte göster: "Doküman
   şikâyeti son günü: … · Açıklama talebi son günü: …".
-
+  
 - [ ] İlan ile doküman çelişiyor mu? Çelişki şikâyet konusudur.
 - [ ] **Benzer iş emsalinin uygulanabilirliği.** "Benzer iş dar tanımlandı" gerekçeli KİK iptal kararları yalnız
   tanım **ihale konusu işten dar** olduğunda (ör. ihale konusunun ana kalemlerinden yalnız birini kapsıyorsa) emsal
@@ -46,6 +46,7 @@ sonra "ben yeterli miyim, teklifim eksiksiz mi?" sorusunu yürütür. İdare ayn
   alındığı (ilana yansıyan hususlarda — iş deneyimi oranı, benzer iş, yeterlik kriterleri — **ilk ilan**) tarihte başlar ve en geç ihaleden **3 iş günü** öncesine kadar
   yapılabilir; sonuç şikâyetinde dokümana yönelik iddia bu nedenle süreden reddedilir (4734 m.55/1-2; Başvurular Yön.
   m.6/2). Ayrıntı `ihale-sikayet`.
+  
 
 ## 2. Yeterlik öz kontrolü — iş deneyimi
 
@@ -59,6 +60,7 @@ sonra "ben yeterli miyim, teklifim eksiksiz mi?" sorusunu yürütür. İdare ayn
 - [ ] İş ortaklığından alınan belge hisse oranında (m.48/3); aynı ortaklık yapısıyla yeniden giriliyorsa tamamı.
 - [ ] Ortağın belgesi: yarıdan fazla hisse + temsil yetkisi, **son bir yıl** kesintisiz; ortaklık tespit belgesi ilk
   ilandan sonra düzenlenmeli ve imzalanmalı (m.39/9).
+  
 
 ### İş deneyim belgesi güncelleme (Yapım Yön. m.49)
 
@@ -86,6 +88,7 @@ sonra "ben yeterli miyim, teklifim eksiksiz mi?" sorusunu yürütür. İdare ayn
 - [ ] Tüzel kişi: en az **5 yıldır %51** ortak; son beş yılı gösteren belge ilk ilandan sonra düzenlenmiş (m.39/11).
 - [ ] Tutar: `mezuniyet_is_deneyimi`; yıllık tutar **ilan döneminin** 62/h değeri (`legal_get_social_parameters`
   `ihale_62h_*`). Kanun metnindeki rakam eski TL tabanıdır, kullanma. Ay/gün orantısı EKAP uygulaması `[doğrula]`.
+  
 
 ## 3. Bilanço ve iş hacmi (istendiyse)
 
@@ -98,8 +101,9 @@ sonra "ben yeterli miyim, teklifim eksiksiz mi?" sorusunu yürütür. İdare ayn
 - [ ] **İlk dört ay kuralı (9/4/2026):** ihale yılın ilk dört ayındaysa **iki önceki yılın** belgeleri; bilançoda
   sağlanamazsa iki, üç ve dört önceki yılın ortalaması (m.35/5, m.36/5). İlanı 9/4/2026'dan önce yapılan ihalede ilan
   tarihindeki (eski) metin uygulanır (geçici m.35; o Yönetmeliğin 5. maddesi ilan tarihine bakılmaksızın uygulanır).
-
+  
 - [ ] Araçlar: `bilanco_kontrol`, `is_hacmi_kontrol`, ciro güncellemesi `tutar_guncelle` (`toplam_ciro`, `fatura`).
+  
 
 ## 4. Teklif ve geçici teminat
 
@@ -108,7 +112,7 @@ sonra "ben yeterli miyim, teklifim eksiksiz mi?" sorusunu yürütür. İdare ayn
 - [ ] Geçici teminat teklif bedelinin **en az %3'ü** (4734 m.33); türleri şartname m.27. Teminat mektubunun
   geçerlilik tarihi şartnamedeki tarihten önce olamaz (m.26.3); yönetmeliğe göre bu tarih teklif geçerlilik süresinin
   bitiminden itibaren **en az 30 gün** sonrası olmalı ve EKAP dışı mektup e-forma uygun düzenlenmeli (Yapım Yön.
-  m.56/4-5).
+  m.56/4-5). 
 - [ ] Teklif geçerlilik süresi (m.24); uzatma talebini reddeden isteklinin teminatı iade edilir.
 - [ ] Kesinleşmiş vergi/SGK borcu, yasaklılık ilk oturumda EKAP'tan sorgulanır (şartname m.29.2); borç sınırı
   `usul_kontrol` (15.11.2026'dan sonraki ilanlarda yeni sınır) `[doğrula]`.
@@ -122,13 +126,13 @@ sonra "ben yeterli miyim, teklifim eksiksiz mi?" sorusunu yürütür. İdare ayn
 
 > **Çalışılmış örnek — İKN 2026/1776751 (istekli gözü)**
 > - Belgeler: teklif mektubu, yetki belgeleri, geçici teminat, iş deneyimi (%70, tek sözleşme, son 15 yıl). Bilanço
-> ve iş hacmi **istenmiyor** — istekli için kolaylık; idare için `idare-hazirlik.md` §Çalışılmış örnek.
+>   ve iş hacmi **istenmiyor** — istekli için kolaylık; idare için `idare-hazirlik.md` §Çalışılmış örnek.
 > - Benzer iş "A/IV ve A/XI": belgem yalnız birinde mi? Belirsizlik gerçek; **şikâyet ve açıklama talebi paralel**
-> yürür 🟠. Benzer iş ve iş deneyimi oranı ilanda da yer aldığı için şikâyet süresi **ilk ilan tarihinden** 10 gün
-> (ve ihaleden 3 iş günü öncesi sınırı; erken olan) — ilk ilan tarihini sor. Açıklama talebi (ihaleden 20 gün önce;
-> şartname m.13) bu süreyi durdurmaz; cevabı beklemek şikâyet hakkını kaybettirebilir. İki son gün birlikte
-> yazılır; hesap `ihale-sikayet` `sure-zinciri.md`.
+>   yürür 🟠. Benzer iş ve iş deneyimi oranı ilanda da yer aldığı için şikâyet süresi **ilk ilan tarihinden** 10 gün
+>   (ve ihaleden 3 iş günü öncesi sınırı; erken olan) — ilk ilan tarihini sor. Açıklama talebi (ihaleden 20 gün önce;
+>   şartname m.13) bu süreyi durdurmaz; cevabı beklemek şikâyet hakkını kaybettirebilir. İki son gün birlikte
+>   yazılır; hesap `ihale-sikayet` `sure-zinciri.md`.
 > - FDU: 31 kalemin her birinin teklif içindeki oranı aralıkta değilse o kalemin puanı gelmez; en büyük puanlar
-> himaye çiti (8,62), sıva (6,41), akrilik boya (6,4), seramik (4,81). Cetveli göndermeden önce oranları tek tek hesapla.
+>   himaye çiti (8,62), sıva (6,41), akrilik boya (6,4), seramik (4,81). Cetveli göndermeden önce oranları tek tek hesapla.
 > - Geçici teminat mektubu geçerliliği şartnamedeki tarihten (13.05.2027) önce olamaz; 120 günlük teklif geçerliliğiyle
-> uyumunu kontrol et.
+>   uyumunu kontrol et.

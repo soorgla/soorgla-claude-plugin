@@ -16,16 +16,16 @@
 
 | Kural | Dayanak | Not |
 |---|---|---|
-| Muaccel borcun borçlusu **alacaklının ihtarıyla** temerrüde düşer; ifa günü birlikte belirlenmişse ya da usulüne uygun bildirimle belirlenmişse o günün geçmesiyle; haksız fiilde fiil tarihinde, sebepsiz zenginleşmede zenginleşme tarihinde (iyiniyetli zenginleşende bildirim şart) | TBK m.117 | İhtarın tarihi = faiz başlangıcı için kritik. |
-| **Tacirler arasında** temerrüde düşürme, fesih, sözleşmeden dönme ihbar/ihtarları **noter, taahhütlü mektup, telgraf ya da güvenli e-imzalı KEP** ile yapılır | TTK m.18/3 | Şekle uyulmayan ihtarın sonucu (geçerlilik şartı mı ispat şartı mı) bu beceride doğrulanmadı: **her zaman m.18/3'teki yollardan biriyle gönder**; şekle aykırı bir ihtara dayanmak zorundaysan önce güncel 11. HD kararlarını `legal_search_cases` (`daire: "11. Hukuk Dairesi"`, sorgu: "TTK 18/3 ihbar şekli geçerlilik ispat") ile ara ve en az birinin tam metnini oku; bulamazsan `[ARAŞTIRMA GEREKLİ: TTK 18/3 şeklinin niteliği]` yaz. |
-| **Kiracının temerrüdü:** kiraya veren **yazılı** süre verir; süre **en az on gün**, **konut ve çatılı işyerinde en az otuz gün**; süre bildirimin yapıldığı tarihi izleyen günden işler; ihtarda ödenmezse feshedileceği bildirilir | TBK m.315 | İhtarnamede süre ve fesih ihtarı açıkça yazılmalı. |
-| **İki haklı ihtar:** bir yıldan kısa kirada kira süresi içinde; bir yıl ve daha uzun kirada bir kira yılı içinde kira bedelini ödemediği için iki haklı yazılı ihtara sebep olan kiracıya karşı, kira süresinin / ihtarların yapıldığı kira yılının bitiminden itibaren **bir ay** içinde **dava yoluyla** sona erdirme | TBK m.352/2 | Her ihtar ayrı bir kira dönemine ilişkin ve "haklı" olmalı. Tahliye davası 6325 m.18/B ile arabuluculuğa tabidir; ilamsız icra yoluyla tahliye hariç. |
-| Tahliye taahhüdünde: taahhüt edilen tarihten itibaren **bir ay** içinde icra ya da dava | TBK m.352/1 | |
-| Konut ve çatılı işyerinde **fesih bildirimi yazılı** olmalı | TBK m.348 | |
-| Kiracının belirli süreli sözleşmede sona erdirme bildirimi: süre bitiminden **en az on beş gün** önce; kiraya verenin on yıllık uzama sonrası bildirimi: uzama yılının bitiminden **en az üç ay** önce | TBK m.347 | |
-| Arabuluculuk ve temerrüt: Yargıtay 9. HD (iş davaları), dava öncesi arabuluculukta anlaşılamadığına dair **son tutanağın tarihi itibarıyla** işverenin temerrüde düştüğünü ve faizin bu tarihten başlayacağını kabul ediyor; başvuru tarihi değil **son tutanak tarihi** esas. Diğer uyuşmazlık türlerinde (ticari, kira, tüketici) aynı kabul doğrulanmadı: faizi erken başlatmak gerekiyorsa arabuluculuktan önce ayrı ihtarname çek ya da ilgili dairenin güncel kararını `legal_search_cases` ile ara `[incele]` | TBK m.117; Yargıtay 9. HD, E. 2025/2668, K. 2025/6812, 24.09.2025 | |
+| Muaccel borcun borçlusu **alacaklının ihtarıyla** temerrüde düşer; ifa günü birlikte belirlenmişse ya da usulüne uygun bildirimle belirlenmişse o günün geçmesiyle; haksız fiilde fiil tarihinde, sebepsiz zenginleşmede zenginleşme tarihinde (iyiniyetli zenginleşende bildirim şart) | TBK m.117 | İhtarın tarihi = faiz başlangıcı için kritik.  |
+| **Tacirler arasında** temerrüde düşürme, fesih, sözleşmeden dönme ihbar/ihtarları **noter, taahhütlü mektup, telgraf ya da güvenli e-imzalı KEP** ile yapılır | TTK m.18/3 | Şekle uyulmayan ihtarın sonucu (geçerlilik şartı mı ispat şartı mı) bu beceride doğrulanmadı: **her zaman m.18/3'teki yollardan biriyle gönder**; şekle aykırı bir ihtara dayanmak zorundaysan önce güncel 11. HD kararlarını `legal_search_cases` (`daire: "11. Hukuk Dairesi"`, sorgu: "TTK 18/3 ihbar şekli geçerlilik ispat") ile ara ve en az birinin tam metnini oku; bulamazsan `[ARAŞTIRMA GEREKLİ: TTK 18/3 şeklinin niteliği]` yaz.   |
+| **Kiracının temerrüdü:** kiraya veren **yazılı** süre verir; süre **en az on gün**, **konut ve çatılı işyerinde en az otuz gün**; süre bildirimin yapıldığı tarihi izleyen günden işler; ihtarda ödenmezse feshedileceği bildirilir | TBK m.315 | İhtarnamede süre ve fesih ihtarı açıkça yazılmalı.  |
+| **İki haklı ihtar:** bir yıldan kısa kirada kira süresi içinde; bir yıl ve daha uzun kirada bir kira yılı içinde kira bedelini ödemediği için iki haklı yazılı ihtara sebep olan kiracıya karşı, kira süresinin / ihtarların yapıldığı kira yılının bitiminden itibaren **bir ay** içinde **dava yoluyla** sona erdirme | TBK m.352/2 | Her ihtar ayrı bir kira dönemine ilişkin ve "haklı" olmalı. Tahliye davası 6325 m.18/B ile arabuluculuğa tabidir; ilamsız icra yoluyla tahliye hariç.  |
+| Tahliye taahhüdünde: taahhüt edilen tarihten itibaren **bir ay** içinde icra ya da dava | TBK m.352/1 |  |
+| Konut ve çatılı işyerinde **fesih bildirimi yazılı** olmalı | TBK m.348 |  |
+| Kiracının belirli süreli sözleşmede sona erdirme bildirimi: süre bitiminden **en az on beş gün** önce; kiraya verenin on yıllık uzama sonrası bildirimi: uzama yılının bitiminden **en az üç ay** önce | TBK m.347 |  |
+| Arabuluculuk ve temerrüt: Yargıtay 9. HD (iş davaları), dava öncesi arabuluculukta anlaşılamadığına dair **son tutanağın tarihi itibarıyla** işverenin temerrüde düştüğünü ve faizin bu tarihten başlayacağını kabul ediyor; başvuru tarihi değil **son tutanak tarihi** esas. Diğer uyuşmazlık türlerinde (ticari, kira, tüketici) aynı kabul doğrulanmadı: faizi erken başlatmak gerekiyorsa arabuluculuktan önce ayrı ihtarname çek ya da ilgili dairenin güncel kararını `legal_search_cases` ile ara `[incele]` | TBK m.117; Yargıtay 9. HD, E. 2025/2668, K. 2025/6812, 24.09.2025 |  |
 
-**Tebliğ:** noter ihtarnamesi Tebligat Kanunu'na göre tebliğ edilir; süreler **tebliğ tarihinden** başlar. Tebliğ şerhini (tarih, kime, nasıl) dosyada sakla. Noter ücreti tarifeye bağlıdır; tutar yazma.
+**Tebliğ:** noter ihtarnamesi Tebligat Kanunu'na göre tebliğ edilir; süreler **tebliğ tarihinden** başlar. Tebliğ şerhini (tarih, kime, nasıl) dosyada sakla.  Noter ücreti tarifeye bağlıdır; tutar yazma.
 
 ---
 
@@ -41,22 +41,22 @@
 
 ## soorgla çağrıları
 ```
-legal_get_statute_article law_no: "6098" article_no: "117" | "123" | "124" | "125" | "315" | "347" | "348" | "352"
-legal_get_statute_article law_no: "6102" article_no: "18"
-legal_get_legal_interest_rates # faiz türü seçimi
-legal_search_cases sorgu: "<ihtar türü> ihtarnamede verilen sürenin kanuni asgariden kısa olması geçersizlik" mahkeme: "yargitay" tarih_baslangic: <son 3 yıl>
-legal_get_case_document belge_id: <seçilen karar>
+legal_get_statute_article  law_no: "6098"  article_no: "117" | "123" | "124" | "125" | "315" | "347" | "348" | "352"
+legal_get_statute_article  law_no: "6102"  article_no: "18"
+legal_get_legal_interest_rates                                                      # faiz türü seçimi
+legal_search_cases  sorgu: "<ihtar türü> ihtarnamede verilen sürenin kanuni asgariden kısa olması geçersizlik"  mahkeme: "yargitay"  tarih_baslangic: <son 3 yıl>
+legal_get_case_document  belge_id: <seçilen karar>
 ```
-TBK m.123: karşılıklı borç yükleyen sözleşmede temerrüt hâlinde uygun süre verilir; m.124: süre verilmesini gerektirmeyen hâller; m.125: süre içinde ifa yoksa seçimlik haklar (ifa + gecikme tazminatı, müspet zarar ya da sözleşmeden dönme — ikisi için "hemen bildirim" gerekir).
+TBK m.123: karşılıklı borç yükleyen sözleşmede temerrüt hâlinde uygun süre verilir; m.124: süre verilmesini gerektirmeyen hâller; m.125: süre içinde ifa yoksa seçimlik haklar (ifa + gecikme tazminatı, müspet zarar ya da sözleşmeden dönme — ikisi için "hemen bildirim" gerekir). 
 
 ## İhtarname iskeleti
 ```markdown
 İHTARNAME
 
-KEŞİDECİ : [AD SOYAD / UNVAN] (T.C./Vergi No: [___]) — [ADRES]
-VEKİLİ : Av. [___] — [ADRES]
-MUHATAP : [AD SOYAD / UNVAN] — [ADRES]
-KONU : [Ödenmeyen [dönem] kira bedelinin ödenmesi / temerrüt ihtarı / sözleşmenin feshi] hakkındadır.
+KEŞİDECİ   : [AD SOYAD / UNVAN] (T.C./Vergi No: [___]) — [ADRES]
+VEKİLİ     : Av. [___] — [ADRES]
+MUHATAP    : [AD SOYAD / UNVAN] — [ADRES]
+KONU       : [Ödenmeyen [dönem] kira bedelinin ödenmesi / temerrüt ihtarı / sözleşmenin feshi] hakkındadır.
 
 AÇIKLAMALAR:
 1. Taraflar arasında [tarih] tarihli [sözleşme türü] bulunmaktadır.

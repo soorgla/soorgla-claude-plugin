@@ -35,10 +35,10 @@ Yazılı görüş meslek alanındadır; başlık `MESLEKİ ÇALIŞMA TASLAĞI �
 Görüş yazısı kendi başına araç çağırmaz; **içerdiği her sayı ve atıf** ilgili alt dosyanın akışından gelir:
 
 ```
-legal_calculate_tax { "hesap": "<ilgili hesap>", "girdi": {…}, "tarih": "<işlem tarihi>" }
-legal_get_statute_article law_no: "<kanun>" law_type: "Kanun" article_no: "<madde>"
-legal_search_statute_semantic sorgu: "<konu>" mevzuat_tur: "teblig"
-legal_search_admin_guidance sorgu: "<konu>" belge_tur: "ozelge" tarih_baslangic: "<son 3 yıl>"
+legal_calculate_tax  { "hesap": "<ilgili hesap>", "<ilgili hesap>": {…}, "tarih": "<işlem tarihi>" }
+legal_get_statute_article  law_no: "<kanun>"  law_type: "Kanun"  article_no: "<madde>"
+legal_search_statute_semantic  sorgu: "<konu>"  mevzuat_tur: "teblig"
+legal_search_admin_guidance  sorgu: "<konu>"  belge_tur: "ozelge"  tarih_baslangic: "<son 3 yıl>"
 ```
 
 Yazıya giren her tutarın `parametre` dönemi ve her atfın `markdown_citation` / `kaynak.markdown` bağlantısı iç sürümde saklanır.
@@ -92,7 +92,7 @@ Konu inceleme, izaha davet, ihbarname, uzlaşma, dava, ödeme emri ya da haciz i
 İç değerlendirme SKILL.md Adım 4 iskeletiyle verilir. Müşteri sürümü **ayrı bir kod bloğunda**, başlığın ve notun altında:
 
 ```markdown
-[Büro antetli / profil yazı biçimi] Tarih: [GG.AA.YYYY]
+[Büro antetli / profil yazı biçimi]                         Tarih: [GG.AA.YYYY]
 Sayın [Müşteri yetkilisi],
 Konu: [tek satır]
 

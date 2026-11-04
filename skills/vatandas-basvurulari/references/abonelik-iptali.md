@@ -4,31 +4,31 @@
 
 ## Ne zaman kullanılır
 
-- **Belirsiz süreli** ya da **uzun süreli** abonelik: tüketici **gerekçe göstermeden ve cezai şart ödemeden** istediği zaman feshedebilir.
+- **Belirsiz süreli** ya da **uzun süreli** abonelik: tüketici **gerekçe göstermeden ve cezai şart ödemeden** istediği zaman feshedebilir. 
   - Dikkat: **Kanun** "bir yıldan daha uzun", **Yönetmelik** "bir yıl ve daha uzun" diyor. Tam 1 yıllık sözleşmede ikisi ayrışıyor; kanun üst normdur, ama yönetmelik tüketici lehine. `[incele]`
-- **Bir yıldan kısa** belirli süreli abonelik: sağlayıcı sözleşme koşullarını değiştirirse fesih hakkı doğar (Kanun m.52/4); Yönetmelik buna "hizmetten yararlanmaya engel geçerli bir sebep" hâlini de ekler (ör. taşınma `[incele]`).
-- **Taahhütlü abonelik** (indirim, cihaz ya da başka bir fayda karşılığında belirli süre abone kalma sözü) süresinden önce sona erdiriliyorsa: sağlayıcının isteyebileceği bedel, o tarihe kadar sağlanan **indirim, cihaz veya diğer faydaların tahsil edilmemiş kısmının toplamı ile sınırlıdır**. Faturadaki "cayma bedeli"ni bu sınırla karşılaştır.
-- Elektronik haberleşme (GSM, internet) için ayrıca **Elektronik Haberleşme Sektörüne İlişkin Tüketici Hakları Yönetmeliği** (BTK; soorgla no `24039`) uygulanır. m.12: taahhüde aykırılıkta işletmecinin isteyebileceği bedel, o döneme kadar sağlanan indirim, cihaz ve diğer faydaların tahsil edilmemiş kısmıyla sınırlıdır; taahhüt bitimine kadar tahakkuk edecek bedeller daha düşükse düşük olan esas alınır (m.12/5). Mobil dışı aboneliklerde taşınma ve hizmetin yeni adreste aynı nitelikte sunulamaması belgelenirse cayma bedelsiz fesih (m.12/6); internet hızı Kurum ölçüm kriterlerini sağlamıyorsa cihaz kalan bedeli dışında cayma bedelsiz fesih (m.12/11); belirsiz durumda abone lehine yorum (m.12/12). Güncel metni `legal_list_statute_articles` (`law_no: "24039"`, `article_no: "12"`, `include_content: true`) ile çek.
+- **Bir yıldan kısa** belirli süreli abonelik: sağlayıcı sözleşme koşullarını değiştirirse fesih hakkı doğar (Kanun m.52/4); Yönetmelik buna "hizmetten yararlanmaya engel geçerli bir sebep" hâlini de ekler (ör. taşınma `[incele]`). 
+- **Taahhütlü abonelik** (indirim, cihaz ya da başka bir fayda karşılığında belirli süre abone kalma sözü) süresinden önce sona erdiriliyorsa: sağlayıcının isteyebileceği bedel, o tarihe kadar sağlanan **indirim, cihaz veya diğer faydaların tahsil edilmemiş kısmının toplamı ile sınırlıdır**.  Faturadaki "cayma bedeli"ni bu sınırla karşılaştır.
+- Elektronik haberleşme (GSM, internet) için ayrıca **Elektronik Haberleşme Sektörüne İlişkin Tüketici Hakları Yönetmeliği** (BTK; soorgla no `24039`) uygulanır. m.12: taahhüde aykırılıkta işletmecinin isteyebileceği bedel, o döneme kadar sağlanan indirim, cihaz ve diğer faydaların tahsil edilmemiş kısmıyla sınırlıdır; taahhüt bitimine kadar tahakkuk edecek bedeller daha düşükse düşük olan esas alınır (m.12/5). Mobil dışı aboneliklerde taşınma ve hizmetin yeni adreste aynı nitelikte sunulamaması belgelenirse cayma bedelsiz fesih (m.12/6); internet hızı Kurum ölçüm kriterlerini sağlamıyorsa cihaz kalan bedeli dışında cayma bedelsiz fesih (m.12/11); belirsiz durumda abone lehine yorum (m.12/12). Güncel metni `legal_list_statute_articles` (`law_no: "24039"`, `article_no: "12"`, `include_content: true`) ile çek. 
 
 ## Süre tablosu
 
 | Süre | Başlangıç | Dayanak | Not |
 |---|---|---|---|
-| Sağlayıcının fesih talebini yerine getirme süresi: **en geç 7 gün** | Bildirimin **sağlayıcıya ulaştığı** tarih | Abonelik Sözleşmeleri Yönetmeliği **m.24/1** | Eski YAML bunu "Md. 25" diye gösteriyordu; doğrusu **m.24**. |
-| Süreli yayınlarda: günlük **15 gün**, haftalık **1 ay**, aylık **3 ay** | Bildirim | Yönetmelik m.24/2 | Daha uzun aralıklı yayında bildirimden sonraki ilk yayından sonra hüküm doğurur. |
-| Süre içinde feshedilmezse: süre bitiminden sonra **hiçbir bedel istenemez** (hizmetten yararlanılmış olsa bile) | 7 günlük sürenin bitimi | 6502 m.52/5; Yönetmelik m.25/2 | |
-| Peşin ödenen bedelin kalanı ve **güvence/depozito** iadesi: **15 gün**, kesintisiz, depozito **güncel tutarıyla** | Fesih bildiriminin **hüküm ifade etmesi** | 6502 m.52/5; Yönetmelik m.25/3 | Eski YAML'daki "25/3 — 15 gün" doğru; "güncel tutar" eksikti. |
-| Son dönem ödeme bildirimi (son fatura): **10 gün**; elektronik haberleşmede **4 aya kadar** uzayabilir | Fesih bildiriminin hüküm ifade etmesi | Yönetmelik m.25/4 | Mahsuplaşma yapılabilir (m.25/5). |
+| Sağlayıcının fesih talebini yerine getirme süresi: **en geç 7 gün** | Bildirimin **sağlayıcıya ulaştığı** tarih | Abonelik Sözleşmeleri Yönetmeliği **m.24/1**  | Eski YAML bunu "Md. 25" diye gösteriyordu; doğrusu **m.24**. |
+| Süreli yayınlarda: günlük **15 gün**, haftalık **1 ay**, aylık **3 ay** | Bildirim | Yönetmelik m.24/2  | Daha uzun aralıklı yayında bildirimden sonraki ilk yayından sonra hüküm doğurur. |
+| Süre içinde feshedilmezse: süre bitiminden sonra **hiçbir bedel istenemez** (hizmetten yararlanılmış olsa bile) | 7 günlük sürenin bitimi | 6502 m.52/5; Yönetmelik m.25/2  | |
+| Peşin ödenen bedelin kalanı ve **güvence/depozito** iadesi: **15 gün**, kesintisiz, depozito **güncel tutarıyla** | Fesih bildiriminin **hüküm ifade etmesi** | 6502 m.52/5; Yönetmelik m.25/3  | Eski YAML'daki "25/3 — 15 gün" doğru; "güncel tutar" eksikti. |
+| Son dönem ödeme bildirimi (son fatura): **10 gün**; elektronik haberleşmede **4 aya kadar** uzayabilir | Fesih bildiriminin hüküm ifade etmesi | Yönetmelik m.25/4  | Mahsuplaşma yapılabilir (m.25/5). |
 
 Bu süreler sağlayıcının yükümlülüğüdür; tüketici için hak düşürücü süre yoktur. Yine de bildirimin **ulaştığı tarihi ispatlayabilmek** önemlidir.
 
 ## Zorunlu unsurlar ve şekil
 
-- Fesih bildiriminin **kâğıt üzerinde** ya da **kalıcı veri saklayıcısı** (e-posta, KEP, SMS gibi tekrar açılabilen kayıt) ile sağlayıcıya yöneltilmesi **yeterlidir**. Sağlayıcı kayıtlı telefonla fesih imkânı da sunabilir. Eski YAML şekli "Md. 24" diye gösteriyordu; doğrusu **Yönetmelik m.23** (ve Kanun m.52/4).
-- Sağlayıcı, fesih için sözleşmenin kurulduğu yöntemden **daha ağır** ya da feshi **zorlaştıran** bir yöntem koyamaz (ör. internetten abone olunan hizmet için "şubeye gelin" şartı).
+- Fesih bildiriminin **kâğıt üzerinde** ya da **kalıcı veri saklayıcısı** (e-posta, KEP, SMS gibi tekrar açılabilen kayıt) ile sağlayıcıya yöneltilmesi **yeterlidir**. Sağlayıcı kayıtlı telefonla fesih imkânı da sunabilir.  Eski YAML şekli "Md. 24" diye gösteriyordu; doğrusu **Yönetmelik m.23** (ve Kanun m.52/4).
+- Sağlayıcı, fesih için sözleşmenin kurulduğu yöntemden **daha ağır** ya da feshi **zorlaştıran** bir yöntem koyamaz (ör. internetten abone olunan hizmet için "şubeye gelin" şartı). 
 - Gerekçe yazmak zorunlu değildir (uzun/belirsiz süreli abonelikte). Kısa süreli abonelikte fesih sebebi (koşul değişikliği, taşınma) yazılmalıdır.
 - Bildirimde: abone adı-soyadı, **abone/hizmet/sözleşme numarası** (en kritik bilgi), hizmetin adresi, fesih talebi, depozito iadesi için IBAN (varsa), iletişim, tarih, imza (kâğıtsa).
-- Sağlayıcı, feshi yazılı ya da kalıcı veri saklayıcısıyla **bildirmekle** yükümlüdür. Teyit gelmezse ekran görüntüsü, e-posta, KEP alındısı saklanmalı.
+- Sağlayıcı, feshi yazılı ya da kalıcı veri saklayıcısıyla **bildirmekle** yükümlüdür.  Teyit gelmezse ekran görüntüsü, e-posta, KEP alındısı saklanmalı.
 
 ## 🔴 Avukat eşikleri
 
@@ -52,12 +52,12 @@ Abonelik iptali çoğu zaman avukatsız yapılabilir. Şu durumlarda danışın:
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "6502" article_no: "52"
-legal_get_statute_article law_no: "20480" article_no: "22" | "23" | "24" | "25" | "16" # Abonelik Sözleşmeleri Yönetmeliği
-legal_search_statute_semantic sorgu: "elektronik haberleşme taahhütlü abonelik fesih cayma bedeli" # BTK düzenlemesi
-legal_search_official_gazette query: "Abonelik Sözleşmeleri Yönetmeliğinde Değişiklik" search_in: "title" sort_by: "date_desc" # değişiklik var mı
+legal_get_statute_article  law_no: "6502"   article_no: "52"
+legal_get_statute_article  law_no: "20480"  article_no: "22" | "23" | "24" | "25" | "16"   # Abonelik Sözleşmeleri Yönetmeliği
+legal_search_statute_semantic  sorgu: "elektronik haberleşme taahhütlü abonelik fesih cayma bedeli"   # BTK düzenlemesi
+legal_search_official_gazette  query: "Abonelik Sözleşmeleri Yönetmeliğinde Değişiklik"  search_in: "title"  sort_by: "date_desc"   # değişiklik var mı
 ```
-`legal_get_statute_article` Yönetmelik için `law_no: "20480"` ile çalışıyor (soorgla iç numarası; Resmî Gazete sayısı değil).
+`legal_get_statute_article` Yönetmelik için `law_no: "20480"` ile çalışıyor (soorgla iç numarası; Resmî Gazete sayısı değil). 
 
 ## İskelet — fesih bildirimi
 
@@ -66,11 +66,11 @@ legal_search_official_gazette query: "Abonelik Sözleşmeleri Yönetmeliğinde D
 [Müşteri Hizmetleri / Abonelik Birimi]
 [Adres / e-posta / KEP adresi]
 
-ABONE ADI SOYADI : [___]
-T.C. KİMLİK NO : [___]
-ABONE / HİZMET NO : [___]
-HİZMET ADRESİ : [___]
-İLETİŞİM : [telefon / e-posta]
+ABONE ADI SOYADI     : [___]
+T.C. KİMLİK NO       : [___]
+ABONE / HİZMET NO    : [___]
+HİZMET ADRESİ        : [___]
+İLETİŞİM             : [telefon / e-posta]
 
 KONU : Abonelik sözleşmesinin feshi
 
@@ -102,3 +102,4 @@ Ad Soyad / İmza : [___]
 - Taahhütlü abonelikte "hiç bedel ödemem" demek: bedel m.16 sınırında istenebilir. Ama sınırı aşan "cayma bedeli"ne itiraz edilmelidir.
 - Fesihten sonra kesilen faturayı ödememek yerine itiraz etmemek; sonra icra takibiyle karşılaşmak.
 - Firma şubeye gelme şartı koyunca vazgeçmek (m.23/3: zorlaştırıcı yöntem konamaz).
+

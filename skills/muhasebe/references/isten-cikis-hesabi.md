@@ -25,17 +25,17 @@ Bu dosya **kesinti ve neti** kurar: kıdem tazminatının GV istisnası ve damga
 
 1. **Son ay ücreti + izin ücreti** (ikisi de ücret, ikisi de prime tabi; `ucret` aracında aynı brüte eklenebilir — izin ücretinin SGK ayı için aşağıdaki genelgeye bak):
 ```json
-{ "hesap": "ucret", "girdi": { "ay": "2026-09", "brut": 0, "onceki_kumulatif_matrah": 0 }, "tarih": "2026-09-30" }
+{ "hesap": "ucret", "ucret": { "ay": "2026-09", "brut": 0, "onceki_kumulatif_matrah": 0 }, "tarih": "2026-09-30" }
 ```
 2. **Kıdem tavanı** (o dönem):
 ```
-legal_get_social_parameters → kıdem tazminatı tavanı, dönemi
+legal_get_social_parameters   → kıdem tazminatı tavanı, dönemi
 ```
 3. **İhbar ve kıdem damgası** (oranı araçtan; nüsha 1):
 ```json
-{ "hesap": "damga", "girdi": { "sira": "IV.1.b", "tutar": 0 }, "tarih": "2026-09-30" }
+{ "hesap": "damga", "damga": { "sira": "IV.1.b", "tutar": 0 }, "tarih": "2026-09-30" }
 ```
-4. **İhbarın GV'si — elle:** `GV_ihbar = tarife(K + İ) − tarife(K)`; K = ihbar öncesi kümülatif matrah (son ay ücreti dahil), İ = brüt ihbar. Tarife dilimleri: `legal_get_statute_article 193 m.103` ya da `{ "hesap": "had", "girdi": { "ara": "gelir vergisi tarife" } }` `[doğrula]`.
+4. **İhbarın GV'si — elle:** `GV_ihbar = tarife(K + İ) − tarife(K)`; K = ihbar öncesi kümülatif matrah (son ay ücreti dahil), İ = brüt ihbar. Tarife dilimleri: `legal_get_statute_article 193 m.103` ya da `{ "hesap": "had", "had": { "ara": "gelir vergisi tarife" } }` `[doğrula]`.
 
 **Yapma:** ihbarı `ucret` aracında son ayın brütüne eklemek. `ucret` aracında `kalem` alanı yok; ihbara SGK primi ve PEK sınırı uygular — yanlış. (Ortak çekirdek `kalem: ihbar/kidem` destekliyor ama bu araç dışarı vermiyor.)
 

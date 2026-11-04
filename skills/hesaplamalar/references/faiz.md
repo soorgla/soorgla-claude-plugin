@@ -26,21 +26,21 @@ Araç: `legal_get_legal_interest_rates` (parametresiz). Yalnız **o gün geçerl
 | `kredi_karti_azami_aylik` | Kredi kartı azami akdi faiz, **aylık** | TCMB |
 
 Tutarlılık kontrolü (her çağrıda yap, tutmuyorsa işaretle):
-- `yasal_faiz` ≈ `tcmb_reeskont` × 0,80 (7589 sonrası dönem).
+- `yasal_faiz` ≈ `tcmb_reeskont` × 0,80 (7589 sonrası dönem). 
 - `ticari_temerut` = önceki yılın 31 Aralık `tcmb_avans` oranı.
 - `tcmb_avans` / `tcmb_reeskont` başlangıç tarihinden **sonra** yayımlanmış bir "Reeskont ve Avans İşlemlerinde Uygulanacak Faiz Oranlarının Tespiti" tebliği varsa araç bayattır (aşağıdaki geçici yol).
 
 ## Hukuki çerçeve (madde metinleri çekildi)
 
-- **Kanuni faiz:** sözleşmede miktar yoksa yıllık oran, TCMB'nin önceki yılın 31 Aralık günü uyguladığı **reeskont** oranının yüzde sekseni. [Kanuni Faiz Ve Temerrüt Faizine İlişkin Kanun m. 1](https://soorgla.com/mevzuat/3095-kanuni-faiz-ve-temerrut-faizine-iliskin-kanun/) [soorgla]
-- **Ticari temerrüt:** TCMB'nin önceki yılın 31 Aralık günü kısa vadeli **avanslar** için uyguladığı oran, kanuni faizden fazlaysa ticari işlerde sözleşme olmasa da istenebilir. [Kanuni Faiz Ve Temerrüt Faizine İlişkin Kanun m. 2](https://soorgla.com/mevzuat/3095-kanuni-faiz-ve-temerrut-faizine-iliskin-kanun/) [soorgla]
-- **Akdi faiz sınırı (adi iş):** sözleşmeyle kararlaştırılan yıllık faiz, kanuni oranın yüzde elli fazlasını aşamaz. [Türk Borçlar Kanunu m. 88](https://soorgla.com/mevzuat/6098-turk-borclar-kanunu/) [soorgla]
-- **Temerrüt faizi sınırı (adi iş):** sözleşmeyle kararlaştırılan temerrüt faizi kanuni oranın yüzde yüz fazlasını aşamaz; akdi faiz daha yüksekse temerrüt faizi akdi faizden az olamaz. [Türk Borçlar Kanunu m. 120](https://soorgla.com/mevzuat/6098-turk-borclar-kanunu/) [soorgla]
-- **Ticari işlerde oran serbestisi** ve bileşik faiz yalnız cari hesap ile iki taraf için de ticari ödünçte, en az üç aylık dönemle. [Türk Ticaret Kanunu m. 8](https://soorgla.com/mevzuat/6102-turk-ticaret-kanunu/) [soorgla]
-- **Mal ve hizmet tedarikinde geç ödeme:** ticari işletmeler arasında faiz oranını TCMB her yıl ocakta ilan eder; oran 3095'teki ticari gecikme faizinden en az sekiz puan fazladır. [Türk Ticaret Kanunu m. 1530](https://soorgla.com/mevzuat/6102-turk-ticaret-kanunu/) [soorgla] **Bu oran araçta yok** (aşağıda).
-- **Gecikme zammı:** amme alacağında vadenin bitiminden itibaren her ay için ayrı ayrı; ay kesirleri günlük hesaplanır; Cumhurbaşkanı oranı değiştirebilir. [Amme Alacaklarının Tahsil Usulü Hakkında Kanun m. 51](https://soorgla.com/mevzuat/6183-amme-alacaklarinin-tahsil-usulu-hakkinda-kanun/) [soorgla]
+- **Kanuni faiz:** sözleşmede miktar yoksa yıllık oran, TCMB'nin önceki yılın 31 Aralık günü uyguladığı **reeskont** oranının yüzde sekseni. [Kanuni Faiz Ve Temerrüt Faizine İlişkin Kanun m. 1](https://soorgla.com/mevzuat/3095-kanuni-faiz-ve-temerrut-faizine-iliskin-kanun/) [soorgla] 
+- **Ticari temerrüt:** TCMB'nin önceki yılın 31 Aralık günü kısa vadeli **avanslar** için uyguladığı oran, kanuni faizden fazlaysa ticari işlerde sözleşme olmasa da istenebilir. [Kanuni Faiz Ve Temerrüt Faizine İlişkin Kanun m. 2](https://soorgla.com/mevzuat/3095-kanuni-faiz-ve-temerrut-faizine-iliskin-kanun/) [soorgla] 
+- **Akdi faiz sınırı (adi iş):** sözleşmeyle kararlaştırılan yıllık faiz, kanuni oranın yüzde elli fazlasını aşamaz. [Türk Borçlar Kanunu m. 88](https://soorgla.com/mevzuat/6098-turk-borclar-kanunu/) [soorgla] 
+- **Temerrüt faizi sınırı (adi iş):** sözleşmeyle kararlaştırılan temerrüt faizi kanuni oranın yüzde yüz fazlasını aşamaz; akdi faiz daha yüksekse temerrüt faizi akdi faizden az olamaz. [Türk Borçlar Kanunu m. 120](https://soorgla.com/mevzuat/6098-turk-borclar-kanunu/) [soorgla] 
+- **Ticari işlerde oran serbestisi** ve bileşik faiz yalnız cari hesap ile iki taraf için de ticari ödünçte, en az üç aylık dönemle. [Türk Ticaret Kanunu m. 8](https://soorgla.com/mevzuat/6102-turk-ticaret-kanunu/) [soorgla] 
+- **Mal ve hizmet tedarikinde geç ödeme:** ticari işletmeler arasında faiz oranını TCMB her yıl ocakta ilan eder; oran 3095'teki ticari gecikme faizinden en az sekiz puan fazladır. [Türk Ticaret Kanunu m. 1530](https://soorgla.com/mevzuat/6102-turk-ticaret-kanunu/) [soorgla]  **Bu oran araçta yok** (aşağıda).
+- **Gecikme zammı:** amme alacağında vadenin bitiminden itibaren her ay için ayrı ayrı; ay kesirleri günlük hesaplanır; Cumhurbaşkanı oranı değiştirebilir. [Amme Alacaklarının Tahsil Usulü Hakkında Kanun m. 51](https://soorgla.com/mevzuat/6183-amme-alacaklarinin-tahsil-usulu-hakkinda-kanun/) [soorgla] 
 
-**Numara çakışması:** `law_no: "3095"` aynı numaralı bir yönetmelikle çakışır. `law_type` verilmese de araç Kanunu seçiyor ve yönetmeliği `other_candidates`'ta gösteriyor; yine de `law_type: "Kanun"` ver, yanıttaki `statute.title`'ı kontrol et.
+**Numara çakışması:** `law_no: "3095"` aynı numaralı bir yönetmelikle çakışır. `law_type` verilmese de araç Kanunu seçiyor ve yönetmeliği `other_candidates`'ta gösteriyor; yine de `law_type: "Kanun"` ver, yanıttaki `statute.title`'ı kontrol et. 
 
 ## Ticari iş mi, adi iş mi?
 
@@ -61,9 +61,9 @@ Adımlar:
 ## Basit faiz — adım adım
 
 ```
-Gün = bitiş tarihi − başlangıç tarihi (başlangıç günü sayılmaz)
-Faiz = Anapara × (Yıllık oran / 100) × Gün / 365
-Toplam = Anapara + Σ dönem faizleri
+Gün       = bitiş tarihi − başlangıç tarihi   (başlangıç günü sayılmaz)
+Faiz      = Anapara × (Yıllık oran / 100) × Gün / 365
+Toplam    = Anapara + Σ dönem faizleri
 ```
 
 Örnek iskelet (sayılar yalnız biçim için; oranları araçtan yeniden çek):
@@ -83,12 +83,12 @@ Kurallar:
 ## Gecikme zammı (aylık)
 
 ```
-Tam ay sayısı = vade bitiminden itibaren geçen tam aylar
-Kesir gün = kalan günler
-Gecikme zammı = Anapara × aylık oran/100 × tam ay + Anapara × aylık oran/100 × kesir gün / 30
+Tam ay sayısı  = vade bitiminden itibaren geçen tam aylar
+Kesir gün      = kalan günler
+Gecikme zammı  = Anapara × aylık oran/100 × tam ay  +  Anapara × aylık oran/100 × kesir gün / 30
 ```
 
-- Oran aralık içinde değiştiyse (CBK ile) her dönemi ayrı hesapla. Eski CBK'leri bul: `legal_search_official_gazette` `query: "gecikme zammı"` + `date_from`/`date_to` (`search_in: "all"`). Başlık araması (`search_in: "title"`) güncel CBK'yi **kaçırdı**, yalnız 2005 kararını getirdi.
+- Oran aralık içinde değiştiyse (CBK ile) her dönemi ayrı hesapla. Eski CBK'leri bul: `legal_search_official_gazette` `query: "gecikme zammı"` + `date_from`/`date_to` (`search_in: "all"`). Başlık araması (`search_in: "title"`) güncel CBK'yi **kaçırdı**, yalnız 2005 kararını getirdi. 
 - Kesir günde 30 gün bölen `[model bilgisi — doğrulayın]`.
 - Asgari tutar ve ceza nitelikli alacaklarda yarı oran kuralı madde metnindedir (6183 m.51/2-3); vergi ziyaı cezası, mahkeme kararıyla verilen ceza ve diğer cezalar farklıdır → `vergi` becerisi.
 - **Gecikme faizi (VUK m.112) ve tecil faizi araçta ayrı tip değildir.** Gecikme faizinin gecikme zammı oranında uygulandığı `[model bilgisi — doğrulayın]`; tecil faizi bu araçta yok → tutar için `legal_calculate_tax` `hesap: "tecil_faizi"`; oranın dayanağı için `legal_search_official_gazette` `query: "tecil faizi"` `sort_by: "date_desc"`.
@@ -97,7 +97,7 @@ Gecikme zammı = Anapara × aylık oran/100 × tam ay + Anapara × aylık oran/1
 
 | Eksik | Geçici yol |
 |---|---|
-| **Geçmiş oranlar araçtan alınamıyor** (parametre yok; yalnız güncel kayıt). | Reeskont/avans: `legal_search_official_gazette` `query: "Reeskont ve Avans İşlemlerinde Uygulanacak Faiz Oranlarının Tespiti"` `date_to: <31 Aralık ya da 30 Haziran>` `sort_by: "date_desc"`; o tarihte yürürlükte olan son tebliğin PDF'ini `legal_get_official_gazette_document` ile oku. Bulunan oran `[soorgla]`, hesap `[doğrula]`. Yasal faizin 7589 öncesi oranları için CBK/BKK'yi RG'de ara; bulunamazsa `[model bilgisi — doğrulayın]` |
+| **Geçmiş oranlar araçtan alınamıyor** (parametre yok; yalnız güncel kayıt). | Reeskont/avans: `legal_search_official_gazette` `query: "Reeskont ve Avans İşlemlerinde Uygulanacak Faiz Oranlarının Tespiti"` `date_to: <31 Aralık ya da 30 Haziran>` `sort_by: "date_desc"`; o tarihte yürürlükte olan son tebliğin PDF'ini `legal_get_official_gazette_document` ile oku. Bulunan oran `[soorgla]`, hesap `[doğrula]`.  Yasal faizin 7589 öncesi oranları için CBK/BKK'yi RG'de ara; bulunamazsa `[model bilgisi — doğrulayın]` |
 | `ticari_temerut` başlangıcı 2026-01-01 ama politika faizi 2026-10-23'te değişti | Ticari temerrüt yıl içinde politika faiziyle değişmez; yalnız yarıyıl kuralı. Avans oranı 30.06'da 5 puan değişmiş mi RG'den kontrol et `[doğrula]` |
 | TTK m.1530/7 geç ödeme faizi yok | Kullanıcıdan TCMB ilanını iste; `[doğrula — TCMB ocak ilanı]` |
 | Mevduat faizi (kıdem tazminatında 1475 m.14 en yüksek mevduat faizi) yok | Kullanıcıdan bankaların ilan ettiği oranı iste `[doğrula]`; hesap `is-hukuku` |
@@ -112,9 +112,9 @@ Gecikme zammı = Anapara × aylık oran/100 × tam ay + Anapara × aylık oran/1
 
 ```
 legal_get_legal_interest_rates
-legal_get_statute_article law_no: "3095" article_no: "1" law_type: "Kanun"
-legal_get_statute_article law_no: "3095" article_no: "2" law_type: "Kanun"
-legal_get_statute_article law_no: "6183" article_no: "51" law_type: "Kanun"
-legal_search_official_gazette query: "Reeskont ve Avans İşlemlerinde Uygulanacak Faiz Oranlarının Tespiti" date_to: "2025-12-31" sort_by: "date_desc"
-legal_search_official_gazette query: "gecikme zammı" date_from: "<AAAA-AA-GG>" date_to: "<AAAA-AA-GG>"
+legal_get_statute_article  law_no: "3095"  article_no: "1"  law_type: "Kanun"
+legal_get_statute_article  law_no: "3095"  article_no: "2"  law_type: "Kanun"
+legal_get_statute_article  law_no: "6183"  article_no: "51"  law_type: "Kanun"
+legal_search_official_gazette  query: "Reeskont ve Avans İşlemlerinde Uygulanacak Faiz Oranlarının Tespiti"  date_to: "2025-12-31"  sort_by: "date_desc"
+legal_search_official_gazette  query: "gecikme zammı"  date_from: "<AAAA-AA-GG>"  date_to: "<AAAA-AA-GG>"
 ```

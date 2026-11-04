@@ -2,7 +2,7 @@
 
 ## Ne zaman kullanılır
 
-Türkiye aleyhine, Sözleşme ya da Türkiye'nin taraf olduğu bir protokoldeki hakkın ihlali iddiasıyla bireysel başvuru (Sözleşme m.34) yapılacaksa ve iç hukuk yolları — **AYM bireysel başvurusu dahil** — tüketildiyse kullanılır. AİHM, AYM bireysel başvurusunu Türkiye bakımından tüketilmesi gereken etkili bir iç hukuk yolu sayar.
+Türkiye aleyhine, Sözleşme ya da Türkiye'nin taraf olduğu bir protokoldeki hakkın ihlali iddiasıyla bireysel başvuru (Sözleşme m.34) yapılacaksa ve iç hukuk yolları — **AYM bireysel başvurusu dahil** — tüketildiyse kullanılır. AİHM, AYM bireysel başvurusunu Türkiye bakımından tüketilmesi gereken etkili bir iç hukuk yolu sayar .
 
 Önce şunu sor: **AYM süreci nerede?**
 - AYM'ye hiç başvurulmadıysa ve 30 günlük süre işliyorsa → önce `aym-bireysel-basvuru.md`.
@@ -11,7 +11,7 @@ Türkiye aleyhine, Sözleşme ya da Türkiye'nin taraf olduğu bir protokoldeki 
 - AYM esastan ihlal yok ya da açıkça dayanaktan yoksun dedi → AİHM yolu açık; süre AYM kararının öğrenilmesinden başlar.
 - AYM ihlal buldu ama giderim yetersiz → mağdur sıfatının devam edip etmediği `[incele]`.
 
-**Kaynak sınırı:** AİHS, Protokoller ve AİHM İçtüzüğü (Rules of Court) soorgla mevzuat katalogunda **yok**. Hükümleri AİHM kararlarındaki alıntılardan çek (`legal_search_cases mahkeme: "aihm"`); kararda görünmeyen her usul kuralını `[model bilgisi — doğrulayın]` etiketle ve kullanıcıyı Mahkeme'nin resmî sitesindeki güncel İçtüzük ve "Pratik Rehber"e yönlendir.
+**Kaynak sınırı:** AİHS, Protokoller ve AİHM İçtüzüğü (Rules of Court) soorgla mevzuat katalogunda **yok** . Hükümleri AİHM kararlarındaki alıntılardan çek (`legal_search_cases mahkeme: "aihm"`); kararda görünmeyen her usul kuralını `[model bilgisi — doğrulayın]` etiketle ve kullanıcıyı Mahkeme'nin resmî sitesindeki güncel İçtüzük ve "Pratik Rehber"e yönlendir.
 
 ---
 
@@ -19,14 +19,14 @@ Türkiye aleyhine, Sözleşme ya da Türkiye'nin taraf olduğu bir protokoldeki 
 
 | Süre | Başlangıç | Dayanak | Not |
 |---|---|---|---|
-| **4 ay** | İç hukuktaki nihai kararın (çoğunlukla AYM kararı) öğrenildiği/tebliğ edildiği tarih | Sözleşme m.35/1, 15 No.lu Protokol m.4 ile değişik | `legal_calculate_deadline` hesaplamaz → elle hesapla, `[doğrula]` |
-| Geçiş: **6 ay** | Nihai iç karar **1 Şubat 2022'den önce** verildiyse | 15 No.lu Protokol geçiş hükmü | 2026'da pratikte yalnız eski dosyalarda |
+| **4 ay** | İç hukuktaki nihai kararın (çoğunlukla AYM kararı) öğrenildiği/tebliğ edildiği tarih | Sözleşme m.35/1, 15 No.lu Protokol m.4 ile değişik  | `legal_calculate_deadline` hesaplamaz → elle hesapla, `[doğrula]` |
+| Geçiş: **6 ay** | Nihai iç karar **1 Şubat 2022'den önce** verildiyse | 15 No.lu Protokol geçiş hükmü  | 2026'da pratikte yalnız eski dosyalarda |
 
 **Eski YAML düzeltmesi:** YAML "1 Şubat 2022'den itibaren 6 aydan 4 aya indirildi" diyordu. Doğrusu: Protokol 1 Ağustos 2021'de yürürlüğe girdi; 4 aylık süre **1 Şubat 2022 ve sonrasında verilen nihai iç kararlara** uygulanır (yukarıdaki künyeler).
 
 **Hesap kuralları:**
-- Süre, nihai iç kararın tebliğini izleyen günden başlar ve takvim ayı olarak hesaplanır; son gün Türk resmî tatiline, cumartesi ya da pazara denk gelse de **uzamaz**. AİHM süreyi iç hukuka göre değil Sözleşme ölçütlerine göre hesaplar; Türk tatil takvimi geçerli değildir. Bu yüzden `legal_check_holiday` sonucu AİHM süresini değiştirmez. (Kararda son günü pazara denk gelen başvuru, ertesi iş günü yapıldığı için süre aşımı sayıldı.)
-- Başvuru tarihi, İçtüzük m.47'deki şartları eksiksiz karşılayan formun **gönderildiği** (posta damgası) tarihtir; eksik form süreyi kesmez. Posta damgası belirlenemezse Mahkeme özel durumlarda formun tarihini ya da kayda giriş tarihini esas alabilir.
+- Süre, nihai iç kararın tebliğini izleyen günden başlar ve takvim ayı olarak hesaplanır; son gün Türk resmî tatiline, cumartesi ya da pazara denk gelse de **uzamaz**. AİHM süreyi iç hukuka göre değil Sözleşme ölçütlerine göre hesaplar; Türk tatil takvimi geçerli değildir. Bu yüzden `legal_check_holiday` sonucu AİHM süresini değiştirmez. (Kararda son günü pazara denk gelen başvuru, ertesi iş günü yapıldığı için süre aşımı sayıldı.) 
+- Başvuru tarihi, İçtüzük m.47'deki şartları eksiksiz karşılayan formun **gönderildiği** (posta damgası) tarihtir; eksik form süreyi kesmez. Posta damgası belirlenemezse Mahkeme özel durumlarda formun tarihini ya da kayda giriş tarihini esas alabilir. 
 - Bu nedenle son güne bırakma; posta süresi ve eksik tamamlama riski için en az **2 hafta** pay bırak `[incele]`.
 
 ---
@@ -36,11 +36,11 @@ Türkiye aleyhine, Sözleşme ya da Türkiye'nin taraf olduğu bir protokoldeki 
 | # | Ölçüt | Kontrol |
 |---|---|---|
 | 1 | Süre (4 ay / geçişte 6 ay) | Yukarıdaki tablo; AYM kararının öğrenilme tarihi ve kanıtı |
-| 2 | İç hukuk yollarının tüketilmesi (m.35/1) | AYM bireysel başvurusu yapıldı mı ve **usulüne uygun** mu (süresinde, ilgili şikâyet AYM'de ileri sürüldü mü)? AYM'de ileri sürülmeyen şikâyet AİHM'de de tüketilmemiş sayılır `[incele]`. Makul süre şikâyetinde Tazminat Komisyonu (6384) yolu |
+| 2 | İç hukuk yollarının tüketilmesi (m.35/1) | AYM bireysel başvurusu yapıldı mı ve **usulüne uygun** mu (süresinde, ilgili şikâyet AYM'de ileri sürüldü mü)? AYM'de ileri sürülmeyen şikâyet AİHM'de de tüketilmemiş sayılır `[incele]`. Makul süre şikâyetinde Tazminat Komisyonu (6384) yolu  |
 | 3 | Kişi bakımından: mağdur sıfatı (m.34) | Doğrudan etkilenme; AYM ihlal bulup yeterli giderim sağladıysa mağdur sıfatı kalkabilir `[incele]` |
-| 4 | Konu bakımından | Hak Sözleşme'de ya da **Türkiye'nin onayladığı** protokolde mi? **4 No.lu Protokol:** Türkiye taraf değildir (seyahat/serbest dolaşım şikâyeti bu yüzden AYM'de de konu bakımından yetkisizlikle reddedilir). **7 No.lu Protokol:** onaylanması 6684 sayılı Kanunla uygun bulunmuştur (RG 25.03.2016). **12 No.lu Protokol:** AYM kararlarında "imzalanmış, henüz onaylanmamış" olarak geçer. **16 No.lu Protokol** ve yukarıdakilerin **bugünkü** onay/yürürlük durumu: soorgla'da antlaşma kaydı yok → kullanıcıya Avrupa Konseyi Antlaşma Ofisi'nden (coe.int, "Chart of signatures and ratifications") teyit ettir; teyit yoksa dilekçede `[ARAŞTIRMA GEREKLİ: Protokol onay durumu]` yaz. |
+| 4 | Konu bakımından | Hak Sözleşme'de ya da **Türkiye'nin onayladığı** protokolde mi? **4 No.lu Protokol:** Türkiye taraf değildir (seyahat/serbest dolaşım şikâyeti bu yüzden AYM'de de konu bakımından yetkisizlikle reddedilir). **7 No.lu Protokol:** onaylanması 6684 sayılı Kanunla uygun bulunmuştur (RG 25.03.2016). **12 No.lu Protokol:** AYM kararlarında "imzalanmış, henüz onaylanmamış" olarak geçer. **16 No.lu Protokol** ve yukarıdakilerin **bugünkü** onay/yürürlük durumu: soorgla'da antlaşma kaydı yok → kullanıcıya Avrupa Konseyi Antlaşma Ofisi'nden (coe.int, "Chart of signatures and ratifications") teyit ettir; teyit yoksa dilekçede `[ARAŞTIRMA GEREKLİ: Protokol onay durumu]` yaz.  |
 | 5 | Açıkça dayanaktan yoksunluk (m.35/3-a) | Dördüncü derece şikâyeti mi? |
-| 6 | Önemli zarar (m.35/3-b) | Başvuranın "önemli bir zarara" uğrayıp uğramadığı ve insan haklarına saygının esastan incelemeyi gerektirip gerektirmediği. 15 No.lu Protokol'den sonra kural **iki ölçütten** oluşur; "iç mahkemece usulünce incelenmemiş olma" güvencesi kaldırıldı |
+| 6 | Önemli zarar (m.35/3-b) | Başvuranın "önemli bir zarara" uğrayıp uğramadığı ve insan haklarına saygının esastan incelemeyi gerektirip gerektirmediği. 15 No.lu Protokol'den sonra kural **iki ölçütten** oluşur; "iç mahkemece usulünce incelenmemiş olma" güvencesi kaldırıldı  |
 | 7 | Aynı başvuru / başka uluslararası merci (m.35/2-b) | Aynı şikâyet başka bir uluslararası mercie sunuldu mu? `[model bilgisi — doğrulayın]` |
 | 8 | Başvuru hakkının kötüye kullanılması (m.35/3-a) | Olguları gizleme, yanıltıcı bilgi, gizlilik ihlali `[model bilgisi — doğrulayın]` |
 
@@ -48,7 +48,7 @@ Türkiye aleyhine, Sözleşme ya da Türkiye'nin taraf olduğu bir protokoldeki 
 
 ## Zorunlu unsurlar: resmî başvuru formu (İçtüzük m.47)
 
-**Kural:** Başvuru, Mahkeme Yazı İşlerinin hazırladığı **resmî başvuru formu** ile yapılır; form İçtüzük m.47'deki bilgileri (m.47 § 1 (e)-(f): olayların ve iddia edilen ihlallerin özlü ve okunaklı açıklaması ile ilgili argümanlar dahil) **formun kendi alanlarında** içermelidir. Bu şartlara uyulmaması başvurunun **incelenmemesine** yol açabilir (m.47 § 5.1) ve eksik form süreyi kesmez (m.47 § 6 (a), yukarıda). m.47'nin bugünkü katı biçimi 1 Ocak 2014'ten itibaren uygulanmaktadır. İçtüzük metninin kendisi soorgla'da yok: güncel metni ve formu kullanıcıya AİHM'in resmî sitesinden (echr.coe.int) kontrol ettir.
+**Kural:** Başvuru, Mahkeme Yazı İşlerinin hazırladığı **resmî başvuru formu** ile yapılır; form İçtüzük m.47'deki bilgileri (m.47 § 1 (e)-(f): olayların ve iddia edilen ihlallerin özlü ve okunaklı açıklaması ile ilgili argümanlar dahil) **formun kendi alanlarında** içermelidir. Bu şartlara uyulmaması başvurunun **incelenmemesine** yol açabilir (m.47 § 5.1) ve eksik form süreyi kesmez (m.47 § 6 (a), yukarıda). m.47'nin bugünkü katı biçimi 1 Ocak 2014'ten itibaren uygulanmaktadır. İçtüzük metninin kendisi soorgla'da yok: güncel metni ve formu kullanıcıya AİHM'in resmî sitesinden (echr.coe.int) kontrol ettir. 
 
 **Bu beceri resmî formu taklit etmez ve serbest metin form üretmez.** Yapacağı iş: formun her alanına girecek metni hazırlamak ve kullanıcıyı resmî formu (Mahkeme sitesinden, güncel sürüm, Türkçe dahil) indirip doldurmaya yönlendirmek.
 
@@ -65,15 +65,15 @@ Formun ana bölümleri ve doldurma rehberi `[model bilgisi — doğrulayın]` (f
 | Ekler listesi | Kronolojik, numaralı, sayfa numaralı | İskelet E |
 | İmza | Başvuran ya da temsilci | — |
 
-**Ek belge:** Form alanları yetmezse olaylar ve şikâyetleri ayrıntılandıran ek belge sunulabilir (İçtüzük m.47 § 2 (b)); ek belge formun zorunlu alanlarının **yerine geçmez**, Mahkeme şikâyetin kapsamını formdaki özlü açıklamadan belirler. Ek belgenin **azami sayfa sayısı** ve biçim kuralları için sayı yazma: kullanıcıya AİHM'in resmî sitesinden (echr.coe.int, başvuru formu notları / Uygulama Talimatı) güncel sınırı kontrol ettir; soorgla'da bu metin yok.
+**Ek belge:** Form alanları yetmezse olaylar ve şikâyetleri ayrıntılandıran ek belge sunulabilir (İçtüzük m.47 § 2 (b)); ek belge formun zorunlu alanlarının **yerine geçmez**, Mahkeme şikâyetin kapsamını formdaki özlü açıklamadan belirler. Ek belgenin **azami sayfa sayısı** ve biçim kuralları için sayı yazma: kullanıcıya AİHM'in resmî sitesinden (echr.coe.int, başvuru formu notları / Uygulama Talimatı) güncel sınırı kontrol ettir; soorgla'da bu metin yok. 
 
-**Gönderim:** başvuru tarihi formun posta damgasına göre belirlendiğinden (m.47 § 6 (a)), asıl imzalı form ve ekler **posta** ile Strazburg'a gönderilir; yalnız faksla iletilen, aslı süresinde postalanmayan form geçerli başvuru sayılmamıştır. İlk başvurunun e-posta ya da elektronik yolla (eComms vb.) yapılıp yapılamayacağını ve güncel adres/gönderim kurallarını kullanıcıya AİHM'in resmî sitesinden (echr.coe.int) teyit ettir; soorgla'da bu usul metni yok.
+**Gönderim:** başvuru tarihi formun posta damgasına göre belirlendiğinden (m.47 § 6 (a)), asıl imzalı form ve ekler **posta** ile Strazburg'a gönderilir; yalnız faksla iletilen, aslı süresinde postalanmayan form geçerli başvuru sayılmamıştır. İlk başvurunun e-posta ya da elektronik yolla (eComms vb.) yapılıp yapılamayacağını ve güncel adres/gönderim kurallarını kullanıcıya AİHM'in resmî sitesinden (echr.coe.int) teyit ettir; soorgla'da bu usul metni yok. 
 
 **Harç:** AİHM başvurusu harçsızdır `[model bilgisi — doğrulayın]`.
 
 **Dil:** başvuru aşamasında Türkçe yapılabilir; tebliğden sonra Mahkemenin resmî dillerinden biri (İngilizce/Fransızca) istenebilir `[model bilgisi — doğrulayın]`.
 
-**Adil tazmin (m.41):** Başvuru aşamasında talep edilebilir ama **bağlayıcı talep**, başvuru Hükümete tebliğ edildikten sonra Mahkemenin verdiği süre içinde, belgeleriyle yapılır; süresinde talep yapılmazsa tazminata hükmedilmeyebilir. Masraf ve harcamalar yalnız gerçekten ve zorunlu olarak yapıldığı ispatlanırsa ödenir. Bazı dosyalarda ihlal tespiti tek başına yeterli adil tazmin sayılır; müvekkile tutar vaat etme.
+**Adil tazmin (m.41):** Başvuru aşamasında talep edilebilir ama **bağlayıcı talep**, başvuru Hükümete tebliğ edildikten sonra Mahkemenin verdiği süre içinde, belgeleriyle yapılır; süresinde talep yapılmazsa tazminata hükmedilmeyebilir . Masraf ve harcamalar yalnız gerçekten ve zorunlu olarak yapıldığı ispatlanırsa ödenir . Bazı dosyalarda ihlal tespiti tek başına yeterli adil tazmin sayılır ; müvekkile tutar vaat etme.
 
 ---
 
@@ -108,13 +108,13 @@ Eski `legal_arguments` ve `relevant_precedents` alanları kullanıcıdan istenme
 ## soorgla çağrıları
 
 ```
-legal_search_cases mahkeme: "aihm" sorgu: "Protocol No. 15 four months final domestic decision" # süre dayanağı
-legal_search_cases mahkeme: "aihm" sorgu: "Anayasa Mahkemesine bireysel başvuru tüketilmesi gereken etkili yol Türkiye"
-legal_search_cases mahkeme: "aihm" sorgu: "<olay> <Sözleşme maddesi> Türkiye ihlal" tarih_baslangic: "<bugün - 3 yıl>"
-legal_get_case_document belge_id: "<seçilen Türkiye kararı>" azami_karakter: 60000
-legal_search_cases mahkeme: "anayasa" sorgu: "<aynı hak, aynı olay türü>" # AYM'nin yaklaşımı
-legal_get_statute_article law_no: "6216" article_no: "50" # AYM giderimi (mağdur sıfatı)
-legal_search_statute_semantic mevzuat_no: "6384" sorgu: "<makul süre / Komisyon>"
+legal_search_cases  mahkeme: "aihm"  sorgu: "Protocol No. 15 four months final domestic decision"   # süre dayanağı
+legal_search_cases  mahkeme: "aihm"  sorgu: "Anayasa Mahkemesine bireysel başvuru tüketilmesi gereken etkili yol Türkiye"
+legal_search_cases  mahkeme: "aihm"  sorgu: "<olay> <Sözleşme maddesi> Türkiye ihlal"  tarih_baslangic: "<bugün - 3 yıl>"
+legal_get_case_document  belge_id: "<seçilen Türkiye kararı>"  azami_karakter: 60000
+legal_search_cases  mahkeme: "anayasa"  sorgu: "<aynı hak, aynı olay türü>"           # AYM'nin yaklaşımı
+legal_get_statute_article  law_no: "6216"  article_no: "50"                         # AYM giderimi (mağdur sıfatı)
+legal_search_statute_semantic  mevzuat_no: "6384"  sorgu: "<makul süre / Komisyon>"
 ```
 
 ---
@@ -148,9 +148,9 @@ Eski `ui_config.blocks` sırası korunmuştur. Bu metin resmî formun **içine**
 AVRUPA İNSAN HAKLARI MAHKEMESİ'NE
 (Başvuru Formu Eki — [başvuranın adı] / Türkiye)
 
-BAŞVURAN : [___]
-TEMSİLCİ : [___]
-TÜKETİLEN SON İÇ HUKUK YOLU : Anayasa Mahkemesi, B. No. [___], karar tarihi [___], öğrenme tarihi [___]
+BAŞVURAN                     : [___]
+TEMSİLCİ                     : [___]
+TÜKETİLEN SON İÇ HUKUK YOLU  : Anayasa Mahkemesi, B. No. [___], karar tarihi [___], öğrenme tarihi [___]
 
 A. OLAYLARIN AÇIKLAMASI
 1. [tarih] — [olay]
@@ -177,7 +177,7 @@ E. ADİL TAZMİN (Madde 41) — ön bildirim
 
 EKLER (kronolojik, numaralı): 1. AYM kararı ve tebliğ/öğrenme belgesi 2. AYM başvuru formu 3. Yargıtay/Danıştay/BAM kararı 4. Kanun yolu dilekçeleri 5. …
 
-[tarih] [Başvuran / Temsilci — imza]
+[tarih]  [Başvuran / Temsilci — imza]
 ```
 
 ---
@@ -193,3 +193,4 @@ EKLER (kronolojik, numaralı): 1. AYM kararı ve tebliğ/öğrenme belgesi 2. AY
 - 🟡 Eski YAML'daki "6 aydan 4 aya 1 Şubat 2022'den itibaren indirildi" ifadesini aktarmak (bkz. süre bölümündeki düzeltme).
 
 ---
+

@@ -118,8 +118,8 @@ Tutarlılık kontrolü: "atak" + "her dilekçe ortağa gider" çelişki değildi
 ## Bölüm 6 — Elektronik işlemler ve bağlantılar
 
 - UYAP: Avukat Portal / Vatandaş Portal / kullanılmıyor; e-imza ya da mobil imza var mı?
-- UETS elektronik tebligat adresi var mı? Baro levhasına yazılı avukatlar ve özel hukuk tüzel kişileri için elektronik tebligat zorunludur (Tebligat K. m.7/a) [soorgla]; tebliğ, adrese ulaştığı tarihi izleyen beşinci günün sonunda yapılmış sayılır [soorgla]. Bu bilgi süre hatırlatmalarında kullanılır; profile yalnız "var/yok" yazılır.
-- UYAP'tan elektronik işlemde süre gün sonunda biter (HMK m.445/4) [soorgla] — dilekçe becerileri bu hatırlatmayı UYAP kullanıcısına ekler.
+- UETS elektronik tebligat adresi var mı? Baro levhasına yazılı avukatlar ve özel hukuk tüzel kişileri için elektronik tebligat zorunludur (Tebligat K. m.7/a) [soorgla]; tebliğ, adrese ulaştığı tarihi izleyen beşinci günün sonunda yapılmış sayılır [soorgla]. Bu bilgi süre hatırlatmalarında kullanılır; profile yalnız "var/yok" yazılır. 
+- UYAP'tan elektronik işlemde süre gün sonunda biter (HMK m.445/4) [soorgla] — dilekçe becerileri bu hatırlatmayı UYAP kullanıcısına ekler. 
 - KEP: var mı? İşveren tarafında işçiye KEP ile bildirim uygulaması (ORTAK-KURALLAR.md iş hukuku bölümündeki alan) burada sorulur.
 - Bağlantı kontrolü sonucu (SKILL.md Adım 2) bu bölümde gösterilir ve tabloya yazılır.
 

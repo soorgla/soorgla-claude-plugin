@@ -24,7 +24,7 @@
 | İŞ-ŞARTLARI | Kanun/sözleşmeyle rakiplere de yüklenmiş ya da meslekte olağan iş şartlarına uymamak | m.55/1-e |
 | GİŞ | Yanıltıcı biçimde diğer taraf aleyhine genel işlem şartları kullanmak | m.55/1-f |
 
- Genel ilke (amaç ve dürüstlük kuralı) TTK m.54.
+ Genel ilke (amaç ve dürüstlük kuralı) TTK m.54. 
 
 ## 2. Davalar ve istemler
 
@@ -38,21 +38,21 @@
 | Davacılar | Ekonomik menfaati zarar gören ya da tehlikeye giren; **müşteriler** (imha hariç); odalar, borsalar, meslek birlikleri, tüketici dernekleri (yalnız tespit, men, ref) | m.56/1-3 |
 | Kararın kapsamı | Men ve ref kararı, malları ondan ticari amaçla edinenlere de icra olunur | m.56/4 |
 
- Çalışan ve işçilerin fiilinden çalıştıranın sorumluluğu (m.57: tespit, men, ortadan kaldırma davaları çalıştırana da açılır; tazminat TBK'ya tabi), basın, yayın ve bilişim kuruluşları aracılığıyla haksız rekabet (m.58), kararın ilanı (m.59), zamanaşımı (m.60: öğrenmeden 1 yıl, her hâlde 3 yıl; daha uzun ceza zamanaşımı saklı), ihtiyati tedbir ve gümrükte el koyma (m.61), cezayı gerektiren fiiller (m.62) ve tüzel kişilerde organ üyelerinin cezai sorumluluğu (m.63).
+ Çalışan ve işçilerin fiilinden çalıştıranın sorumluluğu (m.57: tespit, men, ortadan kaldırma davaları çalıştırana da açılır; tazminat TBK'ya tabi), basın, yayın ve bilişim kuruluşları aracılığıyla haksız rekabet (m.58), kararın ilanı (m.59), zamanaşımı (m.60: öğrenmeden 1 yıl, her hâlde 3 yıl; daha uzun ceza zamanaşımı saklı), ihtiyati tedbir ve gümrükte el koyma (m.61), cezayı gerektiren fiiller (m.62) ve tüzel kişilerde organ üyelerinin cezai sorumluluğu (m.63). 
 
-**Ticari dava:** haksız rekabet davaları TTK'da düzenlendiği için mutlak ticari davadır (asliye ticaret; SMK ile birlikteyse fikri ve sınai haklar mahkemesi `[incele]`). Konusu para olan tazminat istemi TTK 5/A arabuluculuğuna tabi olabilir `[incele]` → `ticari-isler-ve-ticari-dava.md`. Kanun yolunda 11. HD (BGK 2026/1 "haksız rekabet").
+**Ticari dava:** haksız rekabet davaları TTK'da düzenlendiği için mutlak ticari davadır (asliye ticaret; SMK ile birlikteyse fikri ve sınai haklar mahkemesi `[incele]`). Konusu para olan tazminat istemi TTK 5/A arabuluculuğuna tabi olabilir `[incele]` → `ticari-isler-ve-ticari-dava.md`. Kanun yolunda 11. HD (BGK 2026/1 "haksız rekabet"). 
 
 ## 3. Zamanaşımı
 
-m.56 davaları: hakkın doğumunu **öğrenmeden itibaren 1 yıl**, her hâlde doğumdan itibaren **3 yıl**; fiil TCK'ya göre daha uzun dava zamanaşımına tabi suçsa o süre hukuk davaları için de geçerli. Süren (devam eden) haksız rekabette başlangıç `[incele]`.
+m.56 davaları: hakkın doğumunu **öğrenmeden itibaren 1 yıl**, her hâlde doğumdan itibaren **3 yıl**; fiil TCK'ya göre daha uzun dava zamanaşımına tabi suçsa o süre hukuk davaları için de geçerli.  Süren (devam eden) haksız rekabette başlangıç `[incele]`.
 
 ## 4. Ceza
 
-m.55'teki fiilleri **kasten** işleyenler, yanlış/yanıltıcı bilgi verenler, sır ele geçirmek için çalışanları aldatanlar ve çalışanının fiilini önlemeyen işletme sahipleri: m.56'ya göre dava hakkı olanlardan birinin **şikâyeti** üzerine iki yıla kadar hapis ya da adli para cezası. Şikâyet süresi (TCK m.73 — 6 ay) `[doğrula]`; şikâyet metni → `../../ceza-ve-infaz-dilekce/SKILL.md`.
+m.55'teki fiilleri **kasten** işleyenler, yanlış/yanıltıcı bilgi verenler, sır ele geçirmek için çalışanları aldatanlar ve çalışanının fiilini önlemeyen işletme sahipleri: m.56'ya göre dava hakkı olanlardan birinin **şikâyeti** üzerine iki yıla kadar hapis ya da adli para cezası.  Şikâyet süresi (TCK m.73 — 6 ay) `[doğrula]`; şikâyet metni → `../../ceza-ve-infaz-dilekce/SKILL.md`.
 
 ## 5. Ticaret unvanı tecavüzü
 
-Usulen tescil ve ilan edilmiş unvanı kullanma hakkı yalnız sahibine aittir; ticari dürüstlüğe aykırı kullanımda tespit, yasaklama, tescilliyse değiştirme ya da silme, maddi durumun ortadan kaldırılması, imha, kusura göre maddi ve manevi tazminat (mütecavizin elde etmesi mümkün menfaat dahil) ve kararın ilanı istenebilir.
+Usulen tescil ve ilan edilmiş unvanı kullanma hakkı yalnız sahibine aittir; ticari dürüstlüğe aykırı kullanımda tespit, yasaklama, tescilliyse değiştirme ya da silme, maddi durumun ortadan kaldırılması, imha, kusura göre maddi ve manevi tazminat (mütecavizin elde etmesi mümkün menfaat dahil) ve kararın ilanı istenebilir. 
 
 ---
 
@@ -75,11 +75,11 @@ Usulen tescil ve ilan edilmiş unvanı kullanma hakkı yalnız sahibine aittir; 
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "6102" article_no: "50" | "52" | "54" | "55" | "56" | "57" | "60" | "61" | "62" | "63"
-legal_search_cases mahkeme: "yargitay" daire: "11. Hukuk Dairesi" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "6102"  article_no: "50" | "52" | "54" | "55" | "56" | "57" | "60" | "61" | "62" | "63"
+legal_search_cases  mahkeme: "yargitay"  daire: "11. Hukuk Dairesi"  tarih_baslangic: "<son 3 yıl>"
     sorgu: "ambalaj ve ürün görünümünün taklidi suretiyle iltibas haksız rekabet men ve ref"
-legal_search_cases mahkeme: "yargitay" daire: "11. Hukuk Dairesi" sorgu: "eski çalışanın müşteri listesini rakip şirkette kullanması ticari sır haksız rekabet"
-legal_get_case_document belge_id: "<seçilen karar>"
+legal_search_cases  mahkeme: "yargitay"  daire: "11. Hukuk Dairesi"  sorgu: "eski çalışanın müşteri listesini rakip şirkette kullanması ticari sır haksız rekabet"
+legal_get_case_document  belge_id: "<seçilen karar>"
 ```
 
 ## Çıktı iskeleti
@@ -104,3 +104,4 @@ legal_get_case_document belge_id: "<seçilen karar>"
 - Tazminatta kusuru göstermemek (men/ref için kusur aranmaz, tazminat için aranır).
 - 1 yıllık süreyi fiilden başlatmak (öğrenme).
 - Müşteri ya da meslek birliğinin tazminat isteyebileceğini sanmak (birlikler yalnız a-c).
+

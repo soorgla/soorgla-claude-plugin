@@ -9,25 +9,25 @@ Kısa listedeki isteklilerin teklifleri iki aşamada değerlendirilir: önce tek
 
 ## 1. Teklifin yapısı ve ilk oturum (İ.Ş. m.21, 29)
 
-- [ ] Mali teklif = teklif mektubu + geçici teminat (ayrı zarf, "Mali Tekliftir"); teknik teklif = diğer bütün belgeler (ayrı zarf); ikisi bir dış zarfta.
-- [ ] İhale saatinde yalnız **teknik zarflar** açılır, belgeler tutanakla tespit edilir; mali zarflar açılmadan paketlenip mühürlenir; bu aşamada ret/kabul yok, belge düzeltilemez ve tamamlanamaz.
-- [ ] Belge eksik ya da şartlara aykırı → değerlendirme dışı; belge eksikliği tamamlatılamaz; **bilgi eksikliği** en az 2 iş günü süreyle tamamlatılır, tamamlamayanın teklifi dışarıda ve **geçici teminatı gelir kaydedilir**.
+- [ ] Mali teklif = teklif mektubu + geçici teminat (ayrı zarf, "Mali Tekliftir"); teknik teklif = diğer bütün belgeler (ayrı zarf); ikisi bir dış zarfta. 
+- [ ] İhale saatinde yalnız **teknik zarflar** açılır, belgeler tutanakla tespit edilir; mali zarflar açılmadan paketlenip mühürlenir; bu aşamada ret/kabul yok, belge düzeltilemez ve tamamlanamaz. 
+- [ ] Belge eksik ya da şartlara aykırı → değerlendirme dışı; belge eksikliği tamamlatılamaz; **bilgi eksikliği** en az 2 iş günü süreyle tamamlatılır, tamamlamayanın teklifi dışarıda ve **geçici teminatı gelir kaydedilir**. 
 
 ## 2. Teknik değerlendirme kriterleri (İ.Ş. m.31)
 
-- [ ] Kriterler kanunda sayılı: benzer nitelik ve ölçekteki sözleşmeleri yerine getirme deneyimi, önerilen yöntem, organizasyon yapısı, yönetici kadrosu ve teknik personelin eğitim ve mesleki nitelikleri.
-- [ ] Tam puanlar Yönetmelik eki **Tablo 1**'deki aralıklarda belirlenir; hangi kritere/alt kritere **nasıl** puan verileceği dokümanda **somut ve anlaşılabilir** yazılır. Tablo 1 (araçta m.75 tablosu): A benzer nitelik ve ölçekteki işlerde deneyim **10-20**; B iş için önerilen yöntem, çalışma planı ve organizasyon yapısının iş tanımına uygunluğu **30-50** (örnekteki A 20, B 40 aralıkta ✅). C (yönetici kadrosu ve teknik personel) satırının aralığı araç alıntısında görünmedi `[doğrula — Tablo 1 C satırı]`.
+- [ ] Kriterler kanunda sayılı: benzer nitelik ve ölçekteki sözleşmeleri yerine getirme deneyimi, önerilen yöntem, organizasyon yapısı, yönetici kadrosu ve teknik personelin eğitim ve mesleki nitelikleri. 
+- [ ] Tam puanlar Yönetmelik eki **Tablo 1**'deki aralıklarda belirlenir; hangi kritere/alt kritere **nasıl** puan verileceği dokümanda **somut ve anlaşılabilir** yazılır.  Tablo 1 (araçta m.75 tablosu): A benzer nitelik ve ölçekteki işlerde deneyim **10-20**; B iş için önerilen yöntem, çalışma planı ve organizasyon yapısının iş tanımına uygunluğu **30-50** (örnekteki A 20, B 40 aralıkta ✅).  C (yönetici kadrosu ve teknik personel) satırının aralığı araç alıntısında görünmedi `[doğrula — Tablo 1 C satırı]`.
 - [ ] Örnek dağılım: A benzer iş deneyimi 20; B yöntem/iş programı/organizasyon/kalite kontrol 40 (10+10+10+10); C yönetici kadrosu ve teknik personel 40 (genel nitelik 10, iş için uygunluk 15, yerel deneyim ve Türkçe 5, istihdam durumu 10). C kalemleri dört teknik personelin ayrı puanlarının **aritmetik ortalaması**; istihdam durumunda "tamamı bünyede 10, tamamı taahhüt 0, ara değer doğrusal" (İ.Ş. 31.1 tablo).
 - [ ] **Yumuşak kalemler (B grubu)**: "işin nasıl yapılacağı", "organizasyon yapısının iş tanımına uygunluğu" gibi alt kriterlerde puan kırma ölçütü dokümanda yazılı mı? Yazılı değilse idare için 🟠 (doküman öz denetimi), istekli için doküman aşamasında itiraz konusuydu; sonuç aşamasında "puan dokümanda olmayan ölçüte göre kırıldı" iddiasına döner `[incele]`.
-- [ ] **Asgari teknik puan** idari şartnamede (örnekte 70); altında kalan elenir, mali zarfı açılmadan iade edilir. m.64/1-a asgari puanı idari şartnameye bırakır; madde metninde alt/üst sınır yok. Tip idari şartname dipnotunda sınır olup olmadığı araçta yok `[doğrula — tip idari şartname dipnotu]`.
+- [ ] **Asgari teknik puan** idari şartnamede (örnekte 70); altında kalan elenir, mali zarfı açılmadan iade edilir.  m.64/1-a asgari puanı idari şartnameye bırakır; madde metninde alt/üst sınır yok.  Tip idari şartname dipnotunda sınır olup olmadığı araçta yok `[doğrula — tip idari şartname dipnotu]`.
 
 ## 3. Teknik puanlama usulü (Yön. m.64)
 
-- [ ] Her üye her istekliyi **gerekçeli** ve ayrı ayrı puanlar → Teknik Teklif Üye Değerlendirme Formu (imzalı) → Komisyon Değerlendirme Formu → üye puanlarının ortalaması = isteklinin ham teknik puanı (PT).
-- [ ] Eşiği geçemeyenlere ve geçenlere bildirim aynı tarihte; yeterli bulunmayanlara bildirim formunun ekinde üye ve komisyon formları gönderilir. **Bu bildirim istekli için bir şikâyet anıdır** (10 gün) `[incele]`.
-- [ ] Mali teklif açılış oturumunda önce teknik puanlar açıklanır, elenenlerin mali zarfları iade edilir, sonra **yaklaşık maliyet açıklanır**, mali zarflar açılır.
-- [ ] Mali zarfta teklif mektubu ya da geçici teminat yok/uygunsuz → dışarıda; birim fiyat teklif cetvelinde **aritmetik hata** → dışarıda. Geçici teminat teklif bedelinin en az %3'ü (İ.Ş. 25.1).
-- [ ] Teknik ya da mali değerlendirme sonunda 3'ten az istekli kalırsa ihale yapılmaz.
+- [ ] Her üye her istekliyi **gerekçeli** ve ayrı ayrı puanlar → Teknik Teklif Üye Değerlendirme Formu (imzalı) → Komisyon Değerlendirme Formu → üye puanlarının ortalaması = isteklinin ham teknik puanı (PT). 
+- [ ] Eşiği geçemeyenlere ve geçenlere bildirim aynı tarihte; yeterli bulunmayanlara bildirim formunun ekinde üye ve komisyon formları gönderilir.  **Bu bildirim istekli için bir şikâyet anıdır** (10 gün) `[incele]`.
+- [ ] Mali teklif açılış oturumunda önce teknik puanlar açıklanır, elenenlerin mali zarfları iade edilir, sonra **yaklaşık maliyet açıklanır**, mali zarflar açılır. 
+- [ ] Mali zarfta teklif mektubu ya da geçici teminat yok/uygunsuz → dışarıda; birim fiyat teklif cetvelinde **aritmetik hata** → dışarıda.  Geçici teminat teklif bedelinin en az %3'ü (İ.Ş. 25.1).
+- [ ] Teknik ya da mali değerlendirme sonunda 3'ten az istekli kalırsa ihale yapılmaz. 
 
 ## 4. Formüller (elle hesap yolu — `danismanlik_puan` / `yerli_mali` yanıt vermezse ya da hata dönerse)
 
@@ -56,11 +56,11 @@ Mmin = 95 (avantaj eklendikten sonra). Avantajsız hesapta Mmin 85 olurdu ve A'n
 
 ## 5. Sonuçlandırma (İ.Ş. m.34-36)
 
-- [ ] En yüksek toplam puanlı istekli **görüşmeye** davet edilir: iş tanımı, sözleşme şartları, personel, mali teklif. Görüşme dokümandaki şartları önemli ölçüde değiştiremez; personel ücretleri ve teklif edilen harcamalar pazarlık konusu edilemez; mali görüşme yalnız ödeme koşulu/planının, tutar değişmeden idare lehine düzenlenmesine yönelik olabilir.
-- [ ] Önerilen anahtar teknik ve teknik personel zorunlu olmadıkça değiştirilemez; değişirse yeni personel **dengi veya daha nitelikli** olmalı.
-- [ ] Anlaşma sağlanamazsa da dokümandaki koşullarla en yüksek puanlı istekliye ihale yapılır.
-- [ ] **Eşitlik:** toplam puan eşitse mali puanı yüksek olan; o da eşitse Hizmet Alımı İhaleleri Uygulama Yönetmeliği m.63 (1-b, 5 ve 6. fıkralar hariç) uygulanır. Hizmet Yönetmeliği m.63'ün yürürlükteki metnini `law_no: "12918"` ile çek.
-- [ ] **Aşırı düşük teklif:** Danışmanlık Yönetmeliğinde aşırı düşük teklife ilişkin hüküm yok; sınır değer ve sorgulama kriteri belirlenmemiş. Ancak 4734 m.38 genel hükümdür (komisyon "belirlediği süre içinde" açıklama ister) ve 09.04.2026'dan beri ek m.3, hüküm bulunmayan hallerde diğer uygulama yönetmeliklerini niteliğine uygun düştüğü ölçüde uygulatır. Sorgulamanın tamamen dışlandığı söylenemez; sorgulama yapılırsa süreyi komisyon belirler `[incele]`.
+- [ ] En yüksek toplam puanlı istekli **görüşmeye** davet edilir: iş tanımı, sözleşme şartları, personel, mali teklif. Görüşme dokümandaki şartları önemli ölçüde değiştiremez; personel ücretleri ve teklif edilen harcamalar pazarlık konusu edilemez; mali görüşme yalnız ödeme koşulu/planının, tutar değişmeden idare lehine düzenlenmesine yönelik olabilir. 
+- [ ] Önerilen anahtar teknik ve teknik personel zorunlu olmadıkça değiştirilemez; değişirse yeni personel **dengi veya daha nitelikli** olmalı. 
+- [ ] Anlaşma sağlanamazsa da dokümandaki koşullarla en yüksek puanlı istekliye ihale yapılır. 
+- [ ] **Eşitlik:** toplam puan eşitse mali puanı yüksek olan; o da eşitse Hizmet Alımı İhaleleri Uygulama Yönetmeliği m.63 (1-b, 5 ve 6. fıkralar hariç) uygulanır.  Hizmet Yönetmeliği m.63'ün yürürlükteki metnini `law_no: "12918"` ile çek.
+- [ ] **Aşırı düşük teklif:** Danışmanlık Yönetmeliğinde aşırı düşük teklife ilişkin hüküm yok; sınır değer ve sorgulama kriteri belirlenmemiş. Ancak 4734 m.38 genel hükümdür (komisyon "belirlediği süre içinde" açıklama ister) ve 09.04.2026'dan beri ek m.3, hüküm bulunmayan hallerde diğer uygulama yönetmeliklerini niteliğine uygun düştüğü ölçüde uygulatır. Sorgulamanın tamamen dışlandığı söylenemez; sorgulama yapılırsa süreyi komisyon belirler `[incele]`. 
 
 ## 6. İtiraz ve savunma ekseni
 
@@ -72,17 +72,17 @@ Mmin = 95 (avantaj eklendikten sonra). Avantajsız hesapta Mmin 85 olurdu ve A'n
 | Hesap hatası (PTİ, PM, ağırlık, yerli avantajı) | formül | — | 🟢 aritmetik |
 | "Doğru puan budur" | — | KİK idarenin yerine geçip puanlama yapmaz | aşağıdaki karar |
 
-KİK 2025/UD.I-1022 (30.04.2025, kontrollük ve danışmanlık): Kurul, teknik puanlamaya yönelik itirazen şikâyeti reddederken Yönetmelik m.63-64'ü aktararak Kurumun ihale komisyonunun yerine geçip ihale işlemlerini baştan yapma yetkisi bulunmadığı sonucuna varmıştır. Tam metin okundu; kararın başlığında MK etkisi satırı görülmedi `[doğrula — MK etkisi]`. Sonuç: istekli "takdir hatası"ndan çok **usul, ölçüt ve eşit muamele** iddiası kurmalı.
+KİK 2025/UD.I-1022 (30.04.2025, kontrollük ve danışmanlık): Kurul, teknik puanlamaya yönelik itirazen şikâyeti reddederken Yönetmelik m.63-64'ü aktararak Kurumun ihale komisyonunun yerine geçip ihale işlemlerini baştan yapma yetkisi bulunmadığı sonucuna varmıştır. Tam metin okundu; kararın başlığında MK etkisi satırı görülmedi `[doğrula — MK etkisi]`.  Sonuç: istekli "takdir hatası"ndan çok **usul, ölçüt ve eşit muamele** iddiası kurmalı.
 
 Diğer güncel konu örnekleri (okunmadı): KİK 2025/UD.II-904, 2025/UD.II-1331, 2025/UD.I-1017, 2025/UD.IV-883, 2024/UD.I-1274 (ağırlık katsayısı).
 
 ## MCP adımları
 
 ```
-legal_get_statute_article law_no: "12911" law_type: "Yönetmelik" article_no: "5" | "61" | "62" | "63" | "64" | "65" | "66" | "67"
-legal_get_statute_article law_no: "12918" law_type: "Yönetmelik" article_no: "63" # eşitlik
-legal_get_statute_article law_no: "4734" law_type: "Kanun" article_no: "52" | "63"
-legal_calculate_tender hesap: "danismanlik_puan" # hata dönerse §4 elle
-legal_calculate_tender hesap: "yerli_mali" # hata dönerse §4 elle
-legal_search_cases mahkeme: "kik" sorgu: "danışmanlık teknik puan gerekçe üye değerlendirme formu" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "12911"  law_type: "Yönetmelik"  article_no: "5" | "61" | "62" | "63" | "64" | "65" | "66" | "67"
+legal_get_statute_article  law_no: "12918"  law_type: "Yönetmelik"  article_no: "63"      # eşitlik
+legal_get_statute_article  law_no: "4734"  law_type: "Kanun"  article_no: "52" | "63"
+legal_calculate_tender  hesap: "danismanlik_puan"   # hata dönerse §4 elle
+legal_calculate_tender  hesap: "yerli_mali"          # hata dönerse §4 elle
+legal_search_cases  mahkeme: "kik"  sorgu: "danışmanlık teknik puan gerekçe üye değerlendirme formu"  tarih_baslangic: "<son 3 yıl>"
 ```

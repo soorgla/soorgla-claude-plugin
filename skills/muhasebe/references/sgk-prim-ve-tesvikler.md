@@ -26,20 +26,20 @@ Oran ve sınır: `legal_calculate_tax` `hesap: "had"` (kodlar `sgk_*`). Bu dosya
 
 Listeyi çek, sonra tek kodla dönemi doğrula:
 ```json
-{ "hesap": "had", "girdi": { "ara": "sgk" }, "tarih": "2026-03-31" }
+{ "hesap": "had", "had": { "ara": "sgk" }, "tarih": "2026-03-31" }
 ```
 ```json
-{ "hesap": "had", "girdi": { "kod": "sgk_pek_ust_aylik" }, "tarih": "2026-03-31" }
+{ "hesap": "had", "had": { "kod": "sgk_pek_ust_aylik" }, "tarih": "2026-03-31" }
 ```
 Başlıca kodlar: `sgk_myo_sigortali`, `sgk_myo_isveren`, `sgk_kvs_isveren`, `sgk_gss_sigortali`, `sgk_gss_isveren`, `sgk_issizlik_sigortali`, `sgk_issizlik_isveren`, `sgk_issizlik_devlet`, `sgk_pek_alt_gunluk`, `sgk_pek_alt_aylik`, `sgk_pek_ust_aylik`, `sgk_pek_ust_kat`, `sgk_hazine_indirimi`, `sgk_hazine_indirimi_imalat`, `sgk_sgdp_sigortali`, `sgk_sgdp_isveren`, `sgk_istege_bagli`. Listede olmayan kodu tahmin etme; `ara` ile bul. Kaynak alanı "İKİNCİL" ise `[doğrula]`.
 
 Mevzuat:
 ```
-legal_get_statute_article law_no: "5510" article_no: "81" law_type: "Kanun"
-legal_get_statute_article law_no: "5510" article_no: "82" law_type: "Kanun"
-legal_get_statute_article law_no: "5510" article_no: "geçici 108" law_type: "Kanun"
-legal_get_statute_article law_no: "4447" article_no: "geçici 10" law_type: "Kanun"
-legal_search_admin_guidance sorgu: "<teşvik adı> uygulama genelgesi" kurum: "Sosyal Güvenlik Kurumu"
+legal_get_statute_article  law_no: "5510"  article_no: "81"  law_type: "Kanun"
+legal_get_statute_article  law_no: "5510"  article_no: "82"  law_type: "Kanun"
+legal_get_statute_article  law_no: "5510"  article_no: "geçici 108"  law_type: "Kanun"
+legal_get_statute_article  law_no: "4447"  article_no: "geçici 10"  law_type: "Kanun"
+legal_search_admin_guidance  sorgu: "<teşvik adı> uygulama genelgesi"  kurum: "Sosyal Güvenlik Kurumu"
 ```
 
 ## Hukuki çerçeve

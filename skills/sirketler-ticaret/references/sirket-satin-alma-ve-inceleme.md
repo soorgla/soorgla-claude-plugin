@@ -23,10 +23,10 @@ Boş kategorileri "ek bilgi talebi" listesine yaz. **Okunan** satırını gözde
 ## 2. Kategori bazında çıkarılacaklar
 
 **Şirket ve pay yapısı**
-- Sicil kayıtları ile esas sözleşme ve pay defteri uyumlu mu; ödenmemiş sermaye; hamiline paylar MKK'ya bildirilmiş mi (TTK m.489)?
-- Devir sınırları, önalım, onay şartı (A.Ş. m.493; Ltd. m.595 noter + genel kurul) — işlem için kimin onayı gerekiyor?
+- Sicil kayıtları ile esas sözleşme ve pay defteri uyumlu mu; ödenmemiş sermaye; hamiline paylar MKK'ya bildirilmiş mi (TTK m.489)? 
+- Devir sınırları, önalım, onay şartı (A.Ş. m.493; Ltd. m.595 noter + genel kurul) — işlem için kimin onayı gerekiyor? 
 - Pay sahipleri sözleşmesi: sürükleme/birlikte satış, kilit süresi, veto hakları.
-- Asgari sermaye uyumu (geçici m.15 — 31/12/2027'ye uzatıldı, RG 17.10.2026), sermaye kaybı (m.376) göstergeleri.
+- Asgari sermaye uyumu (geçici m.15 — 31/12/2027'ye uzatıldı, RG 17.10.2026), sermaye kaybı (m.376) göstergeleri. 
 - Son genel kurulların usulü (çağrı, Bakanlık temsilcisi zorunlu toplantılar) — iptal/butlan riski taşıyan kararlar.
 - Bağlı şirketler, şirketler topluluğu ilişkileri (TTK m.195 vd.) `[incele]`.
 
@@ -63,7 +63,7 @@ Bulgu: [belge ne diyor, neden önemli]
 
 ## 4. Rekabet Kurulu izni
 
-- İşlem 4054 m.7 anlamında birleşme/devralma ise ve 2010/4 sayılı Tebliğ m.7'deki ciro eşikleri aşılıyorsa izin alınmadan **hukuki geçerlilik kazanmaz**; izinsiz işlemde idari para cezası (m.16/1-b) ve işlemin etkisi `[incele]`.
+- İşlem 4054 m.7 anlamında birleşme/devralma ise ve 2010/4 sayılı Tebliğ m.7'deki ciro eşikleri aşılıyorsa izin alınmadan **hukuki geçerlilik kazanmaz**; izinsiz işlemde idari para cezası (m.16/1-b) ve işlemin etkisi `[incele]`.  
 - Eşik tutarlarını beceri metnine yazma; Tebliğin güncel m.7'sinden çek. Ayrıntı → `rekabet-hukuku-4054.md`.
 - Sektörel izinler (bankacılık, sigorta, enerji, medya, elektronik haberleşme) `[incele]`.
 
@@ -95,12 +95,12 @@ Ciddi olumsuz değişiklik (MAC/MAE) şartı sözleşmede nasıl tanımlanmış 
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "4054" article_no: "7" | "16" law_type: "Kanun"
-legal_search_official_gazette query: "Rekabet Kurulundan İzin Alınması Gereken Birleşme ve Devralmalar Hakkında Tebliğ" search_in: "title" sort_by: "date_desc"
-legal_get_official_gazette_document url: "<en son değişiklik tebliği>"
-legal_get_statute_article law_no: "6102" article_no: "489" | "490" | "493" | "595" | "598" | "376" | "geçici 15"
-legal_get_statute_article law_no: "6098" article_no: "202" | "203" law_type: "Kanun" # malvarlığı/işletme devri
-legal_search_cases mahkeme: "yargitay" daire: "11. Hukuk Dairesi" sorgu: "<ör. pay devir sözleşmesinde beyan ve tekeffül ihlali nedeniyle tazminat>" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "4054"  article_no: "7" | "16"  law_type: "Kanun"
+legal_search_official_gazette  query: "Rekabet Kurulundan İzin Alınması Gereken Birleşme ve Devralmalar Hakkında Tebliğ"  search_in: "title"  sort_by: "date_desc"
+legal_get_official_gazette_document  url: "<en son değişiklik tebliği>"
+legal_get_statute_article  law_no: "6102"  article_no: "489" | "490" | "493" | "595" | "598" | "376" | "geçici 15"
+legal_get_statute_article  law_no: "6098"  article_no: "202" | "203"  law_type: "Kanun"      # malvarlığı/işletme devri
+legal_search_cases  mahkeme: "yargitay"  daire: "11. Hukuk Dairesi"  sorgu: "<ör. pay devir sözleşmesinde beyan ve tekeffül ihlali nedeniyle tazminat>"  tarih_baslangic: "<son 3 yıl>"
 ```
 
 ## Çıktı iskeleti
@@ -124,7 +124,3 @@ legal_search_cases mahkeme: "yargitay" daire: "11. Hukuk Dairesi" sorgu: "<ör. 
 - Kısmi okumadan "veri odasında sorun yok" demek.
 - Satıcının açıklama listesindeki madde atfını metni çekmeden doğru kabul etmek.
 
-## Kaynak ve uyarlama
-
-- Doğrudan karşılığı yok (eski sistemde şirket satın alma görevi yoktu). `consultant/corporate_registry/share_capital_structure.yaml`'daki pay devri ve yapı değişikliği filtreleri ile `lawyer/commercial_corporate/commercial_contracts_analysis.yaml`'daki rekabet notu kullanıldı.
-- Upstream: corporate-legal `diligence-issue-extraction` (envanter, önemlilik filtresi, kategori bazında çıkarım, bulgu şablonu, kaynak etiketi ve "metni görmeden yorumlama" kuralı), `closing-checklist` (CP/CD ayrımı, bulgulardan otomatik besleme, engelleyici kalemler, MAC tanımını sözleşmeden alma).

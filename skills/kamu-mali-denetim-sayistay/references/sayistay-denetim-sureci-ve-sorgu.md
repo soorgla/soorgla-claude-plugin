@@ -13,17 +13,17 @@
 
 | Aşama | Ne olur | Dayanak |
 |---|---|---|
-| Denetim türü | Düzenlilik denetimi (hesap ve işlemlerin hukuka uygunluğu, mali rapor güvenilirliği, iç kontrol) ve performans denetimi (hedef ve göstergeler) | 6085 m.36 |
-| Zaman | Sayıştay hesap/faaliyet dönemine bağlı olmaksızın yıl içinde, yıllar itibarıyla ya da sektör, program, proje, konu bazında denetleyebilir | 6085 m.6/4 |
-| Bilgi-belge | Sorumlular istenen bilgi, kayıt ve belgeyi geciktirmeksizin vermek zorunda; vermeyenlerin aylıkları Sayıştay istemiyle yarım olarak ödenebilir | 6085 m.9 ; 5018 m.76 |
-| Taslak denetim raporu | Rapor değerlendirme komisyonundan geçer, idareye gönderilir; **üst yönetici raporun alındığı tarihten itibaren 30 gün içinde** cevaplar; ekip cevabı dikkate alarak raporu düzenler | Sayıştay Denetim Yön. m.17/1, m.35/4 |
-| Sorgu | Kamu zararına yol açan husus tespit edilince sorgu düzenlenir, adı-soyadı-unvanı yazılı her sorumluya tebliğ edilir; e-tebliğ esastır; sorguların tamamı üst yöneticiye ve muhasebe birimine bilgi için gönderilir | Denetim Yön. m.45/1, 2, 5 |
-| Savunma | Tebliğden itibaren **30 gün** içinde cevap vermeyenin savunması **dikkate alınmaz** | 6085 m.48/1; Denetim Yön. m.45/1 |
+| Denetim türü | Düzenlilik denetimi (hesap ve işlemlerin hukuka uygunluğu, mali rapor güvenilirliği, iç kontrol) ve performans denetimi (hedef ve göstergeler) | 6085 m.36  |
+| Zaman | Sayıştay hesap/faaliyet dönemine bağlı olmaksızın yıl içinde, yıllar itibarıyla ya da sektör, program, proje, konu bazında denetleyebilir | 6085 m.6/4  |
+| Bilgi-belge | Sorumlular istenen bilgi, kayıt ve belgeyi geciktirmeksizin vermek zorunda; vermeyenlerin aylıkları Sayıştay istemiyle yarım olarak ödenebilir | 6085 m.9  ; 5018 m.76 |
+| Taslak denetim raporu | Rapor değerlendirme komisyonundan geçer, idareye gönderilir; **üst yönetici raporun alındığı tarihten itibaren 30 gün içinde** cevaplar; ekip cevabı dikkate alarak raporu düzenler | Sayıştay Denetim Yön. m.17/1, m.35/4  |
+| Sorgu | Kamu zararına yol açan husus tespit edilince sorgu düzenlenir, adı-soyadı-unvanı yazılı her sorumluya tebliğ edilir; e-tebliğ esastır; sorguların tamamı üst yöneticiye ve muhasebe birimine bilgi için gönderilir | Denetim Yön. m.45/1, 2, 5  |
+| Savunma | Tebliğden itibaren **30 gün** içinde cevap vermeyenin savunması **dikkate alınmaz** | 6085 m.48/1; Denetim Yön. m.45/1  |
 | Yargılamaya esas rapor | Mali yıl sonu itibarıyla düzenlenir (m.6/4 konu denetimlerinde beklenmez); Başkanlık en geç 15 gün içinde daireye gönderir | 6085 m.48/1-2 |
-| Hesap yargılaması | Başsavcılık yazılı düşüncesi, üye incelemesi, savcı hazır bulunur | 6085 m.49 |
-| Hüküm | Hesap ve işlemlerin uygunluğuna ya da kamu zararının sorumlulardan **tazminine** hükmedilir; belgeler yargı/soruşturma nedeniyle yoksa hüküm dışı bırakılabilir | 6085 m.50 → `ilam-temyiz-ve-kanun-yollari.md` |
+| Hesap yargılaması | Başsavcılık yazılı düşüncesi, üye incelemesi, savcı hazır bulunur | 6085 m.49  |
+| Hüküm | Hesap ve işlemlerin uygunluğuna ya da kamu zararının sorumlulardan **tazminine** hükmedilir; belgeler yargı/soruşturma nedeniyle yoksa hüküm dışı bırakılabilir | 6085 m.50  → `ilam-temyiz-ve-kanun-yollari.md` |
 
-**İdarenin paralel yükümlülüğü:** Sayıştay sorgusu üst yöneticiye "bilgi amaçlı" gelir; üst yönetici gerek görürse sorguyu **ihbar kabul ederek** kendi kontrol/denetimini başlatır ve yönetmelik m.7/A'ya göre değerlendirir; kamu zararı kararı çıkarsa takip ve tahsil başlar, Sayıştay süreci ayrıca devam eder. → `kamu-zarari-tahsili-ve-idari-tespit.md`.
+**İdarenin paralel yükümlülüğü:** Sayıştay sorgusu üst yöneticiye "bilgi amaçlı" gelir; üst yönetici gerek görürse sorguyu **ihbar kabul ederek** kendi kontrol/denetimini başlatır ve yönetmelik m.7/A'ya göre değerlendirir; kamu zararı kararı çıkarsa takip ve tahsil başlar, Sayıştay süreci ayrıca devam eder.  → `kamu-zarari-tahsili-ve-idari-tespit.md`.
 
 ## 2. Süre tablosu
 
@@ -67,15 +67,15 @@
 ## 5. MCP adımları
 
 ```
-legal_get_statute_article law_no: "6085" law_type: "Kanun" article_no: "48" | "36" | "35" | "7" | "9" | "50"
-legal_list_statute_articles law_no: "15612" article_query: "cevap" | "sorgu" include_content: true
-legal_list_statute_articles statute_id: 40508 article_no: "7/B" include_content: true
-legal_search_cases mahkeme: "sayistay" sorgu: "<idare türü + konu + aykırılık + 'kamu zararı oluşmadığı' / 'tazmin'>" tarih_baslangic: "2022-01-01"
-legal_get_case_document belge_id: "<seçilen>"
-legal_search_admin_guidance kurum: "Sayıştay Genel Kurulu" sorgu: "<konu>"
+legal_get_statute_article  law_no: "6085"  law_type: "Kanun"  article_no: "48" | "36" | "35" | "7" | "9" | "50"
+legal_list_statute_articles  law_no: "15612"  article_query: "cevap" | "sorgu"  include_content: true
+legal_list_statute_articles  statute_id: 40508  article_no: "7/B"  include_content: true
+legal_search_cases  mahkeme: "sayistay"  sorgu: "<idare türü + konu + aykırılık + 'kamu zararı oluşmadığı' / 'tazmin'>"  tarih_baslangic: "2022-01-01"
+legal_get_case_document  belge_id: "<seçilen>"
+legal_search_admin_guidance  kurum: "Sayıştay Genel Kurulu"  sorgu: "<konu>"
 ```
 
-Sayıştay karar künyesinde "Kamu İdaresi" (ör. "Belediyeler ve Bağlı İdareler", "Yüksek Öğretim Kurumları") ve "Konu" (ör. "Harcırah Mevzuatı ile İlgili Kararlar", "Personel Mevzuatı ile İlgili Kararlar") alanları var; bunları filtre olarak değil sorgu cümlesinde kullan.
+Sayıştay karar künyesinde "Kamu İdaresi" (ör. "Belediyeler ve Bağlı İdareler", "Yüksek Öğretim Kurumları") ve "Konu" (ör. "Harcırah Mevzuatı ile İlgili Kararlar", "Personel Mevzuatı ile İlgili Kararlar") alanları var; bunları filtre olarak değil sorgu cümlesinde kullan. 
 
 ## 6. Çıktı iskeleti
 
@@ -101,7 +101,3 @@ Savunma metni → idari-ve-kurum-basvurulari/references/sayistay-savunmasi.md (�
 - Performans bulgusunu tazmin riski gibi sunmak.
 - Sorgu cevabında yalnız "yerindelik" ve "kamu yararı" demek.
 
-## Eski YAML'dan düzeltilenler
-- `audit_query_defense.yaml`: "30 gün (Hak düşürücü süre)" → 6085 m.48/1 sonucu "savunma dikkate alınmaz"dır.
-- YAML `karar_sayistay` için `konu.keyword` / `idare.keyword` filtrelerini ve "relax_filters" yeniden deneme stratejisini kullanıyordu → araçta bu filtreler yok; künye alanları sorgu cümlesine yazılır.
-- YAML taslak rapor aşamasını hiç anmıyordu → idare cevabı için 30 gün (Denetim Yön. m.17, m.35) eklendi.

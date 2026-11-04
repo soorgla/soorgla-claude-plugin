@@ -1,7 +1,7 @@
 {
   "name": "soorgla-hukuk",
-  "version": "0.8.0",
-  "description": "Türk hukuku için 47 beceri: iş, kira, icra, aile ve miras, vergi, KVKK, kamu ihale, idare, ceza ve daha fazlası; dilekçe ve başvuru taslakları, süre takibi, müvekkil yazışması. Mevzuat, Yargıtay ve Danıştay kararları, Resmî Gazete, süre ve harç soorgla araçlarından kaynağıyla gelir. Çıktılar avukat incelemesine sunulan taslaklardır.",
+  "version": "0.9.0",
+  "description": "Türk hukuku için 47 beceri: iş, kira, icra, aile ve miras, vergi ve muhasebe, gümrük, KVKK, kamu ihale, idare, ceza ve daha fazlası; dilekçe ve başvuru taslakları, süre takibi ve takvim, müvekkil yazışması. Mevzuat, mahkeme kararları, Resmî Gazete, süre, harç, vergi/SGK/gümrük hesapları, resmî formlar ve mahkeme rehberi soorgla araçlarından kaynağıyla gelir. Çıktılar avukat incelemesine sunulan taslaklardır.",
   "author": {
     "name": "soorgla"
   },

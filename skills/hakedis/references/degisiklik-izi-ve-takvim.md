@@ -1,6 +1,10 @@
 # Sözleşme değişiklik izi ve kritik tarih takvimi
 
-<!-- Uyarlama: anthropics/claude-for-legal (Apache 2.0) commercial-legal amendment-history (sözleşmenin değişiklikler boyunca izlenmesi) ve renewal-tracker (süre penceresi kapanmadan uyarı, aciliyet bantları) becerilerinden Türk kamu ihale sözleşmelerine uyarlanmıştır. -->
+<!--
+Uyarlama: anthropics/claude-for-legal (Apache 2.0) commercial-legal amendment-history (sözleşmenin
+değişiklikler boyunca izlenmesi) ve renewal-tracker (süre penceresi kapanmadan uyarı, aciliyet bantları)
+becerilerinden Türk kamu ihale sözleşmelerine uyarlanmıştır.
+-->
 
 ## Ne zaman kullanılır
 - Uzun süren bir yapım işinde onlarca olur, tutanak ve yazışma birikti; "sözleşme bugün ne diyor?", "süre şimdi ne zaman bitiyor?", "hangi iş artışları toplamı ne?" soruları.
@@ -15,7 +19,7 @@
 
 **Kip 2 — Tek konu izi:** belirli bir konunun (iş bitim tarihi, sözleşme bedeli + artış, bir pozun fiyatı, iş programı) her belgede nasıl değiştiği ve bugün geçerli değeri.
 
-Kamu ihale sözleşmesinde "değişiklik" yalnız 4735'in izin verdiği yollarla olur (m.4: kanundaki hâller dışında sözleşme değiştirilemez, ek sözleşme yapılamaz; m.15: yer ve süreden önce bitirme; m.24: iş artışı/eksilişi; m.10: mücbir sebeple süre uzatımı; Genel Şartname: idare kaynaklı süre uzatımı, proje değişikliği, YBF). Bu yolların dışında kalan bir "zeyilname" görürsen 🔴 işaretle.
+Kamu ihale sözleşmesinde "değişiklik" yalnız 4735'in izin verdiği yollarla olur (m.4: kanundaki hâller dışında sözleşme değiştirilemez, ek sözleşme yapılamaz; m.15: yer ve süreden önce bitirme; m.24: iş artışı/eksilişi; m.10: mücbir sebeple süre uzatımı; Genel Şartname: idare kaynaklı süre uzatımı, proje değişikliği, YBF).  Bu yolların dışında kalan bir "zeyilname" görürsen 🔴 işaretle.
 
 | # | Belge (tür, tarih, sayı) | Değiştirdiği konu | Önceki değer | Yeni değer | Kanuni dayanak | Yetkili onay | İşaret |
 |---|---|---|---|---|---|---|---|
@@ -54,7 +58,7 @@ Aciliyet bantları (yarı açık aralık, her tarih tek banda düşer): 🔴 0�
 | Alacak zamanaşımı | 5 yıl (`[incele]` başlangıç) | TBK m.147/6 | `uyusmazlik-ve-yargi-yolu.md` §4 |
 | Sayıştay sorgusuna savunma | 30 gün | 6085 m.48/1 | Tebliğ |
 
-Dayanakların DOGRULANDI künyeleri ilgili referans dosyalarındadır. Her son günü `legal_check_holiday` ile kontrol et; `legal_calculate_deadline` Genel Şartname sürelerini tanımaz; 4735 m.20/a ihtarı ve m.10 mücbir sebep bildirimi için canlıda `kik_4735_default_notice` ve `kik_4735_force_majeure_notice` var. Madde numaraları Genel Şartname yerel metniyle (örnek ihale 2026/1776751 CD) karşılaştırıldı: m.6, 11, 12, 19, 21, 22, 29, 39, 40, 47 başlıkları tutuyor. Sonuç `[doğrula]`.
+Dayanakların DOGRULANDI künyeleri ilgili referans dosyalarındadır. Her son günü `legal_check_holiday` ile kontrol et; `legal_calculate_deadline` Genel Şartname sürelerini tanımaz; 4735 m.20/a ihtarı ve m.10 mücbir sebep bildirimi için canlıda `kik_4735_default_notice` ve `kik_4735_force_majeure_notice` var. Madde numaraları Genel Şartname yerel metniyle (örnek ihale 2026/1776751 CD) karşılaştırıldı: m.6, 11, 12, 19, 21, 22, 29, 39, 40, 47 başlıkları tutuyor.  Sonuç `[doğrula]`.
 
 **Takvim kaydı (isteğe bağlı):** kullanıcı isterse takvimi `~/.claude/plugins/config/soorgla-hukuk/dosyalar/<dosya-kisa-adi>/hakedis-takvimi.md` dosyasına yaz (dosya çalışma alanları etkinse; ORTAK-KURALLAR.md profil bölümü). Başka dosyanın takvimini okuma.
 
@@ -67,8 +71,8 @@ Dayanakların DOGRULANDI künyeleri ilgili referans dosyalarındadır. Her son g
 
 ## 4. MCP adımları
 ```
-legal_get_statute_article law_no: "4735" law_type: "Kanun" article_no: "4" | "10" | "15" | "24"
-legal_check_holiday … # her son gün için
+legal_get_statute_article  law_no: "4735"  law_type: "Kanun"  article_no: "4" | "10" | "15" | "24"
+legal_check_holiday  …     # her son gün için
 ```
 
 ## 5. Çıktı iskeleti

@@ -67,7 +67,7 @@ itirazen şikâyet varsa **nihai Kurul kararı verilmeden** sözleşme imzalanam
   `[soorgla]`; son gün EKAP kesintisi riskine karşı iç hedefi bir iş günü erken koy.
 - **Tebligat:** EKAP üzerinden ya da elektronik yapılan bildirimde bildirim tarihi tebliğ tarihidir (4734 m.65/b)
   `[soorgla]`. İadeli taahhütlü mektupla tebligat varsayımı için m.65/a metninde kesik bölüm var `[doğrula]`.
-
+  
 - **Aynı mahiyette ikinci şikâyet süreyi yeniden başlatmaz** (12766 m.14/2) `[soorgla]`.
 - Şikâyet üzerine alınan idare kararıyla **yeni** bir zarara uğradığını iddia eden, bu konuda doğrudan Kuruma
   itirazen şikâyette bulunur (12766 m.14/3) `[soorgla]`; süre o kararın bildiriminden.
@@ -84,6 +84,8 @@ itirazen şikâyet varsa **nihai Kurul kararı verilmeden** sözleşme imzalanam
   (`kik_lawsuit`) uzatma uygular ama "GÜVENLİ SON GÜN (uzatmasız)" satırını da verir — o satır son gündür.
 
 ## 3. Süre kodlarının canlı durumu (2026-11-03)
+
+Süre kodu SQL'i 2026-11-02'de canlıya alındı. 
 
 | Kod | Durum | Ne yap |
 |---|---|---|
@@ -104,7 +106,7 @@ Kesinleşen ihale kararı EKAP'ta 02.11.2026 (Pazartesi) bildirildi, açık ihal
 1. Şikâyet: 03.11 başlar → 10. gün 12.11.2026 (`kik_complaint` aynı sonucu verdi `[soorgla]`).
 2. İdare kararı: şikâyet 12.11'de kayda girdiyse karar son günü 22.11 (Pazar) → `legal_check_holiday` → izleyen iş
    günü 23.11.2026 (Pazartesi); bildirim karar tarihinden 3 gün.
-
+   
 3. Karar yoksa itirazen şikâyet: karar süresinin bitiminden 10 gün (yalnız şikâyet sahibi).
 
 Her satırın yanına gerekçe yaz: başlangıç olayı, dayanak, tatil kaydırması, araç mı elle mi.

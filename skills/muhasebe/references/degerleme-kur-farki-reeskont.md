@@ -22,11 +22,11 @@ Dönem sonunda (geçici vergi dönemleri dahil) yabancı paralı kalemlerin değ
 ## Araç çağrıları
 
 ```json
-legal_get_exchange_rate { "para_birimi": "USD", "tarih": "2025-12-31" }
-{ "hesap": "kur_farki_reeskont", "girdi": { "mod": "kur_farki", "doviz_tutar": 50000, "kayitli_tl": 2050000, "degerleme_kuru": "<alis>" }, "tarih": "2025-12-31" }
-{ "hesap": "kur_farki_reeskont", "girdi": { "mod": "reeskont", "nominal": 400000, "vade": "2026-03-15", "degerleme_tarihi": "2025-12-31" }, "tarih": "2025-12-31" }
+legal_get_exchange_rate  { "para_birimi": "USD", "tarih": "2025-12-31" }
+{ "hesap": "kur_farki_reeskont", "kur_farki_reeskont": { "mod": "kur_farki", "doviz_tutar": 50000, "kayitli_tl": 2050000, "degerleme_kuru": "<alis>" }, "tarih": "2025-12-31" }
+{ "hesap": "kur_farki_reeskont", "kur_farki_reeskont": { "mod": "reeskont", "nominal": 400000, "vade": "2026-03-15", "degerleme_tarihi": "2025-12-31" }, "tarih": "2025-12-31" }
 legal_get_legal_interest_rates
-{ "hesap": "had", "girdi": { "kod": "vuk_323_supheli_alacak" }, "tarih": "2025-12-31" }
+{ "hesap": "had", "had": { "kod": "vuk_323_supheli_alacak" }, "tarih": "2025-12-31" }
 ```
 
 - `legal_get_exchange_rate` `alis` ve `satis` döndürür; döviz cinsinden kalemde `alis`ı `degerleme_kuru`'na koy. Efektif alış kuru bu araçta yok `[doğrula]`.
@@ -63,11 +63,11 @@ legal_get_legal_interest_rates
 ## Yevmiye kaydı önerisi
 
 ```
-Kur farkı (döviz alacak, kur arttı): 120/102 … / 646 Kambiyo Kârları
-Kur farkı (döviz borç, kur arttı): 656 Kambiyo Zararları / 300/320 …
-Alacak senedi reeskontu: 657 Reeskont Faiz Giderleri / 122 Alacak Senetleri Reeskontu (-)
-Borç senedi reeskontu: 322 Borç Senetleri Reeskontu (-) / 647 Reeskont Faiz Gelirleri
-Şüpheli alacak: 128 Şüpheli Ticari Alacaklar / 120 Alıcılar
+Kur farkı (döviz alacak, kur arttı):   120/102 …      / 646 Kambiyo Kârları
+Kur farkı (döviz borç, kur arttı):     656 Kambiyo Zararları / 300/320 …
+Alacak senedi reeskontu:               657 Reeskont Faiz Giderleri / 122 Alacak Senetleri Reeskontu (-)
+Borç senedi reeskontu:                 322 Borç Senetleri Reeskontu (-) / 647 Reeskont Faiz Gelirleri
+Şüpheli alacak:                        128 Şüpheli Ticari Alacaklar / 120 Alıcılar
                                        654 Karşılık Giderleri / 129 Şüpheli Ticari Alacaklar Karşılığı (-)
 ```
 Hesap kodlarını MSUGT metninden doğrula `[doğrula]`.

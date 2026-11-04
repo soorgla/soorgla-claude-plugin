@@ -23,9 +23,9 @@ Büronun kendi işi: bir müşteri için asgari ücretin tarifeden bulunması (i
 ## Araç çağrıları
 
 ```json
-{ "hesap": "smmm_ucret", "girdi": { "ara": "limited", "il": "Bursa", "isci": "4-9" }, "tarih": "2026-01-15" }
-{ "hesap": "smmm_ucret", "girdi": { "ara": "kurumlar vergisi beyannamesi", "il": "Bursa" }, "tarih": "2026-04-01" }
-{ "hesap": "smmm_ucret", "girdi": { "sayfa": "<aramadan>", "sira": "<ilk kademe sırası>", "tutar": 48000000 }, "tarih": "2026-04-01" }
+{ "hesap": "smmm_ucret", "smmm_ucret": { "ara": "limited", "il": "Bursa", "isci": "4-9" }, "tarih": "2026-01-15" }
+{ "hesap": "smmm_ucret", "smmm_ucret": { "ara": "kurumlar vergisi beyannamesi", "il": "Bursa" }, "tarih": "2026-04-01" }
+{ "hesap": "smmm_ucret", "smmm_ucret": { "sayfa": "<aramadan>", "sira": "<ilk kademe sırası>", "tutar": 48000000 }, "tarih": "2026-04-01" }
 ```
 
 - Arama en çok 40 kalem döndürür; `il` ve `isci` ile daralt. Dönen kalemde `kademe` doluysa ücret için `sayfa` + `sira` + `tutar` ile yeniden çağır.

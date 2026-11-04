@@ -17,7 +17,7 @@ KİK e-formları ve tip şartnameler: nereden bulunur, hangi numara/sürüm, ara
    - (b) formun dayandığı yönetmelik maddesini çek: `legal_search_statute_semantic` ya da `legal_list_statute_articles` (`mevzuat_no` / `law_no`: `"12917"` mal, `"12918"` hizmet, `"12911"` danışmanlık, `"12916"` yapım; `sorgu`: belge adı, ör. "bilanço veya eşdeğer belgeler");
    - (c) kullanıcıdan EKAP'tan indirdiği dokümanı iste (idari şartname + ekleri, standart formlar) — ihaleye özgü düzen her zaman oradan;
    - (d) hiçbiri yoksa formun **adıyla** atıf yap, unsurları 4734 maddesinden kur, numarayı yazma ya da `[doğrula]`.
-4. Tip idari şartname madde düzeni (örnek ihalelerde aynı): m.7 katılım ve yeterlik (7.1 belgeler, 7.2 ekonomik-mali, 7.3 mesleki-teknik, 7.4 diğer), m.13 açıklama, m.14 doküman değişikliği, m.22 tekliflerin hazırlanması, m.24 geçerlilik, m.26 geçici teminat, m.27 teminat değerleri, m.29 açılış ve değerlendirme, m.30 açıklık getirme, m.31 aşırı düşük, m.33 EAAT, m.34 karar, m.35 kesinleşen karar, m.36 davet, m.37 kesin teminat, m.43 fiyat farkı, m.45 diğer hususlar. Numaralar dokümana göre kayabilir; atıfı **o ihalenin** şartnamesinden yap.
+4. Tip idari şartname madde düzeni (örnek ihalelerde aynı): m.7 katılım ve yeterlik (7.1 belgeler, 7.2 ekonomik-mali, 7.3 mesleki-teknik, 7.4 diğer), m.13 açıklama, m.14 doküman değişikliği, m.22 tekliflerin hazırlanması, m.24 geçerlilik, m.26 geçici teminat, m.27 teminat değerleri, m.29 açılış ve değerlendirme, m.30 açıklık getirme, m.31 aşırı düşük, m.33 EAAT, m.34 karar, m.35 kesinleşen karar, m.36 davet, m.37 kesin teminat, m.43 fiyat farkı, m.45 diğer hususlar. Numaralar dokümana göre kayabilir; atıfı **o ihalenin** şartnamesinden yap. 
 
 ## 2. E-form tablosu (belgeye göre)
 
@@ -67,15 +67,15 @@ Tür sütunu: KİK listesinde formun hangi tür(ler) altında yayımlandığı. 
 | Kabul teklif belgesi ve tutanakları | KİK146-149 (yapım) · KİK150-151 (hizmet) · KİK152-153 (danışmanlık) | V1 | → `hakedis` / tür becerisi |
 | Fiziki teklif ve ön yeterlik formları (zarf, tutanak, kısa liste, teknik/mali teklif değerlendirme, özgeçmiş, benzer iş tabloları) | KİK200-253 | V1 | danışmanlıkta çoğu → `ihale-danismanlik` |
 
-Listede **olmayanlar** (serbest resmî yazı; `[doğrula — KİK'te form var mı]`): zeyilname, bilgi eksikliğinin tamamlatılması yazısı ve cevabı, KİK'e görüş/bilgi-belge yazısı, ivedi dava dilekçesi.
+Listede **olmayanlar** (serbest resmî yazı; `[doğrula — KİK'te form var mı]`): zeyilname, bilgi eksikliğinin tamamlatılması yazısı ve cevabı, KİK'e görüş/bilgi-belge yazısı, ivedi dava dilekçesi. 
 
 ## 3. Tip şartnameler ve sözleşmeler
 
-Tip idari şartnameler, tip sözleşmeler ve standart formlar **uygulama yönetmeliklerinin ekleridir** (Yapım 12916, Mal 12917, Hizmet 12918, Danışmanlık 12911, Çerçeve Anlaşma 12919). soorgla mevzuat aracında ekler madde olarak yok; KİK sitesinde yönetmelik ekleriyle birlikte `.zip` olarak yayımlanıyor (yerel indirme: `kik_mevzuat/` — depoda değil). Yapım Yönetmeliği'nin KİK kopyası 13.05.2026 değişikliğini içeriyor; mevzuat.gov.tr kopyası daha eski. Form bankasında bu ekler `MEV-<mevzuat_no>-…` kimliğiyle yer alacak; KİK sürümlerinin aynı kimliğe bağlanması henüz kararlaştırılmadı. **Tip şartname adı ve ek numarasını kullanıcının EKAP dokümanından** ya da `legal_get_form` sonucundan al; ezberden "Ek-__" yazma `[doğrula]`.
+Tip idari şartnameler, tip sözleşmeler ve standart formlar **uygulama yönetmeliklerinin ekleridir** (Yapım 12916, Mal 12917, Hizmet 12918, Danışmanlık 12911, Çerçeve Anlaşma 12919). soorgla mevzuat aracında ekler madde olarak yok; KİK sitesinde yönetmelik ekleriyle birlikte `.zip` olarak yayımlanıyor (yerel indirme: `kik_mevzuat/` — depoda değil). Yapım Yönetmeliği'nin KİK kopyası 13.05.2026 değişikliğini içeriyor; mevzuat.gov.tr kopyası daha eski. Form bankasında bu ekler `MEV-<mevzuat_no>-…` kimliğiyle yer alacak; KİK sürümlerinin aynı kimliğe bağlanması henüz kararlaştırılmadı. **Tip şartname adı ve ek numarasını kullanıcının EKAP dokümanından** ya da `legal_get_form` sonucundan al; ezberden "Ek-__" yazma `[doğrula]` .
 
 ## 4. EKAP dosyalarını okuma
 
-- EKAP'tan inen `.doc` dosyaları çoğu zaman **gerçek Word değil, Word-HTML**'dir (karakter kümesi ISO-8859-9 / Windows-1254). Tika ve docx okuyucular 422/hata verebilir. Yol: dosyayı HTML olarak aç, `charset` meta etiketine bak, `iso-8859-9` ile çöz, etiketleri ayıkla. Türkçe karakter bozuksa (Ý, Þ, Ð) kodlamayı yanlış seçmişsindir.
+- EKAP'tan inen `.doc` dosyaları çoğu zaman **gerçek Word değil, Word-HTML**'dir (karakter kümesi ISO-8859-9 / Windows-1254). Tika ve docx okuyucular 422/hata verebilir. Yol: dosyayı HTML olarak aç, `charset` meta etiketine bak, `iso-8859-9` ile çöz, etiketleri ayıkla. Türkçe karakter bozuksa (Ý, Þ, Ð) kodlamayı yanlış seçmişsindir. 
 - KİK sitesinden inen e-form `.doc` adıyla gelip içi `.docx` (zip) olabilir; önce zip mi diye bak.
 - Taranmış PDF (ör. hizmet örneğinde teknik şartname) metin vermez → OCR gerekir; okunamayan sayfayı **Okunan** satırına yaz, içeriğini tahmin etme (ORTAK-KURALLAR.md §10).
 - İhale CD'si / doküman seti uzunsa uzun belge protokolü: `../../tablolu-belge-incelemesi/references/uzun-belge-protokolu.md`.

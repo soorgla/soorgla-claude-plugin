@@ -23,14 +23,14 @@
 Hesap aracı yok. Kullanılabilecekler ve sınırları:
 
 ```json
-{ "hesap": "enflasyon_duzeltmesi", "girdi": {} }
+{ "hesap": "enflasyon_duzeltmesi", "enflasyon_duzeltmesi": {} }
 ```
 → araç bu hesabın henüz olmadığını söyler; çıktıya "hesap aracı yok — elle hesap" yaz.
 
 ```json
-legal_calculate_cpi_change { "baslangic": "2024-12-31", "bitis": "2025-12-31" }
+legal_calculate_cpi_change  { "baslangic": "2024-12-31", "bitis": "2025-12-31" }
 ```
-→ **TÜFE** değişim yüzdesi döndürür (aracın açıklaması "TÜFE"; yanıt yalnız `degisim_yuzdesi`, endeks değeri yok). mük.298/A-2-f fiyat endeksi olarak **ÜFE**'yi, VUK GT 555 katsayılarda **Yİ-ÜFE**'yi kullanır. TÜFE ile katsayı kurma; bu araç düzeltmede **kullanılmaz**. Yİ-ÜFE endeksini kullanıcıdan iste.
+→ **TÜFE** değişim yüzdesi döndürür (aracın açıklaması "TÜFE"; yanıt yalnız `degisim_yuzdesi`, endeks değeri yok).  mük.298/A-2-f fiyat endeksi olarak **ÜFE**'yi, VUK GT 555 katsayılarda **Yİ-ÜFE**'yi kullanır. TÜFE ile katsayı kurma; bu araç düzeltmede **kullanılmaz**. Yİ-ÜFE endeksini kullanıcıdan iste.
 
 ## Hukuki çerçeve
 
@@ -58,9 +58,9 @@ Uzatma kararı (2028 ve sonrası) için RG'yi ara: `legal_search_official_gazett
 ## Elle hesap iskeleti (yalnız A-9 ya da ileride yeniden başlarsa)
 
 ```
-Düzeltme katsayısı = Yİ-ÜFE(mali tablo ayı) / Yİ-ÜFE(düzeltmeye esas tarih ayı) [VUK GT 555 m.36]
-Taşıma katsayısı = Yİ-ÜFE(mali tablo ayı) / Yİ-ÜFE(önceki dönem sonu) [VUK GT 555 m.35]
-Düzeltilmiş tutar = kayıtlı tutar × katsayı; fark → ilgili fark hesabı / enflasyon düzeltme hesabı
+Düzeltme katsayısı = Yİ-ÜFE(mali tablo ayı) / Yİ-ÜFE(düzeltmeye esas tarih ayı)     [VUK GT 555 m.36]
+Taşıma katsayısı   = Yİ-ÜFE(mali tablo ayı) / Yİ-ÜFE(önceki dönem sonu)               [VUK GT 555 m.35]
+Düzeltilmiş tutar  = kayıtlı tutar × katsayı;  fark → ilgili fark hesabı / enflasyon düzeltme hesabı
 ```
 Her endeks değeri `[kullanıcı verdi]`, her katsayı ve fark `[doğrula]`.
 

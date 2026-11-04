@@ -4,7 +4,7 @@ Araçlar: `legal_get_social_parameters` (`tur` isteğe bağlı), `legal_get_exch
 
 ## Sosyal parametreler
 
-Parametresiz çağrı bütün **güncel** kalemleri döndürür; `tur` verilirse tek kalem. **Tarih parametresi yoktur**: geçmiş dönem değeri (ör. 2024'te feshedilen işçinin tavanı) araçtan alınamaz.
+Parametresiz çağrı bütün **güncel** kalemleri döndürür; `tur` verilirse tek kalem. **Tarih parametresi yoktur**: geçmiş dönem değeri (ör. 2024'te feshedilen işçinin tavanı) araçtan alınamaz. 
 
 01.11.2026'da görülen harç dışı kalemler (değerler her seferinde yeniden çekilir):
 
@@ -34,8 +34,8 @@ Araçta **olmayan** kalemler (01.11.2026): mevduat faizi, prime esas kazancın T
 
 **Her çağrıda `kur_tarihi`'ni istenen tarihle karşılaştır:**
 - Hafta sonu ve tatilde önceki iş gününün kurunu vermesi olağandır.
-- Veri günlük güncelleniyor. İstenen tarih ile `kur_tarihi` arasında birkaç iş gününden fazla fark varsa kuru **kullanma**; "soorgla kur verisi [kur_tarihi] tarihinde kalmış" yaz, TCMB'den değeri kullanıcıdan iste.
-- **XDR (Özel Çekme Hakkı)** `para_birimi: "XDR"` ile döner; yalnız `alis` dolu, `satis` boş. CMR, Montreal, LLMC ve TTK deniz sınırlarında ÖÇH çevirisi için kullan, `kur_tarihi`'ni yaz.
+- Veri günlük güncelleniyor. İstenen tarih ile `kur_tarihi` arasında birkaç iş gününden fazla fark varsa kuru **kullanma**; "soorgla kur verisi [kur_tarihi] tarihinde kalmış" yaz, TCMB'den değeri kullanıcıdan iste. 
+- **XDR (Özel Çekme Hakkı)** `para_birimi: "XDR"` ile döner; yalnız `alis` dolu, `satis` boş. CMR, Montreal, LLMC ve TTK deniz sınırlarında ÖÇH çevirisi için kullan, `kur_tarihi`'ni yaz. 
 
 Hangi günün ve hangi kurun (alış/satış, ödeme günü/dava günü/temerrüt günü) uygulanacağı hukuki değerlendirmedir (TBK m.99, döviz alacağında alacaklının seçimlik hakkı `[model bilgisi — doğrulayın]`; harçta dava tarihi) → alan becerisi `[incele]`.
 
@@ -53,6 +53,6 @@ Geçmiş dönem parametresi geçici yolla bulunduysa, kur tarihi istenen tarihte
 
 ```
 legal_get_social_parameters
-legal_get_social_parameters tur: "kidem_tazminati_tavani"
-legal_get_exchange_rate para_birimi: "USD" tarih: "2025-03-14"
+legal_get_social_parameters  tur: "kidem_tazminati_tavani"
+legal_get_exchange_rate  para_birimi: "USD"  tarih: "2025-03-14"
 ```

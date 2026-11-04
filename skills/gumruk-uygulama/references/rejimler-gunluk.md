@@ -22,9 +22,9 @@ Süre ve teminat oranları **yönetmelik ve tebliğden** çekilir; aşağıdaki 
 
 Kaynak çağrıları:
 ```
-legal_search_statute_semantic sorgu: "<rejim> süre ek süre teminat" mevzuat_tur: "teblig"
-legal_search_admin_guidance sorgu: "<rejim> <konu>" kurum: "Ticaret Bakanlığı" belge_tur: "genelge"
-legal_search_forms sorgu: "<rejim> başvuru formu" (araç yoksa: FORM-KAYNAKLARI / ticaret.gov.tr Bilgi Bankası)
+legal_search_statute_semantic   sorgu: "<rejim> süre ek süre teminat"  mevzuat_tur: "teblig"
+legal_search_admin_guidance     sorgu: "<rejim> <konu>"  kurum: "Ticaret Bakanlığı"  belge_tur: "genelge"
+legal_search_forms              sorgu: "<rejim> başvuru formu"     (araç yoksa: FORM-KAYNAKLARI / ticaret.gov.tr Bilgi Bankası)
 ```
 
 ---

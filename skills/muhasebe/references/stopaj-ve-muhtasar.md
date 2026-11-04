@@ -20,7 +20,7 @@ Serbest meslek makbuzu, kira ödemesi, gider pusulası ya da hakediş ödemesind
 
 ```json
 { "hesap": "fatura_kirilim",
-  "girdi": { "tutar": "<sayı>", "tutar_turu": "net", "belge": "serbest_meslek" },
+  "fatura_kirilim": { "tutar": "<sayı>", "tutar_turu": "net", "belge": "serbest_meslek" },
   "tarih": "<ödeme tarihi>" }
 ```
 
@@ -35,7 +35,7 @@ Serbest meslek makbuzu, kira ödemesi, gider pusulası ya da hakediş ödemesind
 
 - `tutar_turu: "net"` = stopaj düşülmüş, KDV hariç ("eline geçecek"); araç brüte çevirir. KDV dahil tutar verilirse önce KDV ayrılır.
 - KDV tevkifatı da varsa aynı çağrıya `tevkifat` ekle (ör. işgücü, temizlik); sonuç `stopaj` ve `tevkif_edilen_kdv` alanlarını birlikte verir.
-- Stopaj oranı için tek başına: `{"hesap":"had","girdi":{"ara":"stopaj"}}` sonuç vermezse `fatura_kirilim` yanıtındaki `ara_degerler.stopaj.oran`.
+- Stopaj oranı için tek başına: `{"hesap":"had","had":{"ara":"stopaj"}}` sonuç vermezse `fatura_kirilim` yanıtındaki `ara_degerler.stopaj.oran`.
 
 **Araç sınırları (koddan):**
 - Yalnız **tek oranlı** bentler hesaplanır; vadeye göre kademeli bentler (ör. 7b-ba, 7b-bb) ve oranı olmayan satırlar hata döndürür. Menkul sermaye iradı stopajları bu hesabın işi değil; madde ve CB kararından elle `[doğrula]`.

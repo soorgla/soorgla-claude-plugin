@@ -40,12 +40,12 @@ Sırayla kontrol et, her şartı madde metniyle karşılaştır:
 5. **Sona erme:** işverenin yasağın sürdürülmesinde gerçek yararı kalmadıysa ya da sözleşmeyi işçi haklı nedene dayanmadan işveren feshettiyse yasak sona erer. (`6098/447`)
 6. **Karşılık (ivaz):** Kanunda şart değil; ama süre ve kapsamı geniş yasaklarda hâkimin değerlendirmesinde önemlidir `[incele]`.
 
-**Görevli mahkeme ve daire:** rekabet yasağı uyuşmazlığının iş mahkemesinde mi ticaret mahkemesinde mi görüleceği ve temyiz dairesi tartışmalıdır (bölge adliye mahkemesi daireleri arasında iki yönde karar var; Yargıtay'da 9. HD dışında 11. HD ve 3. HD de bu davalara bakmış) → önce `legal_search_cases` (HGK ve ilgili daireler) ile güncel yaklaşımı çek, en az bir kararın tam metnini oku.
+**Görevli mahkeme ve daire:** rekabet yasağı uyuşmazlığının iş mahkemesinde mi ticaret mahkemesinde mi görüleceği ve temyiz dairesi tartışmalıdır (bölge adliye mahkemesi daireleri arasında iki yönde karar var; Yargıtay'da 9. HD dışında 11. HD ve 3. HD de bu davalara bakmış) → önce `legal_search_cases` (HGK ve ilgili daireler) ile güncel yaklaşımı çek, en az bir kararın tam metnini oku. 
 
 ## Adım 4 — Cezai şart
 
-- **Genel kural:** hizmet sözleşmesine yalnız işçi aleyhine konulan cezai şart geçersizdir. (`6098/420` birinci fıkra)
-- **Rekabet yasağı istisnası:** rekabet yasağına bağlı olarak yalnız işçi aleyhine öngörülen cezai şart, işveren karşı edim üstlenmemiş olsa da geçerlidir. Bu yaklaşımın güncelliğini her seferinde HGK ve 9. HD'den çek.
+- **Genel kural:** hizmet sözleşmesine yalnız işçi aleyhine konulan cezai şart geçersizdir. (`6098/420` birinci fıkra) 
+- **Rekabet yasağı istisnası:** rekabet yasağına bağlı olarak yalnız işçi aleyhine öngörülen cezai şart, işveren karşı edim üstlenmemiş olsa da geçerlidir.  Bu yaklaşımın güncelliğini her seferinde HGK ve 9. HD'den çek.
 - **Eğitim gideri iadesi ve erken ayrılma cezası:** cezai şart mı, gerçek masrafın iadesi mi? Oransal azaltma var mı? İçtihadı çek. `[incele]`
 - **Fahiş cezai şartın indirimi:** `6098/182`.
 
@@ -63,15 +63,15 @@ Sırayla kontrol et, her şartı madde metniyle karşılaştır:
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "4857" article_no: "8" | "11" | "13" | "14" | "15" | "38" | "41" | "109"
-legal_get_statute_article law_no: "6098" article_no: "396" | "420" | "444" | "445" | "446" | "447" | "182"
-legal_list_statute_articles (6098, hizmet sözleşmesi bölümü) # madde numaralarını teyit et
-legal_search_cases mahkeme: "yargitay" daire: "Hukuk Genel Kurulu"
+legal_get_statute_article  law_no: "4857"  article_no: "8" | "11" | "13" | "14" | "15" | "38" | "41" | "109"
+legal_get_statute_article  law_no: "6098"  article_no: "396" | "420" | "444" | "445" | "446" | "447" | "182"
+legal_list_statute_articles  (6098, hizmet sözleşmesi bölümü)       # madde numaralarını teyit et
+legal_search_cases  mahkeme: "yargitay"  daire: "Hukuk Genel Kurulu"
     sorgu: "<ör. rekabet yasağı süresi ve yer bakımından hakkaniyete aykırılık hâkimin sınırlaması>"
-legal_search_cases mahkeme: "yargitay" daire: "9. Hukuk Dairesi"
+legal_search_cases  mahkeme: "yargitay"  daire: "9. Hukuk Dairesi"
     sorgu: "<ör. eğitim gideri iadesi cezai şart işçi aleyhine geçersizlik>"
     tarih_baslangic: <son 3 yıl>
-legal_case_facets sorgu: "rekabet yasağı cezai şart işçi" # hangi daireler bakıyor (gürültülü, yalnız ipucu)
+legal_case_facets  sorgu: "rekabet yasağı cezai şart işçi"   # hangi daireler bakıyor (gürültülü, yalnız ipucu)
 ```
 
 ## Çıktı iskeleti

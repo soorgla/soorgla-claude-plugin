@@ -17,18 +17,18 @@ Defter satırına (`sure-defteri-ve-takvim.md` §2) `tur: sozlesme-bildirim` ile
       karsi_taraf: "[kısa ad]"
       sozlesme_adi: "[ör. yazılım lisans ve destek sözleşmesi]"
       imza_tarihi: 2025-06-15
-      ilk_donem_sonu: 2026-06-15 # yalnız kayıt için
-      yururlukteki_donem_sonu: 2026-06-15 # hesap bundan yapılır; her yenilemede ileri sarılır
-      yenileme_bicimi: "kendiliğinden bir yıl" # sözleşmeden aynen
+      ilk_donem_sonu: 2026-06-15        # yalnız kayıt için
+      yururlukteki_donem_sonu: 2026-06-15   # hesap bundan yapılır; her yenilemede ileri sarılır
+      yenileme_bicimi: "kendiliğinden bir yıl"   # sözleşmeden aynen
       bildirim_suresi: "[sözleşmeden aynen, ör. 'bitimden en az altmış gün önce']"
-      bildirim_maddesi: "md. 14.2" # [kullanıcı verdi]
+      bildirim_maddesi: "md. 14.2"       # [kullanıcı verdi]
       bildirim_sekli: "noter | iadeli taahhütlü | KEP | e-posta | sözleşmede yazılı adres"
       kanuni_sekil: "TTK m.18/3 [soorgla] | TBK m.348 [soorgla] | yok"
-      gonderim_payi_gun: 0 # elektronik 0; noter/PTT için kullanıcıya sor [incele]
-      ulasma_son_gunu_takvim: 2026-04-16 # yürürlükteki dönem sonu − bildirim süresi
-      ulasma_son_gunu: 2026-04-16 # tatilse geriye çekilmiş hâli
-      gonderme_son_gunu: 2026-04-16 # ulaşma son günü − gönderim payı; UYARILAR BUNA GÖRE
-      kaydirma_notu: "" # ör. "Pazar 2026-04-19'dan geriye çekildi"
+      gonderim_payi_gun: 0              # elektronik 0; noter/PTT için kullanıcıya sor [incele]
+      ulasma_son_gunu_takvim: 2026-04-16      # yürürlükteki dönem sonu − bildirim süresi
+      ulasma_son_gunu: 2026-04-16             # tatilse geriye çekilmiş hâli
+      gonderme_son_gunu: 2026-04-16           # ulaşma son günü − gönderim payı; UYARILAR BUNA GÖRE
+      kaydirma_notu: ""                        # ör. "Pazar 2026-04-19'dan geriye çekildi"
       fiyat_yenilemede: "[sabit | endeksli | o günkü liste fiyatı (sınırsız)]"
       yillik_bedel: "[kullanıcı verdi]"
       is_birimi_sorumlusu: "[ad/e-posta — şirket içi]"

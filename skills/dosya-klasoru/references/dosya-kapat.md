@@ -16,13 +16,13 @@ Amaç: sonucu yapılandırılmış biçimde kaydetmek (gelecekteki risk değerle
 Bir karar sonucu kapanıyorsa önce **kesinleşmiş mi** sor:
 
 - UYAP'ta kesinleşme şerhi var mı? Varsa tarihini al `[kullanıcı verdi]`.
-- Yoksa kanun yolu süresini `legal_calculate_deadline` ile hesapla (`hmk_appeal`, `hmk_cassation`, `cmk_appeal`); tebliğ tarihi her taraf için ayrıdır, karşı tarafın tebliğini bilmiyorsan süre "bilinmiyor" kalır. İdari yargı, icra itirazı gibi araç kodu olmayan yollarda madde metninden elle hesapla `[doğrula]`.
+- Yoksa kanun yolu süresini `legal_calculate_deadline` ile hesapla (`hmk_appeal`, `hmk_cassation`, `cmk_appeal`); tebliğ tarihi her taraf için ayrıdır, karşı tarafın tebliğini bilmiyorsan süre "bilinmiyor" kalır.  İdari yargı, icra itirazı gibi araç kodu olmayan yollarda madde metninden elle hesapla `[doğrula]`.
 - Süre açıksa ya da karşı tarafın kanun yoluna gidip gitmediği bilinmiyorsa kapatma; durumu `beklemede` yap ve kesinleşme kontrolü için `sureler`'e bir satır ekle. Kullanıcı yine de kapatmak isterse gerekçeyi günlüğe yaz.
 - Karar kesinleşti ama **icra** gerekiyorsa (alacak, vekalet ücreti, yargılama gideri): kapatmak yerine yeni bir icra dosyası açmayı öner (`ac`, `icra-iflas` alan becerisi); iki dosyayı "İlgili dosyalar"da birbirine bağla.
 
 ## 2. Vekaletin sona ermesi (azil, istifa)
 
-- **İstifa:** istifa eden vekilin görevi, istifanın müvekkile tebliğinden itibaren HMK m.82'deki süre boyunca devam eder; istifa dilekçesiyle birlikte müvekkile ihtar yapılır `[soorgla]`. Süreyi madde metninden yaz, son günü karta ekle; o güne kadar dosya kapanmaz, `durum: beklemede`.
+- **İstifa:** istifa eden vekilin görevi, istifanın müvekkile tebliğinden itibaren HMK m.82'deki süre boyunca devam eder; istifa dilekçesiyle birlikte müvekkile ihtar yapılır `[soorgla]`.  Süreyi madde metninden yaz, son günü karta ekle; o güne kadar dosya kapanmaz, `durum: beklemede`.
 - **Azil:** azlin mahkemeye bildirilmesi ve yeni vekil atanana kadar yükümlülükler `[model bilgisi — doğrulayın]` (HMK m.81). Dosyayı kapatmadan önce açık sürelerin müvekkile ya da yeni vekile yazılı bildirildiğini kaydet.
 - Her iki hâlde de dosyanın devri için kısa bir **devir notu** öner (açık süreler, son duruşma, belgelerin yeri); metni `muvekkil-iletisimi` (yüklüyse) kurar.
 
@@ -43,9 +43,9 @@ Bir karar sonucu kapanıyorsa önce **kesinleşmiş mi** sor:
 
 ## 4. Saklama, iade ve kişisel veri
 
-1. **Evrak saklama süresi:** `legal_get_statute_article` (`law_no: "1136"`, `article_no: "39"`) çağır; süreyi metinden al ve `saklama_bitis` alanına vekaletin sona erdiği tarihten hesaplanmış günü yaz. Madde, evrakın geri alınmasının müvekkile yazıyla bildirildiği hâlde daha kısa bir sürenin işlediğini ve ücret ile gider ödenmedikçe avukatın evrakı geri vermekle yükümlü olmadığını (hapis hakkı) da düzenler `[soorgla]`. Hangi sürenin işlediği (yazılı bildirim yapıldı mı) `[incele]`.
+1. **Evrak saklama süresi:** `legal_get_statute_article` (`law_no: "1136"`, `article_no: "39"`) çağır; süreyi metinden al ve `saklama_bitis` alanına vekaletin sona erdiği tarihten hesaplanmış günü yaz. Madde, evrakın geri alınmasının müvekkile yazıyla bildirildiği hâlde daha kısa bir sürenin işlediğini ve ücret ile gider ödenmedikçe avukatın evrakı geri vermekle yükümlü olmadığını (hapis hakkı) da düzenler `[soorgla]`.  Hangi sürenin işlediği (yazılı bildirim yapıldı mı) `[incele]`.
 2. **Asıl belgelerin iadesi:** müvekkile ait asıl belgeler varsa iade edilip edilmediğini sor; "Yapılacaklar"a madde olarak ekle.
-3. **KVKK:** işlenmesini gerektiren sebep ortadan kalkınca kişisel veriler silinir, yok edilir ya da anonim hâle getirilir; diğer kanunlardaki saklama hükümleri saklıdır (KVKK m.7) `[soorgla]`. Yani Av.K. m.39 süresi ve büronun kendi saklama politikası dolunca bu klasörün de silinmesi ya da anonimleştirilmesi gündeme gelir. Beceri bunu **hatırlatır**, kendiliğinden silmez (§5).
+3. **KVKK:** işlenmesini gerektiren sebep ortadan kalkınca kişisel veriler silinir, yok edilir ya da anonim hâle getirilir; diğer kanunlardaki saklama hükümleri saklıdır (KVKK m.7) `[soorgla]`.  Yani Av.K. m.39 süresi ve büronun kendi saklama politikası dolunca bu klasörün de silinmesi ya da anonimleştirilmesi gündeme gelir. Beceri bunu **hatırlatır**, kendiliğinden silmez (§5).
 4. Hapis hakkı ya da masraf alacağı varsa kapanış özetine 🟠 ile yaz.
 
 ## 5. Yazma ve taşıma

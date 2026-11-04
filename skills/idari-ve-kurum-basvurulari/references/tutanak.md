@@ -12,9 +12,9 @@ Bir olayın, durumun ya da işlemin birden fazla kişi tarafından görüldüğ�
   - İşyerinde devamsızlık/disiplin tutanağı → `is-hukuku` becerisi (`../../is-hukuku/references/ic-sorusturma.md`, `../../is-hukuku/references/fesih-oncesi-kontrol.md`) — tutanak oradaki usulle uyumlu olmalı.
   - İmar, zabıta, vergi yoklama gibi kanunla düzenlenmiş tespit tutanakları → ilgili özel mevzuatın zorunlu unsurları çekilmeden yazma `[incele]`.
   - Kolluk ve suç tespiti → kapsam dışı; yalnızca işaret.
-- Kamu görevlisinin düzenlediği tutanakta **gerçeğe aykırı içerik** ceza sorumluluğu doğurabilir. Bu yüzden metne yorum değil olgu yaz.
-- Elektronik ortamda hazırlanan **rapor veya benzeri belge** sorumlu yetkililerce güvenli e-imzayla imzalanır; fiziksel ortamda son sayfa imzalanır, önceki sayfalar imzalanır ya da paraflanır. Kamu idaresi tutanağı bu kurala tabidir.
-- "En az iki imza" kuralı eski YAML'dan gelir; genel bir yasal zorunluluk olarak **yazma**. İspat açısından birden fazla tanık önerilir. Tutanağın türüne özgü mevzuat (ör. iş hukukunda devamsızlık tutanağı, tebligat, vergi yoklama) imza sayısı ya da şekil öngörebilir: tutanak türünü belirleyip `legal_search_statute_semantic` ile "<tür> tutanağı imza" araması yap; hüküm bulursan ona uy, bulamazsan "genel bir asgari imza sayısı doğrulanmadı" diye not düş.
+- Kamu görevlisinin düzenlediği tutanakta **gerçeğe aykırı içerik** ceza sorumluluğu doğurabilir.  Bu yüzden metne yorum değil olgu yaz.
+- Elektronik ortamda hazırlanan **rapor veya benzeri belge** sorumlu yetkililerce güvenli e-imzayla imzalanır; fiziksel ortamda son sayfa imzalanır, önceki sayfalar imzalanır ya da paraflanır. Kamu idaresi tutanağı bu kurala tabidir. 
+- "En az iki imza" kuralı eski YAML'dan gelir; genel bir yasal zorunluluk olarak **yazma**. İspat açısından birden fazla tanık önerilir. Tutanağın türüne özgü mevzuat (ör. iş hukukunda devamsızlık tutanağı, tebligat, vergi yoklama) imza sayısı ya da şekil öngörebilir: tutanak türünü belirleyip `legal_search_statute_semantic` ile "<tür> tutanağı imza" araması yap; hüküm bulursan ona uy, bulamazsan "genel bir asgari imza sayısı doğrulanmadı" diye not düş. 
 
 ## Zorunlu unsurlar (eski şablondan; özel mevzuat yoksa iyi uygulama)
 
@@ -22,7 +22,7 @@ Bir olayın, durumun ya da işlemin birden fazla kişi tarafından görüldüğ�
 2. Giriş: **tarih, saat, yer** (açık adres) ve tutanağı düzenleyenlerin ad-soyad, unvanı; varsa muhatap.
 3. Gelişme: olgusal, kronolojik, edilgen ve resmî dil ("görülmüştür", "beyan etmiştir", "teslim alınmıştır"); ölçülebilir veriler (adet, metre, seri no, marka/model, saat); muhatabın beyanı tırnak içinde, kendi sözleriyle.
 4. Teslim-tesellümde: malzemenin cinsi, adedi, seri numarası, durumu (sağlam/arızalı).
-5. Tarih: kamu idaresinin tutanağında tarih metnin bitiminde de yer alabilir.
+5. Tarih: kamu idaresinin tutanağında tarih metnin bitiminde de yer alabilir. 
 6. Sonuç: tutanağın kaç nüsha düzenlendiği, okunduğu, imzalandığı; **imzadan kaçınan** olursa bunun ayrıca kaydı.
 7. İmzalar: düzenleyenler, tanıklar, muhatap.
 
@@ -43,9 +43,9 @@ Bir olayın, durumun ya da işlemin birden fazla kişi tarafından görüldüğ�
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "2646" law_type: "21" article_no: "17" # kamu idaresinde imza/paraf kuralı
-legal_search_statute_semantic sorgu: "<alan> tespit tutanağı düzenlenmesi zorunlu unsurlar" # ör. imar, zabıta, vergi yoklama
-legal_search_cases mahkeme: "yargitay" sorgu: "<ör. işçinin imzadan kaçındığı devamsızlık tutanağının ispat gücü>" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "2646"  law_type: "21"  article_no: "17"      # kamu idaresinde imza/paraf kuralı
+legal_search_statute_semantic  sorgu: "<alan> tespit tutanağı düzenlenmesi zorunlu unsurlar"   # ör. imar, zabıta, vergi yoklama
+legal_search_cases  mahkeme: "yargitay"  sorgu: "<ör. işçinin imzadan kaçındığı devamsızlık tutanağının ispat gücü>"  tarih_baslangic: "<son 3 yıl>"
 ```
 
 ## Belge iskeleti
@@ -66,8 +66,8 @@ TESPİT EDİLEN / TESLİM ALINAN MADDELER:
 İşbu tutanak [___] nüsha olarak mahallinde düzenlenmiş, okunmuş ve doğruluğu anlaşılarak birlikte imza altına
 alınmıştır. [Muhatap … tutanağı imzalamaktan kaçınmıştır.]
 
-DÜZENLEYENLER TANIKLAR MUHATAP / TESLİM ALAN
-[Ad SOYAD — unvan — imza] [Ad SOYAD — imza] [Ad SOYAD — imza]
+DÜZENLEYENLER                     TANIKLAR                     MUHATAP / TESLİM ALAN
+[Ad SOYAD — unvan — imza]         [Ad SOYAD — imza]            [Ad SOYAD — imza]
 ```
 
 ## Sık hatalar
@@ -78,3 +78,4 @@ DÜZENLEYENLER TANIKLAR MUHATAP / TESLİM ALAN
 - 🟡 Yorum ve sıfat ("saygısızca", "kasten") kullanmak.
 
 ---
+

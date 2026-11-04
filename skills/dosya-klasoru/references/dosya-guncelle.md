@@ -38,7 +38,7 @@ Uymuyorsa serbest tür.
 
 Olay **kabul edilecek** bir sulh, feragat, davayı kabul, ibra ya da arabuluculukta anlaşma ise (teklifin gelmesi ya da yapılması değil, kabulü):
 
-1. **Yetki:** kartın vekaletname bölümüne bak. HMK m.74 bu işlemleri açık yetkiye bağlar `[soorgla]`. Yetki "yok" ya da "kontrol edilmedi" ise 🟠 işaretle: "Vekaletnamede özel yetki görünmüyor; müvekkilin kendi imzası ya da yeni vekaletname gerekebilir `[incele]`."
+1. **Yetki:** kartın vekaletname bölümüne bak. HMK m.74 bu işlemleri açık yetkiye bağlar `[soorgla]`.  Yetki "yok" ya da "kontrol edilmedi" ise 🟠 işaretle: "Vekaletnamede özel yetki görünmüyor; müvekkilin kendi imzası ya da yeni vekaletname gerekebilir `[incele]`."
 2. **Rol:** kullanıcı avukat değilse ORTAK-KURALLAR.md §1 kapısı: "Bunu bir avukatla gözden geçirdiniz mi?" Hayırsa avukata götürülecek bir sayfalık özet (dosya, önerilen koşullar, karşılığında vazgeçilen talepler, masraf ve vekalet ücreti, gizlilik ve ibra kapsamı, sonrası için sorulacaklar) ver; kabulü günlüğe **yazma**. Teklif kaydı kapı gerektirmez.
 3. **Esas:** sulh metninin değerlendirmesi alan becerisinin işidir (ör. ibra geçerliliği → `is-hukuku`); burada yalnız kayıt tutulur.
 
@@ -48,9 +48,9 @@ Yeni bir süre doğduysa (tebligat, kesin süre, ara karar, karar):
 
 1. `sure-takibi` yüklüyse ona devret: olay, olay tarihi, dosyanın türü (hukuk / ceza / idari / icra), adli tatile tabi olup olmadığı.
 2. Yüklü değilse geçici yol:
-   - Kanun yolu ve İİK şikâyeti: `legal_calculate_deadline` (`hmk_appeal`, `hmk_cassation`, `cmk_appeal`, `iik_complaint`). Araç tebliğ gününü saymaz, son günün tatil olup olmadığını ve adli tatil etkisini ayrıca bildirir.
-   - Araç 01.11.2026'dan beri İYUK dava süresi (`iyuk_lawsuit`), ödeme emrine itiraz (`iik_objection_payment_order`) gibi ~70 kodu tanır; bilinmeyen kodda geçerli kod listesini döndürür. Cevap, bilirkişi raporuna itiraz ve kesin süre için kod **yok**. Süreyi madde metninden çek (`legal_get_statute_article`), elle hesapla, son günü `legal_check_holiday` ile kontrol et, `[doğrula]` işaretle.
-   - **Adli tatil:** `legal_check_holiday` adli tatil günlerini `tatil: true` olarak döndürüyor (ör. 2027-07-20 → "Adli Tatil 2027 / Mali Tatil 2027"). Adli tatil günü iş günüdür; süre ertelenmez, yalnız adli tatile tabi işlerde son gün tatile rastlarsa HMK m.104'e göre uzar. Bu yüzden `tatil: true` ile birlikte `tatil_turu` `adli`/`mali_tatil` gelirse son günü kaydırma; HMK m.102-104'ü çek ve dosyanın adli tatile tabi olup olmadığını `[incele]` ile sor.
+   - Kanun yolu ve İİK şikâyeti: `legal_calculate_deadline` (`hmk_appeal`, `hmk_cassation`, `cmk_appeal`, `iik_complaint`). Araç tebliğ gününü saymaz, son günün tatil olup olmadığını ve adli tatil etkisini ayrıca bildirir. 
+   - Araç 01.11.2026'dan beri İYUK dava süresi (`iyuk_lawsuit`), ödeme emrine itiraz (`iik_objection_payment_order`) gibi ~70 kodu tanır; bilinmeyen kodda geçerli kod listesini döndürür. Cevap, bilirkişi raporuna itiraz ve kesin süre için kod **yok**.  Süreyi madde metninden çek (`legal_get_statute_article`), elle hesapla, son günü `legal_check_holiday` ile kontrol et, `[doğrula]` işaretle.
+   - **Adli tatil:** `legal_check_holiday` adli tatil günlerini `tatil: true` olarak döndürüyor (ör. 2027-07-20 → "Adli Tatil 2027 / Mali Tatil 2027").  Adli tatil günü iş günüdür; süre ertelenmez, yalnız adli tatile tabi işlerde son gün tatile rastlarsa HMK m.104'e göre uzar. Bu yüzden `tatil: true` ile birlikte `tatil_turu` `adli`/`mali_tatil` gelirse son günü kaydırma; HMK m.102-104'ü çek ve dosyanın adli tatile tabi olup olmadığını `[incele]` ile sor. 
 3. Yeni süreyi **hem** kartın "Kritik süreler" tablosuna **hem** `_liste.yaml`'daki `sureler` listesine yaz; yapılan ya da kaçan süreyi `durum` alanında işaretle (silme).
 4. Son güne 7 günden az kaldıysa ya da geçtiyse onay mesajının ilk satırında 🔴.
 

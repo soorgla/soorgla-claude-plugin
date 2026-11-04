@@ -23,8 +23,8 @@ Enflasyon düzeltmesi şartlarının oluşmadığı (ya da kanunla "oluşmamış
 ## Araç çağrıları
 
 ```json
-{ "hesap": "yeniden_degerleme", "girdi": { "yil": 2025, "maliyet": 1200000, "birikmis_amortisman": 480000, "aktife_giris_yili": 2022 }, "tarih": "2025-12-31" }
-{ "hesap": "had", "girdi": { "kod": "vuk_yeniden_degerleme_orani" }, "tarih": "2025-12-31" }
+{ "hesap": "yeniden_degerleme", "yeniden_degerleme": { "yil": 2025, "maliyet": 1200000, "birikmis_amortisman": 480000, "aktife_giris_yili": 2022 }, "tarih": "2025-12-31" }
+{ "hesap": "had", "had": { "kod": "vuk_yeniden_degerleme_orani" }, "tarih": "2025-12-31" }
 ```
 
 - Araç oranı `yil-06-30` tarihindeki **en son** `vuk_yeniden_degerleme_orani` satırından alır. Yılın oranı tabloya henüz girmediyse hesap yapmaz, son kaydı gösteren bir hata döndürür (önceki yılın oranı kullanılmaz). Bu durumda oranı o yılın VUK genel tebliğinden RG'de bul ve kullanıcıya bildir `[doğrula]`.
@@ -63,9 +63,9 @@ Enflasyon düzeltmesi şartlarının oluşmadığı (ya da kanunla "oluşmamış
 
 ```
 31.12.AAAA
-253 Tesis, Makine ve Cihazlar (ilgili duran varlık) [yeni maliyet − eski maliyet]
-        257 Birikmiş Amortismanlar [yeni birikmiş − eski birikmiş]
-        522 MDV Yeniden Değerleme Artışları [deger_artisi_fonu]
+253 Tesis, Makine ve Cihazlar (ilgili duran varlık)   [yeni maliyet − eski maliyet]
+        257 Birikmiş Amortismanlar                         [yeni birikmiş − eski birikmiş]
+        522 MDV Yeniden Değerleme Artışları                [deger_artisi_fonu]
               (alt hesap: kıymet bazında, "213 s. K. mük.298")
 ```
 

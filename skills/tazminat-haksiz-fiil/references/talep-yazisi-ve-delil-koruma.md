@@ -1,4 +1,8 @@
-<!-- Bu dosyadaki iş akışı anthropics/claude-for-legal (Apache 2.0, Copyright 2026 Anthropic PBC) deposundaki litigation-legal/skills/demand-intake, demand-received, demand-draft, legal-hold ve chronology becerilerinden uyarlanmış ve Türk hukukuna göre değiştirilmiştir. Ayrıntı: NOTICE.md. -->
+<!--
+Bu dosyadaki iş akışı anthropics/claude-for-legal (Apache 2.0, Copyright 2026 Anthropic PBC) deposundaki
+litigation-legal/skills/demand-intake, demand-received, demand-draft, legal-hold ve chronology becerilerinden
+uyarlanmış ve Türk hukukuna göre değiştirilmiştir. Ayrıntı: NOTICE.md.
+-->
 
 # Talep yazısı, gelen talep ve delil koruma
 
@@ -16,7 +20,7 @@ Metin yazımı (noter ihtarnamesi, delil tespiti, ihtiyati tedbir) `hukuk-yargil
 
 ### Duruş (önce sor, varsayılan koyma)
 1. **Ton:** ölçülü / kararlı / sert? İlişki sürecek mi (komşu, iş ortağı, hastane)?
-2. **Cevap süresi:** kanuni süre varsa onu yaz (KTK m.97: 15 gün; 5684 m.30/13: 15 iş günü; 7223 m.11/3: 10 iş günü; İYUK m.13: 30 gün). Kanuni süre yoksa makul süre öner ve `[incele]`.
+2. **Cevap süresi:** kanuni süre varsa onu yaz (KTK m.97: 15 gün; 5684 m.30/13: 15 iş günü; 7223 m.11/3: 10 iş günü; İYUK m.13: 30 gün). Kanuni süre yoksa makul süre öner ve `[incele]`. 
 3. **Gönderim yolu:** noter, KEP, iadeli taahhütlü, sigortacının başvuru kanalı (e-posta/portal) — **ispat edilebilir** ve tarihli olmalı.
 4. **İmza:** avukat mı, zarar gören mi?
 
@@ -32,7 +36,7 @@ Metin yazımı (noter ihtarnamesi, delil tespiti, ihtiyati tedbir) `hukuk-yargil
 
 ### Stratejik sorular (tutar yüksekse, ölüm/ağır yaralanma varsa ya da karşı taraf tekrar eden bir aktörse)
 9. **Kaldıraç ve alternatif:** cevap gelmezse dava mı, tahkim mi? (Bkz. `trafik-kazasi-ve-zmss.md` usul yolu.)
-10. **İkrar riski (sorumlu tarafın yazısında):** "kusurumuz yoktur ama iyi niyet göstergesi olarak …" gibi cümleler ikrar sayılabilir ve zamanaşımını keser (TBK m.154/1).
+10. **İkrar riski (sorumlu tarafın yazısında):** "kusurumuz yoktur ama iyi niyet göstergesi olarak …" gibi cümleler ikrar sayılabilir ve zamanaşımını keser (TBK m.154/1). 
 11. **Kendi aleyhine bilgi:** yazıda kendi kusurunuzu, belirsiz olguları, iç değerlendirmeyi yazmayın; olguyu doğrulanmış olanla sınırlayın.
 12. **Sulh/uzlaşma niteliği:** teklif içeren yazıda "sulh amacıyla, ikrar niteliğinde değildir" kaydı. Türk hukukunda ABD FRE 408 benzeri genel bir delil yasağı yoktur; kayıt koruma değil, niyet beyanıdır `[incele]`.
 
@@ -61,33 +65,33 @@ Ekler: [tutanak, ekspertiz, fotoğraflar, ruhsat, ehliyet, maluliyet raporu, gel
 İstem: [tutar] tazminatın [faiz başlangıcı] faiziyle ödenmesi; 15 gün içinde yazılı cevap.
 Tarih / imza
 ```
-Başvuru tarihini ve teslim kanıtını süre tablosuna yaz; dava/tahkim takvimi buna bağlıdır. Genel Şartlar'ın istediği belge listesi poliçe ve tarife düzenlemesinden kontrol edilmeli `[doğrula]` (KTK m.99/1 "genel şartlarla belirlenen belgeler").
+Başvuru tarihini ve teslim kanıtını süre tablosuna yaz; dava/tahkim takvimi buna bağlıdır. Genel Şartlar'ın istediği belge listesi poliçe ve tarife düzenlemesinden kontrol edilmeli `[doğrula]` (KTK m.99/1 "genel şartlarla belirlenen belgeler"). 
 
 ### Sigorta Tahkim Komisyonu başvurusu (iskelet)
 Ne zaman: sigortacıya başvuru yapılmış ve talep kısmen/tamamen reddedilmiş ya da **15 iş günü** içinde yazılı cevap gelmemiş; uyuşmazlık mahkemeye ya da tüketici hakem heyetine taşınmamış (5684 m.30/13-14). Trafik sigortası zorunlu sigorta olduğu için sigortacı sisteme üye olmasa da başvurulabilir (m.30/1). Dava mı tahkim mi seçimi `trafik-kazasi-ve-zmss.md` "Usul yolu"nda.
 
-**Dosyanın kendisi kritiktir:** hakemler **yalnız kendilerine verilen evrak üzerinden** karar verir (m.30/15). Duruşma ve sonradan delil sunma imkânı sınırlı olduğu için bütün belgeler başvuruyla birlikte verilir; değer kaybı, pert ve bedensel zararda bilirkişi incelemesi isteniyorsa açıkça yazılır.
+**Dosyanın kendisi kritiktir:** hakemler **yalnız kendilerine verilen evrak üzerinden** karar verir (m.30/15). Duruşma ve sonradan delil sunma imkânı sınırlı olduğu için bütün belgeler başvuruyla birlikte verilir; değer kaybı, pert ve bedensel zararda bilirkişi incelemesi isteniyorsa açıkça yazılır. 
 
 ```markdown
 SİGORTA TAHKİM KOMİSYONU'NA
 BAŞVURU SAHİBİ : [ad soyad / unvan, T.C. kimlik / vergi no, adres, telefon, e-posta, IBAN] — Vekil: [___]
 SİGORTA KURULUŞU: [unvan] — Poliçe türü: [ZMSS / kasko / İMM] — Poliçe no: [___], başlangıç: [___]
-OLAY : [kaza tarihi, yer, araçlar ve plakalar, tutanak türü ve no]
+OLAY            : [kaza tarihi, yer, araçlar ve plakalar, tutanak türü ve no]
 SİGORTACIYA BAŞVURU: [tarih, yol (KEP / iadeli taahhütlü), teslim kanıtı] — CEVAP: [tarih ve özeti / 15 iş günü içinde cevap yok]
 UYUŞMAZLIK KONUSU VE TALEP:
  1. [Araç hasarı / değer kaybı / pert farkı / sürekli iş göremezlik / destekten yoksun kalma] — [tutar] TL
     [belirlenemiyorsa: "bilirkişi incelemesiyle belirlenecek tutar; şimdilik ___ TL"]
  2. Faiz: [tür ve başlangıç — başvuru ve KTK m.99 süresine göre] [incele]
  3. Yargılama giderleri ve vekâlet ücreti
-AÇIKLAMALAR : [olay, kusur dağılımı ve kaynağı, zarar kalemlerinin yöntemi — alan değerlendirmesinden]
-DELİLLER : [tutanak, fotoğraflar, ekspertiz, onarım faturası, TRAMER kaydı, emsal ilanlar, sağlık kurulu raporu,
+AÇIKLAMALAR     : [olay, kusur dağılımı ve kaynağı, zarar kalemlerinin yöntemi — alan değerlendirmesinden]
+DELİLLER        : [tutanak, fotoğraflar, ekspertiz, onarım faturası, TRAMER kaydı, emsal ilanlar, sağlık kurulu raporu,
                    gelir belgeleri, veraset ilamı, nüfus kaydı, sigortacıyla yazışmalar, başvuru ücreti dekontu]
                    Bilirkişi incelemesi talebi: [değer kaybı / aktüerya / kusur]
 Tarih / imza
 ```
 - **Başvuru ücreti, parasal eşikler ve form:** başvuru ücreti, hakem heyeti eşiği, itiraz ve temyiz eşikleri Müsteşarlıkça (ÜFE oranında) güncellenir (m.30/12, 18, 22); tutarları beceriye yazma, başvuru günündeki değeri Komisyon duyurusundan ya da yönetmelikten al `[doğrula]`. Başvuru esasları yönetmelikle belirlenir (m.30/21).
-- **Vekâlet ücreti:** `legal_calculate_attorney_fee` (`yargi_yeri: sigorta_tahkim`) iki sonuç verir: AAÜT m.17/2 ve 5684 m.30/17 lafzına göre (beşte bir yalnız talebi reddedilen aleyhine) ve İtiraz Hakem Heyeti uygulamasına göre (nisbi → beşte bir → maktunun altındaysa maktu, iki tarafa da). Hangisinin doğru olduğu Yargıtay'ca gerekçeli olarak söylenmedi; talepte ya da itirazda ikisini ve farkı göster, tek tutarı kesin diye sunma.
-- **Kararın ardından:** hakem kararına bildirimden itibaren **on gün** içinde bir defa itiraz (itiraz için başvuru ücreti yatırılır; itiraz icrayı durdurur); eşik altındaki kararlar kesindir; usul hatalarında temyiz her hâlde açık (m.30/12) → `kanun-yollari-dilekce`. Hakemin reddi öğrenmeden itibaren **beş iş günü** içinde (m.30/15). Reddedilen aleyhine vekâlet ücreti tarifenin beşte biri (m.30/17); hesap `legal_calculate_attorney_fee` (`yargi_yeri: "sigorta_tahkim"`).
+- **Vekâlet ücreti:** `legal_calculate_attorney_fee` (`yargi_yeri: sigorta_tahkim`) iki sonuç verir: AAÜT m.17/2 ve 5684 m.30/17 lafzına göre (beşte bir yalnız talebi reddedilen aleyhine) ve İtiraz Hakem Heyeti uygulamasına göre (nisbi → beşte bir → maktunun altındaysa maktu, iki tarafa da). Hangisinin doğru olduğu Yargıtay'ca gerekçeli olarak söylenmedi; talepte ya da itirazda ikisini ve farkı göster, tek tutarı kesin diye sunma. 
+- **Kararın ardından:** hakem kararına bildirimden itibaren **on gün** içinde bir defa itiraz (itiraz için başvuru ücreti yatırılır; itiraz icrayı durdurur); eşik altındaki kararlar kesindir; usul hatalarında temyiz her hâlde açık (m.30/12) → `kanun-yollari-dilekce`. Hakemin reddi öğrenmeden itibaren **beş iş günü** içinde (m.30/15). Reddedilen aleyhine vekâlet ücreti tarifenin beşte biri (m.30/17); hesap `legal_calculate_attorney_fee` (`yargi_yeri: "sigorta_tahkim"`). 
 
 ---
 
@@ -99,7 +103,7 @@ Tarih / imza
 4. **Seçenekler** (birini öner, gerekçesiyle):
    - **A. Esastan cevap** — talep tartışmalı ya da güçlüyse; kayda geçer.
    - **B. Ara cevap** — inceleme için zaman; kabul ya da ret içermez. Kanuni cevap süresi varsa (KTK m.97 15 gün) ara cevap süreyi durdurmaz 🟠.
-   - **C. Sulh teklifi** — ikrar içermeyecek biçimde; KTK m.111 gereği açıkça yetersiz tutardaki anlaşma iki yıl içinde iptal edilebilir, bu yüzden "düşük teklif + tam ibra" stratejisinin sınırını yaz.
+   - **C. Sulh teklifi** — ikrar içermeyecek biçimde; KTK m.111 gereği açıkça yetersiz tutardaki anlaşma iki yıl içinde iptal edilebilir, bu yüzden "düşük teklif + tam ibra" stratejisinin sınırını yaz. 
    - **D. Cevap vermeme + delil koruma** — dayanaksız talep; ama sessizliğin aleyhe yorumlanabileceği ve sigortacı için m.97 süresi sonrası dava/tahkim yolunun açıldığı unutulmamalı.
 5. **Süreler:** karşı tarafın verdiği süre bağlamaz; kanuni süreler bağlar. İç karar tarihi = kanuni son gün − hazırlık/onay süresi.
 6. **Sigortaya bildirim:** sorumluluk sigortası (mesleki, işyeri, ZMSS, ihtiyari) varsa sigortacıya **gecikmeden ihbar** — poliçedeki ihbar yükümlülüğü ihlali teminatı etkileyebilir `[incele]`.
@@ -107,8 +111,8 @@ Tarih / imza
 ---
 
 ## C. Ödeme, ibra ve makbuz tuzakları (iki taraf için)
-- Sigortacı ya da sorumlu, ödeme karşılığında "**tüm haklarımdan feragat ederek tam ve kesin ibra ederim**" yazılı belge imzalatabilir. Zarar görene: imzadan önce tutarın gerçek zararı karşılayıp karşılamadığını (`bedensel-zarar-ve-destek-hesabi.md`) ve **ihtirazi kayıt** konulabileceğini anlat; KTK kapsamındaki anlaşmalarda m.111 koruması var. Avukat olmayan kullanıcı için §1 kapısı zorunlu.
-- 31.07.2026 sonrası olaylarda, tahkikat başlamadan yapılan ödeme **oransal mahsup** edilir (TBK m.55/4); ödeme tarihini ve tutarını kaydet.
+- Sigortacı ya da sorumlu, ödeme karşılığında "**tüm haklarımdan feragat ederek tam ve kesin ibra ederim**" yazılı belge imzalatabilir. Zarar görene: imzadan önce tutarın gerçek zararı karşılayıp karşılamadığını (`bedensel-zarar-ve-destek-hesabi.md`) ve **ihtirazi kayıt** konulabileceğini anlat; KTK kapsamındaki anlaşmalarda m.111 koruması var. Avukat olmayan kullanıcı için §1 kapısı zorunlu. 
+- 31.07.2026 sonrası olaylarda, tahkikat başlamadan yapılan ödeme **oransal mahsup** edilir (TBK m.55/4); ödeme tarihini ve tutarını kaydet. 
 - Kısmi ödeme borcun ikrarıdır, zamanaşımını keser (TBK m.154/1).
 
 ---
@@ -154,12 +158,12 @@ Yukarıdaki A ve B bölümlerindeki sorular; ayrıca:
 
 ## soorgla çağrıları
 ```
-legal_get_statute_article law_no: "2918" article_no: "97" | "99" | "111"
-legal_get_statute_article law_no: "5684" article_no: "30"
-legal_get_statute_article law_no: "6098" article_no: "154" | "117"
-legal_list_statute_articles law_no: "7223" article_no: "11" include_content: true
-legal_check_holiday tarih: "<son gün>"
-legal_search_cases mahkeme: "yargitay" sorgu: "<ör. sigorta şirketine verilen ibranamenin geçerliliği KTK 111 yetersiz ödeme>"
+legal_get_statute_article  law_no: "2918"  article_no: "97" | "99" | "111"
+legal_get_statute_article  law_no: "5684"  article_no: "30"
+legal_get_statute_article  law_no: "6098"  article_no: "154" | "117"
+legal_list_statute_articles  law_no: "7223"  article_no: "11"  include_content: true
+legal_check_holiday  tarih: "<son gün>"
+legal_search_cases  mahkeme: "yargitay"  sorgu: "<ör. sigorta şirketine verilen ibranamenin geçerliliği KTK 111 yetersiz ödeme>"
 ```
 
 ## Çıktı iskeleti
@@ -182,6 +186,3 @@ legal_search_cases mahkeme: "yargitay" sorgu: "<ör. sigorta şirketine verilen 
 - Ödeme belgesindeki ibrayı incelemeden imzalatmak/imzalamak.
 - Delil tespiti için geç kalmak (kamera kayıtları).
 
-## Kaynak ve uyarlama
-
-- Eski YAML karşılığı yok (yeni akış). Upstream: `claude-for-legal-upstream/litigation-legal/skills/demand-intake/SKILL.md`, `demand-received/SKILL.md`, `demand-draft/SKILL.md` (duruş, ön kapı, zayıf argüman dürüstlüğü, alıntı sadakati), `legal-hold/SKILL.md` (delil koruma), `chronology/SKILL.md` (kronoloji ve boşluklar). ABD'ye özgü FRE 408, work product ve legal hold kavramları Türk hukuku karşılıklarıyla değiştirildi.

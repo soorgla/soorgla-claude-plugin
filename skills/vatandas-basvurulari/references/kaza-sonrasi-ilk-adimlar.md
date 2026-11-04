@@ -18,10 +18,10 @@ Trafik kazası geçiren vatandaşın kaza yerinde ve sonraki günlerde yapacakla
 
 | Ne | Başlangıç | Dayanak | Not |
 |---|---|---|---|
-| Sigortanın yazılı başvuruya cevap süresi | Başvurunun sigortaya ulaşması | KTK m.97: **15 gün** | Bu süre dolmadan ya da cevap beklenmeden dava açılmaz. |
-| Sigorta Tahkim'e gitmeden bekleme | Sigortaya başvuru | 5684 m.30/13: **15 iş günü** | KTK'daki 15 **takvim** günü ile karıştırma; tahkim için iş günü sayılır. |
+| Sigortanın yazılı başvuruya cevap süresi | Başvurunun sigortaya ulaşması | KTK m.97: **15 gün** | Bu süre dolmadan ya da cevap beklenmeden dava açılmaz.  |
+| Sigorta Tahkim'e gitmeden bekleme | Sigortaya başvuru | 5684 m.30/13: **15 iş günü** | KTK'daki 15 **takvim** günü ile karıştırma; tahkim için iş günü sayılır.  |
 | Hakem kararına itiraz | Kararın bildirimi | 5684 m.30/12: **10 gün** | 🔴 hak düşürücü; parasal eşik altındaki kararlar kesin olabilir, eşiği madde metninden çek `[doğrula]`. |
-| Yetersiz anlaşmanın iptali | Anlaşma tarihi | KTK m.111: **2 yıl** | Açıkça yetersiz tutarda imzalanan ibra ve anlaşma için. |
+| Yetersiz anlaşmanın iptali | Anlaşma tarihi | KTK m.111: **2 yıl** | Açıkça yetersiz tutarda imzalanan ibra ve anlaşma için.  |
 | Tazminat zamanaşımı | Zararı ve sorumluyu öğrenme / kaza | KTK m.109 | Ayrıntı ve hesap `../../tazminat-haksiz-fiil/references/zamanasimi-ve-dava-sartlari.md`; 30 günden az kaldıysa 🔴. |
 
 `legal_calculate_deadline` bu süreleri tanımaz: olay tarihinin **ertesi gününden** say, son günü `legal_check_holiday` ile kontrol et, `[doğrula]` işaretle ve "son güne bırakmayın" de. İş günü hesabında hafta sonu ve resmî tatiller atlanır.
@@ -30,7 +30,7 @@ Trafik kazası geçiren vatandaşın kaza yerinde ve sonraki günlerde yapacakla
 
 ## 1. Kaza yerinde (kullanıcıya adım adım anlat)
 
-Kazaya karışanların kanuni yükümlülükleri (KTK m.81):
+Kazaya karışanların kanuni yükümlülükleri (KTK m.81): 
 1. **Durun, güvenliği sağlayın.** Aracı ek tehlike yaratmayacak şekilde durdurun; reflektör, dörtlü flaşör.
 2. **Yaralı varsa 112'yi arayın.** Yaralıyı uzman değilseniz yerinden oynatmayın.
 3. **Kaza yerini değiştirmeyin** — trafik ve can güvenliğini etkilemiyorsa. İz ve kanıtlar sorumluluğun belirlenmesi için önemlidir.
@@ -50,8 +50,8 @@ Kazaya karışanların kanuni yükümlülükleri (KTK m.81):
 
 ## 2. Anlaşmalı tutanak (yalnız maddi hasar)
 
-- Yalnız maddi hasar varsa ve bütün sürücüler polise gerek görmüyorsa "Maddi Hasarlı Trafik Kazası Tespit Tutanağı" birlikte doldurulur. Bu yolla ayrılırsanız **sonradan polisten tutanak isteyemezsiniz.**
-- Şu hâllerde **polis / jandarma çağırın**, anlaşmalı tutanak tutmayın: yaralı ya da ölü var; karşı sürücünün ehliyeti yok; karşı aracın trafik sigortası yok; alkol ya da uyuşturucu şüphesi; kamu aracı ya da kamu malına zarar; tek taraflı kaza; anlaşamıyorsunuz.
+- Yalnız maddi hasar varsa ve bütün sürücüler polise gerek görmüyorsa "Maddi Hasarlı Trafik Kazası Tespit Tutanağı" birlikte doldurulur. Bu yolla ayrılırsanız **sonradan polisten tutanak isteyemezsiniz.** 
+- Şu hâllerde **polis / jandarma çağırın**, anlaşmalı tutanak tutmayın: yaralı ya da ölü var; karşı sürücünün ehliyeti yok; karşı aracın trafik sigortası yok; alkol ya da uyuşturucu şüphesi; kamu aracı ya da kamu malına zarar; tek taraflı kaza; anlaşamıyorsunuz. 
 - **İmzalamadan önce:**
   - Krokiyi birlikte çizin; araçların yönü, şeridi ve çarpışma noktası doğru mu?
   - "Kazanın oluş şekli" kutucuklarını **kendiniz** okuyun; size söylenen değil, olan işaretlensin.
@@ -64,7 +64,7 @@ Kazaya karışanların kanuni yükümlülükleri (KTK m.81):
 
 ## 3. Sonraki günler
 
-1. **Hastaneye gidin** — kazada yaralandıysanız ya da sonradan ağrı başladıysa hemen. Kaza günü alınan rapor, sonraki talepler için en önemli belgedir. Tedavi giderlerini kural olarak SGK karşılar (KTK m.98).
+1. **Hastaneye gidin** — kazada yaralandıysanız ya da sonradan ağrı başladıysa hemen. Kaza günü alınan rapor, sonraki talepler için en önemli belgedir. Tedavi giderlerini kural olarak SGK karşılar (KTK m.98). 
 2. **Kendi kasko şirketinize** (varsa) haber verin; poliçenizdeki bildirim süresine bakın.
 3. **Karşı aracın trafik sigortasını öğrenin:** tutanaktaki poliçe bilgisi; yoksa SBM sorgusu (e-Devlet / sigorta şirketi) `[doğrula]`.
 4. **Ekspertiz ve onarım:** hasar tespiti yapılmadan aracı onarıma vermeyin; parça ve işçilik ayrı yazılı fatura isteyin; onarım öncesi ve sonrası fotoğraf çekin.
@@ -74,13 +74,13 @@ Kazaya karışanların kanuni yükümlülükleri (KTK m.81):
 
 ## 4. Karşı tarafın trafik sigortasına yazılı başvuru (KTK m.97)
 
-- Trafik sigortasından istenecek tutar için **dava ya da tahkimden önce sigortaya yazılı başvuru zorunludur.** Sigorta 15 gün içinde cevap vermez ya da cevap talebi karşılamazsa dava açılabilir ya da Sigorta Tahkim'e gidilebilir.
+- Trafik sigortasından istenecek tutar için **dava ya da tahkimden önce sigortaya yazılı başvuru zorunludur.** Sigorta 15 gün içinde cevap vermez ya da cevap talebi karşılamazsa dava açılabilir ya da Sigorta Tahkim'e gidilebilir. 
 - Başvuru yolu: sigorta şirketinin genel müdürlüğüne iadeli taahhütlü posta, KEP ya da şirketin yazılı başvuru kanalı. **Telefon görüşmesi başvuru sayılmaz**; ulaştığını gösteren belge saklanır.
 - **Trafik sigortasından istenemeyenler** (kullanıcıya baştan söyle):
   - **Manevi tazminat** (KTK m.92/f) → yalnız sürücü ve araç sahibinden.
   - **İkame araç, kazanç kaybı, aracın çalışamaması** gibi dolaylı zararlar (KTK m.92/k) → sürücü ve araç sahibinden.
   - Kendi kusurunuza düşen kısım.
-
+  
 - **Değer kaybı** trafik sigortasından istenebilir (araç trafikten çekilmediyse / hurdaya ayrılmadıysa). Sigortanın formülle hesapladığı tutar mahkemenin kabul ettiği yöntemle aynı olmayabilir → `../../tazminat-haksiz-fiil/references/arac-hasari-deger-kaybi-ve-pert.md`.
 - Teminat limitleri **kaza ya da poliçe tarihine** göre değişir; tutarı beceriye yazma, `legal_get_social_parameters` (`tur: "zmss_maddi_arac_basi"`) ile çek; dönmüyorsa `[doğrula]`.
 
@@ -90,12 +90,12 @@ Kazaya karışanların kanuni yükümlülükleri (KTK m.81):
 
 | Durum | Yol |
 |---|---|
-| 15 iş günü içinde cevap yok ya da kısmi / tam ret | **Sigorta Tahkim Komisyonu** başvurusu (sigorta şirketi sisteme üye olmasa bile trafik sigortasında başvurulabilir) ya da dava. |
+| 15 iş günü içinde cevap yok ya da kısmi / tam ret | **Sigorta Tahkim Komisyonu** başvurusu (sigorta şirketi sisteme üye olmasa bile trafik sigortasında başvurulabilir) ya da dava.  |
 | Sigorta ödeme teklif etti, "ibraname" imzalatmak istiyor | **İmzalamadan önce bekleyin.** "Tüm haklarımdan feragat ederek ibra ederim" yazan belge ileride ek talebi zorlaştırır. Tutar açıkça yetersizse anlaşma 2 yıl içinde iptal edilebilir (KTK m.111), ama bu dava gerektirir. Kabul ediyorsanız "**ihtirazi kayıtla**, kısmi ödeme olarak aldım" yazmayı düşünün `[incele]` → `../../tazminat-haksiz-fiil/references/talep-yazisi-ve-delil-koruma.md` §C. 🔴 |
-| Daha önce mahkemeye ya da tüketici hakem heyetine başvurdunuz | Aynı uyuşmazlık için Sigorta Tahkim'e başvurulamaz (5684 m.30/14). |
+| Daha önce mahkemeye ya da tüketici hakem heyetine başvurdunuz | Aynı uyuşmazlık için Sigorta Tahkim'e başvurulamaz (5684 m.30/14).  |
 
 - **Sigorta Tahkim başvurusu:** başvuru ücreti, parasal eşikler ve formlar Komisyonun güncel duyurusundan alınır; beceriye yazılmaz `[doğrula]` (araçta yok). Hakemler kural olarak dört ay içinde karar verir (5684 m.30/16). Hakem heyeti kararına itiraz süresi **10 gün** (m.30/12) 🔴.
-- **Karşı aracın sigortası yok ya da araç kaçtı:** bedensel zararlar için Güvence Hesabı'na başvuru; **araç hasarı kural olarak Güvence Hesabı'ndan alınamaz** (5684 m.14). Araç hasarı için sürücü ve araç sahibine başvuru.
+- **Karşı aracın sigortası yok ya da araç kaçtı:** bedensel zararlar için Güvence Hesabı'na başvuru; **araç hasarı kural olarak Güvence Hesabı'ndan alınamaz** (5684 m.14).  Araç hasarı için sürücü ve araç sahibine başvuru.
 - **Tüketici hakem heyeti bu iş için değildir** (trafik sigortası uyuşmazlığı); kullanıcı THH diyorsa Sigorta Tahkim'e yönlendir `[incele]`.
 
 ---
@@ -103,7 +103,7 @@ Kazaya karışanların kanuni yükümlülükleri (KTK m.81):
 ## 6. "Hasar danışmanı" ve aracılar
 
 Kazadan sonra size ulaşan, "değer kaybınızı biz alırız", "yüzde şu kadar komisyonla" diyen kişi ya da şirketler olabilir. Kullanıcıya sakin ve genel bir uyarı ver; belirli bir firmayı itham etme:
-- Mahkeme ve hakem önünde başkasının hakkını dava etmek ve takip etmek, bunlara ait evrakı düzenlemek **baroya kayıtlı avukatlara** aittir; kişi kendi işini kendisi takip edebilir (Avukatlık Kanunu m.35). Karşınızdakinin avukat olup olmadığını baro sicilinden kontrol edebilirsiniz.
+- Mahkeme ve hakem önünde başkasının hakkını dava etmek ve takip etmek, bunlara ait evrakı düzenlemek **baroya kayıtlı avukatlara** aittir; kişi kendi işini kendisi takip edebilir (Avukatlık Kanunu m.35).  Karşınızdakinin avukat olup olmadığını baro sicilinden kontrol edebilirsiniz.
 - **İmzalamadan önce okuyun:** vekâletname, "alacak temliki" (hakkınızı başkasına devretme) ya da "hizmet sözleşmesi". Alacağınızı devrederseniz sigortadan çıkacak paranın tamamı size gelmeyebilir ve sonradan geri dönmek zor olabilir `[incele]`.
 - Ücret, komisyon ve masrafın yazılı olmasını isteyin; "peşin masraf" talebine dikkat.
 - Trafik sigortasına başvuruyu (§4) ve çoğu durumda Sigorta Tahkim başvurusunu kendiniz yapabilirsiniz; ama zarar büyükse ya da bedensel zarar varsa bir avukatla görüşmeniz önerilir. **"Avukata gerek yok" deme.**
@@ -133,11 +133,11 @@ Bu durumlarda taslağı yine verebilirsin; en üste "Bu durumda tek başınıza 
 
 ## soorgla çağrıları
 ```
-legal_get_statute_article law_no: "2918" article_no: "81" | "92" | "97" | "98" | "109" | "111"
-legal_get_statute_article law_no: "5684" article_no: "30" | "14"
-legal_get_statute_article law_no: "1136" article_no: "35"
-legal_get_social_parameters tur: "zmss_maddi_arac_basi"
-legal_check_holiday # son gün ve iş günü sayımı
+legal_get_statute_article  law_no: "2918"  article_no: "81" | "92" | "97" | "98" | "109" | "111"
+legal_get_statute_article  law_no: "5684"  article_no: "30" | "14"
+legal_get_statute_article  law_no: "1136"  article_no: "35"
+legal_get_social_parameters  tur: "zmss_maddi_arac_basi"
+legal_check_holiday   # son gün ve iş günü sayımı
 ```
 
 ## İskelet — trafik sigortasına KTK m.97 başvurusu (vatandaş)

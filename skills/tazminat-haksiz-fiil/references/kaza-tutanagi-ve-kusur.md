@@ -15,12 +15,12 @@ Kaza tespit tutanağı, kroki, olay yeri fotoğrafı ya da kamera kaydı geldi v
 
 | Girdi | Düzenleyen | Dayanak | Değeri ve sınırı |
 |---|---|---|---|
-| **Kolluk kaza tespit tutanağı** | Trafik zabıtası ya da genel kolluk | Yön. m.156/a | Kaza yeri, iz ve deliller, sürücüler, hasar, saat, kroki. **Görevliler kusur oranı yazmaz**; yalnız kimin hangi kuralı ihlal ettiğini yazar (m.156/a-3). Tutanaktaki "asli kusurlu" ifadesi oran değildir. |
-| **Anlaşmalı tutanak** (Maddi Hasarlı Trafik Kazası Tespit Tutanağı) | Sürücüler birlikte | KTK m.81; Yön. m.152 | Yalnız maddi hasarlı kazada. Bu yolla ayrılan taraflar sonradan kolluktan tutanak isteyemez (m.152/c). Tek taraflı kaza, belgesiz sürücü, ZMSS'siz araç, alkol şüphesi, kamu aracı ya da kamu malına zarar varsa kolluk düzenler (m.152/ç). |
+| **Kolluk kaza tespit tutanağı** | Trafik zabıtası ya da genel kolluk | Yön. m.156/a | Kaza yeri, iz ve deliller, sürücüler, hasar, saat, kroki. **Görevliler kusur oranı yazmaz**; yalnız kimin hangi kuralı ihlal ettiğini yazar (m.156/a-3). Tutanaktaki "asli kusurlu" ifadesi oran değildir.  |
+| **Anlaşmalı tutanak** (Maddi Hasarlı Trafik Kazası Tespit Tutanağı) | Sürücüler birlikte | KTK m.81; Yön. m.152 | Yalnız maddi hasarlı kazada. Bu yolla ayrılan taraflar sonradan kolluktan tutanak isteyemez (m.152/c). Tek taraflı kaza, belgesiz sürücü, ZMSS'siz araç, alkol şüphesi, kamu aracı ya da kamu malına zarar varsa kolluk düzenler (m.152/ç).  |
 | **Kroki** | Tutanağın parçası | Yön. m.156/a | Çarpışma sonrası konum, fren izi, şerit, işaret. Ölçüsüz el çizimiyse `[ölçü yok]`. |
 | **Olay yeri fotoğrafı** | Taraflar / kolluk | Yön. m.152/b | Hasar bölgesi, çarpışma noktası, yol durumu. Araçlar çekildikten sonra çekilen fotoğraf ayrıca işaretlenir. |
 | **Kamera kaydı** (MOBESE, işyeri, araç içi) | Üçüncü kişi / taraf | — | En güçlü olgusal delil; kısa sürede silinir → `talep-yazisi-ve-delil-koruma.md`, delil tespiti `../../hukuk-yargilamasi-dilekce/references/delil-tespiti.md`. |
-| **Tanık** | — | Yön. m.157/b | Tanık beyanları kusur tespitinde dikkate alınır. Tutanakta adı yazılı tanık ile sonradan bulunan tanık ayrılır. |
+| **Tanık** | — | Yön. m.157/b | Tanık beyanları kusur tespitinde dikkate alınır. Tutanakta adı yazılı tanık ile sonradan bulunan tanık ayrılır.  |
 | **Ceza dosyası** | Savcılık bilirkişisi, ATK, üniversite | TBK m.74 | Kusur değerlendirmesi hukuk hâkimini bağlamaz; **kesinleşmiş maddi vakıa bağlar** (§5). Dosya mutlaka istenir. |
 | **Sigorta araştırma raporu** | Sigortacı | — | Kurgu kaza iddiasının ana delili (§5). |
 
@@ -41,10 +41,10 @@ Kaza tespit tutanağı, kroki, olay yeri fotoğrafı ya da kamera kaydı geldi v
 
 ## 3. Kural eşlemesi: KTK m.84 ve Yönetmelik m.157
 
-KTK m.84 on iki hâli sayar ve bu hâllerde sürücüyü **asli kusurlu** sayar; Yönetmelik m.157/a aynı listeyi tekrarlar.
+KTK m.84 on iki hâli sayar ve bu hâllerde sürücüyü **asli kusurlu** sayar; Yönetmelik m.157/a aynı listeyi tekrarlar. 
 
-- **Oran tablosu yok.** Hareket birden fazla sürücüce yapılmışsa ya da kaza bu hâller dışındaki ihlallerden doğmuşsa oran yönetmelik esaslarına göre belirlenir (m.84 son fıkra); Yönetmelik m.157/b oran vermez, yalnız kurallar, iz-deliller, ifadeler ve tanık beyanlarının dikkate alınacağını söyler. Oran uygulamada bilirkişinin takdiridir.
-- **Zorunluluk istisnası** (Yön. m.157/a son paragraf): başkasının kural dışı hareketi ya da teknik arıza sürücüyü tehlikeye düşürmüş, sürücü kazayı önlemek için temel kurallardan birini ihlale mecbur kalmış ve bütün tedbirlere rağmen kazaya yol açmışsa **asli kusurlu sayılamaz**. "Arkadan çarpma" gibi otomatik asli kusur hâllerine karşı ana savunma.
+- **Oran tablosu yok.** Hareket birden fazla sürücüce yapılmışsa ya da kaza bu hâller dışındaki ihlallerden doğmuşsa oran yönetmelik esaslarına göre belirlenir (m.84 son fıkra); Yönetmelik m.157/b oran vermez, yalnız kurallar, iz-deliller, ifadeler ve tanık beyanlarının dikkate alınacağını söyler. Oran uygulamada bilirkişinin takdiridir. 
+- **Zorunluluk istisnası** (Yön. m.157/a son paragraf): başkasının kural dışı hareketi ya da teknik arıza sürücüyü tehlikeye düşürmüş, sürücü kazayı önlemek için temel kurallardan birini ihlale mecbur kalmış ve bütün tedbirlere rağmen kazaya yol açmışsa **asli kusurlu sayılamaz**. "Arkadan çarpma" gibi otomatik asli kusur hâllerine karşı ana savunma. 
 
 | m.84 | Hâl | Sorulacak / istenecek delil |
 |---|---|---|
@@ -61,7 +61,7 @@ KTK m.84 on iki hâli sayar ve bu hâllerde sürücüyü **asli kusurlu** sayar;
 | k | Yerleşim dışında zorunluluk dışı park / duraklama, tedbir almama | Gece / gündüz, ışık ve reflektör, arıza belgesi |
 | l | Kurallara uygun park edilmiş araca çarpma | Parkın kurallara uygunluğu |
 
-Tutanakta sık geçen diğer maddeler (m.84 dışı; oran bilirkişinin takdiri): trafiği tehlikeye sokacak şerit değiştirme (m.46/2-c), hızı koşullara uydurmama (m.52/1-b), güvenli takip mesafesi (m.56/1-c), kavşakta geçiş önceliği (m.57), yayanın geçit dışından geçmesi ya da taşıt yolunda trafiği tehlikeye düşürmesi (m.68/1-b, c), yaya ve okul geçidinde yayaya ilk geçiş hakkı (m.74; 2018'den beri bentsiz tek fıkra). Bu maddelerin metnini **her seferinde çek**: m.46, 56 ve 57 7574 ile (yürürlük 27.02.2026) değişti; kaza tarihindeki metni kullan.
+Tutanakta sık geçen diğer maddeler (m.84 dışı; oran bilirkişinin takdiri): trafiği tehlikeye sokacak şerit değiştirme (m.46/2-c), hızı koşullara uydurmama (m.52/1-b), güvenli takip mesafesi (m.56/1-c), kavşakta geçiş önceliği (m.57), yayanın geçit dışından geçmesi ya da taşıt yolunda trafiği tehlikeye düşürmesi (m.68/1-b, c), yaya ve okul geçidinde yayaya ilk geçiş hakkı (m.74; 2018'den beri bentsiz tek fıkra). Bu maddelerin metnini **her seferinde çek**: m.46, 56 ve 57 7574 ile (yürürlük 27.02.2026) değişti; kaza tarihindeki metni kullan. 
 
 ---
 
@@ -83,18 +83,18 @@ Tutanakta sık geçen diğer maddeler (m.84 dışı; oran bilirkişinin takdiri)
 
 | İlke | Karar | Kaynak durumu |
 |---|---|---|
-| **Kusur oranı uzmanlık işidir**; tutanağa dayanıp rapor almadan karar verilemez | 4. HD E.2022/13579 K.2024/11578 (25.11.2024): hakem heyeti rapor almadan tutanağa göre tam kusur kabul etmiş; ceza dosyası getirtilip uzman bilirkişiden denetime elverişli, gerekçeli rapor alınması için bozma | |
-| **Ceza hâkiminin kusur değerlendirmesi bağlamaz; kesinleşmiş maddi vakıa bağlar** | TBK m.74. 4. HD E.2023/13290 K.2025/8068 (20.05.2025): kesinleşmiş mahkûmiyet varken sürücüyü kusursuz sayan karar bozuldu | |
-| Savcılık aşamasındaki kusur raporu bağlamaz | TBK m.74. **4. HD E.2025/7360 K.2025/12662'yi dayanak gösterme:** cümle yalnız karşı oyda, çoğunluk savcılık raporuyla yetinen hakem kararını onadı. Karşı taraf bu kararı "savcılık raporu yeterli" diye kullanabilir; itirazda yeniden rapor ihtiyacını somut çelişkiyle gerekçelendir. | |
-| **Çelişkili kusur raporları:** tercih gerekçelendirilmeli ya da çelişkiyi gideren üçüncü rapor alınmalı | 4. HD E.2023/3943 K.2025/4851 (24.03.2025): ceza dosyasındaki ATK raporu iki sürücüyü de asli kusurlu bulmuş, tahkim raporu farklı oran vermiş; üçüncü rapor için bozma | |
-| Uzman kurum seçenekleri | ATK, İTÜ, Karayolları Genel Müdürlüğü Trafik Fen Heyeti (4. HD E.2024/3390 K.2024/4176: raporlar çelişince uzman kuruldan denetime açık rapor için bozma) | |
-| **Tutanağın ispat gücü — dikkat** | 4. HD E.2022/997 K.2023/7021 (25.05.2023): çoğunluk, tutanak ve fotoğraflarla kazanın varlığını sabit saydı, hasar miktarı için rapor istedi. "Tutanak aksi ispat edilinceye kadar geçerli resmî belgedir" cümlesi **karşı oydadır**; çoğunluk gerekçesi gibi alıntılama | |
-| **Kurgu kaza şüphesi** | 4. HD E.2024/3235 K.2024/4692 (14.05.2024, oy çokluğu): anlaşmalı tutanakta el yazısı benzerliği, fotoğraf-yer uyumsuzluğu, krokinin başka dosyalarda tekrarı → hakem heyeti el çekmeli, genel mahkemede tam delil toplanmalı | |
-| Hasar–kaza uyumu tespit edilemiyorsa taraflara delil sunma imkânı | 4. HD E.2025/4136 K.2025/8579 (bozma: delil imkânı tanınmalı; hakem heyeti el çekmeli, iş genel mahkemede görülmeli) | |
+| **Kusur oranı uzmanlık işidir**; tutanağa dayanıp rapor almadan karar verilemez | 4. HD E.2022/13579 K.2024/11578 (25.11.2024): hakem heyeti rapor almadan tutanağa göre tam kusur kabul etmiş; ceza dosyası getirtilip uzman bilirkişiden denetime elverişli, gerekçeli rapor alınması için bozma |  |
+| **Ceza hâkiminin kusur değerlendirmesi bağlamaz; kesinleşmiş maddi vakıa bağlar** | TBK m.74. 4. HD E.2023/13290 K.2025/8068 (20.05.2025): kesinleşmiş mahkûmiyet varken sürücüyü kusursuz sayan karar bozuldu |  |
+| Savcılık aşamasındaki kusur raporu bağlamaz | TBK m.74. **4. HD E.2025/7360 K.2025/12662'yi dayanak gösterme:** cümle yalnız karşı oyda, çoğunluk savcılık raporuyla yetinen hakem kararını onadı. Karşı taraf bu kararı "savcılık raporu yeterli" diye kullanabilir; itirazda yeniden rapor ihtiyacını somut çelişkiyle gerekçelendir. |  |
+| **Çelişkili kusur raporları:** tercih gerekçelendirilmeli ya da çelişkiyi gideren üçüncü rapor alınmalı | 4. HD E.2023/3943 K.2025/4851 (24.03.2025): ceza dosyasındaki ATK raporu iki sürücüyü de asli kusurlu bulmuş, tahkim raporu farklı oran vermiş; üçüncü rapor için bozma |  |
+| Uzman kurum seçenekleri | ATK, İTÜ, Karayolları Genel Müdürlüğü Trafik Fen Heyeti (4. HD E.2024/3390 K.2024/4176: raporlar çelişince uzman kuruldan denetime açık rapor için bozma) |  |
+| **Tutanağın ispat gücü — dikkat** | 4. HD E.2022/997 K.2023/7021 (25.05.2023): çoğunluk, tutanak ve fotoğraflarla kazanın varlığını sabit saydı, hasar miktarı için rapor istedi. "Tutanak aksi ispat edilinceye kadar geçerli resmî belgedir" cümlesi **karşı oydadır**; çoğunluk gerekçesi gibi alıntılama |  |
+| **Kurgu kaza şüphesi** | 4. HD E.2024/3235 K.2024/4692 (14.05.2024, oy çokluğu): anlaşmalı tutanakta el yazısı benzerliği, fotoğraf-yer uyumsuzluğu, krokinin başka dosyalarda tekrarı → hakem heyeti el çekmeli, genel mahkemede tam delil toplanmalı |  |
+| Hasar–kaza uyumu tespit edilemiyorsa taraflara delil sunma imkânı | 4. HD E.2025/4136 K.2025/8579 (bozma: delil imkânı tanınmalı; hakem heyeti el çekmeli, iş genel mahkemede görülmeli) |  |
 
 **Kural:** tutanaktaki "asli kusurlu" tespiti başlangıç noktasıdır, sonuç değildir. Not her zaman "kusur oranı için bilirkişi raporu gerekir" der; ceza dosyası varsa istenmesini önerir; kesinleşmiş ceza kararındaki maddi vakıaları ayrı satırda listeler.
 
-**Müterafik kusur** (kask, emniyet kemeri, alkollü sürücünün aracına binme) kusur oranında değil, **tazminattan indirim** olarak (TBK m.52) değerlendiriliyor. Tutanakta kemer takılmadığı yazılıysa bu sabit sayılır; 4. HD yerleşik uygulamada indirim yapıyor ve müterafik kusuru def'i değil, re'sen gözetilecek hâl sayıyor (4. HD E.2022/12349 K.2024/9969). İndirim oranını tablodan yazma; kararlarda karşı oy ve kemer durumu belirsizse tartışma var `[incele]`. Kaskta takılmamanın maluliyetle illiyeti doktor heyetinden alınacak raporla saptanmalı `[çekildi ama desteği doğrulayın]`.
+**Müterafik kusur** (kask, emniyet kemeri, alkollü sürücünün aracına binme) kusur oranında değil, **tazminattan indirim** olarak (TBK m.52) değerlendiriliyor. Tutanakta kemer takılmadığı yazılıysa bu sabit sayılır; 4. HD yerleşik uygulamada indirim yapıyor ve müterafik kusuru def'i değil, re'sen gözetilecek hâl sayıyor (4. HD E.2022/12349 K.2024/9969). İndirim oranını tablodan yazma; kararlarda karşı oy ve kemer durumu belirsizse tartışma var `[incele]`. Kaskta takılmamanın maluliyetle illiyeti doktor heyetinden alınacak raporla saptanmalı `[çekildi ama desteği doğrulayın]`.  
 
 ---
 
@@ -137,12 +137,12 @@ Her senaryo: oluş anlatımı · destekleyen deliller · çürüten deliller · 
 
 ## soorgla çağrıları
 ```
-legal_get_statute_article law_no: "2918" article_no: "81" | "84" (+ tutanakta anılan her madde)
-legal_search_statute sorgu: "Karayolları Trafik Yönetmeliği 156" | "152" | "157"
-legal_get_statute_article law_no: "6098" article_no: "74" | "52"
-legal_search_cases mahkeme: "yargitay" daire: "4. Hukuk Dairesi" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "2918"  article_no: "81" | "84"  (+ tutanakta anılan her madde)
+legal_search_statute  sorgu: "Karayolları Trafik Yönetmeliği 156" | "152" | "157"
+legal_get_statute_article  law_no: "6098"  article_no: "74" | "52"
+legal_search_cases  mahkeme: "yargitay"  daire: "4. Hukuk Dairesi"  tarih_baslangic: "<son 3 yıl>"
     sorgu: "<ör. kaza tespit tutanağı ile kusur raporu arasındaki çelişki giderilmeden hüküm kurulamaz>"
-legal_get_case_document # en az bir kararın tam metni (SKILL.md Adım 3)
+legal_get_case_document    # en az bir kararın tam metni (SKILL.md Adım 3)
 ```
 
 ## Çıktı iskeleti

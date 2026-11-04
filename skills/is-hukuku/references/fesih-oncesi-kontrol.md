@@ -100,15 +100,15 @@ Her tutar `[doğrula — bordro uzmanı / bilirkişi]`.
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "4857" article_no: "5" | "17" | "18" | "19" | "21" | "25" | "26" | "29" | "74" | "109"
-legal_get_statute_article law_no: "6098" article_no: "420"
-legal_get_statute_article law_no: "7036" article_no: "3"
-legal_get_statute_article law_no: "6356" article_no: "25" # sendikal bayrak varsa
-legal_search_cases mahkeme: "yargitay" daire: "9. Hukuk Dairesi"
+legal_get_statute_article  law_no: "4857"  article_no: "5" | "17" | "18" | "19" | "21" | "25" | "26" | "29" | "74" | "109"
+legal_get_statute_article  law_no: "6098"  article_no: "420"
+legal_get_statute_article  law_no: "7036"  article_no: "3"
+legal_get_statute_article  law_no: "6356"  article_no: "25"        # sendikal bayrak varsa
+legal_search_cases  mahkeme: "yargitay"  daire: "9. Hukuk Dairesi"
     sorgu: "<ör. işveren teklifiyle yapılan ikale sözleşmesinde makul yarar şartı>"
     tarih_baslangic: <son 3 yıl>
-legal_search_cases mahkeme: "bam" sorgu: "<olay>" # işe iadede son merci BAM
-legal_search_official_gazette query: "İş Kanunu" document_type: "kanun" date_from: <son 2 yıl> sort_by: "date_desc"
+legal_search_cases  mahkeme: "bam"  sorgu: "<olay>"                # işe iadede son merci BAM
+legal_search_official_gazette  query: "İş Kanunu"  document_type: "kanun"  date_from: <son 2 yıl>  sort_by: "date_desc"
                                                                     # yakın tarihli değişiklik var mı
 ```
 

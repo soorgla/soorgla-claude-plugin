@@ -32,11 +32,11 @@ Bu dosya meslek alanındaki **araştırma ve uygulama kararı** içindir. Özelg
 (`legal_search_admin_guidance`)
 
 ```
-legal_search_statute_semantic sorgu: "<konu>" mevzuat_tur: "teblig" # genel tebliğ bölümü
-legal_search_official_gazette query: "<tebliğ adı>" search_in: "title" sort_by: "date_desc" # sonraki tebliğ değişikliği
-legal_search_cases mahkeme: "danistay" sorgu: "<konu>" tarih_baslangic: "<son 5 yıl>"
-legal_get_statute_article law_no: "213" law_type: "Kanun" article_no: "369" | "413"
-legal_get_statute_article law_no: "14245" article_no: "8" # özelge talebinin kapsamı
+legal_search_statute_semantic  sorgu: "<konu>"  mevzuat_tur: "teblig"          # genel tebliğ bölümü
+legal_search_official_gazette  query: "<tebliğ adı>"  search_in: "title"  sort_by: "date_desc"   # sonraki tebliğ değişikliği
+legal_search_cases  mahkeme: "danistay"  sorgu: "<konu>"  tarih_baslangic: "<son 5 yıl>"
+legal_get_statute_article  law_no: "213"  law_type: "Kanun"  article_no: "369" | "413"
+legal_get_statute_article  law_no: "14245"  article_no: "8"                    # özelge talebinin kapsamı
 ```
 
 **Aracın davranışı (2026-11-02 sınandı):**

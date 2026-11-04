@@ -13,8 +13,8 @@
 
 - **Kamu zararı** (5018 m.71): kamu görevlilerinin kasıt, kusur veya ihmalinden kaynaklanan mevzuata aykırı karar, işlem veya eylem sonucunda kamu kaynağında artışa engel olunması veya eksilmeye neden olunması. Belirlemede esas alınan hâller arasında **iş, mal veya hizmet karşılığı fazla ödeme**, **iş, mal veya hizmet edinilmeden ödeme**, **rayiç bedelinden fazla ödeme** yer alır. Zarar oluştuğu tarihten itibaren faiziyle tahsil edilir. (Bkz. `../../idari-ve-kurum-basvurulari/references/sayistay-savunmasi.md` — orada 5018 m.71/1-3 çekildi.)
 - **Sayıştay süreci** (6085): sorumluların savunması alınır; tebliğden itibaren **30 gün** içinde cevap vermeyenlerin savunması yargılamaya esas raporda dikkate alınmaz (m.48/1); daire ilamına karşı tebliğden itibaren **60 gün** içinde Temyiz Kurulu (m.55). (Aynı dosyada çekildi.)
-- **Yüksek Fen Kurulu yolu kapanır:** Sayıştay incelemesine konu edilmiş anlaşmazlık YFK'ya götürülemez.
-- **Görevlilerin ceza ve disiplin sorumluluğu:** 4735 m.28 → yalnız işaret; disiplin `../../kamu-personeli/SKILL.md`. m.28: muayene ve kabul komisyonu başkan ve üyeleri, yapı denetim görevlileri ve sürecin her aşamasındaki ilgililer görevlerini kanuni gereklere uygun ya da tarafsız yapmaz, taraflardan birinin zararına ihmal veya kusurlu harekette bulunursa disiplin cezası, ayrıca ceza kovuşturması ve zararın genel hükümlere göre tazmini; hüküm giyenler bu Kanun kapsamındaki işlerde görevlendirilemez.
+- **Yüksek Fen Kurulu yolu kapanır:** Sayıştay incelemesine konu edilmiş anlaşmazlık YFK'ya götürülemez. 
+- **Görevlilerin ceza ve disiplin sorumluluğu:** 4735 m.28 → yalnız işaret; disiplin `../../kamu-personeli/SKILL.md`. m.28: muayene ve kabul komisyonu başkan ve üyeleri, yapı denetim görevlileri ve sürecin her aşamasındaki ilgililer görevlerini kanuni gereklere uygun ya da tarafsız yapmaz, taraflardan birinin zararına ihmal veya kusurlu harekette bulunursa disiplin cezası, ayrıca ceza kovuşturması ve zararın genel hükümlere göre tazmini; hüküm giyenler bu Kanun kapsamındaki işlerde görevlendirilemez. 
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Kod | Bulgu tipi | Kontrol | Araçta örnek |
 |---|---|---|---|
-| GÖTÜRÜ-İÇİ-ARTIŞ | Götürü bedel kapsamındaki ve proje dahilindeki imalat için iş artışıyla ödeme | Poz tarifi, uygulama projesi, teknik şartname kapsamı | Sayıştay 6. D. K.46375 (17.01.2024) |
+| GÖTÜRÜ-İÇİ-ARTIŞ | Götürü bedel kapsamındaki ve proje dahilindeki imalat için iş artışıyla ödeme | Poz tarifi, uygulama projesi, teknik şartname kapsamı | Sayıştay 6. D. K.46375 (17.01.2024)  |
 | ESKİ-FF-ESASLARI | Fiyat farkının yürürlükten kalkmış kararnameye ya da yanlış temel endekse göre hesaplanması | İlan tarihindeki Esaslar | Sayıştay 1. D. K.41901 (07.11.2018); 4. D. K.50725 (28.12.2022) arama özetleri `[çekildi ama desteği doğrulayın]` |
 | İHZARAT-FF | İhzarat malzemesinde fiyat farkı ayının yanlış alınması | Esaslar; ihzarat tutanağı | Sayıştay 2. D. K.48286 (06.04.2022) arama özeti `[çekildi ama desteği doğrulayın]` |
 | YBF-YERİNE-TEKLİF | Keşifte olmayan imalatın YBF yapılmadan benzer kalemin teklif fiyatından ödenmesi; revize fiyat şartları oluşmasına rağmen uygulanmaması | Genel Şartname m.22 | Sayıştay 6. D. K.46375 asıl ilam (A)-(B) bentleri (beraat edildi) — her olay bilirkişiye bağlı `[incele]` |
@@ -40,8 +40,8 @@
 1. **İşlem ve dayanak:** ödenecek kalem hangi sözleşme maddesine, oluruna, tutanağa dayanıyor? Belge zinciri tam mı (yeşil defter → icmal → hakediş → onay)?
 2. **Uygulanan metin:** ilan tarihindeki Genel Şartname, Tip Sözleşme ve Esaslar.
 3. **Mevzuata uygunluk:** ilgili referans dosyasının kontrol listesi.
-4. **Emsal:** `legal_search_cases` (`mahkeme: "sayistay"`) — kapsam 2024 sonunda bitiyor; 2025 ve sonrası için kurum içi kaynak ya da Sayıştay yayınları gerekir. Aynı karar araçta birden çok kopya hâlinde dönebilir (farklı karar no, aynı metin); tekilleştir.
-5. **Sorumluluk haritası:** kim hangi belgeyi imzalıyor (harcama yetkilisi, gerçekleştirme görevlisi, kontrol mühendisi, muayene-kabul komisyonu, muhasebe yetkilisi)? Ödeme emri belgesi ve hakediş kapağı imzacıları. Sınırlar: harcama yetkilisi harcama talimatının mevzuata uygunluğundan ve ödeneğin etkili, ekonomik, verimli kullanılmasından (5018 m.32); gerçekleştirme görevlileri işin yaptırılması, teslim alma, belgelendirme ve ödeme belgelerinin hazırlanmasından (m.33); muhasebe yetkilisi ödeme aşamasında yalnız yetkililerin imzası, mevzuatta sayılan belgelerin tamamlığı, maddi hata ve hak sahibinin kimliğinden — sorumluluğu incelemesi gereken belgelerle sınırlı, mevzuatta olmayan belge arayamaz (m.61).
+4. **Emsal:** `legal_search_cases` (`mahkeme: "sayistay"`) — kapsam 2024 sonunda bitiyor; 2025 ve sonrası için kurum içi kaynak ya da Sayıştay yayınları gerekir.  Aynı karar araçta birden çok kopya hâlinde dönebilir (farklı karar no, aynı metin); tekilleştir.
+5. **Sorumluluk haritası:** kim hangi belgeyi imzalıyor (harcama yetkilisi, gerçekleştirme görevlisi, kontrol mühendisi, muayene-kabul komisyonu, muhasebe yetkilisi)? Ödeme emri belgesi ve hakediş kapağı imzacıları. Sınırlar: harcama yetkilisi harcama talimatının mevzuata uygunluğundan ve ödeneğin etkili, ekonomik, verimli kullanılmasından (5018 m.32); gerçekleştirme görevlileri işin yaptırılması, teslim alma, belgelendirme ve ödeme belgelerinin hazırlanmasından (m.33); muhasebe yetkilisi ödeme aşamasında yalnız yetkililerin imzası, mevzuatta sayılan belgelerin tamamlığı, maddi hata ve hak sahibinin kimliğinden — sorumluluğu incelemesi gereken belgelerle sınırlı, mevzuatta olmayan belge arayamaz (m.61). 
 6. **Sonuç:** "imzalanabilir", "şu belge tamamlanmadan imzalama", "dur — hukuk müşavirliğine/mali hizmetlere sor". Risk varsa açıkça uyar; risk yoksa da `[incele]` ile "araç kapsamı 2024'te bitiyor" notunu koy.
 
 ---
@@ -76,12 +76,12 @@
 ## 6. MCP adımları
 
 ```
-legal_get_statute_article law_no: "5018" law_type: "Kanun" article_no: "71" | "32" | "33" | "61"
-legal_get_statute_article law_no: "6085" law_type: "Kanun" article_no: "48" | "55"
-legal_get_statute_article law_no: "4735" law_type: "Kanun" article_kind: "ek" article_no: "2"
-legal_search_cases mahkeme: "sayistay" sorgu: "<olayı serbest cümleyle: ör. yapım işinde yeni birim fiyat yapılmadan teklif birim fiyatı üzerinden ödeme kamu zararı>"
-legal_get_case_document belge_id: "<seçilen>"
-legal_search_admin_guidance sorgu: "Sayıştay Genel Kurulu içtihadı birleştirme yapım işi" belge_tur: "kurul_karar" # yalnız eski (2006-2008) İBK'lar döner
+legal_get_statute_article  law_no: "5018"  law_type: "Kanun"  article_no: "71" | "32" | "33" | "61"
+legal_get_statute_article  law_no: "6085"  law_type: "Kanun"  article_no: "48" | "55"
+legal_get_statute_article  law_no: "4735"  law_type: "Kanun"  article_kind: "ek"  article_no: "2"
+legal_search_cases  mahkeme: "sayistay"  sorgu: "<olayı serbest cümleyle: ör. yapım işinde yeni birim fiyat yapılmadan teklif birim fiyatı üzerinden ödeme kamu zararı>"
+legal_get_case_document  belge_id: "<seçilen>"
+legal_search_admin_guidance  sorgu: "Sayıştay Genel Kurulu içtihadı birleştirme yapım işi"  belge_tur: "kurul_karar"     # yalnız eski (2006-2008) İBK'lar döner
 ```
 
 ---
@@ -114,6 +114,3 @@ legal_search_admin_guidance sorgu: "Sayıştay Genel Kurulu içtihadı birleşti
 - Aynı kararın kopyalarını farklı emsal gibi saymak.
 - Yükleniciye "Sayıştay sorar" diyerek sözleşmede doğmuş alacağı ödememek (yüklenicinin adli yargıda alacak hakkı sürer).
 
-## Eski YAML'dan düzeltilenler
-- YAML'lar `karar_sayistay` indeksinde "konu" ve "idare" filtreleri kullanıyordu; soorgla `legal_search_cases`'te bu filtreler yok → sorgu cümlesine "belediye", "yapım işi", "ihale mevzuatı" gibi ifadeleri yaz.
-- `audit_query_defense.yaml` "30 gün hak düşürücü süre" diyordu → 6085 m.48/1 sonucu "savunma dikkate alınmaz"dır (idari-ve-kurum-basvurulari'nda düzeltildi).

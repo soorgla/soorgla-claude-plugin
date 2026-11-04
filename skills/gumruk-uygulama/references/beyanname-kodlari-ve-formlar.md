@@ -8,7 +8,7 @@
 
 ## Kod listeleri
 
-Gümrük beyannamesi kutularındaki kodlar Ticaret Bakanlığının yayımladığı listelerdendir: rejim, işlemin niteliği, teslim şekli, taşıma şekli, döviz, kap, ölçü birimi, ödeme şekli, ülke, gümrük idaresi, liman, antrepo, muafiyet, vergi türü, istenen doküman, tamamlayıcı bilgi, 1 numaralı kutu alt kodları.
+Gümrük beyannamesi kutularındaki kodlar Ticaret Bakanlığının yayımladığı listelerdendir: rejim, işlemin niteliği, teslim şekli, taşıma şekli, döviz, kap, ölçü birimi, ödeme şekli, ülke, gümrük idaresi, liman, antrepo, muafiyet, vergi türü, istenen doküman, tamamlayıcı bilgi, 1 numaralı kutu alt kodları. 
 
 | Kaynak | Ne var | Not |
 |---|---|---|
@@ -16,7 +16,7 @@ Gümrük beyannamesi kutularındaki kodlar Ticaret Bakanlığının yayımladı�
 | "Bilgi Bankası" kod PDF'leri | Rejim, teslim şekli, döviz, kap, ÖTS, işlemin niteliği, 1 no'lu kutu, taşıma şekli | PDF'lerin bir kısmı eski olabilir; EDI listesiyle karşılaştır |
 | Beyanname Kullanma Talimatı | Her kutunun nasıl doldurulacağı | Gümrük Yönetmeliği ekidir (form bankasında MEV kaydı) |
 
-Kod listesi aracı yok; kodları kullanıcıya **kaynak sayfasıyla** ver, ezberden kod yazma.
+Kod listesi aracı yok; kodları kullanıcıya **kaynak sayfasıyla** ver, ezberden kod yazma. 
 
 ---
 

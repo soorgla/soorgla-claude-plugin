@@ -11,11 +11,11 @@
 
 | Süre | Başlangıç | Dayanak | Not |
 |---|---|---|---|
-| Veri sorumlusunun cevabı: en kısa sürede, **en geç 30 gün** | Başvurunun veri sorumlusuna ulaşması `[incele]` | 6698 m.13/2 | Kural ücretsiz; işlem ayrıca maliyet gerektiriyorsa Kurul tarifesindeki ücret. Kimlik doğrulaması süreyi kendiliğinden durdurmaz; eksik bilgiyi hemen iste. `[incele]` |
-| Silme/yok etme talebinin sonuçlandırılması: **en geç 30 gün** | Talep | Silme Yönetmeliği (talep üzerine silme hükmü) | Veri üçüncü kişiye aktarılmışsa onlara da bildirim (m.11/1-f). |
-| İlgili kişinin Kurula şikâyeti: cevabı öğrendiği tarihten **30 gün**, her hâlde başvuru tarihinden **60 gün** | Cevabın öğrenilmesi / başvuru tarihi | 6698 m.14/1 | Ret, yetersiz cevap ya da süresinde cevapsızlık hâllerinde. |
-| Başvuru yolu tüketilmeden şikâyet olmaz | — | 6698 m.14/2 | Kurul ihlal iddiasını re'sen de inceleyebilir (m.15/1). |
-| Kurulun şikâyete cevabı: 60 gün içinde cevap yoksa talep **reddedilmiş sayılır** | Şikâyet tarihi | 6698 m.15/4 | Zımni ret → idari yargı yolu `[incele]`. |
+| Veri sorumlusunun cevabı: en kısa sürede, **en geç 30 gün** | Başvurunun veri sorumlusuna ulaşması `[incele]` | 6698 m.13/2  | Kural ücretsiz; işlem ayrıca maliyet gerektiriyorsa Kurul tarifesindeki ücret. Kimlik doğrulaması süreyi kendiliğinden durdurmaz; eksik bilgiyi hemen iste. `[incele]` |
+| Silme/yok etme talebinin sonuçlandırılması: **en geç 30 gün** | Talep | Silme Yönetmeliği (talep üzerine silme hükmü)  | Veri üçüncü kişiye aktarılmışsa onlara da bildirim (m.11/1-f). |
+| İlgili kişinin Kurula şikâyeti: cevabı öğrendiği tarihten **30 gün**, her hâlde başvuru tarihinden **60 gün** | Cevabın öğrenilmesi / başvuru tarihi | 6698 m.14/1  | Ret, yetersiz cevap ya da süresinde cevapsızlık hâllerinde. |
+| Başvuru yolu tüketilmeden şikâyet olmaz | — | 6698 m.14/2  | Kurul ihlal iddiasını re'sen de inceleyebilir (m.15/1). |
+| Kurulun şikâyete cevabı: 60 gün içinde cevap yoksa talep **reddedilmiş sayılır** | Şikâyet tarihi | 6698 m.15/4  | Zımni ret → idari yargı yolu `[incele]`. |
 
 `legal_calculate_deadline` cevap ve şikâyet sürelerini hesaplar (`kvkk_controller_response`, `kvkk_board_complaint`, `kvkk_board_complaint_max`); sonucu m.13-14 metniyle karşılaştır. Kodu olmayan süreleri elle hesapla, son günü `legal_check_holiday` ile kontrol et, `[doğrula]`.
 
@@ -23,17 +23,17 @@
 
 ## Kontrol listesi — veri sorumlusu cevabı (upstream dsar-response'tan uyarlandı)
 
-1. **Talebi sınıfla** (m.11): öğrenme, bilgi talebi, amaç ve amaca uygun kullanım, aktarılan üçüncü kişiler (yurt içi/dışı), düzeltme, silme/yok etme, düzeltme-silmenin alıcılara bildirilmesi, münhasıran otomatik analiz sonucuna itiraz, zararın giderilmesi. Bileşik talepleri (ör. "önce verilerimi gönderin sonra silin") bağlı iki talep olarak ele al. Not: KVKK'da GDPR'daki gibi ayrı bir "taşınabilirlik" hakkı yoktur. `[model bilgisi — doğrulayın]`
-2. **Başvuru şekli**: yazılı ya da Kurulun belirlediği yöntemlerle — KEP, güvenli elektronik imza, mobil imza, ilgili kişinin daha önce bildirdiği ve veri sorumlusunun sisteminde kayıtlı e-posta ya da başvuruya yönelik yazılım/uygulama (Tebliğ m.5/1). Zorunlu içerik: ad-soyad (yazılıysa imza), T.C. kimlik no (yabancıda uyruk ve pasaport/kimlik no), tebligata esas adres, varsa e-posta/telefon, talep konusu (m.5/2). Başvuru tarihi: yazılıda tebliğ tarihi, diğerlerinde ulaştığı tarih (m.5/4-5). Şekle uymayan başvuruyu sessizce yok sayma; eksikliği bildir.
+1. **Talebi sınıfla** (m.11): öğrenme, bilgi talebi, amaç ve amaca uygun kullanım, aktarılan üçüncü kişiler (yurt içi/dışı), düzeltme, silme/yok etme, düzeltme-silmenin alıcılara bildirilmesi, münhasıran otomatik analiz sonucuna itiraz, zararın giderilmesi. Bileşik talepleri (ör. "önce verilerimi gönderin sonra silin") bağlı iki talep olarak ele al.  Not: KVKK'da GDPR'daki gibi ayrı bir "taşınabilirlik" hakkı yoktur. `[model bilgisi — doğrulayın]`
+2. **Başvuru şekli**: yazılı ya da Kurulun belirlediği yöntemlerle — KEP, güvenli elektronik imza, mobil imza, ilgili kişinin daha önce bildirdiği ve veri sorumlusunun sisteminde kayıtlı e-posta ya da başvuruya yönelik yazılım/uygulama (Tebliğ m.5/1). Zorunlu içerik: ad-soyad (yazılıysa imza), T.C. kimlik no (yabancıda uyruk ve pasaport/kimlik no), tebligata esas adres, varsa e-posta/telefon, talep konusu (m.5/2). Başvuru tarihi: yazılıda tebliğ tarihi, diğerlerinde ulaştığı tarih (m.5/4-5). Şekle uymayan başvuruyu sessizce yok sayma; eksikliği bildir.  
 3. **Kimlik doğrulama**: riskle orantılı. Aşırı doğrulama başvuruyu engellemeye dönüşür; yetersiz doğrulama başkasının verisini sahtekâra verir. Doğrulama eksikse günler içinde iste, son güne bırakma.
 4. **Sistemleri tek tek tara** (profilde sistem listesi yoksa sor): ana veritabanı, CRM, çağrı merkezi kayıtları, e-posta, destek kayıtları, log, analitik, yedekler, kamera, kâğıt arşiv, veri işleyenler. Tablo: sistem | sorgulandı mı | veri var mı | ne.
 5. **Rol kontrolü**: siz veri işleyen misiniz? Öyleyse başvuruyu sözleşmeye göre veri sorumlusuna iletin; doğrudan cevap vermeyin. → `veri-isleme-sozlesmesi.md`.
 6. **Ret / kısıt gerekçeleri** (öneridir, avukat daraltır):
-   - Başka mevzuatta saklama yükümlülüğü (vergi, ticari defter, iş, sağlık kayıtları) → silme talebini kısmen reddet; dayanağı yaz.
-   - Bir hakkın tesisi/kullanılması/korunması için zorunluluk (derdest dava, dava hazırlığı).
-   - m.28 istisnaları (yargı mercileri, suç soruşturması, kamu denetimi vb.); m.28/2 hâllerinde m.11 hakları (zararın giderilmesi hariç) uygulanmaz.
+   - Başka mevzuatta saklama yükümlülüğü (vergi, ticari defter, iş, sağlık kayıtları) → silme talebini kısmen reddet; dayanağı yaz. 
+   - Bir hakkın tesisi/kullanılması/korunması için zorunluluk (derdest dava, dava hazırlığı). 
+   - m.28 istisnaları (yargı mercileri, suç soruşturması, kamu denetimi vb.); m.28/2 hâllerinde m.11 hakları (zararın giderilmesi hariç) uygulanmaz. 
    - Üçüncü kişilerin verisi → karartarak ver.
-   - Her ret **gerekçeli** olmalı.
+   - Her ret **gerekçeli** olmalı. 
    Her önerilen ret gerekçesine yaz: "öneridir — gönderilmeden önce avukat incelemeli". Belirsiz bir istisnayı sessizce düşürme; geri alınabilir hatayı seç (ORTAK-KURALLAR.md §8).
 7. **Yükseltme tetikleyicileri** (profildeki kişiye): başvuran davacı/karşı taraf avukatı/gazeteci olabilir; kapsam olağan dışı ("hakkımdaki tüm iç yazışmalar"); hakkında dava ya da delil saklama ihtiyacı varken silme talebi; Kurul ya da başka kamu kurumu bilgiye eklenmiş; önceki cevaba itiraz.
 8. **Kayıt tut**: alınış, doğrulama, cevap tarihleri, verilen/silinen, ret gerekçeleri, işlemi yapan. Kurul incelemesinde ilk istenecek belgedir.
@@ -44,8 +44,8 @@
 2. Talepler m.11 bentleriyle eşleşiyor mu? Somut mu? (hangi veri, hangi tarih aralığı)
 3. Başvuru şekli ispatlanabilir mi? (KEP, iadeli taahhütlü posta, noter; kayıtlı e-posta)
 4. Başvuru tarihi kaydedildi mi? (30 gün ve 60 gün hesapları buna bağlı)
-5. Tazminat isteniyorsa: KVKK m.14/3 genel hükümlere yollar; Kurula şikâyet tazminat vermez → `../../tazminat-haksiz-fiil/SKILL.md` ve `../../hukuk-yargilamasi-dilekce/SKILL.md`.
-6. Suç şüphesi (verinin hukuka aykırı verilmesi/yayılması — TCK 136) varsa ayrı yol; Kurula şikâyet savcılığa başvurunun yerine geçmez.
+5. Tazminat isteniyorsa: KVKK m.14/3 genel hükümlere yollar; Kurula şikâyet tazminat vermez → `../../tazminat-haksiz-fiil/SKILL.md` ve `../../hukuk-yargilamasi-dilekce/SKILL.md`. 
+6. Suç şüphesi (verinin hukuka aykırı verilmesi/yayılması — TCK 136) varsa ayrı yol; Kurula şikâyet savcılığa başvurunun yerine geçmez. 
 
 ---
 
@@ -67,12 +67,12 @@
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "6698" article_no: "7" | "11" | "13" | "14" | "15" | "28"
-legal_get_statute_article law_no: "24455" law_type: "Tebliğ" article_no: "5" | "6" # Veri Sorumlusuna Başvuru Tebliği
-legal_search_statute_semantic sorgu: "ilgili kişinin silme talebi otuz gün içinde sonuçlandırır"
-legal_search_admin_guidance sorgu: "Kişisel Verileri Koruma Kurulunun kararı ilgili kişi başvurusuna cevap verilmemesi" kurum: "Kişisel Verileri Koruma Kurulu" tarih_baslangic: "<son 3 yıl>"
-legal_search_cases sorgu: "6698 sayılı Kanun 11. madde başvuru cevap verilmemesi tazminat" tarih_baslangic: "<son 3 yıl>"
-legal_check_holiday tarih: "<30. gün>"
+legal_get_statute_article  law_no: "6698"  article_no: "7" | "11" | "13" | "14" | "15" | "28"
+legal_get_statute_article  law_no: "24455"  law_type: "Tebliğ"  article_no: "5" | "6"            # Veri Sorumlusuna Başvuru Tebliği
+legal_search_statute_semantic  sorgu: "ilgili kişinin silme talebi otuz gün içinde sonuçlandırır"
+legal_search_admin_guidance  sorgu: "Kişisel Verileri Koruma Kurulunun kararı ilgili kişi başvurusuna cevap verilmemesi"  kurum: "Kişisel Verileri Koruma Kurulu"  tarih_baslangic: "<son 3 yıl>"
+legal_search_cases  sorgu: "6698 sayılı Kanun 11. madde başvuru cevap verilmemesi tazminat"  tarih_baslangic: "<son 3 yıl>"
+legal_check_holiday  tarih: "<30. gün>"
 ```
 
 ---
@@ -121,7 +121,7 @@ SONUÇ VE İSTEM: [hukuka aykırılığın tespiti ve giderilmesi, m.15 uyarınc
 EKLER: başvuru ve gönderim kanıtı, cevap (varsa), diğer belgeler
 [tarih, imza]
 ```
-Kurul başvuru kanalı ve biçimi (e-Devlet/KVKK şikâyet modülü, posta) `[doğrula]`; 3071 m.6 şartlarını (ad, adres, imza) taşımayan şikâyet incelemeye alınmaz.
+Kurul başvuru kanalı ve biçimi (e-Devlet/KVKK şikâyet modülü, posta) `[doğrula]`; 3071 m.6 şartlarını (ad, adres, imza) taşımayan şikâyet incelemeye alınmaz. 
 
 ---
 
@@ -133,3 +133,4 @@ Kurul başvuru kanalı ve biçimi (e-Devlet/KVKK şikâyet modülü, posta) `[do
 - İlgili kişinin, veri sorumlusuna başvurmadan doğrudan Kurula gitmesi (m.14/2).
 - Kurul şikâyetinin tazminat sağlayacağını sanmak.
 - Ret cevabında gerekçe yazmamak (m.13/3).
+

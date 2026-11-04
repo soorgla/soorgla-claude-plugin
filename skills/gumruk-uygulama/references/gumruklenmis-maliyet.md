@@ -27,16 +27,16 @@
 
 | # | Kalem | Matrah | Kaynak | Not |
 |---|---|---|---|---|
-| 1 | **Gümrük kıymeti** | Fiilen ödenen fiyat + m.27 ilaveleri (Türkiye'deki giriş yerine kadar navlun ve sigorta, komisyon, ambalaj, royalti…) | 4458 m.24, m.27 | TL'ye tescil günü TCMB kuruyla (`legal_get_exchange_rate`). m.27'de sayılanlar dışında ilave yapılamaz (m.27/3) |
+| 1 | **Gümrük kıymeti** | Fiilen ödenen fiyat + m.27 ilaveleri (Türkiye'deki giriş yerine kadar navlun ve sigorta, komisyon, ambalaj, royalti…) | 4458 m.24, m.27  | TL'ye tescil günü TCMB kuruyla (`legal_get_exchange_rate`). m.27'de sayılanlar dışında ilave yapılamaz (m.27/3) |
 | 2 | **Gümrük vergisi** | Kıymet (yüzde) ya da miktar (maktu) | İthalat Rejimi Kararı I–IV sayılı listeler, menşe ülkenin girdiği sütunlardan en düşüğü; yoksa Diğer Ülkeler | Tercihli sütun → menşe ispatı şart |
 | 3 | **İlave gümrük vergisi** | Kıymet | İthalat Rejimine Ek Karar (İGV) ekleri | Ülke grubuna göre; AB/STA menşelide çoğu zaman yok |
 | 4 | **Ek mali yükümlülük** | Kıymet; liste dipnotunda "yüzde ya da asgari USD/adet, yüksek olanı" | IV sayılı liste, liste dipnotu (ör. binek araçta CBK 10436), ayrı EMY kararları | Asgari tutar için adet ve USD kuru |
 | 5 | **Tarım payı** | Bileşime göre | III sayılı liste Tablo 1–2 (bileşim kodu) | Araç uyarır; bileşim kodu kullanıcıdan |
 | 6 | **Damping / telafi edici / etkisizleştirme** | Kıymet ya da birim | İlgili tebliğ (firma ve ülke bazlı) | Araç tutar vermez; tebliğden firma oranı |
 | 7 | **KKDF** | Kıymet `[doğrula: matrah tanımı]` | BKK 2011/2304 m.4, `legal_calculate_tax` `hesap: "kkdf"` | Yalnız kabul kredili, vadeli akreditif, mal mukabili; peşin ve akreditifte yok; istisna GTİP listesi araçta yok |
-| 8 | **ÖTV (II)/(IV)** | Kıymet + 2–7 + diğer giderler (KDV matrahı unsurları, ÖTV hariç) | 4760 m.11/3; listeler ve CBK dilimleri | Taşıtta dilim matrah TL'sine ve motor bilgisine göre |
+| 8 | **ÖTV (II)/(IV)** | Kıymet + 2–7 + diğer giderler (KDV matrahı unsurları, ÖTV hariç) | 4760 m.11/3; listeler ve CBK dilimleri  | Taşıtta dilim matrah TL'sine ve motor bilgisine göre |
 | 8′ | **ÖTV (I)/(III)** | (I) maktu × miktar; (III-A) nispi × KDV matrahı unsurları, asgari maktudan az olamaz; (III-B) nispi × perakende satış fiyatı + maktu, asgari maktudan az olamaz | 4760 m.11/1, /2, /4, /5 | (III-A) asgari maktu birimi mala göre değişir (bira: litre × alkol derecesi; şarap: litre; diğer: saf alkol litresi) |
-| 9 | **KDV** | Kıymet + ithalatta ödenen vergi, resim, harç ve paylar + tescile kadarki diğer giderler (ÖTV dahil) | 3065 m.21 | Genel oran muhasebe tablosundan; indirimli oran listeleri GTİP'e eşlenmedi → mal (I)/(II) sayılı listede ise oran düşer `[incele]` |
+| 9 | **KDV** | Kıymet + ithalatta ödenen vergi, resim, harç ve paylar + tescile kadarki diğer giderler (ÖTV dahil) | 3065 m.21  | Genel oran muhasebe tablosundan; indirimli oran listeleri GTİP'e eşlenmedi → mal (I)/(II) sayılı listede ise oran düşer `[incele]` |
 | 10 | **Damga vergisi (beyanname)** | Maktu | 488 sayılı Kanun tablosu | `legal_calculate_tax` `hesap: "damga"`; `../../muhasebe/references/damga-ve-harc.md` |
 
 KKDF'nin KDV matrahına girmesi araçta benimsenen yorumdur; 3065 m.21/b "vergi, resim, harç ve paylar" der, "fon" saymaz. Uygulamayı kendi beyannamelerinle karşılaştır `[doğrula]`.

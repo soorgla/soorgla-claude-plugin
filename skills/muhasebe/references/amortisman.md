@@ -22,10 +22,10 @@ Yılsonu ve geçici vergi dönemlerinde amortisman tablosu, faydalı ömür seç
 ## Araç çağrıları
 
 ```json
-{ "hesap": "amortisman", "girdi": { "ara": "bilgisayar" }, "tarih": "2026-12-31" }
-{ "hesap": "amortisman", "girdi": { "maliyet": 850000, "sira": "<listeden dönen sıra>", "yontem": "normal", "aktife_giris": "2026-03-15" }, "tarih": "2026-12-31" }
-{ "hesap": "amortisman", "girdi": { "maliyet": 2400000, "omur": 5, "binek": true, "aktife_giris": "2026-09-10" }, "tarih": "2026-12-31" }
-{ "hesap": "had", "girdi": { "kod": "vuk_313_demirbas" }, "tarih": "2026-12-31" }
+{ "hesap": "amortisman", "amortisman": { "ara": "bilgisayar" }, "tarih": "2026-12-31" }
+{ "hesap": "amortisman", "amortisman": { "maliyet": 850000, "sira": "<listeden dönen sıra>", "yontem": "normal", "aktife_giris": "2026-03-15" }, "tarih": "2026-12-31" }
+{ "hesap": "amortisman", "amortisman": { "maliyet": 2400000, "omur": 5, "binek": true, "aktife_giris": "2026-09-10" }, "tarih": "2026-12-31" }
+{ "hesap": "had", "had": { "kod": "vuk_313_demirbas" }, "tarih": "2026-12-31" }
 ```
 
 - `ara` tek başına verilirse araç listede eşleşen sıraları (`sira`, `ad`, `omur`, `oran`) döndürür; kalemi kullanıcıyla seç, sonra `sira` + `maliyet` ile yeniden çağır.
@@ -70,8 +70,8 @@ Yılsonu ve geçici vergi dönemlerinde amortisman tablosu, faydalı ömür seç
 
 ```
 31.12.AAAA
-770 / 760 / 730 … Gider hesabı (gider yerine göre) [yıllık amortisman]
-        257 Birikmiş Amortismanlar [yıllık amortisman]
+770 / 760 / 730 … Gider hesabı (gider yerine göre)    [yıllık amortisman]
+        257 Birikmiş Amortismanlar                          [yıllık amortisman]
 ```
 - 257 kodu VUK GT 537 örnek kayıtlarından.
 - Gider hesabının seçimi (770 Genel Yönetim, 760 Pazarlama, 730 Genel Üretim) ve maddi olmayan duran varlıkta 268 kodu MSUGT'den okunmadı `[doğrula]`.

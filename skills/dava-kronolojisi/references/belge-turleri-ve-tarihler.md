@@ -85,5 +85,5 @@ Atıflardaki `[soorgla]` etiketi, maddenin 31.10.2026'da bu beceri yazılırken 
 
 - **Gün olarak belirlenen sürelerde** tebliğ/tefhim günü sayılmaz; **hafta/ay/yıl** sürelerinde son haftanın/ayın/yılın karşılık gelen günü biter (HMK m.92 [soorgla]).
 - **Adli tatil**: adli tatile tabi işlerde sürenin son günü tatile rastlarsa süre tatilin bittiği günden itibaren uzatılmış sayılır (HMK m.104 [soorgla]; uzatma miktarını madde metninden çek — `legal_calculate_deadline` kanun yolu kodlarında bunu kendisi uyguluyor). Hangi işlerin adli tatile tabi olmadığı (HMK m.103) alan becerisinde kontrol edilir `[model bilgisi — doğrulayın]`.
-- **Resmî tatil**: `legal_check_holiday` hafta sonu ve resmî tatili doğru döndürüyor (29.10.2026 Cumhuriyet Bayramı, 27.05.2026 Kurban Bayramı denendi). Arifeyi `yarim: true` ("13.00'ten sonra tatil") diye işaretliyor → arifeye düşen son günde "öğleden önce" notu düş.
+- **Resmî tatil**: `legal_check_holiday` hafta sonu ve resmî tatili doğru döndürüyor (29.10.2026 Cumhuriyet Bayramı, 27.05.2026 Kurban Bayramı denendi). Arifeyi `yarim: true` ("13.00'ten sonra tatil") diye işaretliyor → arifeye düşen son günde "öğleden önce" notu düş. 
 - **Yaklaşık tarihli olaylar** süre hesabında başlangıç olarak kullanılmaz; önce kesin tarih aranır, bulunamazsa en erken olası tarihle hesaplanıp `[incele]` işaretlenir (temkinli varsayım).

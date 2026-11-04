@@ -206,7 +206,7 @@ kontrol et `[incele]`. Konsorsiyumda her ortak kendi kısmının lisansını sun
     **12.11.2026 Perşembe** → 11 Çarşamba (1), 10 Salı (2), 9 Pazartesi (3) → son gün **09.11.2026**. İhale **10.11.2026 Salı**
     → 9 Pazartesi (1), 7-8 Kasım hafta sonu atlanır, 6 Cuma (2), 5 Perşembe (3) → son gün **05.11.2026**. Sayım geleneğini
     (3. iş günü dahil mi) Kurum uygulamasından teyit et `[doğrula]`. 10 günlük süre ile 3 iş günü sınırından **erken olanı** son gündür.
-
+  
 - [ ] İlanda ve idari şartname m.7'de lisans türü yazılı mı (KİGT 61.2)? Benim lisansım (dağıtıcı / istasyonlu bayi /
   istasyonsuz bayi / otogaz bayi) dokümandaki kalıplardan birine giriyor mu? Girmiyorsa: idarenin serbest kullanıcı durumu
   ve teslim şekli bu dışlamayı haklı kılıyor mu? Kılmıyorsa doküman şikâyeti 🟠.

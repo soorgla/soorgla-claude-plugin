@@ -17,7 +17,7 @@ Madde farkından (`madde-farki.md`) yeni ya da değişen her yükümlülüğü a
 |---|---|---|---|---|
 | Y1 | [kim, neyi, ne zaman, hangi biçimde yapar] | [kanun m./fıkra] [soorgla] | [tarih] | [veri sorumlusu / işveren / ihaleye katılan…] |
 
-Somut yaz. "Bildirim yükümlülükleri artırıldı" yükümlülük değildir; "veri sorumlusu, standart sözleşmeyi imzalamasından itibaren beş iş günü içinde Kuruma bildirir" yükümlülüktür.
+Somut yaz. "Bildirim yükümlülükleri artırıldı" yükümlülük değildir; "veri sorumlusu, standart sözleşmeyi imzalamasından itibaren beş iş günü içinde Kuruma bildirir" yükümlülüktür. 
 
 Metin kısmi ya da belirsizse dur ve sor (upstream "No silent supplement"): "Elimde [şu] var; yükümlülüğü doğru çıkarmak için [şu] gerekir. Seçenekler: (1) tam metni yapıştırın, (2) RG'den okuyayım, (3) web araması `[web araması — doğrulayın]`, (4) burada durayım."
 
@@ -66,16 +66,16 @@ bosluklar:
   - id: B-001
     yukumluluk: "Standart sözleşme imzadan itibaren beş iş günü içinde Kuruma bildirilir"
     dayanak: "6698 m.9/5 (7499 ile değişik) [soorgla]"
-    belge: "P2 Tedarikçi veri işleme sözleşmesi şablonu" # ya da "yeni belge gerekli"
-    tur: kismi # yok | kismi | tam | yeni-belge | izle
+    belge: "P2 Tedarikçi veri işleme sözleşmesi şablonu"   # ya da "yeni belge gerekli"
+    tur: kismi          # yok | kismi | tam | yeni-belge | izle
     onem: "🔴"
     sahibi: "Uyum sorumlusu"
     acilis: 2026-10-31
-    son_tarih: 2026-11-30 # yürürlük tarihi, iç tarih ya da (izle türünde) yeniden bakış tarihi
-    yururluk_dogrulandi: true # false: kuralın yürürlükte olduğu teyit edilemedi
-    durum: acik # acik | suruyor | kapandi | risk-kabul
-    kapsam_siniri: "" # kapsam daraltıldıysa bildirim metni aynen
-    kapanis: "" # kapanışta: ne yapıldı, kim onayladı, tarih
+    son_tarih: 2026-11-30      # yürürlük tarihi, iç tarih ya da (izle türünde) yeniden bakış tarihi
+    yururluk_dogrulandi: true  # false: kuralın yürürlükte olduğu teyit edilemedi
+    durum: acik         # acik | suruyor | kapandi | risk-kabul
+    kapsam_siniri: ""   # kapsam daraltıldıysa bildirim metni aynen
+    kapanis: ""         # kapanışta: ne yapıldı, kim onayladı, tarih
 ```
 
 Kurallar:

@@ -26,8 +26,8 @@ Kesinleşmiş hapis cezasının infazının hastalık, gebelik/doğum ya da hük
 
 ## Süre
 - Hastalık ve gebelikte sabit başvuru süresi yok; durum ortaya çıkınca derhal.
-- İstek üzerine erteleme (17/1): **çağrı kâğıdı üzerine gelen** hükümlü ister; çağrı kâğıdındaki teslim süresi içinde başvur.
-- Başsavcılığın ret kararına karşı: **infaz hâkimliğine şikâyet**, öğrenmeden 15 gün / her hâlde 30 gün (4675 m.5/1 "Cumhuriyet savcısının ceza ve güvenlik tedbirlerinin infazına ilişkin verdiği kararlar") → `infaz-hakimligi-sikayet-ve-disiplin.md`.
+- İstek üzerine erteleme (17/1): **çağrı kâğıdı üzerine gelen** hükümlü ister; çağrı kâğıdındaki teslim süresi içinde başvur. 
+- Başsavcılığın ret kararına karşı: **infaz hâkimliğine şikâyet**, öğrenmeden 15 gün / her hâlde 30 gün (4675 m.5/1 "Cumhuriyet savcısının ceza ve güvenlik tedbirlerinin infazına ilişkin verdiği kararlar") → `infaz-hakimligi-sikayet-ve-disiplin.md`. 
 
 ## Görüşme soruları
 1. Hükümlü bilgisi, ilam (mahkeme, esas/karar), kesinleşme tarihi, cezanın türü ve süresi `[___]`
@@ -39,21 +39,21 @@ Kesinleşmiş hapis cezasının infazının hastalık, gebelik/doğum ya da hük
 
 ## soorgla adımları
 ```
-legal_get_statute_article law_no: "5275" article_no: "16" | "17" | "19"
-legal_get_statute_article law_no: "4675" article_no: "5"
-legal_search_statute_semantic sorgu: "hükümlünün hastalığı nedeniyle infazın ertelenmesi Adli Tıp Kurumu raporu usulü"
-legal_search_cases sorgu: "infazın hastalık nedeniyle ertelenmesi hayatı için kesin tehlike Adli Tıp raporu" tarih_baslangic: <son 3 yıl>
-legal_search_cases mahkeme: "anayasa" sorgu: "ağır hasta hükümlünün cezaevinde tutulması yaşam hakkı kötü muamele yasağı"
-legal_get_case_document belge_id: <seçilen karar>
+legal_get_statute_article  law_no: "5275"  article_no: "16" | "17" | "19"
+legal_get_statute_article  law_no: "4675"  article_no: "5"
+legal_search_statute_semantic  sorgu: "hükümlünün hastalığı nedeniyle infazın ertelenmesi Adli Tıp Kurumu raporu usulü"
+legal_search_cases  sorgu: "infazın hastalık nedeniyle ertelenmesi hayatı için kesin tehlike Adli Tıp raporu"  tarih_baslangic: <son 3 yıl>
+legal_search_cases  mahkeme: "anayasa"  sorgu: "ağır hasta hükümlünün cezaevinde tutulması yaşam hakkı kötü muamele yasağı"
+legal_get_case_document  belge_id: <seçilen karar>
 ```
 
 ## Dilekçe iskeleti
 ```
 [İL] CUMHURİYET BAŞSAVCILIĞINA (İnfaz Bürosu)
 
-HÜKÜMLÜ : [Ad Soyad], T.C. [___], [ilam: mahkeme, E./K. no, kesinleşme]
-CEZA : [tür, süre] · SUÇ: [kasıtlı/taksirli — ___]
-KONU : 5275 s. Kanun m.[16/2 | 16/4 | 16/6 | 17/1 | 17/4] uyarınca hapis cezasının infazının
+HÜKÜMLÜ   : [Ad Soyad], T.C. [___], [ilam: mahkeme, E./K. no, kesinleşme]
+CEZA      : [tür, süre]   ·  SUÇ: [kasıtlı/taksirli — ___]
+KONU      : 5275 s. Kanun m.[16/2 | 16/4 | 16/6 | 17/1 | 17/4] uyarınca hapis cezasının infazının
             [ertelenmesi / infaza ara verilmesi] talebidir.
 AÇIKLAMALAR
 1. Yasal dayanak ve şartların varlığı (ceza miktarı, suç türü, istisna yokluğu)
@@ -72,3 +72,4 @@ SONUÇ VE İSTEM : [Dayanak] uyarınca infazın [süre] süreyle ertelenmesine /
 - Hastalıkta ATK sürecini atlamak; özel hastane raporu tek başına yetmez.
 - 17/6 istisnalarını (terör, örgüt, cinsel suç, mükerrir) kontrol etmemek.
 - Erteleme ile konutta infazı karıştırmak: erteleme cezayı durdurur; konutta infaz cezanın evde çekilmesidir.
+

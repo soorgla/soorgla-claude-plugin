@@ -69,7 +69,7 @@ Upstream `company-profile-template.md` (paylaşılan şirket profili) ile paket 
   ```
   [___]
   Av. [Ad Soyad]
-  [Baro] Barosu Sicil No: [___] ← kullanıcı açıkça isterse doldurulur
+  [Baro] Barosu Sicil No: [___]   ← kullanıcı açıkça isterse doldurulur
   ```
 - Hitap ve kapanış: [ör. "Saygılarımızla arz ederiz." | "Arz ve talep ederim."]
 - Word çıktısı: [istenir | markdown yeterli]
@@ -104,7 +104,7 @@ Upstream `company-profile-template.md` (paylaşılan şirket profili) ile paket 
 | Dosya sistemi | [✓ | ✗] | [TARİH] | Profil bloğu sohbete/proje talimatına |
 | Word (docx) becerisi | [✓ | ✗] | [TARİH] | Markdown verilir |
 
-## Öğrenci ayarları ← yalnız hukuk öğrencisi
+## Öğrenci ayarları  ← yalnız hukuk öğrencisi
 - Sınıf / hazırlık: [1-4. sınıf | HMGS | hâkimlik-savcılık | avukatlık stajı öncesi]
 - Öğrenme biçimi: [Sorgula beni (Sokratik) | Önce anlat sonra sor]
 - Güçlü / zayıf dersler: [ ]
@@ -119,19 +119,19 @@ Upstream `company-profile-template.md` (paylaşılan şirket profili) ile paket 
 ## Sözleşme playbook'u
 [sozlesme-incelemesi-tbk/references/genel-inceleme-ve-playbook.md şablonu; bu beceri doldurmaz, o beceri kullanıcı onayıyla ekler]
 
-## Kaza ve bedensel zarar ← yalnız bilirkişi, sigorta tarafı ya da ana alanlarda "Tazminat ve trafik" varsa
+## Kaza ve bedensel zarar  ← yalnız bilirkişi, sigorta tarafı ya da ana alanlarda "Tazminat ve trafik" varsa
 - Rol: [zarar gören tarafı (avukat / kişi) | sigorta tarafı (şirket, eksper, rücu, sigorta avukatı) | bilirkişi]
 - Bilirkişilik alanı (bilirkişi ise): [aktüerya | trafik kusuru | maluliyet (hekim) | araç hasarı ve değer kaybı | diğer]
 - Sigorta tarafında ağırlıklı iş: [hasar ve değer kaybı tespiti | tazminat ödemesi | rücu | Sigorta Tahkim'de cevap]
 - Dosya ölçeği: [tek tük | çok — süre defteri ve dosya klasörü]
 
-## Kamu ihale ← yalnız ana alanlarda "Kamu ihale ve hakediş" varsa
+## Kamu ihale  ← yalnız ana alanlarda "Kamu ihale ve hakediş" varsa
 - İhale rolü: [İdare (ihale yetkilisi, komisyon, satın alma) | İstekli firma (kendi adına teklif veren) | İhale danışmanı (birden çok istekli adına doküman tarama, şikâyet ve itirazen şikâyet takibi) | Avukat (müvekkile göre)]
 - Kurum türü (idare ise): [bakanlık | belediye | üniversite | KİT | diğer]
 - Ağırlıklı aşama: [hazırlık ve doküman | teklif ve değerlendirme | şikâyet, itirazen şikâyet ve dava | sözleşme ve hakediş]
 - Eşzamanlı ihale sayısı: [tek tük | çok — süre defteri ve dosya klasörü kurulsun]
 
-## Mali müşavirlik ← yalnız kullanıcı türü mali müşavirse
+## Mali müşavirlik  ← yalnız kullanıcı türü mali müşavirse
 - Unvan: [SM | SMMM | YMM | şirket finans/muhasebe ekibi] — YMM'de defter tutma önerilmez, tasdik işi açılır (3568 m.2/B)
 - Büro ili ve vergi dairesi: [ ] — SMMM asgari ücret tarifesi il grubuna göre değişir
 - Müşteri ölçeği: [birkaç | onlarca | yüzlerce]; dağılım: [bilanço ~% | işletme ~% | serbest meslek ~%]
@@ -142,7 +142,7 @@ Upstream `company-profile-template.md` (paylaşılan şirket profili) ile paket 
 - Müşteriye giden yazı biçimi: [resmî | sade | madde işaretli]; imza bloğu: [unvan, oda; sicil no yazılmaz → `[___]`]
 - Sayısal değer (asgari ücret, had, oran) bu bölüme yazılmaz; beceriler araçtan ve tarifeden çeker.
 
-## Gümrük müşavirliği ← yalnız kullanıcı türü gümrük müşaviriyse
+## Gümrük müşavirliği  ← yalnız kullanıcı türü gümrük müşaviriyse
 - Ağırlıklı rejim ve işler: [ithalat | ihracat | dahilde/hariçte işleme | antrepo ve geçici depolama | transit | serbest bölge]
 - Uyuşmazlık payı: [ek tahakkuk ve m.242 itirazı | gümrük davası | tarife sınıflandırması ve BTB | kıymet | menşe ve önlemler | kaçakçılık–idari yaptırım]
 - Beyanname ölçeği: [günde birkaç | onlarca | yüzlerce]; avukat irtibatı: [ ]

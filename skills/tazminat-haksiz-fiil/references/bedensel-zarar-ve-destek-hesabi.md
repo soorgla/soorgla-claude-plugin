@@ -18,17 +18,17 @@ Yaralanma (geçici/sürekli iş göremezlik, tedavi, bakıcı) ya da ölüm (des
 Liste "özellikle" ifadesiyle sayılmıştır; bakıcı gideri gibi kalemler de istenebilir `[incele]`.
 
 ## Temel kurallar (TBK m.55)
-- Destekten yoksun kalma ve bedensel zararlar **TBK hükümlerine ve sorumluluk hukuku ilkelerine göre** hesaplanır.
-- **Kısmen ya da tamamen rücu edilemeyen sosyal güvenlik ödemeleri** ile ifa amacı taşımayan ödemeler zarardan **indirilemez**. SGK'nın rücuya tabi gelirlerinin peşin sermaye değeri ise mükerrer ödemeyi önlemek için gözetilir `[incele]`.
+- Destekten yoksun kalma ve bedensel zararlar **TBK hükümlerine ve sorumluluk hukuku ilkelerine göre** hesaplanır. 
+- **Kısmen ya da tamamen rücu edilemeyen sosyal güvenlik ödemeleri** ile ifa amacı taşımayan ödemeler zarardan **indirilemez**. SGK'nın rücuya tabi gelirlerinin peşin sermaye değeri ise mükerrer ödemeyi önlemek için gözetilir `[incele]`. 
 - Hesaplanan tazminat, **miktar esas alınarak hakkaniyet düşüncesiyle artırılamaz ya da azaltılamaz** (m.55/1 son cümle); indirim yalnız m.51-52 sebepleriyle olur.
-- Bu hükümler **idari eylem ve işlemlerden** doğan ölüm ve vücut bütünlüğü kaybı davalarında da uygulanır (m.55/2) — kamu hastanesi ve idari yargı tam yargı davalarında da aynı hesap ilkeleri.
+- Bu hükümler **idari eylem ve işlemlerden** doğan ölüm ve vücut bütünlüğü kaybı davalarında da uygulanır (m.55/2) — kamu hastanesi ve idari yargı tam yargı davalarında da aynı hesap ilkeleri. 
 
 ### 7589 ile gelen yeni kurallar (yalnız 31.07.2026 ve sonrası olaylar)
 - **Faiz başlangıcı:** zarar görenin ya da desteğin **kazancının bilindiği döneme** ilişkin tazminat toplamına **olay tarihinden**, **kazancın bilinemediği döneme** ilişkin toplamına **karar tarihinden** itibaren kanuni faiz.
 - **Mahsup:** ifa amacıyla **tahkikat başlayıncaya kadar** ödenen bedel, ödeme tarihine göre belirlenecek tazminattan **oransal** olarak mahsup edilir.
 - **Geçiş:** yalnız değişikliğin yürürlüğünden (31.07.2026) **sonra** meydana gelen haksız fiillere uygulanır; önceki olaylarda eski metin.
 
-Önceki olaylarda faiz: haksız fiilde temerrüt olay tarihinde (TBK m.117/2); ZMSS sigortacısında başvuru/ödeme süresine göre (KTK m.97, m.99) `[incele]`. Sigortacıdan avans faizi istenip istenemeyeceği aracın ticari niteliğine göre değişir `[incele]`.
+Önceki olaylarda faiz: haksız fiilde temerrüt olay tarihinde (TBK m.117/2); ZMSS sigortacısında başvuru/ödeme süresine göre (KTK m.97, m.99) `[incele]`. Sigortacıdan avans faizi istenip istenemeyeceği aracın ticari niteliğine göre değişir `[incele]`. 
 
 ---
 
@@ -36,15 +36,15 @@ Liste "özellikle" ifadesiyle sayılmıştır; bakıcı gideri gibi kalemler de 
 
 | Unsur | Güncel uygulama | Kaynak |
 |---|---|---|
-| Yaşam tablosu | **TRH-2010**. PMF-1931 daha kısa ömür verdiğinden yalnız davacı aleyhine olmayacak biçimde (ör. davacı istemiş ya da yalnız davalı istinaf etmişse) sonuca bırakılır. | |
-| İskonto | **Progresif rant** (gelir her yıl %10 artırılıp %10 iskonto edilir); Genel Şartlardaki **%1,8 teknik faiz uygulanmaz**. | |
-| Genel Şartlar yöntemi | AYM E.2019/40 iptali sonrası bağlayıcı değil; Genel Şartlar yalnız KTK ve TBK'ya aykırı olmayan ölçüde. | |
-| Maluliyet raporu | **Kaza tarihinde** yürürlükte olan düzenlemeye göre, beş dönem: 11.10.2008 öncesi Sosyal Sigortalar Sağlık İşlemleri Tüzüğü; 11.10.2008-01.09.2013 Çalışma Gücü ve Meslekte Kazanma Gücü Kaybı Oranı Tespit İşlemleri Yönetmeliği; 01.09.2013-01.06.2015 Maluliyet Tespiti İşlemleri Yönetmeliği; 01.06.2015-20.02.2019 Özürlülük Ölçütü yönetmeliği; 20.02.2019 sonrası Erişkinler İçin Engellilik Değerlendirmesi Hakkında Yönetmelik. 4. HD uyuşmazlık giderme kararında, Özürlülük ve Erişkinler yönetmeliklerinin ZMSS davalarında uygulanmayacağı yönündeki BAM görüşünü reddetti. Dönemi aktüerya aracı (`maluliyet_birlestir`) kaza tarihinden seçer. | |
-| Bakiye ömür | `legal_get_life_expectancy` (cinsiyet, yaş). Araç tablo adını döndürmez; değerleri TRH-2010 ile örtüşüyor. PMF-1931 değeri araçta yok. | |
+| Yaşam tablosu | **TRH-2010**. PMF-1931 daha kısa ömür verdiğinden yalnız davacı aleyhine olmayacak biçimde (ör. davacı istemiş ya da yalnız davalı istinaf etmişse) sonuca bırakılır. |  |
+| İskonto | **Progresif rant** (gelir her yıl %10 artırılıp %10 iskonto edilir); Genel Şartlardaki **%1,8 teknik faiz uygulanmaz**. |  |
+| Genel Şartlar yöntemi | AYM E.2019/40 iptali sonrası bağlayıcı değil; Genel Şartlar yalnız KTK ve TBK'ya aykırı olmayan ölçüde. |  |
+| Maluliyet raporu | **Kaza tarihinde** yürürlükte olan düzenlemeye göre, beş dönem: 11.10.2008 öncesi Sosyal Sigortalar Sağlık İşlemleri Tüzüğü; 11.10.2008-01.09.2013 Çalışma Gücü ve Meslekte Kazanma Gücü Kaybı Oranı Tespit İşlemleri Yönetmeliği; 01.09.2013-01.06.2015 Maluliyet Tespiti İşlemleri Yönetmeliği; 01.06.2015-20.02.2019 Özürlülük Ölçütü yönetmeliği; 20.02.2019 sonrası Erişkinler İçin Engellilik Değerlendirmesi Hakkında Yönetmelik. 4. HD uyuşmazlık giderme kararında, Özürlülük ve Erişkinler yönetmeliklerinin ZMSS davalarında uygulanmayacağı yönündeki BAM görüşünü reddetti. Dönemi aktüerya aracı (`maluliyet_birlestir`) kaza tarihinden seçer. |  |
+| Bakiye ömür | `legal_get_life_expectancy` (cinsiyet, yaş). Araç tablo adını döndürmez; değerleri TRH-2010 ile örtüşüyor. PMF-1931 değeri araçta yok. |  |
 | Gelir | Belgeli gerçek gelir; belge yoksa asgari ücret (`legal_get_social_parameters` `asgari_ucret_net` / `asgari_ucret_brut`). Geçmiş dönem asgari ücretleri araçta yok → `[doğrula]`. | |
-| Aktif / pasif dönem | Aktif dönem çoğunlukla 60 yaşa kadar, pasif dönem bakiye ömre kadar asgari ücret üzerinden `[model bilgisi — doğrulayın]` | |
-| Destek payları | Destek, eş ve çocuklar arasında pay dağılımı; çocukların destek süresi (kız/erkek, öğrenim durumu) `[model bilgisi — doğrulayın]` | |
-| Ödeme mahsubu | Sigortacının dava öncesi ödemesi: ödeme tarihi verileriyle hesap yapılıp ödemenin zararı karşılayıp karşılamadığı denetlenir; karşılamıyorsa rapor tarihi verileriyle hesaplanıp ödeme güncellenerek mahsup edilir (BAM ve 4. HD uygulaması; 31.07.2026 sonrası olaylarda TBK m.55/4). | |
+| Aktif / pasif dönem | Aktif dönem çoğunlukla 60 yaşa kadar, pasif dönem bakiye ömre kadar asgari ücret üzerinden `[model bilgisi — doğrulayın]` |  |
+| Destek payları | Destek, eş ve çocuklar arasında pay dağılımı; çocukların destek süresi (kız/erkek, öğrenim durumu) `[model bilgisi — doğrulayın]` |  |
+| Ödeme mahsubu | Sigortacının dava öncesi ödemesi: ödeme tarihi verileriyle hesap yapılıp ödemenin zararı karşılayıp karşılamadığı denetlenir; karşılamıyorsa rapor tarihi verileriyle hesaplanıp ödeme güncellenerek mahsup edilir (BAM ve 4. HD uygulaması; 31.07.2026 sonrası olaylarda TBK m.55/4). |  |
 
 ### Hesap denetim listesi (aktüer raporu geldiğinde)
 Usul denetimi, maluliyet raporunun düzenleyeni, fark tablosu ve itiraz talebi türü → `bilirkisi-raporu-denetimi.md` (§3, §4.1-4.2); liste burada kalır.
@@ -63,7 +63,7 @@ Yeniden hesap `legal_calculate_actuarial_loss` (`islem: tazminat | maluliyet_bir
 ---
 
 ## Usul notu: belirsiz alacak kalktı
-31.07.2026'dan **sonra açılan** davalarda HMK m.107 (belirsiz alacak davası) uygulanmaz; tazminat davası **kısmi dava** olarak açılır ve talep aynı davada **bir defaya mahsus**, iddianın genişletilmesi yasağına takılmadan tahkikat sonuna kadar artırılabilir; zamanaşımı artırılan kısım için de dava tarihinde kesilmiş sayılır (HMK m.109/4). Daha önce açılmış belirsiz alacak davaları eski hükme göre sürer. Aktüer raporu gelmeden dava açılacaksa bu ayrım dilekçenin talep kısmını belirler `[incele]`.
+31.07.2026'dan **sonra açılan** davalarda HMK m.107 (belirsiz alacak davası) uygulanmaz; tazminat davası **kısmi dava** olarak açılır ve talep aynı davada **bir defaya mahsus**, iddianın genişletilmesi yasağına takılmadan tahkikat sonuna kadar artırılabilir; zamanaşımı artırılan kısım için de dava tarihinde kesilmiş sayılır (HMK m.109/4). Daha önce açılmış belirsiz alacak davaları eski hükme göre sürer.  Aktüer raporu gelmeden dava açılacaksa bu ayrım dilekçenin talep kısmını belirler `[incele]`.
 
 ---
 
@@ -79,15 +79,15 @@ Yeniden hesap `legal_calculate_actuarial_loss` (`islem: tazminat | maluliyet_bir
 
 ## soorgla çağrıları
 ```
-legal_list_statute_articles law_no: "6098" law_type: "Kanun" article_no: "5" include_content: true # m.50-58 (m.55'in 7589 fıkraları dâhil)
-legal_get_life_expectancy cinsiyet: "erkek" | "kadin" yas: <tam sayı>
-legal_get_social_parameters tur: "asgari_ucret_net"
+legal_list_statute_articles  law_no: "6098"  law_type: "Kanun"  article_no: "5"  include_content: true   # m.50-58 (m.55'in 7589 fıkraları dâhil)
+legal_get_life_expectancy  cinsiyet: "erkek" | "kadin"  yas: <tam sayı>
+legal_get_social_parameters  tur: "asgari_ucret_net"
 legal_get_legal_interest_rates
-legal_calculate_cpi_change # eski tarihli giderlerin güncellenmesi
-legal_search_cases mahkeme: "yargitay" daire: "4. Hukuk Dairesi" tarih_baslangic: "<son 3 yıl>"
+legal_calculate_cpi_change          # eski tarihli giderlerin güncellenmesi
+legal_search_cases  mahkeme: "yargitay"  daire: "4. Hukuk Dairesi"  tarih_baslangic: "<son 3 yıl>"
     sorgu: "destekten yoksun kalma TRH 2010 progresif rant aktif dönem pasif dönem"
-legal_search_cases mahkeme: "yargitay" daire: "4. Hukuk Dairesi" sorgu: "uyuşmazlığın giderilmesi maluliyet yönetmeliği olay tarihi"
-legal_get_statute_article law_no: "6100" article_no: "109"
+legal_search_cases  mahkeme: "yargitay"  daire: "4. Hukuk Dairesi"  sorgu: "uyuşmazlığın giderilmesi maluliyet yönetmeliği olay tarihi"
+legal_get_statute_article  law_no: "6100"  article_no: "109"
 ```
 
 ## Çıktı iskeleti
@@ -111,3 +111,4 @@ legal_get_statute_article law_no: "6100" article_no: "109"
 - Rücu edilemeyen SGK ödemelerini zarardan düşmek.
 - Hesaplanan tazminatı "hakkaniyet" gerekçesiyle tutar üzerinden indirmek (m.55/1).
 - 31.07.2026 sonrası davayı belirsiz alacak davası olarak kurmak.
+

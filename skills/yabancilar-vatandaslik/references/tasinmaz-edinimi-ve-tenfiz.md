@@ -14,7 +14,7 @@
 
 | Kural | İçerik | Dayanak |
 |---|---|---|
-| Kimler edinebilir | **Cumhurbaşkanınca belirlenen ülkelerin** vatandaşı gerçek kişiler, kanuni sınırlamalara uyarak; karşılıklılık şartı 6302 ile kaldırıldı, yerine CB belirlemesi geldi | 2644 m.35/1 (6302, 2012) |
+| Kimler edinebilir | **Cumhurbaşkanınca belirlenen ülkelerin** vatandaşı gerçek kişiler, kanuni sınırlamalara uyarak; karşılıklılık şartı 6302 ile kaldırıldı, yerine CB belirlemesi geldi | 2644 m.35/1 (6302, 2012)  |
 | Alan sınırı | Yabancı gerçek kişilerin toplam edinimi **ilçe özel mülkiyet yüzölçümünün %10'unu** ve kişi başına ülke genelinde **30 hektarı** geçemez; CB kişi başı miktarı iki katına çıkarabilir | 2644 m.35/1 |
 | Yabancı şirketler | Kendi ülkesinin kanununa göre kurulmuş tüzel kişiliği haiz ticaret şirketleri ancak **özel kanun** hükümleri çerçevesinde edinebilir; diğer yabancı tüzel kişiler edinemez; **taşınmaz rehninde** bu sınırlamalar uygulanmaz | 2644 m.35/2 |
 | CB'nin yetkisi | Ülke, kişi, coğrafi bölge, süre, sayı, oran, tür, nitelik, yüzölçüm ve miktar olarak belirleme, sınırlandırma, durdurma, yasaklama | 2644 m.35/3 |
@@ -22,12 +22,12 @@
 | Askerî yasak ve güvenlik bölgeleri | Harita ve koordinatlar Bakanlığa verilir, tapu işlemleri bunlara göre yürütülür | 2644 m.35/5 |
 | Aykırı edinim ve **miras** | Maddeye aykırı edinilen, amacına aykırı kullanılan, süresinde projesi sunulmayan/gerçekleştirilmeyen taşınmazlar ve sınırlama dışında mirasla edinilenler, Maliye Bakanlığının vereceği **1 yılı geçmeyen** sürede malik tarafından tasfiye edilmezse tasfiye edilerek bedele çevrilir, bedel hak sahibine ödenir | 2644 m.35/6 |
 
-**Ülke listesini sabit yazma:** eski YAML'daki "Suriye, Kuzey Kore, Güney Kıbrıs vatandaşları alamaz" ifadesi bir listeye dayanıyor olabilir ama dayanağı CB kararı (ve bazı ülkeler için ayrı mevzuat) olduğundan değişir. Güncel listeyi ve dayanağını (CB kararı, varsa ülkeye özgü mevzuat) Tapu ve Kadastro Genel Müdürlüğü duyurusundan ya da RG'den kullanıcıya teyit ettir — soorgla'da bulunamadı; ülke adı yazma. soorgla'da "Suriye Uyruklu Özel ve Tüzel Kişilerin Hazinece El Konulan Mallarının İdaresi Hakkında Yönetmelik" kaydı var; bu, edinim yasağının değil eski el koyma rejiminin metnidir, dayanak sanma.
+**Ülke listesini sabit yazma:** eski YAML'daki "Suriye, Kuzey Kore, Güney Kıbrıs vatandaşları alamaz" ifadesi bir listeye dayanıyor olabilir ama dayanağı CB kararı (ve bazı ülkeler için ayrı mevzuat) olduğundan değişir. Güncel listeyi ve dayanağını (CB kararı, varsa ülkeye özgü mevzuat) Tapu ve Kadastro Genel Müdürlüğü duyurusundan ya da RG'den kullanıcıya teyit ettir — soorgla'da bulunamadı; ülke adı yazma.  soorgla'da "Suriye Uyruklu Özel ve Tüzel Kişilerin Hazinece El Konulan Mallarının İdaresi Hakkında Yönetmelik" kaydı var; bu, edinim yasağının değil eski el koyma rejiminin metnidir, dayanak sanma. 
 
 **Bağlantılı sonuçlar:**
-- Taşınmaz sahipliği **kısa dönem ikamet** gerekçesidir (6458 m.31/1-b); esas olacak taşınmazın niteliği ve değeri 7533 ile Bakanlıkça belirlenir (m.31/6) → `ikamet-izinleri.md`.
+- Taşınmaz sahipliği **kısa dönem ikamet** gerekçesidir (6458 m.31/1-b); esas olacak taşınmazın niteliği ve değeri 7533 ile Bakanlıkça belirlenir (m.31/6) → `ikamet-izinleri.md`. 
 - Vatandaşlık için taşınmaz alımında 2023'ten beri yalnız kat mülkiyeti/irtifakı kurulmuş ya da yapılı arsa sayılır → `vatandaslik.md`.
-- Yurt dışında yerleşik kişiye konut satışında KDV istisnası, döviz şartı ve bedel iadesinde KKDF gibi vergisel sorular → `../../vergi/SKILL.md`; GİB özelgeleri `legal_search_admin_guidance` (`kurum: "Gelir İdaresi Başkanlığı"`, `belge_tur: "ozelge"`) ile çıkıyor.
+- Yurt dışında yerleşik kişiye konut satışında KDV istisnası, döviz şartı ve bedel iadesinde KKDF gibi vergisel sorular → `../../vergi/SKILL.md`; GİB özelgeleri `legal_search_admin_guidance` (`kurum: "Gelir İdaresi Başkanlığı"`, `belge_tur: "ozelge"`) ile çıkıyor. 
 
 ### Kontrol listesi — edinim
 1. Alıcının uyruğu (çifte vatandaşlık? 5901 m.28 kapsamı → yabancı sayılmayabilir `[doğrula]`) ve güncel CB listesi.
@@ -44,15 +44,15 @@
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| Tenfiz gereği | Yabancı mahkemenin hukuk davalarına ilişkin, o devlet kanunlarına göre **kesinleşmiş** ilamının Türkiye'de icrası yetkili Türk mahkemesinin tenfiz kararına bağlıdır; ceza ilamlarındaki kişisel haklara ilişkin hükümler için de istenebilir | 5718 m.50 |
-| Görev ve yetki | **Asliye mahkemesi**; aleyhine tenfiz istenenin Türkiye'deki yerleşim yeri, yoksa sâkin olduğu yer, o da yoksa Ankara, İstanbul ya da İzmir | 5718 m.51 |
-| Ekler | Onanmış ilam aslı ya da onaylı örneği ve onaylı tercümesi; **kesinleşme** belgesi ve onaylı tercümesi | 5718 m.53 |
+| Tenfiz gereği | Yabancı mahkemenin hukuk davalarına ilişkin, o devlet kanunlarına göre **kesinleşmiş** ilamının Türkiye'de icrası yetkili Türk mahkemesinin tenfiz kararına bağlıdır; ceza ilamlarındaki kişisel haklara ilişkin hükümler için de istenebilir | 5718 m.50  |
+| Görev ve yetki | **Asliye mahkemesi**; aleyhine tenfiz istenenin Türkiye'deki yerleşim yeri, yoksa sâkin olduğu yer, o da yoksa Ankara, İstanbul ya da İzmir | 5718 m.51  |
+| Ekler | Onanmış ilam aslı ya da onaylı örneği ve onaylı tercümesi; **kesinleşme** belgesi ve onaylı tercümesi | 5718 m.53  |
 | Şartlar | Karşılıklılık; Türk mahkemelerinin münhasır yetkisine girmeme / aşırı yetki itirazı; kamu düzenine açık aykırılık olmaması; usulüne uygun çağrı, temsil ve savunma hakkı | 5718 m.54 (aile-miras dosyasında DOGRULANDI) |
 | Tanıma | Karşılıklılık (m.54/1-a) aranmaz; diğer şartlar aranır | 5718 m.58/1 (aile-miras dosyasında DOGRULANDI) |
-| **Yabancı hakem kararı** | Kesinleşmiş ve icra kabiliyeti kazanmış ya da bağlayıcı karar; tarafların yazılı kararlaştırdığı yer **asliye** mahkemesi, yoksa aleyhine karar verilenin yerleşim yeri, sâkin olduğu yer ya da malların bulunduğu yer | 5718 m.60 |
-| Hakem kararında ret sebepleri | Tahkim anlaşması yok; genel ahlâk ya da kamu düzenine aykırılık; uyuşmazlık tahkime elverişsiz; usulüne uygun temsil yok; hakem seçiminden haberdar edilmeme ya da savunma imkânından yoksunluk; tahkim anlaşmasının hükümsüzlüğü; usulün anlaşmaya aykırılığı; anlaşmayı aşan karar (o kısım); kesinleşmeme, icra kabiliyeti kazanmama ya da iptal edilme. (ç)-(h) bentlerinde ispat yükü tenfiz istenen taraftadır | 5718 m.62 |
+| **Yabancı hakem kararı** | Kesinleşmiş ve icra kabiliyeti kazanmış ya da bağlayıcı karar; tarafların yazılı kararlaştırdığı yer **asliye** mahkemesi, yoksa aleyhine karar verilenin yerleşim yeri, sâkin olduğu yer ya da malların bulunduğu yer | 5718 m.60  |
+| Hakem kararında ret sebepleri | Tahkim anlaşması yok; genel ahlâk ya da kamu düzenine aykırılık; uyuşmazlık tahkime elverişsiz; usulüne uygun temsil yok; hakem seçiminden haberdar edilmeme ya da savunma imkânından yoksunluk; tahkim anlaşmasının hükümsüzlüğü; usulün anlaşmaya aykırılığı; anlaşmayı aşan karar (o kısım); kesinleşmeme, icra kabiliyeti kazanmama ya da iptal edilme. (ç)-(h) bentlerinde ispat yükü tenfiz istenen taraftadır | 5718 m.62  |
 
-**Ticari dava ve asliye ticaret:** m.51 ve m.60 "asliye mahkemesi" der; uyuşmazlık ticari nitelikteyse asliye ticaret mahkemesinin görevli olup olmadığını TTK m.4-5 ve güncel Yargıtay içtihadıyla kontrol et `[doğrula]`. Uygulamada ticari ilamların tenfizi asliye ticarette görülüp Yargıtay 11. HD'de inceleniyor (ör. 11. HD E.2024/2938 K.2024/5347 — ABD mahkeme kararının tenfizi, ilk derece "Ticaret Mahkemesi"); Ankara BAM 9. HD de özel asliye mahkemelerinin (asliye ticaret, aile, iş) kendi alanlarındaki tanıma/tenfizde görevli olduğunu "yerleşik yargı kararları"na dayanarak kabul etti (Yargıtay 9. HD E.2024/12327 K.2025/346'da aktarılan gerekçe; Yargıtay başka gerekçeyle bozdu). Dava şartı arabuluculuğun (TTK 5/A) tenfiz davasına uygulanıp uygulanmadığını varsayma; güncel kararı ara, bulamazsan `[ARAŞTIRMA GEREKLİ: tenfizde TTK 5/A]` → `../../sirketler-ticaret/SKILL.md`. New York 1958 Sözleşmesi'nin metni ve Türkiye'nin çekinceleri soorgla'da yok; uygulanabilirlik ve çekinceleri RG onay kanunundan ya da UNCITRAL taraf listesinden kullanıcıya teyit ettir, ezberden yazma.
+**Ticari dava ve asliye ticaret:** m.51 ve m.60 "asliye mahkemesi" der; uyuşmazlık ticari nitelikteyse asliye ticaret mahkemesinin görevli olup olmadığını TTK m.4-5 ve güncel Yargıtay içtihadıyla kontrol et `[doğrula]`. Uygulamada ticari ilamların tenfizi asliye ticarette görülüp Yargıtay 11. HD'de inceleniyor (ör. 11. HD E.2024/2938 K.2024/5347 — ABD mahkeme kararının tenfizi, ilk derece "Ticaret Mahkemesi"); Ankara BAM 9. HD de özel asliye mahkemelerinin (asliye ticaret, aile, iş) kendi alanlarındaki tanıma/tenfizde görevli olduğunu "yerleşik yargı kararları"na dayanarak kabul etti (Yargıtay 9. HD E.2024/12327 K.2025/346'da aktarılan gerekçe; Yargıtay başka gerekçeyle bozdu). Dava şartı arabuluculuğun (TTK 5/A) tenfiz davasına uygulanıp uygulanmadığını varsayma; güncel kararı ara, bulamazsan `[ARAŞTIRMA GEREKLİ: tenfizde TTK 5/A]` → `../../sirketler-ticaret/SKILL.md`.  New York 1958 Sözleşmesi'nin metni ve Türkiye'nin çekinceleri soorgla'da yok; uygulanabilirlik ve çekinceleri RG onay kanunundan ya da UNCITRAL taraf listesinden kullanıcıya teyit ettir, ezberden yazma. 
 
 **Temyizde daire:** yabancı mahkeme kararlarının tanınması ve tenfizi istemli davalarda temyiz incelemesi esas davaya ait hükmü incelemekle görevli dairece yapılır (Yargıtay BGK 2026/1 Ortak Hükümler m.12) — daireyi sabit yazma, BGK'dan çek. (aile-miras dosyasında DOGRULANDI)
 
@@ -85,11 +85,11 @@
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "2644" law_type: "Kanun" article_no: "35"
-legal_get_statute_article law_no: "5718" law_type: "Kanun" article_no: "50" | "51" | "53" | "54" | "58" | "60" | "61" | "62" | "63"
-legal_search_official_gazette query: "yabancı uyruklu gerçek kişilerin taşınmaz edinimi Cumhurbaşkanı Kararı" sort_by: "date_desc"
-legal_search_cases mahkeme: "yargitay" sorgu: "<ör. yabancı hakem kararının tenfizi kamu düzeni savunma hakkı>" tarih_baslangic: "2023-01-01"
-legal_search_admin_guidance sorgu: "yurt dışında yerleşik kişilere konut satışı döviz KDV" kurum: "Gelir İdaresi Başkanlığı" belge_tur: "ozelge"
+legal_get_statute_article  law_no: "2644"  law_type: "Kanun"  article_no: "35"
+legal_get_statute_article  law_no: "5718"  law_type: "Kanun"  article_no: "50" | "51" | "53" | "54" | "58" | "60" | "61" | "62" | "63"
+legal_search_official_gazette  query: "yabancı uyruklu gerçek kişilerin taşınmaz edinimi Cumhurbaşkanı Kararı"  sort_by: "date_desc"
+legal_search_cases  mahkeme: "yargitay"  sorgu: "<ör. yabancı hakem kararının tenfizi kamu düzeni savunma hakkı>"  tarih_baslangic: "2023-01-01"
+legal_search_admin_guidance  sorgu: "yurt dışında yerleşik kişilere konut satışı döviz KDV"  kurum: "Gelir İdaresi Başkanlığı"  belge_tur: "ozelge"
 ```
 
 ---
@@ -119,3 +119,4 @@ Tenfiz dava dilekçesi → `../../hukuk-yargilamasi-dilekce/SKILL.md` (`referenc
 - 🟡 Yabancı boşanma kararını bu dosyayla çözmeye çalışmak (aile-miras; idari tanıma yolu var).
 
 ---
+

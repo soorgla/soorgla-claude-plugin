@@ -21,9 +21,9 @@
 Çelişki yazmadan önce iki kararın da tam metnini oku ve şunları ayıkla:
 
 - **Olgu farkı:** Kararlar farklı olgulara dayanıyor olabilir (ör. biri acil müdahale, öteki planlı ameliyat). Bu durum çelişki değil, ayırt etmedir.
-- **Gerekçe mi, aktarılan görüş mü:** Bir kurul kararında "Burada görüldüğü gibi Özel Dairenin … değerlendirecek olursak" gibi ifadeler karşı oy ya da azınlık görüşü olabilir. Çoğunluk gerekçesi sanılmamalıdır.
+- **Gerekçe mi, aktarılan görüş mü:** Bir kurul kararında "Burada görüldüğü gibi Özel Dairenin … değerlendirecek olursak" gibi ifadeler karşı oy ya da azınlık görüşü olabilir. Çoğunluk gerekçesi sanılmamalıdır. 
 - **Usul ile esas farkı:** Biri usulden bozma (ör. bilirkişi heyeti eksik), öteki esasa ilişkin olabilir.
-- **Mevzuat değişikliği:** Eski kararın dayandığı metin değişmiş olabilir. Örnek: 1219 m.70'e 2025'te 7557 ile elektronik onam cümleleri eklendi; bu tarihten önceki kararlarda bu cümleler yoktur.
+- **Mevzuat değişikliği:** Eski kararın dayandığı metin değişmiş olabilir. Örnek: 1219 m.70'e 2025'te 7557 ile elektronik onam cümleleri eklendi; bu tarihten önceki kararlarda bu cümleler yoktur. 
 
 Görünüşte çelişkiyi "çelişki" diye sunma. "Ayırt edilebilir" diye yaz ve farkı göster.
 
@@ -45,9 +45,9 @@ Görünüşte çelişkiyi "çelişki" diye sunma. "Ayırt edilebilir" diye yaz v
 Notta hangi çizginin "doğru" olduğuna sen karar verme. Çizgileri, ağırlıklarını ve müvekkilin olayına hangisinin daha yakın düştüğünü göster. Seçimi avukat yapar.
 
 **Çözüm yolları** (öneri olarak yaz, karar avukatındır):
-- Yargıtay'da içtihadı birleştirme: Birinci Başkan, daireler, genel kurullar ya da Cumhuriyet Başsavcısı ister. Diğer merci ve kişiler gerekçeli yazılı başvuru yapabilir; gidilip gidilmeyeceğine Birinci Başkanlık Kurulu karar verir [soorgla: 2797 s. Yargıtay Kanunu m.45].
-- BAM daireleri arasındaki (aynı ya da farklı BAM) kesin kararlarda uyuşmazlığın giderilmesi için Yargıtay'a başvuru yolu [soorgla: 5235 s. Kanun m.35].
-- Danıştay'da içtihatların birleştirilmesi: dava daireleri ya da kurullar arasında aykırılıkta İçtihatları Birleştirme Kurulu; Danıştay Başkanı, ilgili daireler, kurullar ya da Başsavcı ister [soorgla: 2575 s. Danıştay Kanunu m.39-40].
+- Yargıtay'da içtihadı birleştirme: Birinci Başkan, daireler, genel kurullar ya da Cumhuriyet Başsavcısı ister. Diğer merci ve kişiler gerekçeli yazılı başvuru yapabilir; gidilip gidilmeyeceğine Birinci Başkanlık Kurulu karar verir [soorgla: 2797 s. Yargıtay Kanunu m.45]. 
+- BAM daireleri arasındaki (aynı ya da farklı BAM) kesin kararlarda uyuşmazlığın giderilmesi için Yargıtay'a başvuru yolu [soorgla: 5235 s. Kanun m.35]. 
+- Danıştay'da içtihatların birleştirilmesi: dava daireleri ya da kurullar arasında aykırılıkta İçtihatları Birleştirme Kurulu; Danıştay Başkanı, ilgili daireler, kurullar ya da Başsavcı ister [soorgla: 2575 s. Danıştay Kanunu m.39-40]. 
 - Somut davada: kanun yolu dilekçesinde aykırı kararların gösterilmesi. Bu iş `kanun-yollari-dilekce` becerisine aittir.
 
 ## 4. Araştırma boşlukları

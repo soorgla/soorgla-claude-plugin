@@ -20,7 +20,7 @@ Kira geliri beyanı, binek otomobil gider ve amortisman sınırı, KKEG ayrımı
 **Kira geliri** (`kira_geliri`):
 ```json
 { "hesap": "kira_geliri",
-  "girdi": { "yil": 2025, "konut": "<yıllık TL>", "isyeri": "<yıllık brüt TL>",
+  "kira_geliri": { "yil": 2025, "konut": "<yıllık TL>", "isyeri": "<yıllık brüt TL>",
              "gider_yontemi": "goturu", "diger_gayrisafi": "<TL>", "diger_stopajli": "<TL>", "ticari_beyan": false },
   "tarih": "2026-03-01" }
 ```
@@ -29,13 +29,13 @@ Yanıt: `beyan_gerekli`, `matrah`, `hesaplanan_vergi`, `mahsup_edilecek_stopaj`,
 **Binek otomobil** (`binek_oto`):
 ```json
 { "hesap": "binek_oto",
-  "girdi": { "iktisap_tarihi": "2025-05-10", "bedel": "<TL>", "otv": "<TL>", "kdv": "<TL>",
+  "binek_oto": { "iktisap_tarihi": "2025-05-10", "bedel": "<TL>", "otv": "<TL>", "kdv": "<TL>",
              "yillik_amortisman": "<TL>", "isletme_giderleri": "<TL>", "serbest_meslek": false },
   "tarih": "2026-12-31" }
 ```
 Yanıt kalem kalem `gider_yazilabilir` ve `kkeg`, toplam `toplam_kkeg`.
 
-**Tek bir sınır** (beyan sınırı, istisna tutarı): `{"hesap":"had","girdi":{"ara":"kira"}}` ya da `{"ara":"binek"}`.
+**Tek bir sınır** (beyan sınırı, istisna tutarı): `{"hesap":"had","had":{"ara":"kira"}}` ya da `{"ara":"binek"}`.
 
 **Araç sınırları (koddan):**
 - `kira_geliri` yalnız kira gelirini hesaplar; başka gelirle birlikte beyanda tarife toplam matraha uygulanır, sonuç ayrıca kurulmalı (uyarıda yazar).

@@ -13,17 +13,17 @@
 
 | Kod | Kontrol | Dayanak | Not |
 |---|---|---|---|
-| TÜR | **Kullanım ödüncü**: şeyin kendisi geri verilir, kural olarak karşılıksız. **Tüketim ödüncü**: para ya da tüketilebilen şey devredilir, aynı nitelik ve miktarda geri verilir | TBK m.379, m.386 | Ücret karşılığı kullanım → kira niteliği `[incele]` |
+| TÜR | **Kullanım ödüncü**: şeyin kendisi geri verilir, kural olarak karşılıksız. **Tüketim ödüncü**: para ya da tüketilebilen şey devredilir, aynı nitelik ve miktarda geri verilir | TBK m.379, m.386 | Ücret karşılığı kullanım → kira niteliği `[incele]`  |
 | FAİZ-KARARLAŞTIRMA | Ticari olmayan tüketim ödüncünde faiz ancak **kararlaştırılmışsa**; ticari tüketim ödüncünde kararlaştırılmasa da istenebilir | TBK m.387 | |
 | FAİZ-ORANI | Oran belirlenmemişse ödünç zamanında ve yerinde o tür ödünçlerde geçerli oran; aksi yoksa yıllık ödenir | TBK m.388/1-2 | |
 | BİLEŞİK-FAİZ | Faizin anaparaya eklenip yeniden faiz yürütülmesi **kararlaştırılamaz** | TBK m.388/3 | Ticari cari hesap ve TTK istisnaları `[incele]`; tüketicide temerrüt dahil yasak (6502 m.4/7) |
 | FAİZ-SINIRI | Akdî faiz kanuni faizin yüzde elli fazlasını, temerrüt faizi yüzde yüz fazlasını aşamaz | TBK m.88/2, m.120/2 | Oran → `legal_get_legal_interest_rates`; 3095 m.1 7589 ile değişti (SKILL.md Adım 4). Ticari işlerde TTK m.8 istisnası `[doğrula]` |
 | GERİ-VERME | Gün, bildirim süresi ya da "istendiğinde muaccel" kaydı yoksa ödünç alan ilk istemden itibaren **altı hafta** geçmedikçe geri vermekle yükümlü değil | TBK m.392 | Sözleşmeye vade ya da bildirim süresi yaz |
 | TESLİM-ZAMANAŞIMI | Ödünç konusunun teslimi ve teslim alınması istemleri, diğer tarafın temerrüdünden itibaren **altı ayda** zamanaşımına uğrar | TBK m.389 | Geri ödeme alacağı değil, **teslim** istemi |
-| ÖDEME-GÜÇSÜZLÜĞÜ | Ödünç alan sözleşmeden sonra ödeme güçsüzlüğüne düşerse ödünç veren teslimden kaçınabilir | TBK m.390 | |
-| KULLANIM-SINIRI | Kullanım ödüncünde başkasına kullandırma yasağı, sözleşme dışı kullanımda beklenmedik hâl sorumluluğu; olağan bakım giderleri ödünç alana | TBK m.380-381 | |
-| ÖLÜM | Kullanım ödüncü ödünç alanın ölümüyle sona erer | TBK m.385 | |
-| TÜKETİCİ-KREDİSİ | Tüketici kredisi **yazılı ya da mesafeli** kurulmadıkça geçersiz; kredi veren geçersizliği tüketici aleyhine ileri süremez | 6502 m.22/3 | Cayma 6502 m.24; erken ödeme indirimi m.27 (konut finansmanında m.37) |
+| ÖDEME-GÜÇSÜZLÜĞÜ | Ödünç alan sözleşmeden sonra ödeme güçsüzlüğüne düşerse ödünç veren teslimden kaçınabilir | TBK m.390 |  |
+| KULLANIM-SINIRI | Kullanım ödüncünde başkasına kullandırma yasağı, sözleşme dışı kullanımda beklenmedik hâl sorumluluğu; olağan bakım giderleri ödünç alana | TBK m.380-381 |  |
+| ÖLÜM | Kullanım ödüncü ödünç alanın ölümüyle sona erer | TBK m.385 |  |
+| TÜKETİCİ-KREDİSİ | Tüketici kredisi **yazılı ya da mesafeli** kurulmadıkça geçersiz; kredi veren geçersizliği tüketici aleyhine ileri süremez | 6502 m.22/3 | Cayma 6502 m.24; erken ödeme indirimi m.27 (konut finansmanında m.37)  |
 | SENET | Tüketici işleminde yalnız nama yazılı, her taksite ayrı senet | 6502 m.4/5 | |
 
 ## 2. Dövizli bedel (32 sayılı Karar)
@@ -44,9 +44,9 @@
 | Yabancı sermayeli şirketler (%50+ dışarıda yerleşik), serbest bölge şirketleri | İşveren/hizmet alan olarak taraf oldukları iş ve hizmet sözleşmelerinde serbest | — | f.19 |
 | Kıymetli evrak | Yasak kapsamındaki sözleşmeye dayalı senet de dövizli düzenlenemez | — | f.22 |
 
-**Güncellik uyarısı:** Tebliğ sık değişiyor. Bu turda Resmî Gazete'de 2025-32/75 (RG 28.03.2025) ve 2025-32/76 (RG 09.07.2025) sayılı değişiklik tebliğleri ile TCMB I-M sayılı Genelge değişiklikleri (2025/25, 2025/29) görüldü; katalogdaki m.8 metninin bunları içerip içermediği teyit edilemedi. Her incelemede `legal_search_official_gazette` (`query: "32 Sayılı Karara İlişkin Tebliğ"`, `search_in: "title"`, `sort_by: "date_desc"`) ile son değişikliği kontrol et; madde metniyle çelişki varsa ikisini de yaz.
+**Güncellik uyarısı:** Tebliğ sık değişiyor. Bu turda Resmî Gazete'de 2025-32/75 (RG 28.03.2025) ve 2025-32/76 (RG 09.07.2025) sayılı değişiklik tebliğleri ile TCMB I-M sayılı Genelge değişiklikleri (2025/25, 2025/29) görüldü; katalogdaki m.8 metninin bunları içerip içermediği teyit edilemedi. Her incelemede `legal_search_official_gazette` (`query: "32 Sayılı Karara İlişkin Tebliğ"`, `search_in: "title"`, `sort_by: "date_desc"`) ile son değişikliği kontrol et; madde metniyle çelişki varsa ikisini de yaz.  
 
-**Yaptırım ve sonuç:** yasak kapsamında dövizli kararlaştırılan bedel TL olarak **yeniden belirlenmek zorundadır**; anlaşma olmazsa Tebliğ m.8/29'daki 2.1.2018 kuru + TÜFE yöntemi (geçiş dönemi sözleşmeleri için) uygulanır. Yeni sözleşmede aykırılığın idari yaptırımı 1567 s. Kanun m.3/1'deki idari para cezasıdır (karar vermeye Cumhuriyet savcısı yetkili; tutarı her seferinde `legal_get_statute_article 1567 m.3` ile çek, ezberden yazma). Aykırı dövizli bedel kaydının özel hukuk akıbeti (kaydın hükümsüzlüğü mü, bedelin TL'ye çevrilerek sözleşmenin ayakta kalması mı) bu beceride doğrulanmadı: çalışma anında `legal_search_cases` (`mahkeme: "yargitay"`, `sorgu: "32 sayılı Karar Tebliğ 8. madde yasağına aykırı döviz cinsinden bedel geçersiz mi Türk lirasına çevrilmesi"`, son 3 yıl) ile ara, en az bir kararın tam metnini oku; net değilse `[ARAŞTIRMA GEREKLİ: aykırı dövizli bedel kaydının geçerliliği]` yaz.
+**Yaptırım ve sonuç:** yasak kapsamında dövizli kararlaştırılan bedel TL olarak **yeniden belirlenmek zorundadır**; anlaşma olmazsa Tebliğ m.8/29'daki 2.1.2018 kuru + TÜFE yöntemi (geçiş dönemi sözleşmeleri için) uygulanır. Yeni sözleşmede aykırılığın idari yaptırımı 1567 s. Kanun m.3/1'deki idari para cezasıdır (karar vermeye Cumhuriyet savcısı yetkili; tutarı her seferinde `legal_get_statute_article 1567 m.3` ile çek, ezberden yazma). Aykırı dövizli bedel kaydının özel hukuk akıbeti (kaydın hükümsüzlüğü mü, bedelin TL'ye çevrilerek sözleşmenin ayakta kalması mı) bu beceride doğrulanmadı: çalışma anında `legal_search_cases` (`mahkeme: "yargitay"`, `sorgu: "32 sayılı Karar Tebliğ 8. madde yasağına aykırı döviz cinsinden bedel geçersiz mi Türk lirasına çevrilmesi"`, son 3 yıl) ile ara, en az bir kararın tam metnini oku; net değilse `[ARAŞTIRMA GEREKLİ: aykırı dövizli bedel kaydının geçerliliği]` yaz. 
 
 **Kur riski:** dövizli bedel geçerli olsa da olağanüstü kur hareketinde TBK m.138 uyarlaması yabancı para borçlarına uygulanır. TL karşılığı → `legal_get_exchange_rate`.
 
@@ -64,10 +64,10 @@
 
 ## 5. MCP adımları
 ```
-legal_get_statute_article law_no: "6098" article_no: "379" | "380" | "381" | "385" | "386" | "387" | "388" | "389" | "390" | "392"
-legal_get_statute_article law_no: "6502" article_no: "4" | "22" | "24"
-legal_get_statute_article law_no: "11990" article_no: "8" # 2008-32/34 Tebliğ, dövizli bedel istisnaları
-legal_search_official_gazette query: "32 Sayılı Karara İlişkin Tebliğ" search_in: "title" sort_by: "date_desc"
+legal_get_statute_article  law_no: "6098"  article_no: "379" | "380" | "381" | "385" | "386" | "387" | "388" | "389" | "390" | "392"
+legal_get_statute_article  law_no: "6502"  article_no: "4" | "22" | "24"
+legal_get_statute_article  law_no: "11990"  article_no: "8"           # 2008-32/34 Tebliğ, dövizli bedel istisnaları
+legal_search_official_gazette  query: "32 Sayılı Karara İlişkin Tebliğ"  search_in: "title"  sort_by: "date_desc"
 legal_get_legal_interest_rates
 legal_get_exchange_rate
 legal_calculate_cpi_change
@@ -92,3 +92,4 @@ legal_calculate_cpi_change
 - Tebliğ değişikliklerini kontrol etmeden eski istisna listesini uygulamak.
 
 ---
+

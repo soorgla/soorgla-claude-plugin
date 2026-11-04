@@ -13,38 +13,38 @@
 ## 1. Havayolu
 
 ### Hangi rejim?
-- **İç hat:** 2920 öncelikli; hüküm yoksa Türkiye'nin taraf olduğu uluslararası anlaşmalar; onlarda da yoksa TTK.
-- **Taşıyıcının sorumluluğunun sınırı:** Varşova ve onu değiştiren, Türkiye'nin katıldığı sözleşme ve protokollere göre (Montreal 1999 dahil `[doğrula]`). Sözleşme metinleri MCP'de yok.
-- **Asgari yolcu hakları (iptal, tehir, uçağa kabul edilmeme):** SHY-YOLCU (RG 03.12.2011, 28131; değişiklikler RG 25.03.2020 ve **RG 10.12.2024**), AB 261/2004 Tüzüğüne paralel.
-- **Kapsam:** Türk işletmelerinin Türkiye'deki havaalanlarına/havaalanlarından, yabancı işletmelerin Türkiye'deki havaalanlarından tarifeli ve tarifesiz tüm uçuşları; onaylı rezervasyon ve süresinde check-in şartı. Yabancı işletmenin Türkiye'ye gelen uçuşu kapsam dışı görünüyor `[incele]`.
+- **İç hat:** 2920 öncelikli; hüküm yoksa Türkiye'nin taraf olduğu uluslararası anlaşmalar; onlarda da yoksa TTK. 
+- **Taşıyıcının sorumluluğunun sınırı:** Varşova ve onu değiştiren, Türkiye'nin katıldığı sözleşme ve protokollere göre (Montreal 1999 dahil `[doğrula]`).  Sözleşme metinleri MCP'de yok.
+- **Asgari yolcu hakları (iptal, tehir, uçağa kabul edilmeme):** SHY-YOLCU (RG 03.12.2011, 28131; değişiklikler RG 25.03.2020 ve **RG 10.12.2024**), AB 261/2004 Tüzüğüne paralel. 
+- **Kapsam:** Türk işletmelerinin Türkiye'deki havaalanlarına/havaalanlarından, yabancı işletmelerin Türkiye'deki havaalanlarından tarifeli ve tarifesiz tüm uçuşları; onaylı rezervasyon ve süresinde check-in şartı.  Yabancı işletmenin Türkiye'ye gelen uçuşu kapsam dışı görünüyor `[incele]`.
 
 ### SHY-YOLCU hakları (tutarları buraya yazma — m.8'den oku)
 
 | Durum | Hak | Dayanak |
 |---|---|---|
-| Uçağa kabul edilmeme | Önce gönüllü çağrısı; gönülsüz yolcuya derhal tazminat (m.8), geri ödeme/güzergâh (m.9), hizmet (m.10) | SHY-YOLCU m.5 |
-| İptal | Yardım (m.9, m.10); m.8 tazminatı — iptal yeterince önceden bildirilmediyse (iki hafta / iki hafta-yedi gün / yedi günden az kademeleri m.6/2'de); bildirim ispat yükü taşıyıcıda | SHY-YOLCU m.6 Taşıyıcı tüm tedbirleri almasına rağmen iptale olağanüstü hâllerin neden olduğunu kanıtlarsa m.8 tazminatı ödemez (m.6/4); yolcu iletişim bilgisini vermez ya da yanlış verirse taşıyıcı sorumluluktan kurtulur (m.6/6). |
-| Tehir | Mesafeye göre süre eşiklerinden sonra hizmet; beş saat ve üstünde m.9/1-a geri ödeme | SHY-YOLCU m.7 Tehirde m.8 nakit tazminatı yönetmelikte açıkça sayılmıyor `[incele]` |
-| Tazminat tutarı | İç hat ve dış hat mesafe kademeleri, **avro** cinsinden, TL'ye **ödeme günündeki TCMB döviz satış kuru**yla; 10.12.2024 değişikliğiyle yeniden düzenlendi | SHY-YOLCU m.8/1 |
-| Geri ödeme / güzergâh | Bilet bedelinin **yedi gün içinde** iadesi ya da güzergâh değişikliği | SHY-YOLCU m.9 |
-| Alt sınıfa yerleştirme | Fark iadesi + mesafeye göre bilet ücretinin yüzdesi, yedi gün içinde | SHY-YOLCU m.11 |
-| Diğer tazminat hakları | Saklı; SHY-YOLCU tazminatı mahsup edilebilir | SHY-YOLCU m.13 |
-| Feragat yasağı | Sözleşmeyle sınırlanamaz; hakları bildirilmeden düşük tazminatı kabul eden yolcu ek tazminat isteyebilir | SHY-YOLCU m.16 |
-| Denetim | Sivil Havacılık Genel Müdürlüğü; 2920 m.143 idari yaptırım | SHY-YOLCU m.20 2920 m.143'e tüzel kişiler için alt/üst sınırların beş katı fıkrası eklendi |
+| Uçağa kabul edilmeme | Önce gönüllü çağrısı; gönülsüz yolcuya derhal tazminat (m.8), geri ödeme/güzergâh (m.9), hizmet (m.10) | SHY-YOLCU m.5  |
+| İptal | Yardım (m.9, m.10); m.8 tazminatı — iptal yeterince önceden bildirilmediyse (iki hafta / iki hafta-yedi gün / yedi günden az kademeleri m.6/2'de); bildirim ispat yükü taşıyıcıda | SHY-YOLCU m.6  Taşıyıcı tüm tedbirleri almasına rağmen iptale olağanüstü hâllerin neden olduğunu kanıtlarsa m.8 tazminatı ödemez (m.6/4); yolcu iletişim bilgisini vermez ya da yanlış verirse taşıyıcı sorumluluktan kurtulur (m.6/6).  |
+| Tehir | Mesafeye göre süre eşiklerinden sonra hizmet; beş saat ve üstünde m.9/1-a geri ödeme | SHY-YOLCU m.7  Tehirde m.8 nakit tazminatı yönetmelikte açıkça sayılmıyor `[incele]` |
+| Tazminat tutarı | İç hat ve dış hat mesafe kademeleri, **avro** cinsinden, TL'ye **ödeme günündeki TCMB döviz satış kuru**yla; 10.12.2024 değişikliğiyle yeniden düzenlendi | SHY-YOLCU m.8/1  |
+| Geri ödeme / güzergâh | Bilet bedelinin **yedi gün içinde** iadesi ya da güzergâh değişikliği | SHY-YOLCU m.9  |
+| Alt sınıfa yerleştirme | Fark iadesi + mesafeye göre bilet ücretinin yüzdesi, yedi gün içinde | SHY-YOLCU m.11  |
+| Diğer tazminat hakları | Saklı; SHY-YOLCU tazminatı mahsup edilebilir | SHY-YOLCU m.13  |
+| Feragat yasağı | Sözleşmeyle sınırlanamaz; hakları bildirilmeden düşük tazminatı kabul eden yolcu ek tazminat isteyebilir | SHY-YOLCU m.16  |
+| Denetim | Sivil Havacılık Genel Müdürlüğü; 2920 m.143 idari yaptırım | SHY-YOLCU m.20  2920 m.143'e tüzel kişiler için alt/üst sınırların beş katı fıkrası eklendi  |
 
-COVID-19 geçici maddesi (2020) güncel uyuşmazlıklarda uygulanmaz; yalnız 2020 iptalleri için.
+COVID-19 geçici maddesi (2020) güncel uyuşmazlıklarda uygulanmaz; yalnız 2020 iptalleri için. 
 
 ### 2920'de süreler
 
 | İşlem | Süre | Dayanak |
 |---|---|---|
-| Bagaj hasarı ihbarı | Öğrenince derhal, tesliminden itibaren en geç **yedi gün** | 2920 m.128 |
-| Yük hasarı ihbarı | En geç **on dört gün** | 2920 m.128 |
-| Gecikme ihbarı (bagaj/yük) | Tesliminden en geç **yirmi bir gün** | 2920 m.128 |
-| Kayıp yük | Taşıyıcı kaybı ikrar ederse ya da varması gereken günden **yedi gün** geçerse gönderilen sözleşmeden doğan hakları kullanır | 2920 m.114 |
-| Dava | Varma (gerekli varma) ya da taşımanın durduğu tarihten **iki yıl**, hak düşürücü | 2920 m.131 |
-| Ardışık taşıyıcılar | Yolcu/gönderici ilk, alıcı son taşıyıcıya da başvurabilir | 2920 m.129 |
-| Ölüm/yaralanma sorumluluğu | Kaza hava aracında ya da iniş-biniş işlemleri sırasında | 2920 m.120 `[doğrula]` |
+| Bagaj hasarı ihbarı | Öğrenince derhal, tesliminden itibaren en geç **yedi gün** | 2920 m.128  |
+| Yük hasarı ihbarı | En geç **on dört gün** | 2920 m.128  |
+| Gecikme ihbarı (bagaj/yük) | Tesliminden en geç **yirmi bir gün** | 2920 m.128  |
+| Kayıp yük | Taşıyıcı kaybı ikrar ederse ya da varması gereken günden **yedi gün** geçerse gönderilen sözleşmeden doğan hakları kullanır | 2920 m.114  |
+| Dava | Varma (gerekli varma) ya da taşımanın durduğu tarihten **iki yıl**, hak düşürücü | 2920 m.131  |
+| Ardışık taşıyıcılar | Yolcu/gönderici ilk, alıcı son taşıyıcıya da başvurabilir | 2920 m.129  |
+| Ölüm/yaralanma sorumluluğu | Kaza hava aracında ya da iniş-biniş işlemleri sırasında | 2920 m.120  `[doğrula]` |
 
 Uluslararası taşımada Montreal m.31 (ihbar) ve m.35 (iki yıl) `[doğrula]` — sözleşme metni MCP'de yok.
 
@@ -54,11 +54,11 @@ Uluslararası taşımada Montreal m.31 (ihbar) ve m.35 (iki yıl) `[doğrula]` �
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| Gemi kazasında ölüm/yaralanma | Taşıyan, yolcu başına ve kaza başına ÖÇH sınırına kadar **kusursuz** sorumlu (savaş, terör, istisnai doğa olayı, üçüncü kişinin kastı hariç); kusurluysa sınırı aşan zarardan da (kusursuzluğu ispat yükü taşıyanda) | 6102 m.1256/1 |
-| Gemi kazası dışı ölüm/yaralanma | Kusur sorumluluğu; ispat yükü davacıda | 6102 m.1256/2 |
+| Gemi kazasında ölüm/yaralanma | Taşıyan, yolcu başına ve kaza başına ÖÇH sınırına kadar **kusursuz** sorumlu (savaş, terör, istisnai doğa olayı, üçüncü kişinin kastı hariç); kusurluysa sınırı aşan zarardan da (kusursuzluğu ispat yükü taşıyanda) | 6102 m.1256/1  |
+| Gemi kazası dışı ölüm/yaralanma | Kusur sorumluluğu; ispat yükü davacıda | 6102 m.1256/2  |
 | Fiilî taşıyan, taşıma süresi, zorunlu sigorta, değerli eşya, birlikte kusur, sınırlar | m.1257-1268 — tutarlar madde metninden | 6102 m.1257-1268 `[doğrula]` |
-| Bagaj bildirimi | Haricen belliyse kabin bagajı inerken / diğer bagaj teslim edilirken; belli değilse **on beş gün**; yazılı; yapılmazsa iyi hâlde teslim karinesi; ortak tespit varsa gerekmez | 6102 m.1269 |
-| Zamanaşımı | Ölüm/bedensel zarar **on yıl**; bagaj dahil diğer alacaklar **iki yıl** (bagajda gemiden iniş/inmesi gereken tarihten); istem doğduktan sonra taşıyanın yazılı beyanı ya da yazılı anlaşmayla uzatılabilir | 6102 m.1270 |
+| Bagaj bildirimi | Haricen belliyse kabin bagajı inerken / diğer bagaj teslim edilirken; belli değilse **on beş gün**; yazılı; yapılmazsa iyi hâlde teslim karinesi; ortak tespit varsa gerekmez | 6102 m.1269  |
+| Zamanaşımı | Ölüm/bedensel zarar **on yıl**; bagaj dahil diğer alacaklar **iki yıl** (bagajda gemiden iniş/inmesi gereken tarihten); istem doğduktan sonra taşıyanın yazılı beyanı ya da yazılı anlaşmayla uzatılabilir | 6102 m.1270  |
 | Emredici hükümler | m.1271 | `[doğrula]` |
 
 Atina Sözleşmesi ve 2002 Protokolüyle ilişkisi `[doğrula]` — metin MCP'de yok.
@@ -106,12 +106,12 @@ Atina Sözleşmesi ve 2002 Protokolüyle ilişkisi `[doğrula]` — metin MCP'de
 ## soorgla çağrıları
 
 ```
-legal_list_statute_articles law_no: "15549" include_content: true # SHY-YOLCU (MCP'de m.1 iki kez dönüyor)
-legal_search_statute_semantic sorgu: "<konu>" mevzuat_no: "2920" # m.106, 110, 114, 120, 124, 128, 129, 131
-legal_get_statute_article law_no: "6102" law_type: "Kanun" article_no: "1256" | "1259" | "1262" | "1263" | "1267" | "1269" | "1270" | "1271"
-legal_search_admin_guidance sorgu: "havayolu bilet fiyatı reklam" kurum: "Reklam Kurulu"
-legal_get_exchange_rate para_birimi: "EUR" tarih: "<ödeme günü>"
-legal_search_cases sorgu: "uçuş iptali tazminat havayolu yolcu" # kapsam zayıf (aşağıda)
+legal_list_statute_articles  law_no: "15549"  include_content: true        # SHY-YOLCU (MCP'de m.1 iki kez dönüyor)
+legal_search_statute_semantic  sorgu: "<konu>"  mevzuat_no: "2920"        # m.106, 110, 114, 120, 124, 128, 129, 131
+legal_get_statute_article  law_no: "6102"  law_type: "Kanun"  article_no: "1256" | "1259" | "1262" | "1263" | "1267" | "1269" | "1270" | "1271"
+legal_search_admin_guidance  sorgu: "havayolu bilet fiyatı reklam"  kurum: "Reklam Kurulu"
+legal_get_exchange_rate  para_birimi: "EUR"  tarih: "<ödeme günü>"
+legal_search_cases  sorgu: "uçuş iptali tazminat havayolu yolcu"            # kapsam zayıf (aşağıda)
 ```
 
 ---
@@ -141,5 +141,6 @@ legal_search_cases sorgu: "uçuş iptali tazminat havayolu yolcu" # kapsam zayı
 ---
 
 ## MCP kapsam notu
-- Havayolu yolcu uyuşmazlıklarında Yargıtay kararı araması zayıf: "uçuş iptali rötar yolcu tazminatı SHY-YOLCU" sorgusu 2023+ ilgisiz karayolu ve sigorta kararları getirdi (bu davaların çoğu tüketici mahkemesinde kesin ya da istinafta biter). BAM ve yerel mahkeme kararlarını `mahkeme: "bam"` / `"mahkeme"` ile dene.
+- Havayolu yolcu uyuşmazlıklarında Yargıtay kararı araması zayıf: "uçuş iptali rötar yolcu tazminatı SHY-YOLCU" sorgusu 2023+ ilgisiz karayolu ve sigorta kararları getirdi (bu davaların çoğu tüketici mahkemesinde kesin ya da istinafta biter).  BAM ve yerel mahkeme kararlarını `mahkeme: "bam"` / `"mahkeme"` ile dene.
 - Montreal 1999 ve Atina metinleri yok; SHGM kararları ve görüşleri yok.
+

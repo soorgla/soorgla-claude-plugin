@@ -35,11 +35,11 @@ Her değişen madde için:
    - *Madde / fıkra değişikliği:* "… aşağıdaki şekilde değiştirilmiştir" → yeni metin RG'de; eski metin için 3. adım.
    - *Ekleme:* "… fıkradan sonra gelmek üzere aşağıdaki fıkra eklenmiştir" → eski metin yok, yeni hüküm RG'de.
    - *Yürürlükten kaldırma:* "… yürürlükten kaldırılmıştır" → yeni metin yok.
-
+   
 2. **Güncel metni çek.** `legal_get_statute_article` (`law_no`, `article_no`, `law_type: "Kanun"`). Metindeki "(Değişik: GG/AA/YYYY-KanunNo/madde md.)", "(Ek: …)", "(Mülga: …)" notunu oku:
-   - Not değiştiren düzenlemeyi gösteriyorsa: araç güncel → yeni metin buradan alınabilir.
-   - Not yoksa ya da daha eski bir değişikliği gösteriyorsa: araç **henüz güncellenmemiş**. Yeni metni RG'den kur ve satıra `[soorgla madde metni RG değişikliğini henüz yansıtmıyor — RG metninden kuruldu]` yaz (Eski örnek: VUK kaydı 31.10.2026'da 7587'yi yansıtmıyordu; 01.11.2026 yeniden ayrıştırmasından sonra 213 m.107/A "(Değişik:24/6/2026-7587/9 md.)" notuyla güncel dönüyor.)
-   - Harfli ve mükerrer maddeler: `legal_get_statute_article` (`article_no: "107/A"` ya da `"mükerrer 257"`) ya da `legal_get_statute_article_by_id` ile çek; boş dönerse `legal_list_statute_articles` (`article_no` ana numara, `include_content: true`).
+   - Not değiştiren düzenlemeyi gösteriyorsa: araç güncel → yeni metin buradan alınabilir. 
+   - Not yoksa ya da daha eski bir değişikliği gösteriyorsa: araç **henüz güncellenmemiş**. Yeni metni RG'den kur ve satıra `[soorgla madde metni RG değişikliğini henüz yansıtmıyor — RG metninden kuruldu]` yaz (Eski örnek: VUK kaydı 31.10.2026'da 7587'yi yansıtmıyordu; 01.11.2026 yeniden ayrıştırmasından sonra 213 m.107/A "(Değişik:24/6/2026-7587/9 md.)" notuyla güncel dönüyor.) 
+   - Harfli ve mükerrer maddeler: `legal_get_statute_article` (`article_no: "107/A"` ya da `"mükerrer 257"`) ya da `legal_get_statute_article_by_id` ile çek; boş dönerse `legal_list_statute_articles` (`article_no` ana numara, `include_content: true`). 
    - Numara çakışması olan kanunlarda yanıttaki `statute.title`'ı takip listesindeki adla karşılaştır; aynı numaralı diğer kayıtlar `other_candidates`'ta gelir, doğrusunu `legal_get_statute_article_by_id` ile çek.
 3. **Eski metni kur.**
    - İbare değişikliğinde: güncel metinde yeni ibareyi eskisiyle yer değiştir.

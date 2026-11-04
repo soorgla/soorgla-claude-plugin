@@ -16,7 +16,7 @@
 | **Onaylanmış kişi** | Onaylanmış Kişi Statüsüne İlişkin Gümrük Genel Tebliği (Sıra No: 1) | Tebliğ ekleri (21 ek, MEV) |
 | **Kolay ihracat noktaları** | 2021/8 sayılı genelge | — |
 
-Genelgeler: `legal_search_admin_guidance` `kurum: "Ticaret Bakanlığı"` `sorgu: "yetkilendirilmiş yükümlü"` ya da `belge_no: "2021/24"`.
+Genelgeler: `legal_search_admin_guidance` `kurum: "Ticaret Bakanlığı"` `sorgu: "yetkilendirilmiş yükümlü"` ya da `belge_no: "2021/24"`. 
 
 ---
 

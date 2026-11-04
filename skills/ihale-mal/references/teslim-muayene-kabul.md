@@ -24,7 +24,7 @@ ya da `legal_search_statute_semantic` `mevzuat_no: "4713"`. Sözleşmenin kendi 
   birimden kurulur (4735 m.11/1; MKY m.6). Mal teslim edilmedikçe muayene yapılamaz.
 - [ ] İdare, teslimden ya da teslime hazır bildiriminden itibaren **en geç beş iş günü** içinde muayeneye başlar; yer,
   gün, saat yükleniciye yazılı bildirilir (MKY m.11/a). Süre kodu `mal_inspection_start` canlı (5 iş günü,
-  MKY m.11/a); araç yanıt vermezse elle say, `legal_check_holiday`.
+  MKY m.11/a); araç yanıt vermezse elle say, `legal_check_holiday`. 
 - [ ] Önce **fiziksel muayene**; fiziksel nitelikleri uygun olmayan malın numunesi laboratuvara gönderilmez; muayene
   yarıda bırakılmaz (MKY m.15). Tutanak her safhayı yazar, yüklenici imzalatılır (MKY m.16).
 - [ ] Muayene raporu: dokümandaki nitelik ile bulunan nitelik ayrı ayrı yazılır; sonuç "niteliklerine uygundur /
@@ -34,6 +34,7 @@ ya da `legal_search_statute_semantic` `mevzuat_no: "4713"`. Sözleşmenin kendi 
 - [ ] Geçici kabul yalnız dokümanda öngörülmüşse (işletmeye alma ve kapasite gerektiren mallar) (MKY m.22-23);
   kesin kabul zamanı dokümanda; yüklenici dilekçeyle başvurur (MKY m.25).
 - [ ] Olumlu rapor ödemeye esas belgedir (MKY m.25); ödeme süresi sözleşmeden (örnekte kabul raporundan 30 gün).
+  
 
 ### Red ve itiraz (yüklenici)
 | Durum | Yol | Dayanak |
@@ -56,7 +57,7 @@ ya da `legal_search_statute_semantic` `mevzuat_no: "4713"`. Sözleşmenin kendi 
   KİK sitesindeki tip sözleşmeden oku).
 - [ ] Ceza için önce **en az on gün süreli, nedenleri açıkça belirtilen ihtar**; ihtara rağmen devam → kesin teminat
   gelir kaydı + fesih + genel hükümlere göre tasfiye (4735 m.20/a). → `legal_calculate_deadline` `kik_4735_default_notice`;
-  kod yoksa elle, `[incele]`.
+  kod yoksa elle, `[incele]`. 
 - [ ] Ceza, ödemelerden ve teminattan kesilir; peyder pey teslimde cezanın **sözleşme bedeli** üzerinden mi geciken
   parti üzerinden mi hesaplandığı sözleşmeden okunur — oransızlık iddiası `[incele]`.
 - [ ] Muayene süresi işin süresinden sayılmaz; son teslimden önce uygunsuz mal için sözleşmede tanınan değiştirme hakkı
@@ -68,7 +69,7 @@ ya da `legal_search_statute_semantic` `mevzuat_no: "4713"`. Sözleşmenin kendi 
 - [ ] Haller: doğal afet, kanuni grev, genel salgın, seferberlik, Kurumca belirlenecek benzerleri.
 - [ ] Şartlar birlikte: yükleniciden kaynaklanmayan, ifaya engel, giderilemez; **olayı izleyen 20 gün içinde yazılı
   bildirim**; yetkili mercilerce belgelendirme. → `kik_4735_force_majeure_notice`; kod yoksa elle, `[incele]`.
-
+  
 - [ ] İdareden kaynaklanan gecikmede en az gecikilen süre kadar uzatma (sözleşme hükmü); sipariş vermeme, numune onayını
   geciktirme, depo kabul etmeme kayıt altına alınmalı.
 - [ ] Süre uzatımında fiyat farkı: sözleşmede "mücbir sebep veya idareden kaynaklanan uzatmada fiyat farkı esaslarına göre"
@@ -78,7 +79,7 @@ ya da `legal_search_statute_semantic` `mevzuat_no: "4713"`. Sözleşmenin kendi 
 - [ ] Birim fiyatlı mal alımında **öngörülemeyen durum** nedeniyle zorunlu artış, sözleşme bedelinin **%20'sine kadar**,
   süre hariç aynı koşullarla aynı yükleniciye. Tamamlanamıyorsa artış yapılmadan tasfiye.
 - [ ] Bedelin %80'inden az tamamlanan işte yükleniciye, %80 ile gerçekleşen tutar farkının %5'i (geçici kabul tarihindeki
-  fiyatlarla).
+  fiyatlarla). 
 - [ ] Teknik şartnamedeki "idare %20'ye kadar artırır/eksiltir" genel hakkı, m.24'teki "öngörülemeyen durum" şartını
   ortadan kaldırmaz; artış kararının gerekçesi aranır `[incele]`. Artışta ek kesin teminat %6.
 
@@ -87,8 +88,8 @@ ya da `legal_search_statute_semantic` `mevzuat_no: "4713"`. Sözleşmenin kendi 
   uzatma hallerinde.
 - [ ] Esaslar: "4734 Sayılı Kanuna Göre İhale Edilen Mal Alımlarında Uygulanacak Fiyat Farkına İlişkin Esaslar" — ilan
   tarihinde yürürlükteki metin (son değişiklik CB Kararı 10132, RG 30.07.2025) → `legal_search_official_gazette`
-  + `legal_get_official_gazette_document`.
-- [ ] **Mal fiyat farkı formülü** (Mal Alımlarında Uygulanacak Fiyat Farkına İlişkin Esaslar m.5, KİK işlenmiş metni RG 30.07.2025): `F = (M × B) × [(A2/A1) − 1]`. M teslim edilen miktar (götürü bedelde teslim yüzdesi), **B sözleşme (birim) fiyatı**; sabit 0,90 katsayısı ve Pn ağırlıkları **yok**. Kapsam (m.2): elektrik, doğal gaz, ilaç, petrol ve LPG ürünleri; bunlar dışında sözleşme süresi 180 günü aşan alımda yalnız 180. günden sonra teslim edilen kısım (A1/A2 idarenin seçtiği Yİ-ÜFE alt sektör endeksi). A1/A2: petrol/LPG ihale tarihindeki ve teslim tarihindeki EPDK fiyatı, doğal gaz/elektrik EPDK aylık fiyatları, ilaç depocu satış fiyatı. Cezalı teslimde düşük olan, erken teslimde teslim tarihindeki değer (m.6/7-8); avans düşülür (m.6/6).
+  + `legal_get_official_gazette_document`. 
+- [ ] **Mal fiyat farkı formülü** (Mal Alımlarında Uygulanacak Fiyat Farkına İlişkin Esaslar m.5, KİK işlenmiş metni RG 30.07.2025): `F = (M × B) × [(A2/A1) − 1]`. M teslim edilen miktar (götürü bedelde teslim yüzdesi), **B sözleşme (birim) fiyatı**; sabit 0,90 katsayısı ve Pn ağırlıkları **yok**. Kapsam (m.2): elektrik, doğal gaz, ilaç, petrol ve LPG ürünleri; bunlar dışında sözleşme süresi 180 günü aşan alımda yalnız 180. günden sonra teslim edilen kısım (A1/A2 idarenin seçtiği Yİ-ÜFE alt sektör endeksi). A1/A2: petrol/LPG ihale tarihindeki ve teslim tarihindeki EPDK fiyatı, doğal gaz/elektrik EPDK aylık fiyatları, ilaç depocu satış fiyatı. Cezalı teslimde düşük olan, erken teslimde teslim tarihindeki değer (m.6/7-8); avans düşülür (m.6/6). 
 - [ ] Hesap → `legal_calculate_tender` `hesap: "fiyat_farki_mal"` (`mal_fiyat_farki`: `mal_turu`, kalem başına miktar,
   sözleşme fiyatı, A1, A2; 180 günü aşanda `seri` + aylar verilirse A1/A2 veritabanından).
   Araç yanıt vermezse ya da hata dönerse formülle elle hesapla, `[incele]`; yapım formülünü (`fiyat_farki_yapim`) mala uygulama.

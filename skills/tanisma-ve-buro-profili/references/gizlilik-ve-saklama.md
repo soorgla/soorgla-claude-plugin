@@ -10,10 +10,10 @@ Web/ChatGPT'de metnin ilk cümlesi `web-ve-chatgpt.md` §3'teki sürümle deği�
 
 ## 2. Dayanaklar
 
-- **Av.K. m.36:** avukatların görevleri dolayısıyla öğrendikleri hususları açığa vurmaları yasaktır; tanıklık iş sahibinin muvafakatine bağlıdır ve avukat yine de çekinebilir [soorgla]. Yükümlülük avukatı bağlar; bir dosyanın "gizli" etiketi taşıması onu ifşadan korumaz (ORTAK-KURALLAR.md §1 "Sır saklama notu").
-- **CMK m.130:** avukat büroları ancak mahkeme kararıyla, kararda belirtilen olayla ilgili olarak ve Cumhuriyet savcısının denetiminde aranabilir; baro temsilcisi hazır bulunur; avukat-müvekkil ilişkisine ait olduğu ileri sürülen şeyler mühürlenir ve hâkim kararına kadar ayrı tutulur [soorgla]. Bu güvencenin bürodaki bilgisayar dışındaki cihazlara (ev bilgisayarı, bulut hesabı) nasıl uygulandığı `[model bilgisi — doğrulayın]`.
-- **KVKK m.12:** veri sorumlusu hukuka aykırı işleme ve erişimi önlemek, verilerin muhafazasını sağlamak için teknik ve idari tedbir almak zorundadır; veri işleyenle birlikte müştereken sorumludur; verilerin kanuni olmayan yollarla elde edilmesi hâlinde ilgiliye ve Kurula bildirim yapılır [soorgla].
-- **KVKK m.6:** sağlık, cinsel hayat, ceza mahkûmiyeti ve güvenlik tedbirleri, sendika üyeliği, din, biyometrik ve genetik veriler özel nitelikli kişisel veridir; işlenmesi kural olarak yasaktır, sayılan hâllerde mümkündür ve Kurulun belirlediği yeterli önlemler şarttır [soorgla]. İş, ceza, aile ve sağlık dosyaları bu verileri sıkça taşır.
+- **Av.K. m.36:** avukatların görevleri dolayısıyla öğrendikleri hususları açığa vurmaları yasaktır; tanıklık iş sahibinin muvafakatine bağlıdır ve avukat yine de çekinebilir [soorgla]. Yükümlülük avukatı bağlar; bir dosyanın "gizli" etiketi taşıması onu ifşadan korumaz (ORTAK-KURALLAR.md §1 "Sır saklama notu"). 
+- **CMK m.130:** avukat büroları ancak mahkeme kararıyla, kararda belirtilen olayla ilgili olarak ve Cumhuriyet savcısının denetiminde aranabilir; baro temsilcisi hazır bulunur; avukat-müvekkil ilişkisine ait olduğu ileri sürülen şeyler mühürlenir ve hâkim kararına kadar ayrı tutulur [soorgla]. Bu güvencenin bürodaki bilgisayar dışındaki cihazlara (ev bilgisayarı, bulut hesabı) nasıl uygulandığı `[model bilgisi — doğrulayın]`. 
+- **KVKK m.12:** veri sorumlusu hukuka aykırı işleme ve erişimi önlemek, verilerin muhafazasını sağlamak için teknik ve idari tedbir almak zorundadır; veri işleyenle birlikte müştereken sorumludur; verilerin kanuni olmayan yollarla elde edilmesi hâlinde ilgiliye ve Kurula bildirim yapılır [soorgla]. 
+- **KVKK m.6:** sağlık, cinsel hayat, ceza mahkûmiyeti ve güvenlik tedbirleri, sendika üyeliği, din, biyometrik ve genetik veriler özel nitelikli kişisel veridir; işlenmesi kural olarak yasaktır, sayılan hâllerde mümkündür ve Kurulun belirlediği yeterli önlemler şarttır [soorgla]. İş, ceza, aile ve sağlık dosyaları bu verileri sıkça taşır. 
 
 ## 3. Profile yazılmayanlar
 

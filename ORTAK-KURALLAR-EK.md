@@ -1,4 +1,4 @@
-<!-- lisans ve kaynak notu oradadır (NOTICE.md). -->
+
 
 # soorgla-hukuk — ortak kurallar (ek: §13 ve sonrası)
 

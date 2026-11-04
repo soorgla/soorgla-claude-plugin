@@ -2,9 +2,9 @@
 
 ## Önce bunu oku — sınırlar 2025'te değişti
 
-Eski YAML "65 yaş 1 yıl, 70 yaş 2 yıl, 75 yaş 4 yıl, hastalıkta 5 yıl, doğumda 3 yıl" diyordu. **Bunların hepsi eskidi.** 7550 s. Kanun (RG 04.06.2025 mükerrer) m.110'u değiştirdi. Rakamları her seferinde `legal_get_statute_article(law_no: "5275", article_no: "110")` ile çek.
+Eski YAML "65 yaş 1 yıl, 70 yaş 2 yıl, 75 yaş 4 yıl, hastalıkta 5 yıl, doğumda 3 yıl" diyordu. **Bunların hepsi eskidi.** 7550 s. Kanun (RG 04.06.2025 mükerrer) m.110'u değiştirdi.  Rakamları her seferinde `legal_get_statute_article(law_no: "5275", article_no: "110")` ile çek.
 
-Güncel metne göre (30.10.2026 itibarıyla çekildi):
+Güncel metne göre (30.10.2026 itibarıyla çekildi): 
 
 | Fıkra | Kimler | Ceza üst sınırı (toplam) | Not |
 |---|---|---|---|
@@ -25,7 +25,7 @@ Güncel metne göre (30.10.2026 itibarıyla çekildi):
 
 ## Süre
 - Sabit süre yok; 110/4'te doğumdan itibaren **1 yıl 6 ay** içinde talep şartı var.
-- Ret kararına **itiraz**: 110/8 itiraz yolunu açar. Süre her iki dayanakta da **iki hafta**; başlangıcı farklı: CMK m.268/1 "kararı öğrendiği günden", 4675 m.6/5 (infaz hâkimi kararları) "tebliğden" itibaren; itiraz mercii infaz hâkimliğinin yargı çevresindeki ağır ceza mahkemesi (4675 m.6/6). Hangisinin uygulanacağına dair içtihat okunmadı: **güvenli yol olarak öğrenme tarihinden itibaren iki hafta içinde** itiraz et; tartışma çıkarsa güncel Yargıtay kararlarını `legal_search_cases` ile ara ve en az birinin tam metnini oku.
+- Ret kararına **itiraz**: 110/8 itiraz yolunu açar. Süre her iki dayanakta da **iki hafta**; başlangıcı farklı: CMK m.268/1 "kararı öğrendiği günden", 4675 m.6/5 (infaz hâkimi kararları) "tebliğden" itibaren; itiraz mercii infaz hâkimliğinin yargı çevresindeki ağır ceza mahkemesi (4675 m.6/6). Hangisinin uygulanacağına dair içtihat okunmadı: **güvenli yol olarak öğrenme tarihinden itibaren iki hafta içinde** itiraz et; tartışma çıkarsa güncel Yargıtay kararlarını `legal_search_cases` ile ara ve en az birinin tam metnini oku. 
 
 ## Görüşme soruları
 1. Hükümlü: ad, T.C., **doğum tarihi** (yaş hesabı karar tarihine göre), cinsiyet `[___]`
@@ -39,11 +39,11 @@ Güncel metne göre (30.10.2026 itibarıyla çekildi):
 
 ## soorgla adımları
 ```
-legal_get_statute_article law_no: "5275" article_no: "110" | "16"
-legal_search_official_gazette query: "Ceza ve Güvenlik Tedbirlerinin İnfazı" document_type: "kanun" search_in: "title" sort_by: "date_desc"
-legal_search_statute_semantic sorgu: "hapis cezasının konutta infazı usul ve esasları elektronik izleme" mevzuat_tur: "cb_yonetmeligi"
-legal_search_cases sorgu: "5275 sayılı Kanun 110 konutta infaz talebinin reddi yaş sınırı toplam ceza" tarih_baslangic: "2025-06-04"
-legal_get_case_document belge_id: <seçilen karar>
+legal_get_statute_article  law_no: "5275"  article_no: "110" | "16"
+legal_search_official_gazette  query: "Ceza ve Güvenlik Tedbirlerinin İnfazı"  document_type: "kanun"  search_in: "title"  sort_by: "date_desc"
+legal_search_statute_semantic  sorgu: "hapis cezasının konutta infazı usul ve esasları elektronik izleme"  mevzuat_tur: "cb_yonetmeligi"
+legal_search_cases  sorgu: "5275 sayılı Kanun 110 konutta infaz talebinin reddi yaş sınırı toplam ceza"  tarih_baslangic: "2025-06-04"
+legal_get_case_document  belge_id: <seçilen karar>
 ```
 
 ## Dilekçe iskeleti
@@ -52,8 +52,8 @@ legal_get_case_document belge_id: <seçilen karar>
 [Gönderilmek üzere: [KURUM] MÜDÜRLÜĞÜNE / [İL] CUMHURİYET BAŞSAVCILIĞI İNFAZ BÜROSUNA]
 
 HÜKÜMLÜ : [Ad Soyad], T.C. [___], Doğum tarihi: [___]
-CEZA : [toplam süre; ilamlar] · SUÇ: [___]
-KONU : 5275 s. Kanun m.110/[2-a | 2-b | 2-c | 2-d | 3 | 4] uyarınca cezanın KONUTTA İNFAZI talebidir.
+CEZA    : [toplam süre; ilamlar]   ·  SUÇ: [___]
+KONU    : 5275 s. Kanun m.110/[2-a | 2-b | 2-c | 2-d | 3 | 4] uyarınca cezanın KONUTTA İNFAZI talebidir.
 AÇIKLAMALAR
 1. Şartların varlığı: [yaş/hastalık/doğum] — [toplam ceza] — [üst sınır, MCP'den çekilmiş]
 2. 110/9 istisnalarının yokluğu (suç türü, APC, geri alma) [3. ve 4. fıkrada gerekmez]
@@ -70,3 +70,4 @@ SONUÇ VE İSTEM : Cezamın konutta çektirilmesine karar verilmesini saygıyla 
 - Yaşı başvuru tarihine değil yanlış tarihe göre hesaplamak `[incele]`.
 - Birden fazla cezayı ayrı ayrı değerlendirmek; "toplam" ceza esastır.
 - Mercii karıştırmak: konutta infaz **infaz hâkimi**, erteleme **başsavcılık**.
+

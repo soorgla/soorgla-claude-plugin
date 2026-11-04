@@ -16,7 +16,7 @@ Eski YAML'lar (`nda_analysis.yaml`, `memorandum_of_understanding.yaml`) **boş**
 Amaç (upstream): NDA'ların çoğu sorunsuzdur; birkaçında mayın vardır. Bir dakikada ayıkla ki avukat yalnız gerekenleri okusun.
 
 ### 1.1 Kapsam kontrolü (her şeyden önce)
-Başlığı "Gizlilik Sözleşmesi" olan metin gizlilikten fazlasını yapıyor olabilir: **münhasırlık, rekabet etmeme, çalışan ayartmama, lisans verme, fikri mülkiyet devri, önalım (ROFR), en çok kayrılan müşteri (MFN), standstill, geniş tahkim şartı**. Bunlardan biri varsa NDA analizinin sonucu ne olursa olsun **otomatik SARI**: "Bu belge NDA başlıklı ama [X] içeriyor; NDA'dan fazlası, avukat incelemesine."
+Başlığı "Gizlilik Sözleşmesi" olan metin gizlilikten fazlasını yapıyor olabilir: **münhasırlık, rekabet etmeme, çalışan ayartmama, lisans verme, fikri mülkiyet devri, önalım (ROFR), en çok kayrılan müşteri (MFN), standstill, geniş tahkim şartı**. Bunlardan biri varsa NDA analizinin sonucu ne olursa olsun **otomatik SARI**: "Bu belge NDA başlıklı ama [X] içeriyor; NDA'dan fazlası, avukat incelemesine." 
 
 ### 1.2 Kovalar
 - **YEŞİL — imzaya gönder:** yalnız avukatça onaylanmış NDA pozisyonları profilde varsa ve hepsi karşılanıyorsa. Playbook yoksa YEŞİL **verilmez**; en iyi sonuç SARI.
@@ -44,6 +44,8 @@ Temiz NDA'da çıktı tek cümledir: "Kırmızı bayrak yok. Standart onay süre
 | HUKUK-YETKİ | Uygulanacak hukuk ve yetkili mahkeme/tahkim | Yetki şartı yalnız tacirler arasında (HMK m.17) |
 | YABANCI-HUKUK | Yabancı hukuk ve yabancı mahkeme seçimi | ORTAK-KURALLAR.md §2; o hukuka göre emin cevap verme |
 
+ 
+
 ### 1.4 Karşı taraf bağlamı
 - Büyük şirket NDA'sı: genellikle değişmez; KIRMIZI'nın gerçek bitiş hattı mı, "formumuzdan farklı" mı olduğunu ayır, kararı yükselt.
 - Küçük karşı taraf: en hızlı yol çoğu zaman "bizim formumuzu kullanalım".
@@ -55,10 +57,10 @@ Profilde `nda_kapanis_eylemi` varsa her çıktının sonuna aynen ekle (ör. "ND
 
 | Kod | Kontrol | Dayanak | Not |
 |---|---|---|---|
-| BAĞLAYICILIK | Belge bağlayıcı mı? Ana sözleşmenin esaslı noktaları (taraflar, konu, bedel) belirlenmiş ve bağlanma iradesi varsa önsözleşme ya da doğrudan sözleşme sayılabilir | TBK m.1-2 (kurulma), m.29 (önsözleşme) | Başlık "bağlayıcı değildir" dese de içerik belirler `[incele]` |
+| BAĞLAYICILIK | Belge bağlayıcı mı? Ana sözleşmenin esaslı noktaları (taraflar, konu, bedel) belirlenmiş ve bağlanma iradesi varsa önsözleşme ya da doğrudan sözleşme sayılabilir | TBK m.1-2 (kurulma), m.29 (önsözleşme) | Başlık "bağlayıcı değildir" dese de içerik belirler `[incele]`  |
 | ÖNSÖZLEŞME-ŞEKLİ | İleride kurulacak sözleşme bir şekle tabiyse önsözleşme de o şekle tabi (kanundaki istisnalar hariç) | TBK m.29/2 | Ör. taşınmaz satış vaadi resmî, kefalet vaadi el yazısı (TBK 583/2) |
 | BAĞLAYICI-HÜKÜMLER | Bağlayıcı olmayan belgede bile bağlayıcı yapılması gerekenler: gizlilik, münhasır görüşme (exclusivity) süresi, masraflar, uygulanacak hukuk | Sözleşme | Ayrı ayrı "bu madde bağlayıcıdır" diye yaz |
-| CULPA-IN-CONTRAHENDO | Görüşmelerin dürüstlüğe aykırı kesilmesinden sorumluluk (sözleşme öncesi güven sorumluluğu) | TMK m.2; Yargıtay HGK 22.03.2022, 2019/435 E., 2022/352 K. | Masraf ve güven zararı riski `[incele]` |
+| CULPA-IN-CONTRAHENDO | Görüşmelerin dürüstlüğe aykırı kesilmesinden sorumluluk (sözleşme öncesi güven sorumluluğu) | TMK m.2; Yargıtay HGK 22.03.2022, 2019/435 E., 2022/352 K. | Masraf ve güven zararı riski `[incele]`  |
 | MÜNHASIRLIK | Münhasır görüşme süresi ve ihlal yaptırımı; rekabet hukuku | 4054 | Uzun münhasırlık SARI |
 | KAMU | Kamu kurumuyla "protokol" ya da "mutabakat" — ihale mevzuatı istisnası mı? | 4734 | → `../../kamu-ihale/SKILL.md` |
 
@@ -71,12 +73,12 @@ Profilde `nda_kapanis_eylemi` varsa her çıktının sonuna aynen ekle (ör. "ND
 
 ## 4. MCP adımları
 ```
-legal_get_statute_article law_no: "6098" article_no: "1" | "2" | "29" | "116" | "179" | "182"
-legal_get_statute_article law_no: "6102" article_no: "22" | "55"
-legal_get_statute_article law_no: "6100" article_no: "17" | "389"
-legal_search_cases mahkeme: "yargitay" daire: "11. Hukuk Dairesi" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "6098"  article_no: "1" | "2" | "29" | "116" | "179" | "182"
+legal_get_statute_article  law_no: "6102"  article_no: "22" | "55"
+legal_get_statute_article  law_no: "6100"  article_no: "17" | "389"
+legal_search_cases  mahkeme: "yargitay"  daire: "11. Hukuk Dairesi"  tarih_baslangic: "<son 3 yıl>"
     sorgu: "gizlilik sözleşmesinin ihlali nedeniyle cezai şart talebi ticari sır"
-legal_search_cases mahkeme: "yargitay" sorgu: "niyet mektubu esaslı unsurları içerdiğinden önsözleşme niteliğinde bağlayıcıdır"
+legal_search_cases  mahkeme: "yargitay"  sorgu: "niyet mektubu esaslı unsurları içerdiğinden önsözleşme niteliğinde bağlayıcıdır"
 ```
 
 ## 5. Çıktı iskeleti
@@ -109,3 +111,4 @@ legal_search_cases mahkeme: "yargitay" sorgu: "niyet mektubu esaslı unsurları 
 - "Bağlayıcı değildir" yazılı MoU'yu her durumda bağlayıcı değil saymak; ya da şekle tabi ana sözleşmenin önsözleşmesini şekilsiz yapmak.
 
 ---
+

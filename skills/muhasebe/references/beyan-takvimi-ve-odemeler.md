@@ -27,14 +27,14 @@ Bu dosya **tutarı ve günü** verir. İzaha davete cevabın içeriği, pişmanl
 ## Araç çağrıları
 
 ```json
-{ "hesap": "gecikme_zammi", "girdi": { "tutar": 0, "vade": "2026-09-26", "odeme": "2026-11-02" }, "tarih": "2026-11-02" }
-{ "hesap": "pismanlik_zammi", "girdi": { "tutar": 0, "vade": "2026-09-26", "odeme": "2026-11-10" }, "tarih": "2026-11-10" }
-{ "hesap": "gecikme_faizi", "girdi": { "tutar": 0, "vade": "2025-04-30", "odeme": "2026-10-15" }, "tarih": "2026-10-15" }
-{ "hesap": "vergi_cezasi", "girdi": { "tur": "vergi_ziyai", "vergi": 0, "gec_beyan": true }, "tarih": "2026-11-02" }
-{ "hesap": "vergi_cezasi", "girdi": { "tur": "usulsuzluk", "derece": 1, "grup": "sermaye_sirketi" }, "tarih": "2026-11-02" }
-{ "hesap": "vergi_cezasi", "girdi": { "tur": "ozel_usulsuzluk", "kod": "<had kodu>", "adet": 1 }, "tarih": "2026-11-02" }
-{ "hesap": "had", "girdi": { "ara": "353" }, "tarih": "2026-11-02" }
-{ "hesap": "tecil_faizi", "girdi": { "tutar": 0, "baslangic": "2026-10-01", "odeme": "2027-01-31", "basvuru": "2026-09-25" }, "tarih": "2026-11-02" }
+{ "hesap": "gecikme_zammi",   "gecikme_zammi": { "tutar": 0, "vade": "2026-09-26", "odeme": "2026-11-02" }, "tarih": "2026-11-02" }
+{ "hesap": "pismanlik_zammi", "pismanlik_zammi": { "tutar": 0, "vade": "2026-09-26", "odeme": "2026-11-10" }, "tarih": "2026-11-10" }
+{ "hesap": "gecikme_faizi",   "gecikme_faizi": { "tutar": 0, "vade": "2025-04-30", "odeme": "2026-10-15" }, "tarih": "2026-10-15" }
+{ "hesap": "vergi_cezasi",    "vergi_cezasi": { "tur": "vergi_ziyai", "vergi": 0, "gec_beyan": true }, "tarih": "2026-11-02" }
+{ "hesap": "vergi_cezasi",    "vergi_cezasi": { "tur": "usulsuzluk", "derece": 1, "grup": "sermaye_sirketi" }, "tarih": "2026-11-02" }
+{ "hesap": "vergi_cezasi",    "vergi_cezasi": { "tur": "ozel_usulsuzluk", "kod": "<had kodu>", "adet": 1 }, "tarih": "2026-11-02" }
+{ "hesap": "had",             "had": { "ara": "353" }, "tarih": "2026-11-02" }
+{ "hesap": "tecil_faizi",     "tecil_faizi": { "tutar": 0, "baslangic": "2026-10-01", "odeme": "2027-01-31", "basvuru": "2026-09-25" }, "tarih": "2026-11-02" }
 ```
 
 Araç davranışı:

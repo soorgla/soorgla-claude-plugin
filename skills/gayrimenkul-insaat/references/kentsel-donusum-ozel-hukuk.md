@@ -11,24 +11,24 @@
 
 | Konu | Kural | Dayanak |
 |---|---|---|
-| Riskli yapı tespiti ve itiraz | Tespit kural olarak maliklerce lisanslı kuruluşa yaptırılır; Başkanlık/İdare resen yapabilir; engellemede mülki amir izniyle kolluk eşliğinde; tespite **on beş gün** içinde itiraz, teknik heyet karara bağlar | 6306 m.3/1 (7471) |
-| Tebliğ | Tespit tapu beyanlar hanesine bildirilir; tutanak yapıya asılır, e-Devlet ile bildirilir, muhtarlıkta on beş gün ilan; **ilanın son günü tebliğ** sayılır | 6306 m.3/2 |
-| İdari işleme dava | Kanun uyarınca tesis edilen idari işlemlere tebliğden itibaren **otuz gün** içinde İYUK'a göre dava | 6306 m.6/9 |
-| Yıkım sonrası tescil | Kat irtifakı/mülkiyeti resen terkin, malikler adına payları oranında arsa olarak tescil; şerhler hisseler üzerinde devam | 6306 m.6/1 |
-| Karar nisabı | Uygulamaya (yeniden yapım, kat karşılığı, payların satışı vb.) **hisseleri oranında paydaşların salt çoğunluğu** karar verir; izin ve ruhsat işleri de bu karara göre | 6306 m.6/1 (7471/10) |
-| Teklif ve bildirim | Karar ve anlaşma şartlarını içeren teklif katılmayan maliklere **noter** aracılığıyla ya da muhtarlıkta **on beş gün ilanla** bildirilir (ilanın son günü bildirim); bildirimden itibaren **on beş gün** içinde incelenmez ya da kabul edilmezse pay satılır | 6306 m.6/1 (7471/10) |
-| Arsa payı satışı | Katılmayanın payı **Başkanlıkça rayiç değeri tespit ettirilerek**, bu değerden az olmamak üzere anlaşan paydaşlara açık artırmayla; satılamazsa riskli alan ya da rezerv alanda idare satın alır; riskli yapıda anlaşan paydaşlara ya da anlaşmaya uymayı kabul eden üçüncü kişilere satış tekrarlanır; ipotek, haciz, intifa gibi haklar satış bedeli üzerinde devam eder | 6306 m.6/1 |
-| Satışın iptali | Bedel eksikliği dışındaki sebeplerle yargı kararıyla iptalde pay (üçüncü kişiye geçmemişse) resen eski malike döner, alıcı lehine kanuni ipotek; **bedel eksikliği** gerekçesiyle iptalde fark alıcı tarafından eski malike ödenir; idare aleyhine tazminat kararında alıcı bildirimden itibaren on beş gün içinde öder | 6306 m.6/1 (7410, 7471) |
-| Acele kamulaştırma | Yıkılan binanın maliklerine tebligattan itibaren otuz gün içinde salt çoğunlukla anlaşma sağlanamazsa | 6306 m.6/2 → idare-davalari-imar |
-| Haciz yasağı | Yükleniciye devredilen taşınmazda kat irtifakı kurulana kadar yüklenicinin borçları için haciz/tedbir yok (malzeme ve işçilik alacağı hariç); süre aşılırsa uygulanır | 6306 m.6/10 |
-| Yüklenici bölümlerinin satışı | İnşaatın ilerleme seviyesine göre ve İdare izniyle; seviyenin üstünde satış bütün maliklerin muvafakatine bağlı (oran madde metninde) | 6306 m.6/13 |
-| Yüklenicinin işe başlamaması | Anlaşmadan sonra yükleniciden kaynaklanan sebeple **bir yıl** içinde başlanmamış ya da iş durmuş ve **en az altı aydır** yeterli ekiple devam edilmiyorsa: salt çoğunlukla fesih kararı → Başkanlık tespiti → yükleniciye **otuz gün** ihtar → sürenin sonunda sözleşme resen feshedilmiş sayılır; şerhler terkin; ödenen kira yardımı geri istenmez; tasfiye genel hükümlere göre | 6306 m.6/14 |
-| Ortaklığın giderilmesi | Yıkımdan sonra arsada dava açılabilir; ama salt çoğunluk kararına engel değil | 6306 m.6/16 |
-| Başkanlığın önalım hakkı | Uygulama alanında taşınmazın alanda/parselde malik olmayan üçüncü kişiye satışında, Başkanlık paydaş olsun olmasın önalım hakkı kullanabilir | 6306 m.6/5 (7471) |
-| Kiracı ve sınırlı aynî hak sahipleri | En az bir yıldır ikamet eden ya da işyeri bulunan kiracı/sınırlı aynî hak sahibine konut sertifikası ya da kredi verilebilir | 6306 m.6/3 |
-| Uygulama Yönetmeliği | m.8/9 (yıkım sonrası arsa tapusu ve riskli yapı şerhinin terkini) RG 04.02.2026 ile değişti | |
+| Riskli yapı tespiti ve itiraz | Tespit kural olarak maliklerce lisanslı kuruluşa yaptırılır; Başkanlık/İdare resen yapabilir; engellemede mülki amir izniyle kolluk eşliğinde; tespite **on beş gün** içinde itiraz, teknik heyet karara bağlar | 6306 m.3/1 (7471)  |
+| Tebliğ | Tespit tapu beyanlar hanesine bildirilir; tutanak yapıya asılır, e-Devlet ile bildirilir, muhtarlıkta on beş gün ilan; **ilanın son günü tebliğ** sayılır | 6306 m.3/2  |
+| İdari işleme dava | Kanun uyarınca tesis edilen idari işlemlere tebliğden itibaren **otuz gün** içinde İYUK'a göre dava | 6306 m.6/9  |
+| Yıkım sonrası tescil | Kat irtifakı/mülkiyeti resen terkin, malikler adına payları oranında arsa olarak tescil; şerhler hisseler üzerinde devam | 6306 m.6/1  |
+| Karar nisabı | Uygulamaya (yeniden yapım, kat karşılığı, payların satışı vb.) **hisseleri oranında paydaşların salt çoğunluğu** karar verir; izin ve ruhsat işleri de bu karara göre | 6306 m.6/1 (7471/10)  |
+| Teklif ve bildirim | Karar ve anlaşma şartlarını içeren teklif katılmayan maliklere **noter** aracılığıyla ya da muhtarlıkta **on beş gün ilanla** bildirilir (ilanın son günü bildirim); bildirimden itibaren **on beş gün** içinde incelenmez ya da kabul edilmezse pay satılır | 6306 m.6/1 (7471/10)  |
+| Arsa payı satışı | Katılmayanın payı **Başkanlıkça rayiç değeri tespit ettirilerek**, bu değerden az olmamak üzere anlaşan paydaşlara açık artırmayla; satılamazsa riskli alan ya da rezerv alanda idare satın alır; riskli yapıda anlaşan paydaşlara ya da anlaşmaya uymayı kabul eden üçüncü kişilere satış tekrarlanır; ipotek, haciz, intifa gibi haklar satış bedeli üzerinde devam eder | 6306 m.6/1  |
+| Satışın iptali | Bedel eksikliği dışındaki sebeplerle yargı kararıyla iptalde pay (üçüncü kişiye geçmemişse) resen eski malike döner, alıcı lehine kanuni ipotek; **bedel eksikliği** gerekçesiyle iptalde fark alıcı tarafından eski malike ödenir; idare aleyhine tazminat kararında alıcı bildirimden itibaren on beş gün içinde öder | 6306 m.6/1 (7410, 7471)  |
+| Acele kamulaştırma | Yıkılan binanın maliklerine tebligattan itibaren otuz gün içinde salt çoğunlukla anlaşma sağlanamazsa | 6306 m.6/2  → idare-davalari-imar |
+| Haciz yasağı | Yükleniciye devredilen taşınmazda kat irtifakı kurulana kadar yüklenicinin borçları için haciz/tedbir yok (malzeme ve işçilik alacağı hariç); süre aşılırsa uygulanır | 6306 m.6/10  |
+| Yüklenici bölümlerinin satışı | İnşaatın ilerleme seviyesine göre ve İdare izniyle; seviyenin üstünde satış bütün maliklerin muvafakatine bağlı (oran madde metninde) | 6306 m.6/13  |
+| Yüklenicinin işe başlamaması | Anlaşmadan sonra yükleniciden kaynaklanan sebeple **bir yıl** içinde başlanmamış ya da iş durmuş ve **en az altı aydır** yeterli ekiple devam edilmiyorsa: salt çoğunlukla fesih kararı → Başkanlık tespiti → yükleniciye **otuz gün** ihtar → sürenin sonunda sözleşme resen feshedilmiş sayılır; şerhler terkin; ödenen kira yardımı geri istenmez; tasfiye genel hükümlere göre | 6306 m.6/14  |
+| Ortaklığın giderilmesi | Yıkımdan sonra arsada dava açılabilir; ama salt çoğunluk kararına engel değil | 6306 m.6/16  |
+| Başkanlığın önalım hakkı | Uygulama alanında taşınmazın alanda/parselde malik olmayan üçüncü kişiye satışında, Başkanlık paydaş olsun olmasın önalım hakkı kullanabilir | 6306 m.6/5 (7471)  |
+| Kiracı ve sınırlı aynî hak sahipleri | En az bir yıldır ikamet eden ya da işyeri bulunan kiracı/sınırlı aynî hak sahibine konut sertifikası ya da kredi verilebilir | 6306 m.6/3  |
+| Uygulama Yönetmeliği | m.8/9 (yıkım sonrası arsa tapusu ve riskli yapı şerhinin terkini) RG 04.02.2026 ile değişti |  |
 
-**Yargı yolu ve daire:** riskli yapı tespiti, salt çoğunluk kararına dayalı Başkanlık işlemleri, arsa payı satış işlemi ve kamulaştırma idari işlemdir (idari yargı, otuz gün); paydaşlar ve yüklenici arasındaki özel hukuk uyuşmazlıkları adli yargıdadır. 6306 riskli yapı uyuşmazlıkları 2026/1'e göre 5. HD; yapım işleri 6. HD `[doğrula]`. Arsa payı satışının iptali davasının yargı yeri `[incele]` (Başkanlık işlemi mi, paydaşlar arası ilişki mi).
+**Yargı yolu ve daire:** riskli yapı tespiti, salt çoğunluk kararına dayalı Başkanlık işlemleri, arsa payı satış işlemi ve kamulaştırma idari işlemdir (idari yargı, otuz gün); paydaşlar ve yüklenici arasındaki özel hukuk uyuşmazlıkları adli yargıdadır. 6306 riskli yapı uyuşmazlıkları 2026/1'e göre 5. HD; yapım işleri 6. HD `[doğrula]`. Arsa payı satışının iptali davasının yargı yeri `[incele]` (Başkanlık işlemi mi, paydaşlar arası ilişki mi). 
 
 ---
 
@@ -87,12 +87,12 @@
 ## soorgla çağrıları
 
 ```
-legal_get_statute_article law_no: "6306" law_type: "Kanun" article_no: "2" | "3" | "5" | "6"
-legal_search_official_gazette query: "6306 Sayılı Kanunun Uygulama Yönetmeliği" search_in: "title" sort_by: "date_desc"
-legal_search_cases mahkeme: "yargitay" daire: "5. Hukuk Dairesi" tarih_baslangic: "<son 3 yıl>"
+legal_get_statute_article  law_no: "6306"  law_type: "Kanun"  article_no: "2" | "3" | "5" | "6"
+legal_search_official_gazette  query: "6306 Sayılı Kanunun Uygulama Yönetmeliği"  search_in: "title"  sort_by: "date_desc"
+legal_search_cases  mahkeme: "yargitay"  daire: "5. Hukuk Dairesi"  tarih_baslangic: "<son 3 yıl>"
     sorgu: "<ör. riskli yapıda salt çoğunluk kararına katılmayan malikin arsa payının satışı ve bedel>"
-legal_search_cases mahkeme: "danistay" sorgu: "<6306 arsa payı satışı iptal davası>" # idari yön; Danıştay 2026 kapsamı seyrek
-legal_search_admin_guidance sorgu: "6306 kapsamında tapu harcı ve damga vergisi istisnası" kurum: "Gelir İdaresi Başkanlığı" belge_tur: "ozelge"
+legal_search_cases  mahkeme: "danistay"  sorgu: "<6306 arsa payı satışı iptal davası>"   # idari yön; Danıştay 2026 kapsamı seyrek
+legal_search_admin_guidance  sorgu: "6306 kapsamında tapu harcı ve damga vergisi istisnası"  kurum: "Gelir İdaresi Başkanlığı"  belge_tur: "ozelge"
 ```
 
 ---
@@ -120,3 +120,4 @@ legal_search_admin_guidance sorgu: "6306 kapsamında tapu harcı ve damga vergis
 - 🟡 Kiracının haklarını (m.6/3) hiç anmamak.
 
 ---
+
