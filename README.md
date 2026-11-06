@@ -46,8 +46,8 @@ parasal sınır yazılı değildir.
   gönderir ve sonuçları kaynağıyla alır. Sunucu soorgla tarafından işletilir. Gizlilik politikası:
   <https://soorgla.com/gizlilik-politikasi/>. Olayın kendisini ya da yüklediğiniz belgeyi sunucuya göndermek becerilerin işi değildir;
   beceriler yalnız sorgu için gereken terimleri gönderir.
-- **Hook (yalnız Claude Code ve Cowork):** oturum başında eklenti klasöründeki `hooks/oturum-baglami.json`
-  dosyasını okuyup ortak kuralların kısa özetini bağlama ekler. Ağ erişimi yoktur, başka komut çalıştırmaz.
+- **Ortak kurallar:** her becerinin başında kuralların kısa özeti, eklenti kökünde tam metni
+  (`ORTAK-KURALLAR.md`) vardır. Eklenti hook ya da betik çalıştırmaz.
 - **Yerel dosyalar (yalnız Claude Code):** büro profili, dosya klasörleri, süre defteri ve mevzuat takip listesi
   `~/.claude/plugins/config/soorgla-hukuk/` altında tutulur. Bu dosyalar meslek sırrı ve kişisel veri içerebilir;
   bulut eşitlemesi yapılan bir klasöre koymayın. claude.ai sohbetinde dosya yazılmaz; beceriler sohbette
